@@ -1,0 +1,7 @@
+body { padding-top: 0px; padding-bottom: 40px; min-width:900px; font-weight:300; -webkit-font-smoothing:antialiased; }
+
+.galleria-container { z-index:0 !important; }
+.galleria-bg .galleria-info { visibility:hidden; }
+.galleria-thumbnails-container { display:none; }
+.galleria-loader { visibility:hidden; }
+.galleria-image-nav { display:none; }

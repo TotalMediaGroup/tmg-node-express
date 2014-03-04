@@ -1,7 +1,54 @@
-doctype html
-html
+doctype 1.1
+html(lang="en")
+
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    title= current_page[3]
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="title", content="Total Media Group")
+    meta(name="description", content="Total Media Group")
+    meta(name="image", content="")
+    link(rel='shortcut icon', href='#{tmg_cdn}/img/logo/logo-square-trans.128.png?v=#{app_version}')
+    link(rel='apple-touch-icon', href='#{tmg_cdn}/img/logo/logo-square-trans.128.png?v=#{app_version}')
+    link(rel='stylesheet', type='text/css', href='#{bootstrap_cdn}/bootstrap/3.1.1/css/bootstrap.min.css')
+    link(id='font-awesome-4', rel='stylesheet', type='text/css', href='#{bootstrap_cdn}/font-awesome/4.0.3/css/font-awesome.min.css')
+    | <!--[if lt IE 9]> <script type="text/javascript" src="#{bootstrap_cdn}/html5shiv/3.6.1/html5shiv.js"></script> -->
+    link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-main.css?v=#{app_version}')
+  
   body
+    
+    div.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
+      div.container
+        div.navbar-header
+          button.navbar-toggle(type="button",data-toggle="collapse",data-target=".navbar-collapse")
+            span.sr-only= "Toggle Navigation"
+            span.icon-bar= ""
+            span.icon-bar= ""
+            span.icon-bar= ""
+          a.navbar-brand(href="#")= "Project name"
+        div.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li.active
+              a(href="#")= "Home"
+            li
+              a(href="#")= "About"
+            li
+              a(href="#")= "Contact"
+          img.logo(src="#{tmg_cdn}/img/logo/masthead.png?v=#{app_version}")
+
     block content
+
+    script(type='text/javascript', src='#{googlelibs_cdn}/jquery/1.11.0/jquery.min.js')
+    script(type='text/javascript', src='#{cdnjs_cdn}/modernizr/2.6.2/modernizr.min.js')
+    script(type='text/javascript', src='#{tmg_cdn}/js/tmg-main.js?v=#{app_version}')
+
+    script(type='text/javascript').
+      TMG.currentPage = "#{current_page[0]}"; TMG.cdn.tmg = "#{tmg_cdn}"; TMG.cdn.bootstrap = "#{bootstrap_cdn}"; TMG.cdn.cdnJs = "#{cdnjs_cdn}"; TMG.cdn.tmgVendor = "#{tmg_vendor_cdn}"; TMG.cdn.tmgStatic = "#{tmg_static_cdn}"; TMG.cdn.videoJs = "#{videojs_cdn}"; TMG.social.addThis.pubId = "#{addthis_pubid}"; TMG.nodeEnv = "#{node_env}"; TMG.appVersion = "#{app_version}";
+
+    if (node_env == "production")
+      script(type='text/javascript').
+        window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",window.analytics.load("#{segment_io_client_id}");window.analytics.page();
+
+    div#rfcx-disclaimer-mobile
+      span

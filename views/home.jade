@@ -1,0 +1,7 @@
+extends layout
+
+block content
+
+  div.home-slideshow.galleria-bg
+    for item in data["background_images"]
+      img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{item}")
