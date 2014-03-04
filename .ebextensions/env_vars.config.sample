@@ -3,9 +3,6 @@ option_settings:
   - option_name: NODE_ENV
     value: production
 
-  - option_name: TOOBUSY_ENABLED
-    value: 0
-
   - option_name: NEW_RELIC_KEY
     value: 
 
@@ -16,13 +13,4 @@ option_settings:
     value: 
 
   - option_name: ADDTHIS_PUBID
-    value: 
-
-  - option_name: TUMBLR_SUBDOMAIN
-    value: 
-
-  - option_name: TUMBLR_OAUTH_CONSUMER_KEY
-    value: 
-
-  - option_name: TUMBLR_OAUTH_SECRET_KEY
     value: 
