@@ -32,3 +32,16 @@ exports.setJadeVars = function(process, req, data) {
   jV.data = data[jV.current_page[0]];
   return jV;
 }
+
+
+
+exports.redirectToHomePage = function(req,res) {
+  res.writeHead(302, { "Location": "/" } );
+  res.end();
+};
+
+exports.returnHealthCheck = function(req,res) {
+  var sendString = "tmg";
+  if (req.query.headers==="1") { sendString += "<br />"+JSON.stringify(req.headers); }
+  res.send(sendString);
+};
