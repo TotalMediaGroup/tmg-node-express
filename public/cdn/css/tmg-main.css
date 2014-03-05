@@ -1,7 +1,32 @@
 body { padding-top: 0px; padding-bottom: 40px; min-width:900px; font-weight:300; -webkit-font-smoothing:antialiased; }
 
-.galleria-container { z-index:0 !important; }
+.tmg-unselectable { user-select:none; -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; -o-user-select:none; }
+.tmg-selectable { user-select:text; -webkit-touch-callout:text; -webkit-user-select:text; -khtml-user-select:text; -moz-user-select:text; -ms-user-select:text; -o-user-select:text; }
+
+.tmg-trans-linear { -webkit-transition:all .2s linear; -moz-transition:all .2s linear; transition:all .2s linear; }
+
+.navbar { font-family:"gothamrounded_book"; text-transform: uppercase; height:110px; background-color:rgba(78,78,78,1); border-color:rgba(78,78,78,1); }
+.navbar .navbar-header { margin-top:5px; }
+.navbar img:hover { filter:alpha(opacity=67); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=67)"; -moz-opacity:0.67; -khtml-opacity:0.67; opacity:0.67; }
+.navbar-nav { height:20px; margin-top:90px; margin-left:50px; }
+.navbar-nav li { font-size:10px; border-right:solid 2px #777; height:20px; }
+.navbar-nav li a { font-weight:bold; padding-top:0px; padding-left:8px; padding-right:8px; background-color:transparent !important; color:#cccccc !important; }
+.navbar-nav li a:hover { color:#999999 !important; }
+
+.footer { position:absolute; bottom:0px; height:36px; z-index:1; width:100%; background-color:rgba(78,78,78,1); border-color:rgba(78,78,78,1); }
+
+.social-buttons { float:right; height:25px; margin-top:85px; margin-right:20px; }
+.social-buttons a { color:#cccccc; font-size:18px; padding:5px; cursor:pointer; }
+.social-buttons a:hover { color:#999999; }
+
+.galleria-container { z-index:0 !important; margin-top:110px; }
 .galleria-bg .galleria-info { visibility:hidden; }
 .galleria-thumbnails-container { display:none; }
 .galleria-loader { visibility:hidden; }
 .galleria-image-nav { display:none; }
+
+.home-rules { position:relative; text-align:center; z-index:10; top:300px; width:90%; max-width:1080px; margin-left:auto; margin-right:auto; background-color:transparent; border:solid 1px black; border-top:0px; border-bottom:0px; height:auto; color:#ffffff; }
+.home-rules .rule-number { font-size:24px; font-family:"acaslonpro_semibolditalic"; }
+.home-rules .rule-body { font-size:72px; line-height:0.7; font-family:"alternategothic_no2bt_regular"; }
+.home-rules .rule-body .brackets { color:#ff0000; font-size:120%; }
+.home-rules .rule-footer { font-size:24px; font-family:"gothamrounded_book"; }

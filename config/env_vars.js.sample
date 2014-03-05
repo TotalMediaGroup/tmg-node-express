@@ -4,7 +4,6 @@ exports.env = {
 
   NEW_RELIC_KEY: "",
 
-  SEGMENT_IO_SECRET: "",
   SEGMENT_IO_CLIENT_ID: "",
 
   ADDTHIS_PUBID: "",

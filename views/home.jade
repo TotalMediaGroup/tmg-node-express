@@ -5,3 +5,20 @@ block content
   div.home-slideshow.galleria-bg
     for item in data["background_images"]
       img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{item}")
+
+  div.home-rules.tmg-unselectable
+    script(type="text/javascript")
+      | var tmgRules=[];
+      for item in data["tmg_rules"]
+        | tmgRules[#{data["tmg_rules"].indexOf(item)}]={num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'};
+
+    span.rule-number
+      | Rule #18
+    br
+    span.rule-body
+      span.brackets= "[ "
+      | THE CLIENT IS PART OF THE TEAM
+      span.brackets= " ]"
+    br
+    span.rule-footer= "HOW TO DO REALLY GREAT WORK"
+

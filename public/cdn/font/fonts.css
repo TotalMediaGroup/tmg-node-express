@@ -1,0 +1,15 @@
+
+@font-face {
+	font-family: 'acaslonpro_semibolditalic';
+	src: url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.eot?') format('eot'), url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.otf')  format('opentype'), url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.woff') format('woff'), url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.ttf')  format('truetype'), url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.svg#acaslonpro_semibolditalic') format('svg');
+}
+
+@font-face {
+  font-family: 'gothamrounded_book';
+  src: url('gothamrounded_book/gothamrounded_book.eot?') format('eot'), url('gothamrounded_book/gothamrounded_book.woff') format('woff'), url('gothamrounded_book/gothamrounded_book.ttf')  format('truetype'), url('gothamrounded_book/gothamrounded_book.svg#gothamrounded_book') format('svg');
+}
+
+@font-face {
+  font-family: 'alternategothic_no2bt_regular';
+  src: url('alternategothic_no2bt_regular/alternategothic_no2bt_regular.eot?') format('eot'), url('alternategothic_no2bt_regular/alternategothic_no2bt_regular.woff') format('woff'), url('alternategothic_no2bt_regular/alternategothic_no2bt_regular.ttf')  format('truetype'), url('alternategothic_no2bt_regular/alternategothic_no2bt_regular.svg#alternategothic_no2bt_regular') format('svg');
+}
