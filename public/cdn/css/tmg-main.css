@@ -27,6 +27,6 @@ body { padding-top: 0px; padding-bottom: 40px; min-width:900px; font-weight:300;
 
 .home-rules { position:relative; text-align:center; z-index:10; top:300px; width:90%; max-width:1080px; margin-left:auto; margin-right:auto; background-color:transparent; border:solid 1px black; border-top:0px; border-bottom:0px; height:auto; color:#ffffff; }
 .home-rules .rule-number { font-size:24px; font-family:"acaslonpro_semibolditalic"; }
-.home-rules .rule-body { font-size:72px; line-height:0.7; font-family:"alternategothic_no2bt_regular"; }
+.home-rules .rule-body { /* line-height:0.7;*/ width:100%; font-family:"alternategothic_no2bt_regular"; }
 .home-rules .rule-body .brackets { color:#ff0000; font-size:120%; }
 .home-rules .rule-footer { font-size:24px; font-family:"gothamrounded_book"; }

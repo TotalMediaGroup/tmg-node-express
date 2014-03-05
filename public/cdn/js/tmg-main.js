@@ -145,6 +145,13 @@ TMG.fn.load.jqueryGalleria = function(){
         dataSort: 'random',
         autoplay: TMG.slideShowDelay
     });
+    $('.rule-body').flowtype({
+ //      minFont : 64,
+       fontRatio: 30,
+       minimum: 640,
+       maximum: 1080
+      // maximum : 1200
+    });
 
     TMG.jqueryGalleria[0].on('image', function(e) {
         TMG.cycleBgImage();
