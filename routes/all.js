@@ -25,15 +25,13 @@ exports.setJadeVars = function(process, req, data) {
   jV.googlelibs_cdn = inProd ? "//ajax.googleapis.com/ajax/libs" : "/vendor";
   jV.videojs_cdn = inProd ? "//vjs.zencdn.net" : "/vendor/video.js"
   jV.cdnjs_cdn = inProd ? "//cdnjs.cloudflare.com/ajax/libs" : "/vendor";
-  jV.tmg_cdn = inProd ? "//d3gq709nndn9uy.cloudfront.net/cdn" : "/cdn";
-  jV.tmg_vendor_cdn = inProd ? "//d3gq709nndn9uy.cloudfront.net/vendor" : "/vendor";
-  jV.tmg_static_cdn = inProd ? "//d4bl4mvczhn5i.cloudfront.net" : "//rfcx-static.s3.amazonaws.com";
+  jV.tmg_cdn = inProd ? "//d2y7n9uehnvsti.cloudfront.net/cdn" : "/cdn";
+  jV.tmg_vendor_cdn = inProd ? "//d2y7n9uehnvsti.cloudfront.net/vendor" : "/vendor";
+  jV.tmg_static_cdn = inProd ? "//d3pgh9vr58m8p8.cloudfront.net" : "//totalmediagroup.s3.amazonaws.com";
   jV.nav_items = navItems;
   jV.data = data[jV.current_page[0]];
   return jV;
 }
-
-
 
 exports.redirectToHomePage = function(req,res) {
   res.writeHead(302, { "Location": "/" } );
