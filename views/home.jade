@@ -6,9 +6,9 @@ block content
     for item in data["background_images"]
       img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{tmg_cdn}/img/bg/#{item[0]}.jpg?v=#{app_version}")
 
-  div.home-rules.tmg-unselectable
+  div.home-rules.gradient.radial-gradient.tmg-unselectable
     script(type="text/javascript")
-      | var tmgRules=[];
+      | var tmgRules=[], tmgCurrentRule=0;
       for item in data["tmg_rules"]
         | tmgRules[#{data["tmg_rules"].indexOf(item)}]={num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'};
 

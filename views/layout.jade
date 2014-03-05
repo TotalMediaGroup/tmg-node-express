@@ -14,6 +14,7 @@ html(lang="en")
     link(rel='stylesheet', type='text/css', href='#{bootstrap_cdn}/bootstrap/3.1.1/css/bootstrap.min.css')
     link(id='font-awesome-4', rel='stylesheet', type='text/css', href='#{bootstrap_cdn}/font-awesome/4.0.3/css/font-awesome.min.css')
     | <!--[if lt IE 9]> <script type="text/javascript" src="#{bootstrap_cdn}/html5shiv/3.6.1/html5shiv.js"></script> -->
+    | <!--[if lt IE 9]> <link rel="stylesheet" type="text/css" href="#{tmg_cdn}/css/gradient-ie9.css" /> -->
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/font/fonts.css?v=#{app_version}')
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-main.css?v=#{app_version}')
   
@@ -26,21 +27,23 @@ html(lang="en")
             img.tmg-trans-linear.logo(src="#{tmg_cdn}/img/logo/masthead.png?v=#{app_version}")
         div.collapse.navbar-collapse
           ul.nav.navbar-nav.tmg-unselectable
-            li.active
-              a.tmg-trans-linear(href="#")= "Home"
-            li
-              a.tmg-trans-linear(href="#")= "About1"
-            li
-              a.tmg-trans-linear(href="#")= "Contact"
+            for item in nav_items
+              if (item[0] == current_page[0])
+                li.active
+                  a= item[1]
+              else if (item[4])
+                li
+                  a.hover-trans-67.tmg-trans-linear(href="#{item[2]}")= item[1]
 
           div.social-buttons
-            a.tmg-trans-linear
+            a.tmg-trans-linear(href="https://www.facebook.com/pages/Total-Media-Group-Inc/388304704588058",target="_blank")
               i.fa.fa-facebook-square
-            a.tmg-trans-linear
+            a.tmg-trans-linear(href="https://twitter.com/TMGSF",target="_blank")
               i.fa.fa-twitter-square
-            a.tmg-trans-linears
+            a.tmg-trans-linear(href="https://www.linkedin.com/company/total-media-group",target="_blank")
+              i.fa.fa-linkedin-square
+            a.tmg-trans-linears(href="mailto:",target="_blank")
               i.fa.fa-envelope
-
 
       block content
 
