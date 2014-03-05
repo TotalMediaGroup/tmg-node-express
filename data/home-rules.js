@@ -77,7 +77,7 @@ var data = [
     "HOW TO DO REALLY GREAT WORK"
   ],
 
-""];
+["",""]];
 
 exports.load = function() {
   var rtrn = []; for (var i = 0; i < (data.length-1); i++) { rtrn[i] = data[i]; }

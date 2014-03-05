@@ -3,16 +3,40 @@ var data = [
 
   /* load images below */
 
+  ["abbot1",""],
+  ["ciscolive7",""],
+  ["elagua_walk",""],
+  ["elagua9",""],
+  ["elagua11",""],
+  ["employee1",""],
+  ["employee2",""],
+  ["employee3",""],
+  ["employee5",""],
+  ["gearthing2",""],
+  ["globe-draw",""],
+  ["neil4",""],
+  ["pig-on-board",""],
+  ["ploycom3",""],
+  ["ploycom5",""],
+  ["ploycom7",""],
+  ["polycity",""],
+  ["polycom14",""],
+  ["roz1",""],
+  ["ruckus7",""],
+  ["salix8",""],
+  ["sharks8",""],
+  ["sharks11",""],
+  ["sharks14",""],
+  ["sharks31",""],
+  ["sharks43",""],
+  ["spgroup",""],
+  ["vmwarefusion1",""],
+  ["vmwarefusion3",""],
+  ["vmwarews3",""],
+  ["wave5",""],
+  ["world-map",""],
 
-  "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Biandintz_eta_zaldiak_-_modified2.jpg/1280px-Biandintz_eta_zaldiak_-_modified2.jpg",
-  "http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Athabasca_Rail_at_Brule_Lake.jpg/1280px-Athabasca_Rail_at_Brule_Lake.jpg",
-  "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Back-scattering_crepuscular_rays_panorama_1.jpg/1400px-Back-scattering_crepuscular_rays_panorama_1.jpg",
-
-
-
-
-
-""];
+["",""]];
 
 exports.load = function() {
   var rtrn = []; for (var i = 0; i < (data.length-1); i++) { rtrn[i] = data[i]; }

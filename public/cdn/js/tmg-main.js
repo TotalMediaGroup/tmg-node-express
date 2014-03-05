@@ -145,6 +145,7 @@ TMG.fn.load.jqueryGalleria = function(){
         dataSort: 'random',
         autoplay: TMG.slideShowDelay
     });
+    tmgRules.sort(TMG.randomSort);
     $('.rule-body').flowtype({
  //      minFont : 64,
        fontRatio: 30,
@@ -184,10 +185,17 @@ TMG.fn.load.browserDetect = function() {
 }
 
 TMG.cycleBgImage = function() {
-  $(".home-rules").animate({opacity:1},1000);
+  $(".home-rules").animate({opacity:1},500);
   var fadeOut = setTimeout(function(){
     $(".home-rules").animate({opacity:0},1000);
   },TMG.slideShowDelay-1000);  
+}
+
+TMG.randomSort = function(a,b) {
+    var temp = parseInt( Math.random()*10 );
+    var isOddOrEven = temp%2;
+    var isPosOrNeg = temp>5 ? 1 : -1;
+    return( isOddOrEven*isPosOrNeg );
 }
 
 // TMG.toggleAddThis = function(onOff) {

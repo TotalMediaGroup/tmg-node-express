@@ -10,6 +10,6 @@
 }
 
 @font-face {
-  font-family: 'alternategothic_no2bt_regular';
-  src: url('alternategothic_no2bt_regular/alternategothic_no2bt_regular.eot?') format('eot'), url('alternategothic_no2bt_regular/alternategothic_no2bt_regular.woff') format('woff'), url('alternategothic_no2bt_regular/alternategothic_no2bt_regular.ttf')  format('truetype'), url('alternategothic_no2bt_regular/alternategothic_no2bt_regular.svg#alternategothic_no2bt_regular') format('svg');
+  font-family: 'alternategot_no1_dot';
+  src: url('alternategot_no1_dot/alternategot_no1_dot.eot?') format('eot'), url('alternategot_no1_dot/alternategot_no1_dot.otf')  format('opentype'), url('alternategot_no1_dot/alternategot_no1_dot.woff') format('woff'), url('alternategot_no1_dot/alternategot_no1_dot.ttf')  format('truetype'), url('alternategot_no1_dot/alternategot_no1_dot.svg#alternategot_no1_dot') format('svg');
 }

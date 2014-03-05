@@ -4,7 +4,7 @@ block content
 
   div.home-slideshow.galleria-bg
     for item in data["background_images"]
-      img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{item}")
+      img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{tmg_cdn}/img/bg/#{item[0]}.jpg?v=#{app_version}")
 
   div.home-rules.tmg-unselectable
     script(type="text/javascript")
@@ -12,12 +12,11 @@ block content
       for item in data["tmg_rules"]
         | tmgRules[#{data["tmg_rules"].indexOf(item)}]={num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'};
 
-    span.rule-number
-      | Rule #18
+    span.rule-number= "Rule #00"
     br
     div.rule-body
       span.brackets= "[ "
-      | THE CLIENT IS PART OF THE TEAM
+      span.rule-body-inner= "RULE"
       span.brackets= " ]"
     br
     span.rule-footer= "HOW TO DO REALLY GREAT WORK"
