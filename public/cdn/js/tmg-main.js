@@ -143,7 +143,8 @@ TMG.fn.load.jqueryGalleria = function(){
         transition: 'fade',
         transitionSpeed: TMG.slideShowTransitionSpeed,
         dataSort: 'random',
-        autoplay: TMG.slideShowDelay
+        autoplay: TMG.slideShowDelay,
+        carousel: false
     });
     tmgRules.sort(TMG.randomSort);
     $('.rule-body').flowtype({

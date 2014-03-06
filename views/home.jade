@@ -13,11 +13,11 @@ block content
         | tmgRules[#{data["tmg_rules"].indexOf(item)}]={num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'};
 
     span.rule-number= "Rule #00"
-    br
+    hr.rule-hr(style="top:5px;")
     div.rule-body
       span.brackets= "[ "
       span.rule-body-inner= "RULE"
       span.brackets= " ]"
-    br
+    hr.rule-hr(style="top:-85px;")
     span.rule-footer= "HOW TO DO REALLY GREAT WORK"
 

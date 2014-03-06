@@ -24,13 +24,28 @@ body { padding-top: 0px; padding-bottom: 40px; min-width:900px; font-weight:300;
 .galleria-thumbnails-container { display:none; }
 .galleria-loader { visibility:hidden; }
 .galleria-image-nav { display:none; }
-.galleria-container { filter:alpha(opacity=85); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"; -moz-opacity:0.85; -khtml-opacity:0.85; opacity:0.85; }
+.galleria-container { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.80; -khtml-opacity:0.80; opacity:0.80; }
 
 .home-rules { position:absolute; text-align:center; z-index:10; top:160px; width:96%; max-width:1280px; min-width:900px; left:2%; padding-bottom:80px; padding-top:80px; background-color:transparent; border:none; height:auto; color:#ffffff; filter:alpha(opacity=0); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity:0; -khtml-opacity:0; opacity:0; }
-.home-rules .rule-number { font-size:32px; font-family:"acaslonpro_semibolditalic"; }
+.home-rules .rule-number { font-size:32px; font-family:"acaslonpro_semibolditalic"; position:relative; top:15px; }
 .home-rules .rule-body { /* line-height:0.7;*/ font-size:128px; width:100%; font-family:"alternategot_no1_dot"; position:relative; top:-35px; }
 .home-rules .rule-body .brackets { color:#ff0000; font-size:120%; }
-.home-rules .rule-footer { font-size:16px; font-family:"gothamrounded_book"; position:relative; top:-85px; }
+.home-rules .rule-footer { top:-90px; font-size:16px; font-family:"gothamrounded_book"; position:relative; }
+.home-rules .rule-hr { position:relative; width:25%; border:dashed 1px #aaa; border-bottom:none; border-left:none; border-right:none; }
+
+.page-about { margin-top:110px; font-size:12px; color:white; font-family:"gothamrounded_book"; }
+.page-about .col-lg-6 { border:solid 1px white; }
+.page-about .team-member { float:left; height:auto; border:none; width:89%; font-size:11px; color:#ffffff; margin:5px 0px 5px 10%; }
+.page-about .team-member img { margin:5px 15px 12px 0px; float:left; }
+.page-about .team-member span {  }
+.page-about .team-member .team-name { color:#ff0000; font-size:110%; }
+.page-about .team-member .team-div { padding:0px 8px; }
+.page-about .team-member .team-title { font-size:110%;  }
+.page-about .team-member .team-email { font-size:120%; position:relative; top:0px; color:#ffffff; }
+.page-about .team-member .team-email:hover { color:#999999 !important; }
+.page-about .header { color:#ffffff; margin-top:50px; }
+.page-about .big-bracket { position:relative; float:left; left:-20px; top:-20px; color:red; font-size:300px; font-family:"alternategot_no1_dot"; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; line-height:1; overflow:visible; width:60px; height:260px; }
+.page-about .company-name { color:red; }
 
 .radial-gradient {
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
