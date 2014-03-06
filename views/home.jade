@@ -2,7 +2,7 @@ extends layout
 
 block content
 
-  div.home-slideshow.galleria-bg
+  div.bg-slideshow.galleria-bg
     for item in data["background_images"]
       img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{tmg_cdn}/img/bg/#{item[0]}.jpg?v=#{app_version}")
 

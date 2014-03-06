@@ -1,3 +1,16 @@
 extends layout
 
 block content
+
+  div.bg-slideshow.galleria-bg
+    img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{tmg_cdn}/img/bg/_about.jpg?v=#{app_version}")
+
+  div.container
+    div.row.page-work
+      div.col-lg-12
+        for vid in data["video"]
+          div.video-browser-box.element.lanthanoid.metal.inner-transition(data-category="lanthanoid")
+            p
+            | #{vid[1]}
+            p
+            | #{vid[2]}

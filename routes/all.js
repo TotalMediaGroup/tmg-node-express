@@ -2,14 +2,14 @@
 var navItems = [
 //  [ page-id, nav-title, uri-path, page-title, show-in-nav, is-isolated ]
     [ "home", "Home", "/", "Home", true, false ],
-    [ "work", "Work", "/work", "Work", true, false ],
-    [ "about", "About", "/about", "About", true, false ]
+    [ "work", "Work", "/work", "Videos", true, false ],
+    [ "about", "About", "/about", "About", true, false ],
+    [ "work-single", "Video", "/work/:video_id", "Video", false, false ]
   ];
 
 for (var i = 0; i < navItems.length; i++) { navItems[i][3] = "Total Media Group | "+navItems[i][3]; }
 
 exports.setJadeVars = function(process, req, data) {
-
   var jV = {};
   for (var i = 0; i < navItems.length; i++) {
     if (req.route.path === navItems[i][2]) { jV.current_page = navItems[i]; break; }
@@ -30,6 +30,7 @@ exports.setJadeVars = function(process, req, data) {
   jV.tmg_static_cdn = inProd ? "//d3pgh9vr58m8p8.cloudfront.net" : "//totalmediagroup.s3.amazonaws.com";
   jV.nav_items = navItems;
   jV.data = data[jV.current_page[0]];
+  jV.url_params = req.url_params;
   return jV;
 }
 

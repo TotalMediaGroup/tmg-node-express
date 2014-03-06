@@ -1,0 +1,11 @@
+extends layout
+
+block content
+
+  div.bg-slideshow.galleria-bg
+    img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{tmg_cdn}/img/bg/_about.jpg?v=#{app_version}")
+
+  div.container
+    div.row.page-about
+      p
+        | #{url_params["video_id"]}

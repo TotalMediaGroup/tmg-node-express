@@ -33,14 +33,25 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+app.param("video_id",function(req,res,next,video_id){
+  req.url_params = {"video_id":video_id};
+  next();
+});
+
 var data = {
-  home: {
+  "home": {
     background_images: require("./data/home-backgrounds.js").load(),
     tmg_rules: require("./data/home-rules.js").load()
   },
-  about: {
+  "about": {
     team: require("./data/about-team.js").load(),
     company: require("./data/about-company.js").load()
+  },
+  "work": {
+    video: require("./data/video.js").load()
+  },
+  "work-single": {
+    video: require("./data/video.js").load()
   }
 };
 
@@ -50,8 +61,11 @@ app.get('/', function(req,res){
 app.get('/about', function(req,res){
   res.render('about', routes.setJadeVars(process, req, data ));
 });
-app.get('/reels', function(req,res){
-  res.render('reels', routes.setJadeVars(process, req, data ));
+app.get('/work', function(req,res){
+  res.render('work', routes.setJadeVars(process, req, data ));
+});
+app.get('/work/:video_id', function(req,res){
+  res.render('work-single', routes.setJadeVars(process, req, data ));
 });
 
 app.get("/health_check", routes.returnHealthCheck );
