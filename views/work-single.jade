@@ -47,7 +47,7 @@ block content
 
         div.row.page-video-scroll
           div.col-lf.col-sm-6
-            div.video-bttn.video-scroll
+            div.video-bttn.video-scroll(onClick="$('.page-video-bttm').animatescroll()")
             div.video-bttn.video-prev
             div.video-bttn.video-next
           div.col-lf.col-sm-6
@@ -62,9 +62,12 @@ block content
                 p
                   | #{itm}
             div.tmg-thmb.clmn-lf-bt
-              img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_poster']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
+              div.video-bttn
+              img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
           div.col-lf.tmg-thmb.col-sm-4.clmn-md
-            img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_poster']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
+            div.video-bttn
+            img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
           div.col-lf.tmg-thmb.col-sm-4.clmn-rt
-            img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_poster']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
+            div.video-bttn
+            img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
             
