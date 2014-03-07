@@ -7,7 +7,7 @@ block content
 
   div.container
     div.row.page-about
-      div.col-lf.col-sm-6
+      div.col-lf.col-sm-5
         p.header= "THE COMPANY"
         for item in data["company"]
           div.big-bracket= "["
@@ -24,7 +24,7 @@ block content
             br
 
 
-      div.col-rt.col-sm-6
+      div.col-rt.col-sm-6.col-sm-offset-1
         p.header= "THE PEOPLE"
         for item in data["team"]
           div.team-member

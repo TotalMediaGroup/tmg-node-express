@@ -1,7 +1,7 @@
 
 @font-face {
-	font-family: 'acaslonpro_semibolditalic';
-	src: url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.eot?') format('eot'), url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.otf')  format('opentype'), url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.woff') format('woff'), url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.ttf')  format('truetype'), url('acaslonpro_semibolditalic/acaslonpro_semibolditalic.svg#acaslonpro_semibolditalic') format('svg');
+  font-family: 'acaslonpro_italic';
+  src: url('acaslonpro_italic/acaslonpro_italic.eot?') format('eot'), url('acaslonpro_italic/acaslonpro_italic.otf') format('opentype'), url('acaslonpro_italic/acaslonpro_italic.woff') format('woff'), url('acaslonpro_italic/acaslonpro_italic.ttf')  format('truetype'), url('acaslonpro_italic/acaslonpro_italic.svg#acaslonpro_italic') format('svg');
 }
 
 @font-face {

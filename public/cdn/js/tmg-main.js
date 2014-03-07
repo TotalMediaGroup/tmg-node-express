@@ -154,7 +154,8 @@ TMG.fn.load.jqueryGalleria = function(){
       tmgRules.sort(TMG.randomSort);
       $('.rule-body').flowtype({
   //      minFont : 72,
-        fontRatio: 12
+        maxFont: 112,
+        fontRatio: 10
         // maximum : 1200
       });
     }
@@ -165,8 +166,21 @@ TMG.fn.load.jqueryGalleria = function(){
       }
     });
 
-    $(".galleria-bg").css({width:TMG.bodyWidth+"px"});
-    TMG.jqueryGalleria[0].run('.galleria-bg');
+    $(".bg-fadeout-gradient").each(function(){
+      $(this).remove();
+      $("body").append("<div class=\"bg-fadeout-gradient gradient\"></div>");
+    });
+
+    $(".bg-static").each(function(){
+      $("body").append("<div class=\"bg-static\"><img src=\""+$(this).find("img").attr("src")+"\" /></div>");
+      $(this).remove();
+    });
+
+    $(".galleria-bg").each(function(){
+      $(this).css({width:TMG.bodyWidth+"px"});
+      TMG.jqueryGalleria[0].run('.galleria-bg');
+    });
+
   });
 }
 
@@ -196,7 +210,7 @@ TMG.cycleBgImage = function() {
   $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
   $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
   $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
-  $(".home-rules").animate({opacity:0.9},500);
+  $(".home-rules").animate({opacity:0.95},500);
   var fadeOut = setTimeout(function(){
     $(".home-rules").animate({opacity:0},1000,function(){
       tmgCurrentRule++;
@@ -257,12 +271,22 @@ TMG.getBandwidthKb = function() {
   return kb;
 }
 
+// function setSquImg(inputObj){
+//   if (typeof $ === "undefined") {
+//     var wait = setTimeout(function(){TMG.uiSetSquImg(inputObj)},333);
+//   } else {
+//     var obj = $(inputObj);
+//     if (obj.css("visibility")==="hidden") { obj.css({opacity:0}); }
+//     var divObj = obj.parent('div.tmg-thmb');
+//     obj.css({height:divObj.outerHeight()+"px",top:(0-parseInt(divObj.css("padding-top")))+"px"});
+//     var wd = parseInt(obj.width());
+//     obj.css({left:"-"+(((parseInt(obj.width())-parseInt(divObj.outerWidth()))/2)-parseInt(divObj.css("padding-left")))+"px"});
+//     obj.css({visibility:"visible"}).animate({opacity:1},500);
+//   }
+// }
 
-
-
-
-
-
-
-
-
+// $(function(){
+//   $(".tmg-thmb img").each(function(){
+//     TMG.uiSetSquImg(this);
+//   });
+// });
