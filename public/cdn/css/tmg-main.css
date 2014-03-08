@@ -40,8 +40,8 @@ body { padding-top: 0px; padding-bottom: 40px; min-width:900px; font-weight:300;
 .bg-static img { position:absolute; /*width:100%;*/ width:100%; top:0%; left:0%; }
 
 .page-video { margin-top:176px; font-size:10px; line-height:1.7; color:white; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
-.page-video .video-player img.aspect-ratio { width:100%; z-index:0; }
-.page-video .video-player img.bracket {position:absolute; top:0px; height:100%; left:0px; z-index:1; }
+.page-video .video-player img.aspect-ratio { width:100%; top:0px; z-index:0; }
+.page-video .video-player img.bracket { position:absolute; top:0px; height:100%; left:2.5%; z-index:1; }
 .page-video .primary-title { font-size:150%; margin-bottom:15px; }
 .page-video p { margin-top:1px; margin-bottom:1px; }
 /*.page-video {  }*/
@@ -50,12 +50,12 @@ body { padding-top: 0px; padding-bottom: 40px; min-width:900px; font-weight:300;
 .video-bttn .radial-gradient { position:absolute; width:150%; height:150%; left:-25%; top:-25%; z-index:0; border:none; }
 .video-bttn img { position:absolute; visibility:visible !important; width:67px; height:67px; left:10px !important; top:10px !important; z-index:1 !important; border:none; }
 .page-video-scroll .video-scroll { position:relative; margin-left:auto; margin-right:auto; }
-.page-video-scroll .video-prev { left:-5%; top:-240px; }
-.page-video-scroll .video-next { right:-105%; top:-240px; }
+.page-video-scroll .video-prev { left:-15%; top:-240px; }
+.page-video-scroll .video-next { right:-110%; top:-240px; }
 .page-video-bttm { margin-top:20px; position:relative; }
-.page-video-bttm .col-lf { border:none; height:350px; }
+.page-video-bttm .col-lf { border:none; height:400px; }
 .page-video-bttm .clmn-lf { background-color:#000000; overflow:hidden; }
-.page-video-bttm .clmn-lf .clmn-lf-tp { height:auto; overflow:hidden; background-color:#000000; width:120%; position:relative; left:-10%; padding:5px 10%; z-index:0; }
+.page-video-bttm .clmn-lf .clmn-lf-tp { height:auto; overflow:hidden; background-color:#000000; width:120%; position:relative; left:-10%; padding:5px 10% 200px 10%; z-index:0; }
 .page-video-bttm .clmn-lf .clmn-lf-bt { height:200px; overflow:hidden; background-color:#000000; width:100%; position:absolute; left:0px; bottom:0px; z-index:1; padding:5px 15px; }
 .page-video-bttm .clmn-md { background-color:#000000; overflow:hidden; }
 .page-video-bttm .clmn-rt { background-color:#000000; overflow:hidden; }
@@ -75,11 +75,11 @@ body { padding-top: 0px; padding-bottom: 40px; min-width:900px; font-weight:300;
 .page-work .video-browser-box .meta .value { position:absolute; left:64px; }
 .page-work .video-browser-box:hover { -webkit-box-shadow: 0px 0px 14px 0px #000000; box-shadow: 0px 0px 14px 0px #000000; }
 
-.home-rules { text-shadow: 0px 0px 8px #333333; position:absolute; text-align:center; z-index:10; top:160px; width:96%; max-width:1280px; min-width:900px; left:2%; padding-bottom:80px; padding-top:80px; background-color:transparent; border:none; height:auto; color:#ffffff; filter:alpha(opacity=0); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity:0; -khtml-opacity:0; opacity:0; }
+.home-rules { text-shadow: 0px 0px 12px #333333; position:absolute; text-align:center; z-index:10; top:180px; width:96%; max-width:1280px; min-width:900px; left:2%; padding-bottom:80px; padding-top:80px; background-color:transparent; border:none; height:auto; color:#ffffff; filter:alpha(opacity=0); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity:0; -khtml-opacity:0; opacity:0; }
 .home-rules .rules-bg { position:absolute; left:-10%; top:15%; width:120%; height:70%; border:none; filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.8; -khtml-opacity:0.8; opacity:0.8;  }
-.home-rules .rule-number { font-size:36px; font-family:"acaslonpro_italic"; position:relative; top:28px; }
+.home-rules .rule-number { font-size:36px; font-family:"acaslonpro_regular"; font-style:italic; position:relative; top:28px; }
 .home-rules .rule-body { font-size:128px; width:120%; text-align:center; position:relative; left:-10%; white-space:nowrap; font-family:"alternategot_no1_dot"; position:relative; top:-35px; line-height:1.2; }
-.home-rules .rule-body .brackets { color:#ff0000; font-size:120%; }
+.home-rules .rule-body .brackets { color:#ff0000; font-size:120%; text-shadow: 0px 0px 0px;  }
 .home-rules .rule-footer { top:-90px; font-size:16px; font-family:"gothamrounded_book"; position:relative; }
 .home-rules .rule-hr { position:relative; width:25%; border:dashed 1px #aaa; border-bottom:none; border-left:none; border-right:none; }
 .home-rules-body-squeeze { -webkit-transform: scaleX(0.83); -moz-transform: scaleX(0.83); -ms-transform: scaleX(0.83); -o-transform: scaleX(0.83); transform: scaleX(0.83); }

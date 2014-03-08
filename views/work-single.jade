@@ -33,8 +33,14 @@ block content
         div.row.page-video-scroll
           div.col-lf.col-sm-6
             div.video-bttn.video-scroll(onClick="$('.page-video-bttm').animatescroll()")
+              img(src="#{tmg_cdn}/img/misc/arrow-down-red.png?v=#{app_version}")
+              div.tmg-trans-50.radial-gradient
             div.video-bttn.video-prev
+              img(src="#{tmg_cdn}/img/misc/arrow-left-red.png?v=#{app_version}")
+              div.tmg-trans-50.radial-gradient
             div.video-bttn.video-next
+              img(src="#{tmg_cdn}/img/misc/arrow-right-red.png?v=#{app_version}")
+              div.tmg-trans-50.radial-gradient
           div.col-lf.col-sm-6
 
         if (v["secondary_box_color"] !== "")

@@ -1,8 +1,9 @@
 
 @font-face {
-  font-family: 'acaslonpro_italic';
-  src: url('acaslonpro_italic/acaslonpro_italic.eot?') format('eot'), url('acaslonpro_italic/acaslonpro_italic.otf') format('opentype'), url('acaslonpro_italic/acaslonpro_italic.woff') format('woff'), url('acaslonpro_italic/acaslonpro_italic.ttf')  format('truetype'), url('acaslonpro_italic/acaslonpro_italic.svg#acaslonpro_italic') format('svg');
+  font-family: 'acaslonpro_regular';
+  src: url('acaslonpro_regular/acaslonpro_regular.eot?') format('eot'), url('acaslonpro_regular/acaslonpro_regular.otf')  format('opentype'), url('acaslonpro_regular/acaslonpro_regular.woff') format('woff'), url('acaslonpro_regular/acaslonpro_regular.ttf')  format('truetype'), url('acaslonpro_regular/acaslonpro_regular.svg#acaslonpro_regular') format('svg');
 }
+
 
 @font-face {
   font-family: 'gothamrounded_book';
