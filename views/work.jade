@@ -8,7 +8,7 @@ block content
   div.container
     div.row.page-work
       div.col-lg-12
-        for v in data["video"]
+        for v,i in data["video"]
           a(href="work/#{v['id']}")
             div.video-browser-box.element.lanthanoid.metal.inner-transition(data-category="lanthanoid")
               img(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_menu']}.jpg?v=#{app_version}")
@@ -18,4 +18,5 @@ block content
                 p
                   | <span class="red">CLIENT:</span> <span class="value">#{v["client"]}</span>
               p.one_liner
-                | #{v["one_liner"]}
+                | #{v["one_liner"]}<br /><br />#{i+1}
+              

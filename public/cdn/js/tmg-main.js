@@ -47,7 +47,7 @@ $(function(){
   for (i in TMG.fn.ui.all) { TMG.fn.ui.all[i](); };
 
   // TMG.fn.initializeUi.setupMobileMenu();
-  // TMG.fn.initializeUi.onResize();
+  TMG.fn.initializeUi.onResize();
   // TMG.fn.initializeUi.onScroll();
   // TMG.fn.initializeUi.externalizeModalPopups();
   // TMG.fn.reactiveUi.setOnOrientationChange();
@@ -120,6 +120,21 @@ TMG.fn.reactiveUi.scrollQueues = function() {
 TMG.fn.reactiveUi.modifyOverWidthElements = function() {
   var newWidth = TMG.bodyWidth+TMG.overflowMarginWidth+Math.floor(($('body').innerWidth()-TMG.bodyWidth)/2);
   $(".dynamic-crop-right").css("width",newWidth);
+
+   var bodyWidth = parseInt($('body').width());
+   var containerLeft = parseInt($('.container').offset().left)+parseInt($('.container').css("padding-left"));
+
+  $(".page-video-bttm").css({
+      left:(0-containerLeft)+"px",
+      width: (bodyWidth)+"px"
+    })
+    .find(".tmg-thmb img.video-frame-secondary").each(function(){
+      var offset = $(this).position();
+      if (offset.left !== offset.top) {
+        if (offset.top > offset.left) { setSquImg(this,'ht'); } else { setSquImg(this,'wd'); }
+      }
+  });
+
 }
 
 TMG.fn.reactiveUi.setOnOrientationChange = function() {
@@ -285,8 +300,4 @@ TMG.getBandwidthKb = function() {
 //   }
 // }
 
-// $(function(){
-//   $(".tmg-thmb img").each(function(){
-//     TMG.uiSetSquImg(this);
-//   });
-// });
+
