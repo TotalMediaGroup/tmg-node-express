@@ -4,7 +4,7 @@ block content
 
   div.bg-fadeout-gradient
 
-  for v in data["video"]
+  for v,v_index in data["video"]
     if (v["id"] === url_params["video_id"])
 
       div.bg-static
@@ -22,16 +22,20 @@ block content
                 div.tmg-trans-50.radial-gradient
 
             div.page-video-scroll
-              div.video-bttn.tmg-unselectable.video-scroll(onClick="$('.page-video-bttm').animatescroll()")
+              div.video-bttn.tmg-unselectable.tmg-trans-linear.video-scroll(onClick="$('.page-video-bttm').animatescroll()")
                 img(src="#{tmg_cdn}/img/misc/arrow-down-red.png?v=#{app_version}")
                 div.tmg-trans-50.radial-gradient
                 div.down-label= "MORE"
-              div.video-bttn.tmg-unselectable.tmg-trans-linear.video-prev
-                img(src="#{tmg_cdn}/img/misc/arrow-left-red.png?v=#{app_version}")
-                div.tmg-trans-50.radial-gradient
-              div.video-bttn.tmg-unselectable.tmg-trans-linear.video-next
-                img(src="#{tmg_cdn}/img/misc/arrow-right-red.png?v=#{app_version}")
-                div.tmg-trans-50.radial-gradient
+              if (data['video'][(v_index-1)] != null)
+                a(href="../work/#{data['video'][(v_index-1)]['id']}")
+                  div.video-bttn.tmg-unselectable.tmg-trans-linear.video-prev
+                    img(src="#{tmg_cdn}/img/misc/arrow-left-red.png?v=#{app_version}")
+                    div.tmg-trans-50.radial-gradient
+              if (data['video'][(v_index+1)] != null)
+                a(href="../work/#{data['video'][(v_index+1)]['id']}")
+                  div.video-bttn.tmg-unselectable.tmg-trans-linear.video-next
+                    img(src="#{tmg_cdn}/img/misc/arrow-right-red.png?v=#{app_version}")
+                    div.tmg-trans-50.radial-gradient
 
           div.col-lf.col-sm-6
             div.primary-title
@@ -50,30 +54,73 @@ block content
 
         if (v["secondary_box_color"] !== "")
           style(type="text/css")
-            | .clmn-lf-tp { background-color:##{v["secondary_box_color"]} !important; }
+            | .clmn-lf-tp { background-color:##{v["secondary_box_color"]} !important; border-color:##{v["secondary_box_color"]} !important; }
 
-        if (v['secondary_layout'] == 'standard')
-          div(class="row page-video-bttm secondary-layout-#{v['secondary_layout']}")
+
+        span(class="video-bttm-secondary-layout-#{v['secondary_layout']}")
+          
+          div.row.page-video-bttm
             div.col-lf.col-sm-4.clmn-lf
               div.clmn-lf-tp
                 for itm, ind in v["secondary_text"]
                   p
                     | #{itm}
-              div.tmg-thmb.clmn-lf-bt
-                div.video-bttn
-                  img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
-                  div.tmg-trans-50.radial-gradient
-                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
-            div.col-lf.tmg-thmb.col-sm-4.clmn-md
-              div.video-bttn
-                img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
-                div.tmg-trans-50.radial-gradient
-              img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
-            div.col-lf.tmg-thmb.col-sm-4.clmn-rt
-              div.video-bttn
-                img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
-                div.tmg-trans-50.radial-gradient
-              img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
+              if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][2]['image'].length > 0))
+                div.tmg-thmb.clmn-lf-bt
+                  if (v['secondary_content'][2]['video'].length > 0)
+                    div.video-bttn
+                      img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
+                      div.tmg-trans-50.radial-gradient
+                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+
+            if ((v['secondary_layout'] == 'flat') || (v['secondary_content'][1]['image'].length == 0))
+              div.col-lf.tmg-thmb.col-sm-8.clmn-md
+                if (v['secondary_content'][0]['video'].length > 0)
+                  div.video-bttn
+                    img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
+                    div.tmg-trans-50.radial-gradient
+                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+
+            if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][1]['image'].length > 0))
+              div.col-lf.tmg-thmb.col-sm-4.clmn-md
+                if (v['secondary_content'][0]['video'].length > 0)
+                  div.video-bttn
+                    img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
+                    div.tmg-trans-50.radial-gradient
+                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
+              div.col-lf.tmg-thmb.col-sm-4.clmn-rt
+                if (v['secondary_content'][1]['video'].length > 0)
+                  div.video-bttn
+                    img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
+                    div.tmg-trans-50.radial-gradient
+                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
+
+          if (v['secondary_layout'] == 'flat')
+            if ((v['secondary_content'][1]['image'].length > 0) && (v['secondary_content'][2]['image'].length > 0))
+              div.row.page-video-bttm.page-video-bttm-row-2
+                div.col-lf.tmg-thmb.col-sm-6.clmn-md
+                  if (v['secondary_content'][0]['video'].length > 0)
+                    div.video-bttn
+                      img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
+                      div.tmg-trans-50.radial-gradient
+                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+                div.col-lf.tmg-thmb.col-sm-6.clmn-rt
+                  if (v['secondary_content'][1]['video'].length > 0)
+                    div.video-bttn
+                      img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
+                      div.tmg-trans-50.radial-gradient
+                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+            else if (v['secondary_content'][1]['image'].length > 0)
+              div.row.page-video-bttm.page-video-bttm-row-2
+                div.col-lf.tmg-thmb.col-sm-12.clmn-md
+                  if (v['secondary_content'][1]['video'].length > 0)
+                    div.video-bttn
+                      img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
+                      div.tmg-trans-50.radial-gradient
+                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+
+
+
 
 
             

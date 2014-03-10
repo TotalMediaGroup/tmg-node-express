@@ -6,7 +6,7 @@ var TMG = {
   isHTTPS: (window.location.protocol.indexOf("https") > -1),
   fn: { load: {}, reactiveUi: {}, initializeUi: {}, video: {},
     ui: {
-      all: {}/*, intro: {}, about: {}, get_involved: {}, team:{}, media: {}, video: {}*/
+      all: {}, 'work-single': {}
     }
   },
   cdn: { tmg: null, tmgVendor: null, tmgStatic: null, bootstrap: null, cdnJs: null, videoJs: null },
@@ -32,6 +32,12 @@ var TMG = {
     addThis: { pubId: "", env: [ "production", "development" ] },
     followButtons: { env: [ "production", "development" ] }
   }
+};
+
+TMG.video = {
+  offset: [0, 0, 0], obj: null, id: null, version: null, forceYouTube: false, posterUri: "", sizes: [
+      [1920,1080,5500], [1280,720,2500], [854,480,1100], [640,360,600]
+    ], mobileSize: 3, followUp: { excludePaths: [ "" ] }
 };
 
 $(function(){
@@ -286,18 +292,125 @@ TMG.getBandwidthKb = function() {
   return kb;
 }
 
-// function setSquImg(inputObj){
-//   if (typeof $ === "undefined") {
-//     var wait = setTimeout(function(){TMG.uiSetSquImg(inputObj)},333);
-//   } else {
-//     var obj = $(inputObj);
-//     if (obj.css("visibility")==="hidden") { obj.css({opacity:0}); }
-//     var divObj = obj.parent('div.tmg-thmb');
-//     obj.css({height:divObj.outerHeight()+"px",top:(0-parseInt(divObj.css("padding-top")))+"px"});
-//     var wd = parseInt(obj.width());
-//     obj.css({left:"-"+(((parseInt(obj.width())-parseInt(divObj.outerWidth()))/2)-parseInt(divObj.css("padding-left")))+"px"});
-//     obj.css({visibility:"visible"}).animate({opacity:1},500);
-//   }
-// }
 
+TMG.fn.ui['work-single'].initVideo = function(){
+  TMG.fn.video.init();
+  TMG.fn.video.prepare();
+}
+
+
+
+TMG.fn.video.init = function(){
+  var videoJsVersion = "4.2.2";
+  TMG.fn.insertCss(TMG.cdn.videoJs+"/"+videoJsVersion+"/video-js.css");
+  $.getScript(TMG.cdn.videoJs+"/"+videoJsVersion+"/video.js",function(){
+    if (TMG.cdn.videoJs.indexOf("//") == -1) { videojs.options.flash.swf = TMG.cdn.videoJs+"/"+videoJsVersion+"/video-js.swf"; }
+    $.getScript(TMG.cdn.tmgVendor+"/foresight.js/2.0.0/foresight.min.js",function(){
+      TMG.fn.video.initUI();
+    });
+  });
+}
+
+
+TMG.fn.video.initUI = function(){
+  $(".video-box-page").each(function(){
+    if (TMG.renderForTouch) {
+      TMG.fn.video.place(this);
+    } else {
+      var gPos = $(this).offset();
+      TMG.video.offset = [gPos.top, gPos.left, parseInt($(this).width())];
+      $(this).click(function(){ TMG.fn.video.setup(this); });
+    }
+  });
+}
+
+TMG.fn.video.prepare = function() {
+
+    // var refBox = $(".video-box-page");
+    // $((RFCX.renderForMobile) ? "#rfcx-container" : "body").append(
+    //     "<div class=\"video-box video-box-outer\""
+    //       +" data-video-id=\""+refBox.attr("data-video-id")+"\""
+    //       +" data-video-version=\""+refBox.attr("data-video-version")+"\""
+    //       +" data-video-youtube=\""+refBox.attr("data-video-youtube")+"\""
+    //       +" data-video-cc=\""+refBox.attr("data-video-cc")+"\""
+    //       +" data-video-run-followup=\""+refBox.attr("data-video-run-followup")+"\""
+    //       +">"
+    //     +"<img src=\""+RFCX.cdn.rfcx+"/img/intro/16x9.16.gif\" class=\"rfcx-trans-50 video-box-bg\">"
+    //     +"<i class=\"fa fa-play-circle-o\"></i>"
+    //     +"</div>"
+    //     +"<div class=\"video-box-outer-backdrop rfcx-trans-0\"></div>"
+    //   );
+    // $("#rfcx-container").append("<div class=\"video-box video-box-followup rfcx-trans-0 rfcx-crnr-10\"></div>");
+    // RFCX.fn.video.followUp(false);
+}
+
+
+TMG.fn.video.place = function(containerObj) {
+  var jqCont = $(containerObj);
+  TMG.video.id = jqCont.attr("data-video-id");
+  TMG.video.version = jqCont.attr("data-video-version");
+  TMG.video.cc = parseInt(jqCont.attr("data-video-cc"));
+  var wndw = [parseInt(jqCont.width()),Math.round(9*parseInt(jqCont.width())/16)];
+  var offset = [0,0];
+  if ((typeof jqCont.attr("data-video-height") != "undefined")) {
+    wndw[1] = parseInt(jqCont.attr("data-video-height"));
+    offset[0] = Math.round((16*wndw[1]/9-wndw[0])/2);
+    wndw[0] = Math.round(16*wndw[1]/9);
+    jqCont.css("overflow","hidden");
+  }
+  if ((typeof jqCont.attr("data-video-controls") != "undefined")) {
+    TMG.video.controls = (parseInt(jqCont.attr("data-video-controls"))==1);
+  } else { TMG.video.controls = true; }
+  if ((typeof jqCont.attr("data-video-run-followup") != "undefined")) {
+    TMG.video.runFollowUp = (parseInt(jqCont.attr("data-video-run-followup"))===1);
+  } else { TMG.video.runFollowUp = false; }
+
+  // var sz = TMG.video.sizes, vidSz = sz[sz.length-1], bw = TMG.getBandwidthKb();
+  // TMG.video.posterUri = TMG.cdn.tmgStatic+"/video/"+TMG.video.id+"/"+RFCX.video.id+"-poster.jpg?v="+RFCX.appVersion;
+  // // set video size based on window width (or smallest for mobile devices)
+  // if (RFCX.renderForMobile) { vidSz = sz[RFCX.video.mobileSize];
+  // } else { for (var i = sz.length-1; i >= 0; i--) { if ((1.1 * sz[i][0]) >= wndw[0]) { vidSz = sz[i]; break; } } }
+  // // Check bandwidth against bitrate of chosen size
+  // if ((bw>0) && ((bw*1.33) <= vidSz[2])) {
+  //   for (var i = 0; i < sz.length; i++ ) {
+  //     if ((bw*1.33) > sz[i][2]) { vidSz = sz[i]; break; } else if (i==(sz.length-1)) { RFCX.video.forceYouTube = true; }
+  //   }
+  // }
+
+     // var uriBase = RFCX.cdn.rfcxStatic+"/video/"+RFCX.video.id
+     //     +"/v"+RFCX.video.version+"/"+RFCX.video.id+"-v"+RFCX.video.version+".",
+     //     vidUri = uriBase + vidSz[1];
+    var uriBase = "//totalmediagroup.s3.amazonaws.com/video/shakey-neil-young-archives/Neil_Young_Archives_HD";
+
+    // console.log("window width: "+wndw[0]+" -> playing: "+vidSz[0]+"x"+vidSz[1]+" ("+vidSz[2]+"kb/s)");
+    var vttPreUri = "";
+    var playerHtml = "<video class=\"video-js vjs-default-skin\" controls preload=\"auto\""
+            +" id=\"tmg-video-player-"+TMG.video.id+"\""
+        //    +" poster=\""+RFCX.video.posterUri+"\""
+            +" width=\""+wndw[0]+"\" height=\""+wndw[1]+"\""
+            +" style=\"width:"+wndw[0]+"px;height:"+wndw[1]+"px;left:-"+offset[0]+"px;\""
+            +">"
+ //       +"<source src=\"//www.youtube.com/watch?v="+jqCont.attr("data-video-youtube")+"\" type=\"video/youtube\" />"
+        +"<source src=\""+vidUri+".mp4\" type=\"video/mp4\" />"
+//        +"<source src=\""+vidUri+".webm\" type=\"video/webm\" />"
+//        +"<source src=\""+vidUri+".flv\" type=\"video/flv\" />"
+//        +"<source src=\""+uriBase+"240.3gp\" type=\"video/3gp\" />"
+        +((RFCX.video.cc==0) ? "" : RFCX.fn.video.vttTags(["en"]))
+        +"</video>";
+    RFCX.video.previousHtml = jqCont.html();
+    jqCont.html(playerHtml);
+
+    videojs("rfcx-video-player-"+RFCX.video.id, { "techOrder": ["html5","flash","youtube"], "preload": "auto", "autoplay":true, "controls":RFCX.video.controls }).ready(function(){
+      RFCX.video.obj = this;
+      RFCX.video.obj.on("pause", function(){ RFCX.fn.video.paused(); });
+      RFCX.video.obj.on("ended", function(){ RFCX.fn.video.ended(); });
+      analytics.track("video_play", { label: RFCX.video.id });
+      devLog("video-loaded");
+    });
+
+
+  // if (RFCX.video.runFollowUp) {
+  //   RFCX.fn.video.htmlClose(jqCont);
+  // }
+}
 
