@@ -13,9 +13,13 @@ block content
       div.container.page-video
         div.row
           div.col-lf.video-player-box.col-sm-6
-            div.video-player(style="background:url(#{tmg_static_cdn}/video/#{v['id']}/#{v['image_poster']}.jpg?v=#{app_version});")
+            div.video-player
               img.aspect-ratio(src="#{tmg_cdn}/img/misc/16x9.16.gif")
               img.bracket(src="#{tmg_cdn}/img/misc/bracket-red.png")
+              img.poster-frame(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_poster']}.jpg?v=#{app_version}")
+              div.video-bttn
+                img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
+                div.tmg-trans-50.radial-gradient
           div.col-lf.col-sm-6
             div.primary-title
               | <span style="color:#ff0000;">#{v["client"]}</span> — 
@@ -32,13 +36,14 @@ block content
 
         div.row.page-video-scroll
           div.col-lf.col-sm-6
-            div.video-bttn.video-scroll(onClick="$('.page-video-bttm').animatescroll()")
+            div.video-bttn.tmg-unselectable.video-scroll(onClick="$('.page-video-bttm').animatescroll()")
               img(src="#{tmg_cdn}/img/misc/arrow-down-red.png?v=#{app_version}")
               div.tmg-trans-50.radial-gradient
-            div.video-bttn.video-prev
+              div.down-label= "MORE"
+            div.video-bttn.tmg-unselectable.tmg-trans-linear.video-prev
               img(src="#{tmg_cdn}/img/misc/arrow-left-red.png?v=#{app_version}")
               div.tmg-trans-50.radial-gradient
-            div.video-bttn.video-next
+            div.video-bttn.tmg-unselectable.tmg-trans-linear.video-next
               img(src="#{tmg_cdn}/img/misc/arrow-right-red.png?v=#{app_version}")
               div.tmg-trans-50.radial-gradient
           div.col-lf.col-sm-6
