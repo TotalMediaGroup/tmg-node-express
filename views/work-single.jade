@@ -13,7 +13,7 @@ block content
       div.container.page-video
         div.row
           div.col-lf.video-player-box.col-sm-6
-            div.video-player
+            div.video-player(data-video-id="#{v['id']}",data-video-poster="#{v['image_poster']}",data-video-sd="#{v['video'][1][0]}",data-video-hd="#{v['video'][1][1]}")
               img.aspect-ratio(src="#{tmg_cdn}/img/misc/16x9.16.gif")
               img.bracket(src="#{tmg_cdn}/img/misc/bracket-red.png")
               img.poster-frame(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_poster']}.jpg?v=#{app_version}")

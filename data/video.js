@@ -42,7 +42,7 @@ var data = [
       { title:"", image:"DBG_employee6", video:"" }
       ],
     secondary_box_color: "808080",
-    secondary_layout: "flat"
+    secondary_layout: "standard"
   },
 
 
@@ -59,9 +59,9 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
     secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.","THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR. WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
     secondary_content: [
+      { title:"", image:"PF_abbot6", video:"" },
       { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"PF_abbot6", video:"" }
       ],
     secondary_box_color: "808080",
     secondary_layout: "standard"
@@ -81,12 +81,12 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","PRODUCTION"],
     secondary_text: ["FILMORE EAST DVD MENU","","A DECEPTIVELY COMPLEX PROJECT, THIS DVD MENU WAS CREATED FROM A NOW FAMOUS PHOTO OF FILMORE EAST IN NYC.","WE USED THE MARQUEE TO CREATE THE NAVIGATION ITEMS.","THEN BROUGHT THE PHOTO TO LIFE BY ANIMATING PEOPLE IN LINE AND CREATING A CITY AT NIGHT LIGHTING SCENE (CAR LIGHTS. STEAM FROM STREET VENTS, ETC)","WE SHOT A BUNCH OF FRIENDS ON GREEN ACTING AS THOUGH THEY WERE STROLLING DOWN THE BUSY STREET.","EVEN GOT IN ONE OF NEILS' FAVORITE CLASSIC CARS.","THE MENU TEXT CHANGES AS PEOPLE WALK BY IN THE FOREGROUND.","THIS HAPPENED EACH TIME THE VIEWER CLICKED THE BUTTON.","","PRAIRIE WIND DVD MENU.","WE WANTED TO CREATE THE SENSE OF LAUNDRY BLOWING IN THE WIND IN FRONT OF A HOMESTEAD ON THE PRAIRIE.","WE SHOT THE SHEET OUT IN FRONT OF THE FACILITY.","THE GRASS BLOWING IN THE WIND IS ACTUALLY SAN FRANCISCO BAY MARSH GRASS.","SG WAS HAVING LUNCH BY THE BAY ONE DAY AND NOTICED THAT IT LOOKED AND MOVED A LOT LIKE PRAIRIE GRASS.","SO WE SHOT IT FOR THE COMP."],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"DBG_neil4", video:"" },
+      { title:"", image:"IC_neil", video:"" },
+      { title:"", image:"PF_neil7", video:"" }
       ],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "flat"
   },
 
 
