@@ -20,6 +20,19 @@ block content
               div.video-bttn
                 img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                 div.tmg-trans-50.radial-gradient
+
+            div.page-video-scroll
+              div.video-bttn.tmg-unselectable.video-scroll(onClick="$('.page-video-bttm').animatescroll()")
+                img(src="#{tmg_cdn}/img/misc/arrow-down-red.png?v=#{app_version}")
+                div.tmg-trans-50.radial-gradient
+                div.down-label= "MORE"
+              div.video-bttn.tmg-unselectable.tmg-trans-linear.video-prev
+                img(src="#{tmg_cdn}/img/misc/arrow-left-red.png?v=#{app_version}")
+                div.tmg-trans-50.radial-gradient
+              div.video-bttn.tmg-unselectable.tmg-trans-linear.video-next
+                img(src="#{tmg_cdn}/img/misc/arrow-right-red.png?v=#{app_version}")
+                div.tmg-trans-50.radial-gradient
+
           div.col-lf.col-sm-6
             div.primary-title
               | <span style="color:#ff0000;">#{v["client"]}</span> — 
@@ -34,19 +47,6 @@ block content
                 p
                   | #{itm}
 
-        div.row.page-video-scroll
-          div.col-lf.col-sm-6
-            div.video-bttn.tmg-unselectable.video-scroll(onClick="$('.page-video-bttm').animatescroll()")
-              img(src="#{tmg_cdn}/img/misc/arrow-down-red.png?v=#{app_version}")
-              div.tmg-trans-50.radial-gradient
-              div.down-label= "MORE"
-            div.video-bttn.tmg-unselectable.tmg-trans-linear.video-prev
-              img(src="#{tmg_cdn}/img/misc/arrow-left-red.png?v=#{app_version}")
-              div.tmg-trans-50.radial-gradient
-            div.video-bttn.tmg-unselectable.tmg-trans-linear.video-next
-              img(src="#{tmg_cdn}/img/misc/arrow-right-red.png?v=#{app_version}")
-              div.tmg-trans-50.radial-gradient
-          div.col-lf.col-sm-6
 
         if (v["secondary_box_color"] !== "")
           style(type="text/css")
@@ -63,17 +63,17 @@ block content
                 div.video-bttn
                   img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                   div.tmg-trans-50.radial-gradient
-                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
             div.col-lf.tmg-thmb.col-sm-4.clmn-md
               div.video-bttn
                 img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                 div.tmg-trans-50.radial-gradient
-              img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
+              img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
             div.col-lf.tmg-thmb.col-sm-4.clmn-rt
               div.video-bttn
                 img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                 div.tmg-trans-50.radial-gradient
-              img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
+              img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
 
 
             
