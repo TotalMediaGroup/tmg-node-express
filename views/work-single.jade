@@ -17,7 +17,7 @@ block content
               img.aspect-ratio(src="#{tmg_cdn}/img/misc/16x9.16.gif")
               img.bracket(src="#{tmg_cdn}/img/misc/bracket-red.png")
               img.poster-frame(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_poster']}.jpg?v=#{app_version}")
-              div.video-bttn
+              div.video-bttn(onMouseOver="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}')",onMouseOut="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play.png?v=#{app_version}')")
                 img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                 div.tmg-trans-50.radial-gradient
 
@@ -66,7 +66,7 @@ block content
               if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][2]['image'].length > 0))
                 div.tmg-thmb.clmn-lf-bt
                   if (v['secondary_content'][2]['video'].length > 0)
-                    div.video-bttn
+                    div.video-bttn(onMouseOver="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}')",onMouseOut="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play.png?v=#{app_version}')")
                       img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                       div.tmg-trans-50.radial-gradient
                   if (v['secondary_content'][2]['title'].length > 0)
@@ -79,7 +79,7 @@ block content
             if ((v['secondary_layout'] == 'flat') || (v['secondary_content'][1]['image'].length == 0))
               div.col-lf.tmg-thmb.col-sm-8.clmn-md
                 if (v['secondary_content'][0]['video'].length > 0)
-                  div.video-bttn
+                  div.video-bttn(onMouseOver="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}')",onMouseOut="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play.png?v=#{app_version}')")
                     img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                     div.tmg-trans-50.radial-gradient
                 if (v['secondary_content'][0]['title'].length > 0)
@@ -92,7 +92,7 @@ block content
             if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][1]['image'].length > 0))
               div.col-lf.tmg-thmb.col-sm-4.clmn-md
                 if (v['secondary_content'][0]['video'].length > 0)
-                  div.video-bttn
+                  div.video-bttn(onMouseOver="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}')",onMouseOut="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play.png?v=#{app_version}')")
                     img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                     div.tmg-trans-50.radial-gradient
                 if (v['secondary_content'][0]['title'].length > 0)
@@ -103,7 +103,7 @@ block content
                 img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
               div.col-lf.tmg-thmb.col-sm-4.clmn-rt
                 if (v['secondary_content'][1]['video'].length > 0)
-                  div.video-bttn
+                  div.video-bttn(onMouseOver="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}')",onMouseOut="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play.png?v=#{app_version}')")
                     img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                     div.tmg-trans-50.radial-gradient
                 if (v['secondary_content'][1]['title'].length > 0)
@@ -118,7 +118,7 @@ block content
               div.row.page-video-bttm.page-video-bttm-row-2
                 div.col-lf.tmg-thmb.col-sm-4.clmn-md
                   if (v['secondary_content'][2]['video'].length > 0)
-                    div.video-bttn
+                    div.video-bttn(onMouseOver="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}')",onMouseOut="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play.png?v=#{app_version}')")
                       img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                       div.tmg-trans-50.radial-gradient
                   if (v['secondary_content'][2]['title'].length > 0)
@@ -142,7 +142,7 @@ block content
               div.row.page-video-bttm.page-video-bttm-row-2
                 div.col-lf.tmg-thmb.col-sm-12.clmn-md
                   if (v['secondary_content'][1]['video'].length > 0)
-                    div.video-bttn
+                    div.video-bttn(onMouseOver="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}')",onMouseOut="$(this).find('img').attr('src','#{tmg_cdn}/img/misc/play.png?v=#{app_version}')")
                       img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}")
                       div.tmg-trans-50.radial-gradient
                   if (v['secondary_content'][1]['title'].length > 0)
