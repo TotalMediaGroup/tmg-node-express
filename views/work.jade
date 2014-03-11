@@ -6,6 +6,19 @@ block content
     img(src="#{tmg_cdn}/img/bg/_about.jpg?v=#{app_version}")
 
   div.container
+    div.row.page-work-nav
+      div.col-lg-12
+      ul.nav.navbar-nav
+        li
+          a
+            | MEDIA
+        li
+          a
+            | EVENTS
+        li(style="border-right:none")
+          a
+            | DESIGN
+
     div.row.page-work
       div.col-lg-12
         for v,i in data["video"]

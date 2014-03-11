@@ -12,7 +12,7 @@ block content
       for item in data["tmg_rules"]
         | tmgRules[#{data["tmg_rules"].indexOf(item)}]={num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'};
     div.rules-bg.radial-gradient
-    span.home-rules-number-stretch.rule-number= "Rule #00"
+    div.home-rules-number-stretch.rule-number= "Rule #00"
     hr.rule-hr(style="top:5px;")
     div.home-rules-body-squeeze.rule-body
       span.brackets= "[ "
