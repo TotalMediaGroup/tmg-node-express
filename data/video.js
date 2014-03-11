@@ -41,6 +41,7 @@ var data = [
       { title:"", image:"PF_employee1", video:"" },
       { title:"", image:"DBG_employee6", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -63,6 +64,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"PF_abbot6", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -85,6 +87,7 @@ var data = [
       { title:"Living With War Title", image:"neil12", video:"Neil_Young_bloody book seq_HD" },
       { title:"Prairie Wind DVD Menu", image:"DBG_neil1", video:"Neil_Young_bloody" }
       ],
+    categories: ["media"],
     secondary_box_color: "ffffff",
     secondary_layout: "flat"
   },
@@ -107,6 +110,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -128,6 +132,7 @@ var data = [
       { title:"", image:"sharks28", video:"" },
       { title:"", image:"sharks32", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -153,6 +158,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -176,6 +182,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -198,6 +205,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -220,6 +228,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -243,6 +252,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -265,6 +275,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -287,6 +298,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -309,6 +321,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -331,6 +344,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -353,6 +367,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -375,6 +390,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -397,6 +413,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -419,6 +436,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -442,6 +460,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -464,6 +483,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -486,6 +506,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -508,6 +529,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -530,6 +552,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -552,6 +575,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -574,6 +598,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -596,6 +621,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -618,6 +644,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -640,6 +667,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -663,6 +691,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -685,6 +714,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -698,7 +728,7 @@ var data = [
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "tmg",
-    one_liner: "rosalind russel documentary",
+    one_liner: "rosalind russell documentary",
     primary_text: ["",""],
     production_roles: [],
     secondary_text: ["",""],
@@ -707,160 +737,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
-    secondary_box_color: "808080",
-    secondary_layout: "standard"
-  },
-
-
-
-  { id: "cisco-live",
-    title: "cisco live",
-    image_menu: "IC_ciscolive6",
-    image_background: "",
-    image_poster: "",
-    video: [ [360,720], ["",""] ],
-    client: "cisco systems",
-    one_liner: "live event production",
-    primary_text: ["",""],
-    production_roles: [],
-    secondary_text: ["",""],
-    secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
-      ],
-    secondary_box_color: "808080",
-    secondary_layout: "standard"
-  },
-
-
-
-  { id: "salix-revolution",
-    title: "revolution",
-    image_menu: "IC_revplution",
-    image_background: "",
-    image_poster: "",
-    video: [ [360,720], ["",""] ],
-    client: "salix pharmacuticals",
-    one_liner: "various event videos",
-    primary_text: ["",""],
-    production_roles: [],
-    secondary_text: ["",""],
-    secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
-      ],
-    secondary_box_color: "808080",
-    secondary_layout: "standard"
-  },
-
-
-
-  { id: "salix-october-sky-show",
-    title: "october sky show",
-    image_menu: "IC_octobersky",
-    image_background: "",
-    image_poster: "",
-    video: [ [360,720], ["",""] ],
-    client: "salix pharmacuticals",
-    one_liner: "various show videos",
-    primary_text: ["",""],
-    production_roles: [],
-    secondary_text: ["",""],
-    secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
-      ],
-    secondary_box_color: "808080",
-    secondary_layout: "standard"
-  },
-
-
-
-  { id: "opts-lpl-2013",
-    title: "LPL Conference 2013",
-    image_menu: "IC_opts_day2_1",
-    image_background: "",
-    image_poster: "",
-    video: [ [360,720], ["",""] ],
-    client: "Opts Ideas",
-    one_liner: "show files",
-    primary_text: ["",""],
-    production_roles: [],
-    secondary_text: ["",""],
-    secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
-      ],
-    secondary_box_color: "808080",
-    secondary_layout: "standard"
-  },
-
-
-
-  { id: "covidien-ride-the-wave",
-    title: "ride the wave",
-    image_menu: "IC_wave1",
-    image_background: "",
-    image_poster: "",
-    video: [ [360,720], ["",""] ],
-    client: "covidien",
-    one_liner: "informational show open",
-    primary_text: ["",""],
-    production_roles: [],
-    secondary_text: ["",""],
-    secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
-      ],
-    secondary_box_color: "808080",
-    secondary_layout: "standard"
-  },
-
-
-
-  { id: "stryker-chicklets",
-    title: "Chicklets",
-    image_menu: "IC_chicklet2",
-    image_background: "",
-    image_poster: "",
-    video: [ [360,720], ["",""] ],
-    client: "Stryker",
-    one_liner: "3D animated show opens",
-    primary_text: ["",""],
-    production_roles: [],
-    secondary_text: ["",""],
-    secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
-      ],
-    secondary_box_color: "808080",
-    secondary_layout: "standard"
-  },
-
-
-
-  { id: "planet-equinox",
-    title: "planet equinix",
-    image_menu: "IC_EQUINIX",
-    image_background: "",
-    image_poster: "",
-    video: [ [360,720], ["",""] ],
-    client: "equinix",
-    one_liner: "event opener",
-    primary_text: ["",""],
-    production_roles: [],
-    secondary_text: ["",""],
-    secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
-      ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -883,9 +760,172 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["media"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
+
+
+
+  { id: "cisco-live",
+    title: "cisco live",
+    image_menu: "IC_ciscolive6",
+    image_background: "",
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "cisco systems",
+    one_liner: "live event production",
+    primary_text: ["",""],
+    production_roles: [],
+    secondary_text: ["",""],
+    secondary_content: [
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" }
+      ],
+    categories: ["events"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+
+
+  { id: "salix-revolution",
+    title: "revolution",
+    image_menu: "IC_revplution",
+    image_background: "",
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "salix pharmacuticals",
+    one_liner: "various event videos",
+    primary_text: ["",""],
+    production_roles: [],
+    secondary_text: ["",""],
+    secondary_content: [
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" }
+      ],
+    categories: ["events"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+
+
+  { id: "salix-october-sky-show",
+    title: "october sky show",
+    image_menu: "IC_octobersky",
+    image_background: "",
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "salix pharmacuticals",
+    one_liner: "various show videos",
+    primary_text: ["",""],
+    production_roles: [],
+    secondary_text: ["",""],
+    secondary_content: [
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" }
+      ],
+    categories: ["events"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+
+
+  { id: "opts-lpl-2013",
+    title: "LPL Conference 2013",
+    image_menu: "IC_opts_day2_1",
+    image_background: "",
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "Opts Ideas",
+    one_liner: "show files",
+    primary_text: ["",""],
+    production_roles: [],
+    secondary_text: ["",""],
+    secondary_content: [
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" }
+      ],
+    categories: ["events"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+
+
+  { id: "covidien-ride-the-wave",
+    title: "ride the wave",
+    image_menu: "IC_wave1",
+    image_background: "",
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "covidien",
+    one_liner: "informational show open",
+    primary_text: ["",""],
+    production_roles: [],
+    secondary_text: ["",""],
+    secondary_content: [
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" }
+      ],
+    categories: ["events"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+
+
+  { id: "stryker-chicklets",
+    title: "Chicklets",
+    image_menu: "IC_chicklet2",
+    image_background: "",
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "Stryker",
+    one_liner: "3D animated show opens",
+    primary_text: ["",""],
+    production_roles: [],
+    secondary_text: ["",""],
+    secondary_content: [
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" }
+      ],
+    categories: ["events"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+
+
+  { id: "planet-equinox",
+    title: "planet equinix",
+    image_menu: "IC_EQUINIX",
+    image_background: "",
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "equinix",
+    one_liner: "event opener",
+    primary_text: ["",""],
+    production_roles: [],
+    secondary_text: ["",""],
+    secondary_content: [
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"" }
+      ],
+    categories: ["events"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
 
 
 
@@ -905,6 +945,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -927,6 +968,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -949,6 +991,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -971,6 +1014,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -993,6 +1037,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1015,6 +1060,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1037,6 +1083,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1061,6 +1108,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1083,6 +1131,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1105,6 +1154,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1127,6 +1177,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1149,6 +1200,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1171,6 +1223,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1194,6 +1247,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1216,6 +1270,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1238,6 +1293,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1260,6 +1316,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1282,6 +1339,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1305,6 +1363,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -1327,6 +1386,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
+    categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },

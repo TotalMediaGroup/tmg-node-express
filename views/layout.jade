@@ -20,7 +20,7 @@ html(lang="en")
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-main.css?v=#{app_version}')
     script(type='text/javascript', src='#{tmg_cdn}/js/tmg-preload.js?v=#{app_version}')
   
-  body
+  body(class="body-#{current_page[0]}")
     
     div.container#tmg-container
       div.navbar.navbar-inverse.navbar-fixed-top(role="navigation")

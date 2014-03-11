@@ -2,34 +2,43 @@ extends layout
 
 block content
 
-  div.bg-static
-    img(src="#{tmg_cdn}/img/bg/_about.jpg?v=#{app_version}")
+  div.bg-slideshow.galleria-bg
+    for item in data["background_images"]
+      img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{tmg_cdn}/img/bg/#{item[0]}.jpg?v=#{app_version}")
 
   div.container
     div.row.page-work-nav
       div.col-lg-12
-      ul.nav.navbar-nav
-        li
-          a
-            | MEDIA
-        li
-          a
-            | EVENTS
-        li(style="border-right:none")
-          a
-            | DESIGN
+        div.page-work-bg.bg-vertical-bar-gradient
+        ul.nav.navbar-nav
+          a(href="#")
+            img.navbar-category-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png")
+          li
+            a(href="#")
+              | MEDIA
+          li
+            a(href="#")
+              | EVENTS
+          li(style="border-right:none")
+            a(href="#")
+              | DESIGN
 
     div.row.page-work
       div.col-lg-12
+        div.page-work-bg.bg-vertical-bar-gradient
         for v,i in data["video"]
           a(href="work/#{v['id']}")
             div.video-browser-box.element.lanthanoid.metal.inner-transition(data-category="lanthanoid")
-              img(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_menu']}.jpg?v=#{app_version}")
+              div.browser-box-bg
+              if (v['image_menu'].length > 0)
+                img.video-thmb(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_menu']}.jpg?v=#{app_version}")
+              else
+                img.video-thmb(src="#{tmg_cdn}/img/misc/video-thmb-bg.png")
               div.meta
                 p
                   | <span class="red">TITLE:</span> <span class="value">#{v["title"]}</span>
                 p
                   | <span class="red">CLIENT:</span> <span class="value">#{v["client"]}</span>
               p.one-liner
-                | #{v["one_liner"]}<br /><br />#{i+1}
+                | #{v["one_liner"]}
               

@@ -21,8 +21,8 @@ var TMG = {
   speedTest: { kB: 100, expireMinutes: 2 },
   snapJsObj: null,
   jqueryGalleria: [],
-  slideShowDelay: 10000,
-  slideShowTransitionSpeed: 2000,
+  slideShowDelay: 7000,
+  slideShowTransitionSpeed: 4000,
   scrollQueues: {
 //    loadFollowButtons: {
 //      whenVisible: { intro: "#mce-EMAIL" },
