@@ -58,6 +58,8 @@ $(function(){
   // TMG.fn.initializeUi.externalizeModalPopups();
   // TMG.fn.reactiveUi.setOnOrientationChange();
 
+  $(".video-prev, .video-next").each(function(){ $(this).parent("a").appendTo("body"); });
+
 });
 
 
@@ -141,9 +143,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
       }
   });
 
-  $(".video-prev, .video-next").each(function(){
-      $(this).parent("a").appendTo("body");
-   });
+
 
   // var container = $("#tmg-container");
   // var margins = [parseInt(container.css("margin-left")),parseInt(container.css("margin-right"))];
