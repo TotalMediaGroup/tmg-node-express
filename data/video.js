@@ -726,7 +726,7 @@ var data = [
     image_menu: "IC_roz2",
     image_background: "",
     image_poster: "",
-    video: [ [360,720], ["",""] ],
+    video: [ [360,720], ["Rosalind_Russell_Life_Is_A_Banquet_Trailer_SD","Rosalind_Russell_Life_Is_A_Banquet_Trailer_HD"] ],
     client: "tmg",
     one_liner: "rosalind russell documentary",
     primary_text: ["",""],
