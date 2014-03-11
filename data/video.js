@@ -425,7 +425,7 @@ var data = [
     image_menu: "IC_libo",
     image_background: "",
     image_poster: "",
-    video: [ [360,720], ["",""] ],
+    video: [ [360,720], ["Genentech_libo extracted_SD","Genentech_libo extracted_HD"] ],
     client: "genentech",
     one_liner: "internal team information video",
     primary_text: ["",""],
