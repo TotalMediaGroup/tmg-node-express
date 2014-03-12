@@ -125,7 +125,7 @@ var data = [
     title: "San JOSE SHARKS",
     image_menu: "IC_sharks_sales",
     image_background: "sharks15BW",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [20,0],
     image_poster: "PF_sharks4",
     video: [ [360,720], ["SJ_Sharks_SHAR1230_RASH_200_HD","SJ_Sharks_SHAR1230_RASH_200_SD"] ],
     client: "KILBURG AND ASSOCIATES",

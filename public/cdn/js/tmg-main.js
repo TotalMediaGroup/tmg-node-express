@@ -23,6 +23,8 @@ var TMG = {
   jqueryGalleria: [],
   slideShowDelay: 7000,
   slideShowTransitionSpeed: 4000,
+  containerInfo: {left:0,padLeft:0,width:''},
+//  bgImageDim: [$(".bg-static img").width(),$(".bg-static img").height()],
   scrollQueues: {
 //    loadFollowButtons: {
 //      whenVisible: { intro: "#mce-EMAIL" },
@@ -131,12 +133,20 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
   $(".dynamic-crop-right").css("width",newWidth);
 
    var bodyWidth = parseInt($('body').width());
-   var containerLeft = parseInt($('.container').offset().left)+parseInt($('.container').css("padding-left"));
+   $('.container').each(function(){
+    TMG.containerInfo.left = parseInt($(this).offset().left);
+    TMG.containerInfo.padLeft = parseInt($(this).css("padding-left"));
+    if (bodyWidth >= 1400) { $(this).addClass("wide-container"); } else { $(this).removeClass("wide-container"); }
+   });
 
   $(".page-video-bttm").css({
-      left:(0-containerLeft)+"px",
+      left:(0-TMG.containerInfo.left-TMG.containerInfo.padLeft)+"px",
       width: (bodyWidth)+"px"
     }).each(function(){
+      $(".bg-static img").css({minHeight:$(this).offset().top+"px"}).each(function(){
+        $(this).css({minWidth:Math.round(parseInt($(this).css("min-height"))*($(this).width()/$(this).height()))+"px"})
+      });
+
       if ($(".video-bttm-secondary-layout-flat").length > 0) {
         var textHeight = $(this).find(".clmn-lf-tp").innerHeight();
         if (textHeight > 0) { $(this).find(".clmn-lf").css({height:textHeight+"px"}); }

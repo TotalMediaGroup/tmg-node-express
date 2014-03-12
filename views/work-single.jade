@@ -6,7 +6,7 @@ block content
 
   for v,v_index in data["video"]
     if (v["id"] === url_params["video_id"])
-
+      style(type="text/css")= '.bg-static { left:-'+v['image_background_xy_position'][0]+'%;top:-'+v['image_background_xy_position'][1]+'%; };'
       div.bg-static
         img(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_background']}.jpg?v=#{app_version}")
 
