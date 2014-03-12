@@ -60,9 +60,9 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
     secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.","THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR. WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
     secondary_content: [
-      { title:"", image:"PF_abbot6", video:"" },
+      { title:"", image:"abbot6", video:"" },
       { title:"", image:"", video:"" },
-      { title:"", image:"PF_abbot6", video:"" }
+      { title:"", image:"abbot6", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
