@@ -42,13 +42,16 @@ block content
             div.primary-body
               for itm, ind in v["primary_text"]
                 p
-                  | #{itm}
+                  != itm
+                  if (itm.length == 0)
+                    br
+
             if (v["production_roles"].length > 0)
               div.tmg-trans-90.production-roles
                 img.bracket(src="#{tmg_cdn}/img/misc/bracket-gray.png?v=#{app_version}")
                 for itm, ind in v["production_roles"]
                   p
-                    | #{itm}
+                    = itm
 
 
         if (v["secondary_box_color"] !== "")
@@ -65,7 +68,9 @@ block content
                 div.clmn-lf-tp
                   for itm, ind in v["secondary_text"]
                     p
-                      | #{itm}
+                      != itm
+                      if (itm.length == 0)
+                        br
               
               if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][2]['image'].length > 0))
                 div(class="tmg-thmb clmn-lf-bt clmn-lf-bt-below-#{v['secondary_text'].length} video-player", data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][2]['video']}",data-video-hd="#{v['secondary_content'][2]['video']}")
