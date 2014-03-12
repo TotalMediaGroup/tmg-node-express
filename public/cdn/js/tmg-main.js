@@ -314,18 +314,15 @@ TMG.fn.ui['work-single'].initVideo = function(){
 
 
 TMG.fn.video.init = function(){
-  // var videoJsVersion = "4.2.2";
-  // TMG.fn.insertCss(TMG.cdn.videoJs+"/"+videoJsVersion+"/video-js.css");
-  // $.getScript(TMG.cdn.videoJs+"/"+videoJsVersion+"/video.js",function(){
-  //   if (TMG.cdn.videoJs.indexOf("//") == -1) { videojs.options.flash.swf = TMG.cdn.videoJs+"/"+videoJsVersion+"/video-js.swf"; }
-    $.getScript("//jwpsrv.com/library/NG6cYIrNEeOAdyIACi0I_Q.js",function(){
- 
+   var videoJsVersion = "4.4.3";
+   TMG.fn.insertCss(TMG.cdn.videoJs+"/"+videoJsVersion+"/video-js.css");
+   $.getScript(TMG.cdn.videoJs+"/"+videoJsVersion+"/video.js",function(){
+     if (TMG.cdn.videoJs.indexOf("//") == -1) { videojs.options.flash.swf = TMG.cdn.videoJs+"/"+videoJsVersion+"/video-js.swf"; } 
       $.getScript(TMG.cdn.tmgVendor+"/foresight.js/2.0.0/foresight.min.js",function(){
         TMG.fn.video.initUI();
       });
  
     });
-  // });
 }
 
 
@@ -334,8 +331,6 @@ TMG.fn.video.initUI = function(){
     if (TMG.renderForTouch) {
       TMG.fn.video.place(this);
     } else {
-      // var gPos = $(this).offset();
-      // TMG.video.offset = [gPos.top, gPos.left, parseInt($(this).width())];
       $(this).find(".video-bttn").click(function(){ TMG.fn.video.place($(this).parent(".video-player")); });
     }
   });
@@ -385,44 +380,33 @@ TMG.fn.video.place = function(containerObj) {
 
   jqCont.append("<div class=\"video-player-inner\" id=\"video-player-"+vidId+"-"+hash+"\"></div>");
 
-  // var vidSources = [];
-  // if (jqCont.attr("data-video-hd") != null) {
-  //   vidSources[vidSources.length] = 
-  // }
-
-  if (!TMG.renderForTouch) {
-    jwplayer("video-player-"+vidId+"-"+hash).setup({
-      playlist: [{
-        image: vidImg,
-        sources: [{ 
-          file: TMG.cdn.tmgStatic+"/video/"+vidId+"/"+jqCont.attr("data-video-hd")+".mp4",
-          label: "720p HD"
-        },{
-          file: TMG.cdn.tmgStatic+"/video/"+vidId+"/"+jqCont.attr("data-video-sd")+".mp4",
-          label: "360p SD"
-        }]
-      }],
-      width: vidDim[0],
-      height: vidDim[1],
-      image: vidImg,
-      autostart: true
-    }).onComplete(function(){
-      var id = $(this).attr("id");
-      $("#"+id).remove();
-      jqCont.find("img").animate({opacity:1},500);
-    });
-
-    jqCont.find("img").animate({opacity:0},1000);
+  jqCont.find("img").animate({opacity:0},1000);
   
-  } else {
 
-    // jqCont.find("#video-player-"+vidId+"-"+hash).html(""
-    //   +"<video class=\"video-js vjs-default-skin\" controls preload=\"auto\">"
+  jqCont.find("#video-player-"+vidId+"-"+hash).html(""
+    +"<video class=\"video-js vjs-default-skin video-js-"+vidId+"\" controls preload=\"auto\""
+           +" id=\"video-player-"+vidId+"-"+hash+"-obj\""
+           +" poster=\""+vidImg+"\""
+           +" width=\""+vidDim[0]+"\" height=\""+vidDim[1]+"\""
+           +" style=\"width:"+vidDim[0]+"px;height:"+vidDim[1]+"px;\""
+           +" data-setup=\"{'autoplay':true,'techOrder':['html5','flash']}\""
+           +">"
+      +"<source src=\""
+        +"https:"+TMG.cdn.tmgStatic+"/video/"+vidId+"/"+jqCont.attr("data-video-hd")+".mp4"
+      +"\" type=\"video/mp4\" />"
+    +"</video>");
 
-    //   +"</video>"
-    //   );
+    TMG.video.id = vidId;
 
-  }
+    videojs("video-player-"+vidId+"-"+hash+"-obj").ready(function(){
+        TMG.video.obj = this;
+        TMG.video.obj.on("pause", function(){ TMG.fn.video.paused(); });
+        TMG.video.obj.on("ended", function(){ TMG.fn.video.ended(); });
+        analytics.track("video_play", { label: TMG.video.id });
+        devLog("video-loaded");
+        TMG.video.obj.play();
+     });
+
 
 
 
@@ -443,52 +427,60 @@ TMG.fn.video.place = function(containerObj) {
   //   TMG.video.runFollowUp = (parseInt(jqCont.attr("data-video-run-followup"))===1);
   // } else { TMG.video.runFollowUp = false; }
 
-  // var sz = TMG.video.sizes, vidSz = sz[sz.length-1], bw = TMG.getBandwidthKb();
-  // TMG.video.posterUri = TMG.cdn.tmgStatic+"/video/"+TMG.video.id+"/"+RFCX.video.id+"-poster.jpg?v="+RFCX.appVersion;
-  // // set video size based on window width (or smallest for mobile devices)
-  // if (RFCX.renderForMobile) { vidSz = sz[RFCX.video.mobileSize];
-  // } else { for (var i = sz.length-1; i >= 0; i--) { if ((1.1 * sz[i][0]) >= wndw[0]) { vidSz = sz[i]; break; } } }
-  // // Check bandwidth against bitrate of chosen size
-  // if ((bw>0) && ((bw*1.33) <= vidSz[2])) {
-  //   for (var i = 0; i < sz.length; i++ ) {
-  //     if ((bw*1.33) > sz[i][2]) { vidSz = sz[i]; break; } else if (i==(sz.length-1)) { RFCX.video.forceYouTube = true; }
-  //   }
-  // }
 
      // var uriBase = RFCX.cdn.rfcxStatic+"/video/"+RFCX.video.id
      //     +"/v"+RFCX.video.version+"/"+RFCX.video.id+"-v"+RFCX.video.version+".",
      //     vidUri = uriBase + vidSz[1];
 //     var vidUri = "//totalmediagroup.s3.amazonaws.com/video/shakey-neil-young-archives/Neil_Young_Archives_HD";
 
-//     // console.log("window width: "+wndw[0]+" -> playing: "+vidSz[0]+"x"+vidSz[1]+" ("+vidSz[2]+"kb/s)");
-//     var vttPreUri = "";
-//     var playerHtml = "<video class=\"video-js vjs-default-skin\" controls preload=\"auto\""
-//             +" id=\"tmg-video-player-"+TMG.video.id+"\""
-//         //    +" poster=\""+RFCX.video.posterUri+"\""
-//             +" width=\""+wndw[0]+"\" height=\""+wndw[1]+"\""
-//             +" style=\"width:"+wndw[0]+"px;height:"+wndw[1]+"px;left:-"+offset[0]+"px;\""
-//             +">"
-//  //       +"<source src=\"//www.youtube.com/watch?v="+jqCont.attr("data-video-youtube")+"\" type=\"video/youtube\" />"
-//         +"<source src=\""+vidUri+".mp4\" type=\"video/mp4\" />"
-// //        +"<source src=\""+vidUri+".webm\" type=\"video/webm\" />"
-// //        +"<source src=\""+vidUri+".flv\" type=\"video/flv\" />"
-// //        +"<source src=\""+uriBase+"240.3gp\" type=\"video/3gp\" />"
-//         +((RFCX.video.cc==0) ? "" : RFCX.fn.video.vttTags(["en"]))
-//         +"</video>";
-//     RFCX.video.previousHtml = jqCont.html();
-//     jqCont.html(playerHtml);
 
-//     videojs("rfcx-video-player-"+RFCX.video.id, { "techOrder": ["html5","flash","youtube"], "preload": "auto", "autoplay":true, "controls":RFCX.video.controls }).ready(function(){
-//       RFCX.video.obj = this;
-//       RFCX.video.obj.on("pause", function(){ RFCX.fn.video.paused(); });
-//       RFCX.video.obj.on("ended", function(){ RFCX.fn.video.ended(); });
-//       analytics.track("video_play", { label: RFCX.video.id });
-//       devLog("video-loaded");
-//     });
-
-
-  // if (RFCX.video.runFollowUp) {
-  //   RFCX.fn.video.htmlClose(jqCont);
-  // }
 }
 
+TMG.fn.video.ended = function() {
+    $(".video-js-"+TMG.video.id).parents(".video-player").each(function(){
+      $(this).find(".video-player-inner").remove();
+      $(this).find("img").animate({opacity:1},500);
+    });
+    TMG.fn.video.reset();
+}
+
+TMG.fn.video.paused = function() {
+  analytics.track("video_pause", { label: TMG.video.id });
+  if (TMG.renderForTouch && !TMG.fn.video.isFullScreen()){
+//    $(".video-box-page").each(function(){ $(this).html(RFCX.video.previousHtml); });
+  }
+}
+
+TMG.fn.video.reset = function() {
+  if (TMG.video.obj != null) {
+    analytics.track("video_stop", { label: TMG.video.id });
+    if (typeof TMG.video.obj.dispose != "undefined") { TMG.video.obj.dispose(); }
+    TMG.video.obj = null;
+  } else {
+    analytics.track("video_stop", { label: TMG.video.id });
+  }
+}
+
+
+TMG.fn.video.isFullScreen = function() {
+  var rtrn = false;
+  if (TMG.renderForTouch) {
+    $("video").each(function(){
+      rtrn = this.webkitDisplayingFullscreen;
+    });
+  }
+  return rtrn;
+}
+
+TMG.fn.video.percentComplete = function() {
+  var currTime = 1, duration = 1, pct = 0;
+  if (typeof TMG.video.obj.currentTime != "undefined") {
+    currTime = TMG.video.obj.currentTime();
+    duration = TMG.video.obj.duration();
+  } else if (typeof TMG.video.obj.getCurrentTime != "undefined") {
+    currTime = TMG.video.obj.getCurrentTime();
+    duration = TMG.video.obj.getDuration();
+  }
+  pct = Math.round(100*currTime/duration);
+  return pct;
+}
