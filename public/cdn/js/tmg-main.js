@@ -403,9 +403,11 @@ TMG.fn.video.place = function(containerObj) {
            +" style=\"width:"+vidDim[0]+"%;height:"+vidDim[1]+"%;top:"+vidPos[1]+"%;left:"+vidPos[0]+"%;\""
         +"></div>");
 
-  jqCont.find("img, span").animate({opacity:0},1000);
-  jqCont.parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
-    .css({display:'block',opacity:0}).animate({opacity:0.75},1000);
+  jqCont.find("img, span, .video-bttn").animate({opacity:0},1000);
+  if (jqCont.parents(".page-video-bttm").length > 0) {
+    jqCont.parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
+      .css({display:'block',opacity:0}).animate({opacity:0.75},1000);
+  }
 
   
 
@@ -422,7 +424,6 @@ TMG.fn.video.place = function(containerObj) {
     +"</video>");
 
     TMG.video.id = vidId;
-
     videojs("video-player-"+vidId+"-"+hash+"-obj").ready(function(){
         TMG.video.obj = this;
         TMG.video.obj.on("pause", function(){ TMG.fn.video.paused(); });
@@ -465,7 +466,7 @@ TMG.fn.video.ended = function() {
     $(".video-js-"+TMG.video.id).parents(".video-player").each(function(){
       $(this).find(".video-player-inner").remove();
       // if ($(this).hasClass("tmg-thmb")) { $(this).find(".video-frame-secondary").each(function(){ setSquImg(this,'ht'); }); }
-      $(this).find("img, span").animate({opacity:1},500);
+      $(this).find("img, span, .video-bttn").animate({opacity:1},500);
       $(this).parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
         .animate({opacity:0},500,function(){ $(this).css({display:'none'}); })
     });

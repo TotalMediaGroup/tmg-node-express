@@ -63,7 +63,6 @@ block content
           
           div.row.page-video-bttm
             div.col-lf.col-sm-4.clmn-lf
-              div.fader-block
               if (v["secondary_text"].length > 0)
                 div.clmn-lf-tp
                   for itm, ind in v["secondary_text"]
@@ -74,6 +73,7 @@ block content
               
               if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][2]['image'].length > 0))
                 div(class="tmg-thmb clmn-lf-bt clmn-lf-bt-below-#{v['secondary_text'].length} video-player", data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][2]['video']}",data-video-hd="#{v['secondary_content'][2]['video']}")
+                  div.fader-block(onClick="TMG.fn.video.ended();")
                   if (v['secondary_content'][2]['video'].length > 0)
                     div.video-bttn
                       img(src="#{tmg_cdn}/img/misc/play.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play.png?v=#{app_version}'")
@@ -101,7 +101,7 @@ block content
                       | #{v['secondary_content'][0]['title']}
                     div.radial-gradient
                 img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
-                div.fader-block
+                div.fader-block(onClick="TMG.fn.video.ended();")
 
             if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][1]['image'].length > 0))
               div.col-lf.tmg-thmb.col-sm-4.clmn-md.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][0]['video']}",data-video-hd="#{v['secondary_content'][0]['video']}")
@@ -115,7 +115,7 @@ block content
                       | #{v['secondary_content'][1]['title']}
                     div.radial-gradient
                 img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
-                div.fader-block
+                div.fader-block(onClick="TMG.fn.video.ended();")
 
               div.col-lf.tmg-thmb.col-sm-4.clmn-rt.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
                 if (v['secondary_content'][1]['video'].length > 0)
@@ -128,7 +128,7 @@ block content
                       | #{v['secondary_content'][1]['title']}
                     div.radial-gradient
                 img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
-                div.fader-block
+                div.fader-block(onClick="TMG.fn.video.ended();")
 
           if (v['secondary_layout'] == 'flat')
             if ((v['secondary_content'][1]['image'].length > 0) && (v['secondary_content'][2]['image'].length > 0))
@@ -145,7 +145,7 @@ block content
                         | #{v['secondary_content'][2]['title']}
                       div.radial-gradient
                   img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
-                  div.fader-block
+                  div.fader-block(onClick="TMG.fn.video.ended();")
 
                 div.col-lf.tmg-thmb.col-sm-8.clmn-rt.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
                   if (v['secondary_content'][1]['video'].length > 0)
@@ -158,7 +158,7 @@ block content
                         | #{v['secondary_content'][1]['title']}
                       div.radial-gradient
                   img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
-                  div.fader-block
+                  div.fader-block(onClick="TMG.fn.video.ended();")
 
             else if (v['secondary_content'][1]['image'].length > 0)
               div.row.page-video-bttm.page-video-bttm-row-2
@@ -173,7 +173,7 @@ block content
                         | #{v['secondary_content'][1]['title']}
                       div.radial-gradient
                   img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
-                  div.fader-block
+                  div.fader-block(onClick="TMG.fn.video.ended();")
 
 
 
