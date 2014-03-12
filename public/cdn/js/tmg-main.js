@@ -378,7 +378,9 @@ TMG.fn.video.place = function(containerObj) {
 
   jqCont.prepend("<style type=\"text/css\"> #video-player-"+vidId+"-"+hash+" { width:"+vidDim[0]+"px !important;height:"+vidDim[1]+"px !important;top:"+vidPos[1]+"px !important;left:"+vidPos[0]+"px !important; } </style>");
 
-  jqCont.append("<div class=\"video-player-inner\" id=\"video-player-"+vidId+"-"+hash+"\"></div>");
+  jqCont.append("<div class=\"video-player-inner\" id=\"video-player-"+vidId+"-"+hash+"\""
+           +" style=\"width:"+vidDim[0]+"px;height:"+vidDim[1]+"px;\""
+        +"></div>");
 
   jqCont.find("img").animate({opacity:0},1000);
   
@@ -388,7 +390,6 @@ TMG.fn.video.place = function(containerObj) {
            +" id=\"video-player-"+vidId+"-"+hash+"-obj\""
            +" poster=\""+vidImg+"\""
            +" width=\""+vidDim[0]+"\" height=\""+vidDim[1]+"\""
-           +" style=\"width:"+vidDim[0]+"px;height:"+vidDim[1]+"px;\""
            +" data-setup=\"{'autoplay':true,'techOrder':['html5','flash']}\""
            +">"
       +"<source src=\""

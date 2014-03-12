@@ -54,7 +54,7 @@ body { padding-top: 0px; padding-bottom: 40px; min-width:900px; font-weight:300;
 .page-video { letter-spacing:.05em; text-transform:uppercase; margin-top:176px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
 .page-video .video-player { background-color:transparent; overflow:hidden; position:relative; width:96%; float:right; margin-bottom:40px; }
 .page-video .video-player .video-player-inner/*, .page-video .video-player .jwplayer*/ { position:absolute; left:0%; top:0%; width:100%; height:100%; z-index:20; border:none; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
-.page-video .video-player img { padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; position:absolute; top:0%; left:0%; width:100%; border:none; vertical-align:baseline; }
+.page-video .video-player img { padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; position:absolute; top:0%; left:0%; width:100%; border:none; /*vertical-align:baseline;*/ }
 .page-video .video-player img.aspect-ratio { position:relative; z-index:0; }
 .page-video .video-player img.bracket { height:100%; width:auto; z-index:1; }
 .page-video .video-player img.poster-frame { height:100%; z-index:0; }
