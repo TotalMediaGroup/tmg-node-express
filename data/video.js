@@ -197,9 +197,9 @@ var data = [
     video: [ [360,720], ["Vmware_FUSION 5 CUTDOWN MUSIC_SD","Vmware_FUSION 5 CUTDOWN MUSIC_HD"] ],
     client: "vmware",
     one_liner: "PRODUCT LAUNCH - BRAND AWARENESS",
-    primary_text: ["VMware designs systems that virtualize computer and datacenter operations.","The technology is complex very hard for the layman to understand without lengthy study.","This video is intended to supply a quick overview of the basic architecture.","Client wanted to keep the piece light and not technically heavy.","So we crafted the visuals with lots of little 'gags' to keep it fun."],
-    production_roles: ["creative","art direction","script","animation"],
-    secondary_text: ["after creating the basic art and story boarding the show,","our illustrator recreated the drawings directly in After Effect's paint system.","Each brush stroke was recorded in real time and can then be manipulated."],
+    primary_text: ["IT WORKFORCES ARE BECOMING MORE AND MORE OS AGNOSTIC.","FOR THE LAUNCH OF THE LATEST VERSION IN IT'S FUSION PRODUCT SUITE, VMWARE WANTED TO DEMONSTRATE IT'S ABILITY TO DEPLOY THE SOFTWARE TO ANY OS.","WE DESIGNED A 3D WORLD OF WORKGROUPS SHOWING THE USE OF MAC'S PC'S AND UNIX SYSTEMS.","THE STORY WAS ABOUT THE COMPUTERS AND THE APPS NOT THE USERS SO WE RENDERED THE USERS AS GENERIC MONOTONE SILLOUETTES.","AND THE COMPUTERS AS 3D OBJECTS WITH ACTIVE SCREENS."],
+    production_roles: ["creative","art direction","animation"],
+    secondary_text: ["THIS CLIP IS AN EXCERPT OF THE MAIN 3 MINUTE VIDEO.","WE'VE CUT IT DOWN AND ELIMINATED THE VO BECAUSE, WELL, IT WAS KIND OF BORING."],
     secondary_content: [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" },
@@ -337,9 +337,9 @@ var data = [
     video: [ [360,720], ["VMware_VIRTUALIZATION_V09_mixed_SD","VMware_VIRTUALIZATION_V09_mixed_HD"] ],
     client: "vmware",
     one_liner: "web based informational video",
-    primary_text: ["",""],
-    production_roles: [],
-    secondary_text: ["",""],
+    primary_text: ["VMware designs systems that virtualize computer and datacenter operations.","The technology is complex very hard for the layman to understand without lengthy study.","This video is intended to supply a quick overview of the basic architecture.","Client wanted to keep the piece light and not technically heavy.","So we crafted the visuals with lots of little 'gags' to keep it fun."],
+    production_roles: ["creative","art direction","script","animation"],
+    secondary_text: ["after creating the basic art and story boarding the show,","our illustrator recreated the drawings directly in After Effect's paint system.","Each brush stroke was recorded in real time and can then be manipulated."],
     secondary_content: [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" },
@@ -349,6 +349,7 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
+
 
 
 
