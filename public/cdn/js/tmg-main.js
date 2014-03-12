@@ -360,36 +360,44 @@ TMG.fn.video.prepare = function() {
 TMG.fn.video.place = function(containerObj) {
 
   var jqCont = $(containerObj);
-  var vidDim = [jqCont.width(),jqCont.height()];
+  var vidDim = [jqCont.outerWidth(),jqCont.outerHeight()];
+  var absDim = [vidDim[0],vidDim[1]];
   var vidPos = [0,0];
-  jqCont.css({width:vidDim[0]+"px",height:vidDim[1]+"px"});
+  // jqCont.css({width:vidDim[0]+"px",height:vidDim[1]+"px"});
   var vidId = jqCont.attr("data-video-id");
   var vidImg = jqCont.find(".poster-frame").attr("src");
   var hash = Math.round(Math.random()*10000000);
 
   if ((vidDim[0]/16) >= (vidDim[1]/9)) {
     //wider than 16x9
-    vidPos[0] = Math.round((vidDim[0]-((vidDim[1]/9)*16))/2);
-    vidDim[0] = Math.round((vidDim[1]/9)*16);
+    vidPos[0] = 100*((vidDim[0]-((vidDim[1]/9)*16))/2)/vidDim[0];
+    vidDim[0] = 100*((vidDim[1]/9)*16)/vidDim[0];
+    vidPos[1] = 0;
+    vidDim[1] = 100;
+    absDim[0] = Math.round((vidDim[0]/100)*absDim[0]);
   } else {
-    vidPos[1] = Math.round((vidDim[1]-((vidDim[0]/16)*9))/2);
-    vidDim[1] = Math.round((vidDim[0]/16)*9);
+    vidPos[1] = 100*((vidDim[1]-((vidDim[0]/16)*9))/2)/vidDim[1];
+    vidDim[1] = 100*((vidDim[0]/16)*9)/vidDim[1];
+    vidPos[0] = 0;
+    vidDim[0] = 100;
+    absDim[1] = Math.round((vidDim[1]/100)*absDim[1]);
   }
 
-  jqCont.prepend("<style type=\"text/css\"> #video-player-"+vidId+"-"+hash+" { width:"+vidDim[0]+"px !important;height:"+vidDim[1]+"px !important;top:"+vidPos[1]+"px !important;left:"+vidPos[0]+"px !important; } </style>");
-
   jqCont.append("<div class=\"video-player-inner\" id=\"video-player-"+vidId+"-"+hash+"\""
-           +" style=\"width:"+vidDim[0]+"px;height:"+vidDim[1]+"px;\""
+           +" style=\"width:"+vidDim[0]+"%;height:"+vidDim[1]+"%;top:"+vidPos[1]+"%;left:"+vidPos[0]+"%;\""
         +"></div>");
 
-  jqCont.find("img").animate({opacity:0},1000);
+  jqCont.find("img, span").animate({opacity:0},1000);
+  jqCont.parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
+    .css({display:'block',opacity:0}).animate({opacity:0.75},1000);
+
   
 
   jqCont.find("#video-player-"+vidId+"-"+hash).html(""
     +"<video class=\"video-js vjs-default-skin video-js-"+vidId+"\" controls preload=\"auto\""
            +" id=\"video-player-"+vidId+"-"+hash+"-obj\""
            +" poster=\""+vidImg+"\""
-           +" width=\""+vidDim[0]+"\" height=\""+vidDim[1]+"\""
+           +" width=\""+absDim[0]+"\" height=\""+absDim[1]+"\""
            +" data-setup=\"{'autoplay':true,'techOrder':['html5','flash']}\""
            +">"
       +"<source src=\""
@@ -440,7 +448,10 @@ TMG.fn.video.place = function(containerObj) {
 TMG.fn.video.ended = function() {
     $(".video-js-"+TMG.video.id).parents(".video-player").each(function(){
       $(this).find(".video-player-inner").remove();
-      $(this).find("img").animate({opacity:1},500);
+      // if ($(this).hasClass("tmg-thmb")) { $(this).find(".video-frame-secondary").each(function(){ setSquImg(this,'ht'); }); }
+      $(this).find("img, span").animate({opacity:1},500);
+      $(this).parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
+        .animate({opacity:0},500,function(){ $(this).css({display:'none'}); })
     });
     TMG.fn.video.reset();
 }
