@@ -52,7 +52,7 @@ var data = [
     title: "always with you",
     image_menu: "IC_hectorlogo",
     image_background: "demoPageBG_1",
-    image_poster: "PF_abbot6",
+    image_poster: "abbot6",
     video: [ [360,720], ["Abbott_ALWAYS WITH YOU_DIRCUT 1_SD","Abbott_ALWAYS WITH YOU_DIRCUT 1_HD"] ],
     client: "abbott",
     one_liner: "in store brand video",
