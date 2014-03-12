@@ -83,9 +83,9 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","PRODUCTION"],
     secondary_text: ["<span style=\"color:red;\">FILMORE EAST DVD MENU</span>","A DECEPTIVELY COMPLEX PROJECT, THIS DVD MENU WAS CREATED FROM A NOW FAMOUS PHOTO OF FILMORE EAST IN NYC.","WE USED THE MARQUEE TO CREATE THE NAVIGATION ITEMS.","THEN BROUGHT THE PHOTO TO LIFE BY ANIMATING PEOPLE IN LINE AND CREATING A CITY AT NIGHT LIGHTING SCENE (CAR LIGHTS. STEAM FROM STREET VENTS, ETC)","WE SHOT A BUNCH OF FRIENDS ON GREEN ACTING AS THOUGH THEY WERE STROLLING DOWN THE BUSY STREET.","EVEN GOT IN ONE OF NEILS' FAVORITE CLASSIC CARS.","THE MENU TEXT CHANGES AS PEOPLE WALK BY IN THE FOREGROUND.","THIS HAPPENED EACH TIME THE VIEWER CLICKED THE BUTTON.","","<span style=\"color:red;\">PRAIRIE WIND DVD MENU.</span>","WE WANTED TO CREATE THE SENSE OF LAUNDRY BLOWING IN THE WIND IN FRONT OF A HOMESTEAD ON THE PRAIRIE.","WE SHOT THE SHEET OUT IN FRONT OF THE FACILITY.","THE GRASS BLOWING IN THE WIND IS ACTUALLY SAN FRANCISCO BAY MARSH GRASS.","SG WAS HAVING LUNCH BY THE BAY ONE DAY AND NOTICED THAT IT LOOKED AND MOVED A LOT LIKE PRAIRIE GRASS.","SO WE SHOT IT FOR THE COMP."],
     secondary_content: [
-      { title:"Fillmore East DVD Menu", image:"DBG_neil3", video:"Neil_Young_filmore menu_HD" },
+      { title:"Fillmore East DVD Menu", image:"neil3", video:"Neil_Young_filmore menu_HD" },
       { title:"Living With War Title", image:"neil12", video:"Neil_Young_bloody book seq_HD" },
-      { title:"Prairie Wind DVD Menu", image:"DBG_neil1", video:"" }
+      { title:"Prairie Wind DVD Menu", image:"neil1", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "ffffff",
