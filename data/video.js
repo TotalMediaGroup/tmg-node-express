@@ -163,7 +163,7 @@ var data = [
     secondary_content: [
       { title:"", image:"vmwarews5", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD" },
       { title:"", image:"vmwarews2", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD" },
-      { title:"", image:"IMG_0785", video:"" }
+      { title:"", image:"IMG_0783_Crop", video:"" }
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
