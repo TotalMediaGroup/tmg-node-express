@@ -382,7 +382,7 @@ var data = [
     secondary_text: ["We shot at the client’s office with the clients acting as talent and created the imagery to coordinate with the message."],
     secondary_content: [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"DBG_solta3", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"DBG_solta3", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
