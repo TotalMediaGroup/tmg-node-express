@@ -161,8 +161,8 @@ var data = [
     production_roles: ["creative","script","editorial","animation"],
     secondary_text: ["let's face it. whiteboard animations are everywhere.","the relative ease of production has spawned some, well, less than professional work.","we wanted to maintain a commercial look and feel on these.","we lit and shot the illustration carefully, Then, keyed and re-composited the hand on the board allowing us to optimize art, live action and performance.","We tweaked the frame rate to disguise the massive time compression and create a cartoon feel."],
     secondary_content: [
-      { title:"", image:"vmwarews5", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD" },
-      { title:"", image:"vmwarews2", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD" },
+      { title:"", image:"vmwarews2", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD" },
+      { title:"", image:"vmwarews5", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD" },
       { title:"", image:"IMG_0783_Crop", video:"" }
       ],
     categories: ["media", "featured"],
