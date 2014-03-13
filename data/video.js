@@ -39,9 +39,9 @@ var data = [
     production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
     secondary_text: ["The video was displayed on an extremely wide screen - 180’x18’ - basically shaped like a curved mail slot. Designing a graphical piece for such an unusual format was a challenge.","The obvious approach would be to split the screen into multiple 16x9 areas across the horizontal width. But we wanted to use the wide format as a massive canvas instead. We thought the impact of the high contrast graphics operating across a180’ space would be pretty profound. Text on screen provides the common thread. Circles were used as the main element in the overall show design so we adopted dots as our primary characters."],
     secondary_content: [
-      { title:"", image:"IC_simplicity", video:"" },
-      { title:"", image:"employee1", video:"" },
-      { title:"", image:"employee6", video:"" }
+      { title:"", image:"employee3", video:"" },
+      { title:"", image:"", video:"" },
+      { title:"", image:"employee2", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
@@ -53,9 +53,9 @@ var data = [
   { id: "abbott-always-with-you",
     title: "always with you",
     image_menu: "IC_hectorlogo",
-    image_background: "demoPageBG_1",
+    image_background: "bg_abbott",
     image_background_xy_position: [0,0],
-    image_poster: "abbot6",
+    image_poster: "pf_abbott",
     video: [ [360,720], ["Abbott_ALWAYS WITH YOU_DIRCUT 1_SD","Abbott_ALWAYS WITH YOU_DIRCUT 1_HD"] ],
     client: "abbott",
     one_liner: "in store brand video",
@@ -63,9 +63,9 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
     secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.","THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR. WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
     secondary_content: [
-      { title:"", image:"abbot6", video:"" },
+      { title:"", image:"abbott1", video:"" },
       { title:"", image:"", video:"" },
-      { title:"", image:"abbot6", video:"" }
+      { title:"", image:"", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
@@ -134,8 +134,8 @@ var data = [
     production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
     secondary_text: ["THE ONE-DAY SHOOTS OFTEN MOVE ALONG PRETTY QUICKLY.","THIS LEADS TO SOME, WELL, “CHALLENGES”.","IN ADDITION TO FINDING AND EDITING THE PERFORMANCES WE OFTEN CLEAN OR EXTEND THE ENVIRONMENTS IN CG POST- ADD SOME TAROT CARDS, CANDLES OR FLYING PAPERS.","IN SOME CASES, WE CREATE THE ENTIRE BACKGROUND ENVIRONMENT- ALL ON A MODEST BUDGET."],
     secondary_content: [
-      { title:"", image:"sharks31", video:"SJ_Sharks_Marleau 4_NICE HAT _DEVILS_HD" },
-      { title:"", image:"sharks28", video:"SJ_Sharks_FESTIVE_POLKA_HD" },
+      { title:"", image:"sharks28", video:"SJ_Sharks_Marleau 4_NICE HAT _DEVILS_HD" },
+      { title:"", image:"sharks31", video:"SJ_Sharks_FESTIVE_POLKA_HD" },
       { title:"", image:"sharks32", video:"SJ_Sharks_SHAR_1303_BOARDROOM_CLOWE_EXCITING_NOW _HD" }
       ],
     categories: ["media"],
@@ -176,7 +176,7 @@ var data = [
   { id: "silver-peak-brand-video",
     title: "Brand Video",
     image_menu: "demoImages_13",
-    image_background: "DBG_silverpeak1",
+    image_background: "SP_BG",
     image_background_xy_position: [0,0],
     image_poster: "PF_silverpeak5",
     video: [ [360,720], ["Silver_Peak_FINAL_021312_SG_TYPECHANGE_AN_SD","Silver_Peak_FINAL_021312_SG_TYPECHANGE_AN_HD"] ],
@@ -186,9 +186,9 @@ var data = [
     production_roles: ["creative","animation","editorial"],
     secondary_text: ["We extended the brand by designing a system for producing ongoing informational videos.","The client gathers testimonial bites from customers all over the world.","different cameras, different shooters, different color… YIKES!","We created brand consistency by toning the disparate footage into the brand color and keying into a brand consistent “world”."],
     secondary_content: [
-      { title:"", image:"Silverpeak_Trublu_1", video:"Silver_Peak_Tru_Blu_Beverages_ProRes_FINAL_HD" },
       { title:"", image:"THSML_silverpeak9", video:"Silver_Peak_Shaun_White_Master_Pet_ProRes_HD" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"" },
+      { title:"", image:"SilverPeakBlue", video:"Silver_Peak_Tru_Blu_Beverages_ProRes_FINAL_HD" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
@@ -210,7 +210,7 @@ var data = [
     production_roles: ["creative","art direction","animation"],
     secondary_text: ["THIS CLIP IS AN EXCERPT OF THE MAIN 3 MINUTE VIDEO.","WE'VE CUT IT DOWN AND ELIMINATED THE VO BECAUSE, WELL, IT WAS KIND OF BORING."],
     secondary_content: [
-      { title:"", image:"", video:"" },
+      { title:"", image:"VmwareFusion5", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
@@ -224,7 +224,7 @@ var data = [
   { id: "cisco-it-consumption",
     title: "it consumption",
     image_menu: "demoImages_8",
-    image_background: "DBG_ciscoisbg6",
+    image_background: "CiscoBG",
     image_background_xy_position: [0,0],
     image_poster: "PF_ciscoisbg6",
     video: [ [360,720], ["CiscoIBSG_ItCameInAStream_F_SD","CiscoIBSG_ItCameInAStream_F_HD"] ],
@@ -234,7 +234,7 @@ var data = [
     production_roles: ["design","animation"],
     secondary_text: ["infographics of this type are no-doubt trendy right now,","but there was no doubt that this animated approach was the best method to deliver the message and content.","so little time - so much data."],
     secondary_content: [
-      { title:"", image:"", video:"" },
+      { title:"", image:"Cisco1", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
@@ -249,7 +249,7 @@ var data = [
   { id: "polycom-vvx500",
     title: "vvx500",
     image_menu: "IC_bobcu",
-    image_background: "DBG_ploycom6",
+    image_background: "BG_VVX500",
     image_background_xy_position: [0,0],
     image_poster: "PF_ploycom7",
     video: [ [360,720], ["Polycom_VVX500_SD","Polycom_VVX500_HD"] ],
@@ -259,7 +259,7 @@ var data = [
     production_roles: ["creative","script","shoot","edit","vfx"],
     secondary_text: ["We Shot at the client's office with a small crew.","We tracked and comped the animated clocks counting down floating over everyones head.","the building was empty but we created the impression of a whole floor of workers slaving away in cubicles by floating the countdown clocks over the cubicles."],
     secondary_content: [
-      { title:"", image:"", video:"" },
+      { title:"", image:"VVX5001", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
@@ -273,7 +273,7 @@ var data = [
   { id: "fenenbock-el-agua",
     title: "el agua es asunto de todos",
     image_menu: "IC_elagua5",
-    image_background: "DBG_elagua3",
+    image_background: "BG_Agua2",
     image_background_xy_position: [0,0],
     image_poster: "PF_elagua2",
     video: [ [360,720], ["Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_SD","Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_HD"] ],
@@ -283,8 +283,8 @@ var data = [
     production_roles: ["ART DIRECTION","DESIGN","EDITORIAL","MUSIC DIRECTION"],
     secondary_text: ["THE RE-RECORDING.","WE POSTED 9 SPOTS AND SEVERAL LONG-FORM PUBLIC AWARENESS PIECES.","THE VIDEOS FEATURE PORTRAITS OF PEOPLE FROM THE FARMING COMMUNITY.","WE FOUND IT DECEPTIVELY CHALLENGING TO EDIT A PIECE WITH EFFECTIVELY NO MOTION.","THE SPOTS HAVE A FEEL OF A CONTINUOUS PORTRAIT."],
     secondary_content: [
-      { title:"", image:"", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD" },
-      { title:"", image:"", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD" },
+      { title:"", image:"elagua1", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD" },
+      { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
@@ -298,7 +298,7 @@ var data = [
   { id: "ruckus-wifi-you-can-believe-in",
     title: "wi-fi you can believe in",
     image_menu: "IC_oldtv",
-    image_background: "DBG_ruckus1",
+    image_background: "BG_Ruckus",
     image_background_xy_position: [0,0],
     image_poster: "PF_ruckus2",
     video: [ [360,720], ["Ruckus_Believe_092412_uncompressed_SD","Ruckus_Believe_092412_uncompressed_HD"] ],
@@ -308,9 +308,9 @@ var data = [
     production_roles: ["direction","animation","music"],
     secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version (if you've nothing better to do) here."],
     secondary_content: [
-      { title:"", image:"TH_ruckus8", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD" },
+      { title:"", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD" },
       { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"ruckus2", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
@@ -346,8 +346,8 @@ var data = [
   { id: "vmware-virtualization-info",
     title: "what is virtualization",
     image_menu: "IC_vmglobe",
-    image_background: "DBG_vmwarevirtualzation2",
-    image_background_xy_position: [0,0],
+    image_background: "BG_Virtualization",
+    image_background_xy_position: [0,5],
     image_poster: "PF_virtualization",
     video: [ [360,720], ["VMware_VIRTUALIZATION_V09_mixed_SD","VMware_VIRTUALIZATION_V09_mixed_HD"] ],
     client: "vmware",
@@ -356,7 +356,7 @@ var data = [
     production_roles: ["creative","art direction","script","animation"],
     secondary_text: ["after creating the basic art and story boarding the show,","our illustrator recreated the drawings directly in After Effect's paint system.","Each brush stroke was recorded in real time and can then be manipulated."],
     secondary_content: [
-      { title:"", image:"", video:"" },
+      { title:"", image:"VirtualizationGlobe", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
