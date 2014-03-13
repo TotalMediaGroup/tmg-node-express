@@ -371,7 +371,7 @@ var data = [
   { id: "solta-liposonix",
     title: "liposonix - one hour",
     image_menu: "demoImages_14",
-    image_background: "DBG_solta3",
+    image_background: "soltagrass",
     image_background_xy_position: [10,0],
     image_poster: "PF_solta1",
     video: [ [360,720], ["Solta_Liposonix_SD","Solta_Liposonix_HD"] ],
@@ -381,7 +381,7 @@ var data = [
     production_roles: ["design","animation"],
     secondary_text: ["We shot at the client’s office with the clients acting as talent and created the imagery to coordinate with the message."],
     secondary_content: [
-      { title:"", image:"soltagrass", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"DBG_solta3", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
