@@ -273,7 +273,7 @@ var data = [
   { id: "fenenbock-el-agua",
     title: "el agua es asunto de todos",
     image_menu: "IC_elagua5",
-    image_background: "DBG_elagua3",
+    image_background: "BG_Agua",
     image_background_xy_position: [0,0],
     image_poster: "PF_elagua2",
     video: [ [360,720], ["Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_SD","Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_HD"] ],
@@ -283,7 +283,7 @@ var data = [
     production_roles: ["ART DIRECTION","DESIGN","EDITORIAL","MUSIC DIRECTION"],
     secondary_text: ["THE RE-RECORDING.","WE POSTED 9 SPOTS AND SEVERAL LONG-FORM PUBLIC AWARENESS PIECES.","THE VIDEOS FEATURE PORTRAITS OF PEOPLE FROM THE FARMING COMMUNITY.","WE FOUND IT DECEPTIVELY CHALLENGING TO EDIT A PIECE WITH EFFECTIVELY NO MOTION.","THE SPOTS HAVE A FEEL OF A CONTINUOUS PORTRAIT."],
     secondary_content: [
-      { title:"", image:"", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD" },
+      { title:"", image:"elagua1", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD" },
       { title:"", image:"", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD" },
       { title:"", image:"", video:"" }
       ],
