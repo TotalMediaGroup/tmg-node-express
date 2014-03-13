@@ -13,22 +13,22 @@ block content
       div.col-lg-12
         div.page-work-bg.bg-vertical-bar-gradient
         ul.nav.navbar-nav
-          a(href="#")
+          a(href="#",onClick="TMG.fn.work.filterVideos('reset')")
             img.navbar-category-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png")
           li
-            a(href="#featured")
+            a(href="#featured",onClick="TMG.fn.work.filterVideos('featured')")
               | FEATURED
           li
-            a(href="#reels")
+            a(href="#reels",onClick="TMG.fn.work.filterVideos('reels')")
               | TMG REELS
           li
-            a(href="#media")
+            a(href="#media",onClick="TMG.fn.work.filterVideos('media')")
               | MEDIA
           li
-            a(href="#events")
+            a(href="#events",onClick="TMG.fn.work.filterVideos('events')")
               | EVENTS
           li(style="border-right:none")
-            a(href="#design")
+            a(href="#design",onClick="TMG.fn.work.filterVideos('design')")
               | DESIGN
 
     div.row.page-work
@@ -36,7 +36,7 @@ block content
         div.page-work-bg.bg-vertical-bar-gradient
         for v,i in data["video"]
           a(href="work/#{v['id']}")
-            div.video-browser-box.element.lanthanoid.metal.inner-transition(data-category="lanthanoid")
+            div(class="video-browser-box #{v['categories'].join(' ')}")
               div.browser-box-bg
               if (v['image_menu'].length > 0)
                 img.video-thmb(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_menu']}.jpg?v=#{app_version}")

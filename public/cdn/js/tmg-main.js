@@ -4,9 +4,9 @@ var TMG = {
   isIsolated: false,
   userLanguage: (window.navigator.userLanguage || window.navigator.language).substr(0,2).toLowerCase(),
   isHTTPS: (window.location.protocol.indexOf("https") > -1),
-  fn: { load: {}, reactiveUi: {}, initializeUi: {}, video: {},
+  fn: { load: {}, reactiveUi: {}, initializeUi: {}, video: {}, work: {},
     ui: {
-      all: {}, 'work-single': {}
+      all: {}, 'work-single': {}, work: {}
     }
   },
   cdn: { tmg: null, tmgVendor: null, tmgStatic: null, bootstrap: null, cdnJs: null, videoJs: null },
@@ -501,3 +501,28 @@ TMG.fn.video.percentComplete = function() {
   pct = Math.round(100*currTime/duration);
   return pct;
 }
+
+TMG.fn.ui.work.setupVideoMenu = function() {
+  TMG.fn.work.filterVideos();
+}
+
+TMG.fn.work.filterVideos = function(filter) {
+
+  if (filter == null) {
+    $('.page-work').isotope({
+      itemSelector: '.video-browser-box',
+      animationEngine: 'best-available'
+    }); 
+  } else if (filter == 'reset') {
+    $('.page-work').isotope( 'reLayout', function(){} );
+  } else {
+    $('.page-work').isotope({
+      itemSelector: '.video-browser-box',
+      animationEngine: 'best-available',
+      filter:'.'+filter
+    });
+  }
+
+}
+
+

@@ -35,3 +35,4 @@ function setSquImg(inputObj,baseline){
     obj.css({visibility:"visible"}).animate({opacity:1},500);
   }
 }
+
