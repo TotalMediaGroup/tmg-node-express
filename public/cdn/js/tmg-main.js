@@ -199,6 +199,12 @@ TMG.fn.load.jqueryGalleria = function(){
       });
     }
 
+    TMG.jqueryGalleria[0].on('start', function(e) {
+      if (typeof tmgRules !== "undefined") {
+        alert("asdf");
+      }
+    });
+
     TMG.jqueryGalleria[0].on('image', function(e) {
       if (typeof tmgRules !== "undefined") {
         TMG.cycleBgImage();
