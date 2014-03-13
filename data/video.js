@@ -540,7 +540,7 @@ var data = [
   { id: "kilburg-stanford-football",
     title: "stanford football",
     image_menu: "IC_stanfordlogo",
-    image_background: "DBG_stanford9",
+    image_background: "BG_Stanford",
     image_background_xy_position: [0,0],
     image_poster: "PF_stanford4",
     video: [ [360,720], ["Stanford_STA_1010_4_TV_USC_30H _SD","Stanford_STA_1010_4_TV_USC_30H _HD"] ],
@@ -550,8 +550,8 @@ var data = [
     production_roles: ["design","editorial","animation"],
     secondary_text: ["a note about 'broadcast' tv","broadcast standards are not yet 'standard'","each station that carries a commercial requires a different file format. believe it or not, some still insist on tape.","it's not uncommon to create 6 different formats in many different shapes and sizes for each spot.","and then need to distribute it to 6 different stations.","it can quickly become a bit of a maze."],
     secondary_content: [
-      { title:"", image:"THSML_stanford7", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD" },
-      { title:"", image:"THSML_stanford8", video:"Stanford_STAN_2012_TV_GEN_2_HD" },
+      { title:"", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD" },
+      { title:"", image:"ThisIsHowWeDoIt", video:"Stanford_STAN_2012_TV_GEN_2_HD" },
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
