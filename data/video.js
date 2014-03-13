@@ -322,7 +322,7 @@ var data = [
   { id: "stryker-timeline",
     title: "timeline",
     image_menu: "IC_homertimeline",
-    image_background: "DBG_homerbg1",
+    image_background: "homertimelinesecondary",
     image_background_xy_position: [0,0],
     image_poster: "PF_homertimeline2",
     video: [ [360,720], ["Stryker_JP_Homer_Timeline_MoComp_v01_halfres_SD","Stryker_JP_Homer_Timeline_MoComp_v01_halfres_HD"] ],
@@ -332,7 +332,7 @@ var data = [
     production_roles: ["design","3d Animation"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"DBG_homerbg1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
