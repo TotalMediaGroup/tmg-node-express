@@ -298,7 +298,7 @@ var data = [
   { id: "ruckus-wifi-you-can-believe-in",
     title: "wi-fi you can believe in",
     image_menu: "IC_oldtv",
-    image_background: "DBG_ruckus1",
+    image_background: "BG_Ruckus",
     image_background_xy_position: [0,0],
     image_poster: "PF_ruckus2",
     video: [ [360,720], ["Ruckus_Believe_092412_uncompressed_SD","Ruckus_Believe_092412_uncompressed_HD"] ],
@@ -308,8 +308,8 @@ var data = [
     production_roles: ["direction","animation","music"],
     secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version (if you've nothing better to do) here."],
     secondary_content: [
-      { title:"", image:"TH_ruckus8", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD" },
-      { title:"", image:"", video:"" },
+      { title:"", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD" },
+      { title:"", image:"ruckus2", video:"" },
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
