@@ -468,7 +468,7 @@ var data = [
   { id: "various-political-spots",
     title: "political spots",
     image_menu: "IC_chamelion",
-    image_background: "DBG_political13",
+    image_background: "BG_Political",
     image_background_xy_position: [0,0],
     image_poster: "PF_political13",
     video: [ [360,720], ["Jim_Costa_VALLEY_HOME_4x3_SAFE_SD","Jim_Costa_VALLEY_HOME_4x3_SAFE_HD"] ],
@@ -478,9 +478,9 @@ var data = [
     production_roles: ["creative","editorial","animation"],
     secondary_text: ["the spots range from cinematic to comical to downright weird.","all these candidates were elected."],
     secondary_content: [
-      { title:"", image:"THSML_political8", video:"Jim_Costa_ACCOMPLISMENTS_33112_HD" },
-      { title:"", image:"THSML_chameleon1", video:"Anna_Caballero_CHAMELEON_MIXED_5_PR_HD" },
-      { title:"", image:"THSML_political2", video:"Forescee_Hogan_Rowles_ONE VOICE_pr_HD" }
+      { title:"", image:"Political_Middle", video:"Jim_Costa_ACCOMPLISMENTS_33112_HD" },
+      { title:"", image:"PoliticalRight", video:"Anna_Caballero_CHAMELEON_MIXED_5_PR_HD" },
+      { title:"", image:"PoliticalLeft", video:"Forescee_Hogan_Rowles_ONE VOICE_pr_HD" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
