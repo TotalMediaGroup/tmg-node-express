@@ -44,7 +44,7 @@ var data = [
       { title:"", image:"employee2", video:"" }
       ],
     categories: ["media","featured","events"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -68,7 +68,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -116,7 +116,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media", "featured"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -139,7 +139,7 @@ var data = [
       { title:"", image:"sharks32", video:"SJ_Sharks_SHAR_1303_BOARDROOM_CLOWE_EXCITING_NOW _HD" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -166,7 +166,7 @@ var data = [
       { title:"", image:"IMG_0785", video:"" }
       ],
     categories: ["media", "featured"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -191,7 +191,7 @@ var data = [
       { title:"", image:"SilverPeakBlue", video:"Silver_Peak_Tru_Blu_Beverages_ProRes_FINAL_HD" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -215,7 +215,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -239,7 +239,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -264,7 +264,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -288,7 +288,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -313,7 +313,7 @@ var data = [
       { title:"", image:"ruckus2", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -337,7 +337,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -361,7 +361,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -386,7 +386,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -410,7 +410,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -434,7 +434,7 @@ var data = [
       { title:"", image:"CX7000_2", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -458,7 +458,7 @@ var data = [
       { title:"", image:"Libo3", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -483,7 +483,7 @@ var data = [
       { title:"", image:"PoliticalLeft", video:"Forescee_Hogan_Rowles_ONE VOICE_pr_HD" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -507,7 +507,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -531,7 +531,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -555,7 +555,7 @@ var data = [
       { title:"", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -579,7 +579,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -603,7 +603,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -627,7 +627,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -651,7 +651,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -675,7 +675,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -699,7 +699,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -724,7 +724,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -748,7 +748,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -772,7 +772,7 @@ var data = [
       { title:"", image:"Left_BlueRoz", video:"" }
       ],
     categories: ["media"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -796,7 +796,7 @@ var data = [
       { title:"", image:"THSML_samsung", video:"SAMSUNG_MOCK_HD" }
       ],
     categories: ["media", "featured"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -820,7 +820,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["events"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -844,7 +844,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["events"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -868,7 +868,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["events"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -892,7 +892,7 @@ var data = [
       { title:"", image:"THSML_OptsTandR_2", video:"Opts_tech_demos_2013_Enhanced_Trading_and_Rebalancing_App_Expo_Video_BC_v8_HD" }
       ],
     categories: ["events"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -916,7 +916,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["events"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
@@ -964,7 +964,7 @@ var data = [
       { title:"", image:"", video:"" }
       ],
     categories: ["events"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
