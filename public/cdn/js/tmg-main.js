@@ -147,7 +147,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
         $(this).css({minWidth:Math.round(parseInt($(this).css("min-height"))*($(this).width()/$(this).height()))+"px"})
       });
 
-      if ($(".video-bttm-secondary-layout-flat").length > 0) {
+      if ($(".video-bttm-secondary-layout-corner").length > 0) {
         var textHeight = $(this).find(".clmn-lf-tp").innerHeight();
         if (textHeight > 0) { $(this).find(".clmn-lf").css({height:textHeight+"px"}); }
       }

@@ -93,7 +93,7 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "ffffff",
-    secondary_layout: "flat"
+    secondary_layout: "corner"
   },
 
 

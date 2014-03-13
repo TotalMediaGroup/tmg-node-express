@@ -88,7 +88,7 @@ block content
                     img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
               else
                 div.clmn-lf-bg
-            if ((v['secondary_layout'] == 'flat') || (v['secondary_content'][1]['image'].length == 0))
+            if ((v['secondary_layout'] == 'corner') || (v['secondary_content'][1]['image'].length == 0))
               div.col-lf.tmg-thmb.col-sm-8.clmn-md.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][0]['video']}",data-video-hd="#{v['secondary_content'][0]['video']}")
                 if (v['secondary_content'][0]['video'].length > 0)
                   div.video-bttn
@@ -129,7 +129,7 @@ block content
                 img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                 div.fader-block(onClick="TMG.fn.video.ended();")
 
-          if (v['secondary_layout'] == 'flat')
+          if (v['secondary_layout'] == 'corner')
             if ((v['secondary_content'][1]['image'].length > 0) && (v['secondary_content'][2]['image'].length > 0))
               div.row.page-video-bttm.page-video-bttm-row-2
                 

@@ -104,7 +104,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-video-bttm-row-2 .clmn-rt .video-bttn { position:absolute; right:auto; left:80px; bottom:auto; top:30px; margin:0; }
 .page-video-bttm .clmn-md .video-bttn, .page-video-bttm .clmn-rt .video-bttn { right:auto; left:80px; bottom:auto; top:30px; margin:0; }
 .page-video-bttm-row-2 .clmn-md .video-bttn { left:auto; right:80px; bottom:auto; top:30px; margin:0; }
-.video-bttm-secondary-layout-flat .page-video-bttm .col-lf { /*height:280px;*/ }
+.video-bttm-secondary-layout-corner .page-video-bttm .col-lf { /*height:280px;*/ }
 .page-video-bttm .fader-block { position:absolute; top:0%; left:0%; width:100%; height:100%; z-index:9; background-color:black; display:none; }
 
 .body-work {  }
