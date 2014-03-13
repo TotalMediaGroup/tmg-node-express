@@ -235,7 +235,7 @@ var data = [
     secondary_text: ["infographics of this type are no-doubt trendy right now,","but there was no doubt that this animated approach was the best method to deliver the message and content.","so little time - so much data."],
     secondary_content: [
       { title:"", image:"Cisco1", video:"" },
-      { title:"", image:"", video:"" },
+      { title:"", image:"ciscoisbg4", video:"" },
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
