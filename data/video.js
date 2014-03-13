@@ -186,7 +186,7 @@ var data = [
     production_roles: ["creative","animation","editorial"],
     secondary_text: ["We extended the brand by designing a system for producing ongoing informational videos.","The client gathers testimonial bites from customers all over the world.","different cameras, different shooters, different color… YIKES!","We created brand consistency by toning the disparate footage into the brand color and keying into a brand consistent “world”."],
     secondary_content: [
-      { title:"Testimonial Video", image:"silver peak8", video:"Silver_Peak_Shaun_White_Master_Pet_ProRes_HD" },
+      { title:"Testimonial Video", image:"silverpeak8", video:"Silver_Peak_Shaun_White_Master_Pet_ProRes_HD" },
       { title:"", image:"", video:"" },
       { title:"", image:"SilverPeakBlue", video:"" }
       ],
