@@ -43,7 +43,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"employee2", video:"" }
       ],
-    categories: ["media","featured","events],
+    categories: ["media","featured","events"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
