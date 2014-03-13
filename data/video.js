@@ -43,7 +43,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"employee2", video:"" }
       ],
-    categories: ["media"],
+    categories: ["media","featured","events"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -91,7 +91,7 @@ var data = [
       { title:"Living With War Title", image:"neil12", video:"Neil_Young_bloody book seq_HD" },
       { title:"Prairie Wind DVD Menu", image:"neil1", video:"Neil_Young_filmore menu_HD" }
       ],
-    categories: ["media"],
+    categories: ["media", "featured"],
     secondary_box_color: "ffffff",
     secondary_layout: "corner"
   },
@@ -115,7 +115,7 @@ var data = [
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
-    categories: ["media"],
+    categories: ["media", "featured"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -165,7 +165,7 @@ var data = [
       { title:"", image:"vmwarews2", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD" },
       { title:"", image:"IMG_0785", video:"" }
       ],
-    categories: ["media"],
+    categories: ["media", "featured"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
@@ -795,7 +795,7 @@ var data = [
       { title:"", image:"THSML_NIEMI", video:"NIEMI COMPOSITE BREAKDOWN_HD" },
       { title:"", image:"THSML_samsung", video:"SAMSUNG_MOCK_HD" }
       ],
-    categories: ["media"],
+    categories: ["media", "featured"],
     secondary_box_color: "808080",
     secondary_layout: "standard"
   },
