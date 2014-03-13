@@ -39,9 +39,9 @@ var data = [
     production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
     secondary_text: ["The video was displayed on an extremely wide screen - 180’x18’ - basically shaped like a curved mail slot. Designing a graphical piece for such an unusual format was a challenge.","The obvious approach would be to split the screen into multiple 16x9 areas across the horizontal width. But we wanted to use the wide format as a massive canvas instead. We thought the impact of the high contrast graphics operating across a180’ space would be pretty profound. Text on screen provides the common thread. Circles were used as the main element in the overall show design so we adopted dots as our primary characters."],
     secondary_content: [
-      { title:"", image:"IC_simplicity", video:"" },
-      { title:"", image:"employee1", video:"" },
-      { title:"", image:"employee6", video:"" }
+      { title:"", image:"employee2", video:"" },
+      { title:"", image:"employee3", video:"" },
+      { title:"", image:"", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
