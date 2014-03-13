@@ -73,7 +73,7 @@ TMG.fn.initializeUi.onResize = function() {
       clearTimeout(TMG.timer.windowResize);
       TMG.timer.windowResize = setTimeout(function(){
         TMG.fn.reactiveUi.modifyOverWidthElements();
-      },100);
+      },50);
     });
   }
 }
@@ -158,18 +158,6 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
         } else { setSquImg(this,'wd'); }
       });
     });
-
-
-
-  // var container = $("#tmg-container");
-  // var margins = [parseInt(container.css("margin-left")),parseInt(container.css("margin-right"))];
-
-  // if (margins[0] > 88) {
-  //   $(".container").css("margin-left","88px");
-  // } else if (margins[1] < 88) {
-  //   $(".container").css("margin-left",margins[1]+"px");
-  // }
-
 }
 
 TMG.fn.reactiveUi.setOnOrientationChange = function() {

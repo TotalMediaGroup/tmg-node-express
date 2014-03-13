@@ -767,7 +767,7 @@ var data = [
     production_roles: ["creative","production","shoot","editorial"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"RightRozBW, video:"" },
+      { title:"", image:"RightRozBW", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"Left_BlueRoz", video:"" }
       ],

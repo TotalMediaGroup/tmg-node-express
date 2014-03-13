@@ -56,7 +56,7 @@ block content
 
         if (v["secondary_box_color"] !== "")
           style(type="text/css")
-            | .clmn-lf-tp { background-color:##{v["secondary_box_color"]} !important; border-color:##{v["secondary_box_color"]} !important; }
+            | .clmn-lf-tp { background-color:##{v["secondary_box_color"]} !important; border-color:##{v["secondary_box_color"]} !important; } .clmn-lf-bg { background-color:##{v["secondary_box_color"]} !important; }
 
 
         span(class="video-bttm-secondary-layout-#{v['secondary_layout']}")
@@ -85,10 +85,9 @@ block content
                         | #{v['secondary_content'][2]['title']}
                       div.radial-gradient
                   if (v["secondary_text"].length > 0)
-                    img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
-                  else
-                    img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
-
+                    img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
+              else
+                div.clmn-lf-bg
             if ((v['secondary_layout'] == 'flat') || (v['secondary_content'][1]['image'].length == 0))
               div.col-lf.tmg-thmb.col-sm-8.clmn-md.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][0]['video']}",data-video-hd="#{v['secondary_content'][0]['video']}")
                 if (v['secondary_content'][0]['video'].length > 0)
@@ -100,7 +99,7 @@ block content
                     span
                       | #{v['secondary_content'][0]['title']}
                     div.radial-gradient
-                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                 div.fader-block(onClick="TMG.fn.video.ended();")
 
             if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][1]['image'].length > 0))
@@ -114,7 +113,7 @@ block content
                     span
                       | #{v['secondary_content'][1]['title']}
                     div.radial-gradient
-                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
+                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                 div.fader-block(onClick="TMG.fn.video.ended();")
 
               div.col-lf.tmg-thmb.col-sm-4.clmn-rt.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
@@ -127,7 +126,7 @@ block content
                     span
                       | #{v['secondary_content'][1]['title']}
                     div.radial-gradient
-                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'ht')")
+                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                 div.fader-block(onClick="TMG.fn.video.ended();")
 
           if (v['secondary_layout'] == 'flat')
@@ -144,7 +143,7 @@ block content
                       span
                         | #{v['secondary_content'][2]['title']}
                       div.radial-gradient
-                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                   div.fader-block(onClick="TMG.fn.video.ended();")
 
                 div.col-lf.tmg-thmb.col-sm-8.clmn-rt.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
@@ -157,7 +156,7 @@ block content
                       span
                         | #{v['secondary_content'][1]['title']}
                       div.radial-gradient
-                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                   div.fader-block(onClick="TMG.fn.video.ended();")
 
             else if (v['secondary_content'][1]['image'].length > 0)
@@ -172,7 +171,7 @@ block content
                       span
                         | #{v['secondary_content'][1]['title']}
                       div.radial-gradient
-                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this,'wd')")
+                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                   div.fader-block(onClick="TMG.fn.video.ended();")
 
 
