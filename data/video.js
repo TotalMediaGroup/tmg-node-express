@@ -210,7 +210,7 @@ var data = [
     production_roles: ["creative","art direction","animation"],
     secondary_text: ["THIS CLIP IS AN EXCERPT OF THE MAIN 3 MINUTE VIDEO.","WE'VE CUT IT DOWN AND ELIMINATED THE VO BECAUSE, WELL, IT WAS KIND OF BORING."],
     secondary_content: [
-      { title:"", image:"", video:"" },
+      { title:"", image:"VmwareFusion5", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
