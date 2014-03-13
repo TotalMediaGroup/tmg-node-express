@@ -306,7 +306,7 @@ var data = [
     one_liner: "PRODUCT LAUNCH - BRAND AWARENESS",
     primary_text: ["Client wanted something really different to cut through the noise at a national trade show.","He shared a video made at the church he attends.","We latched on to the Idea and went with it.","We hired a preacher to come in and deliver the authentic and emphatic VO.","then proceeded to lock type to every syllable."],
     production_roles: ["direction","animation","music"],
-    secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version here, if you have nothing better to do."],
+    secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version here, (if you have nothing better to do.)"],
     secondary_content: [
       { title:"Full Client Version", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
