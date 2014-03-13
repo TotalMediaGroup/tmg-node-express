@@ -284,7 +284,7 @@ var data = [
     secondary_text: ["THE RE-RECORDING.","WE POSTED 9 SPOTS AND SEVERAL LONG-FORM PUBLIC AWARENESS PIECES.","THE VIDEOS FEATURE PORTRAITS OF PEOPLE FROM THE FARMING COMMUNITY.","WE FOUND IT DECEPTIVELY CHALLENGING TO EDIT A PIECE WITH EFFECTIVELY NO MOTION.","THE SPOTS HAVE A FEEL OF A CONTINUOUS PORTRAIT."],
     secondary_content: [
       { title:"", image:"elagua1", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD" },
-      { title:"", image:"", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD" },
+      { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
