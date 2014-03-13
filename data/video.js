@@ -151,7 +151,7 @@ var data = [
   { id: "vmware-workstation-launch",
     title: "workstation launch",
     image_menu: "IC_vmwarewsrobot",
-    image_background: "vmwarews3",
+    image_background: "Vmware_IvyComp",
     image_background_xy_position: [10,10],
     image_poster: "PF_vmwarews1",
     video: [ [360,720], ["Vmware_Workstation_9_MASTER v08 ProRes_SD","Vmware_Workstation_9_MASTER v08 ProRes_HD"] ],
