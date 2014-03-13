@@ -53,9 +53,9 @@ var data = [
   { id: "abbott-always-with-you",
     title: "always with you",
     image_menu: "IC_hectorlogo",
-    image_background: "demoPageBG_1",
+    image_background: "bg_abbott",
     image_background_xy_position: [0,0],
-    image_poster: "abbot6",
+    image_poster: "pf_abbott",
     video: [ [360,720], ["Abbott_ALWAYS WITH YOU_DIRCUT 1_SD","Abbott_ALWAYS WITH YOU_DIRCUT 1_HD"] ],
     client: "abbott",
     one_liner: "in store brand video",
@@ -63,9 +63,9 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
     secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.","THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR. WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
     secondary_content: [
-      { title:"", image:"abbot6", video:"" },
+      { title:"", image:"abbott1", video:"" },
       { title:"", image:"", video:"" },
-      { title:"", image:"abbot6", video:"" }
+      { title:"", image:"", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
