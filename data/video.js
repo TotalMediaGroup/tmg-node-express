@@ -612,7 +612,7 @@ var data = [
   { id: "kilburg-happy-car-buyer",
     title: "happy car buyer",
     image_menu: "IC_dgdg",
-    image_background: "DBG_dgdg4",
+    image_background: "BG_DGDG",
     image_background_xy_position: [0,0],
     image_poster: "PF_dgdg1",
     video: [ [360,720], ["DGDG_HAPPY_CAR_BUYER_1080p_SD","DGDG_HAPPY_CAR_BUYER_1080p_HD"] ],
@@ -622,7 +622,7 @@ var data = [
     production_roles: ["creative","shoot","edit","animation"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
+      { title:"", image:"DGDG_1", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
