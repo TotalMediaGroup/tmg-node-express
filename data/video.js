@@ -236,7 +236,7 @@ var data = [
     secondary_content: [
       { title:"", image:"Cisco1", video:"" },
       { title:"", image:"", video:"" },
-      { title:"", image:"ciscoisbg4", video:"" }
+      { title:"", image:"cisco1green", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
