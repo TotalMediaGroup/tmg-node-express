@@ -111,7 +111,7 @@ block content
                 if (v['secondary_content'][0]['title'].length > 0)
                   div.secondary-title
                     span(style="color:#{v['secondary_content'][0]['title_white_or_black']};")
-                      | #{v['secondary_content'][1]['title']}
+                      | #{v['secondary_content'][0]['title']}
                     div.radial-gradient
                 img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                 div.fader-block(onClick="TMG.fn.video.ended();")
