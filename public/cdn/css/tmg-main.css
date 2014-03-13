@@ -30,7 +30,8 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .navbar-inverse { background-image:none; }
 /*.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a { text-shadow:none; }*/
 .body-home .footer { display:none; }
-.body-work-single .footer { margin-top:66px; }
+.body-work .footer { margin-top:100px; }
+.body-work-single .footer { margin-top:0px; }
 
 .container { position:relative; z-index:10; /*margin-right:auto; margin-left:44px;*/  }
 .wide-container { width:1280px !important; }
@@ -72,8 +73,8 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-video-scroll { clear:both; position:relative; margin-top:0px; }
 .video-bttn { position:absolute; cursor:pointer; background-color:transparent; width:87px; height:87px; z-index:5; overflow:visible; }
 .video-bttn .radial-gradient, .secondary-title .radial-gradient { position:absolute; width:150%; height:150%; left:-25%; top:-25%; z-index:0; border:none; }
-.video-bttn img, .page-video .video-player-box .video-player .video-bttn img { position:absolute; visibility:visible !important; width:67px; height:67px; left:10px !important; top:10px !important; z-index:1 !important; border:none; }
-.page-video .video-player-box .video-player .video-bttn img { left:0px !important; top:0px !important;  margin-bottom:0px; float:none; }
+.video-bttn img, .page-video .video-player-box .video-player .video-bttn img, .page-video .page-video-bttm .video-player .video-bttn img { position:absolute; visibility:visible !important; width:67px; height:67px; left:10px !important; top:10px !important; z-index:1 !important; border:none; }
+.page-video .video-player-box .video-player .video-bttn img, .page-video .page-video-bttm .video-player .video-bttn img { left:0px !important; top:0px !important;  margin-bottom:0px; float:none; }
 .page-video-scroll .video-scroll { position:relative; margin-left:auto; margin-right:auto; }
 .page-video-scroll .video-scroll .radial-gradient { display:none; }
 .video-prev { position:absolute; left:-20px; top:300px; }
@@ -106,12 +107,15 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 
 .body-work {  }
 .page-work, .page-work-nav { margin-top:20px; font-size:10px; color:white; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; overflow-x:visible; }
-.page-work { margin-top:0px; }
+/*.page-work-nav {  }*/
+.page-work { margin-top:20px; }
 .page-work .col-lg-12 {  }
 .page-work .col-lg-12 .page-work-bg, .page-work-nav .col-lg-12 .page-work-bg { position:absolute; top:0%; left:-10%; width:120%; height:100%; z-index:0; display:none; }
-.page-work-nav { margin-top:70px; }
-.page-work-nav ul { position:relative; left:-32px; margin-bottom:20px; z-index:1; }
-.page-work-nav li { border-right:solid 2px #fff; }
+.page-work-nav { margin-top:75px; }
+.page-work-nav ul { position:relative; left:-40px; margin-bottom:20px; z-index:1; }
+.page-work-nav li { border-right:solid 2px rgba(255, 255, 255, .6);; }
+.page-work-nav li a { text-shadow:none; }
+.page-work-nav li:hover a { color:red !important; }
 .page-work-nav .navbar-category-icon { position:relative; float:left; top:2px; margin-right:8px; }
 .page-work-nav .navbar-category-icon:hover { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.8; -khtml-opacity:0.8; opacity:0.8; }
 .page-work a, .page-work-nav li a { text-decoration:none; color:#ffffff !important; }
@@ -124,7 +128,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-work .video-browser-box .meta { position:absolute; left:0px; top:162px; padding-top:7px; width:300%; height:48px; background-color:transparent; }
 .page-work .video-browser-box .meta .value { position:absolute; left:48px; }
 
-.bg-corner-darkener { position:absolute; margin-top:88px; left:-25%; top:-150px; width:50%; height:300px; }
+.bg-corner-darkener { position:fixed; margin-top:88px; left:-75%; top:-300px; width:150%; height:600px; }
 /*.page-work .video-browser-box:hover { background-color:rgba(69,69,69,1); }
 .page-work .video-browser-box:hover .meta { background-color:#4a4a4a; }*/
 /*.page-work .video-browser-box:hover { -webkit-box-shadow: 0px 0px 14px 0px #000000; box-shadow: 0px 0px 14px 0px #000000; }*/

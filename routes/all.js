@@ -1,10 +1,11 @@
 
 var navItems = [
 //  [ page-id, nav-title, uri-path, page-title, show-in-nav, is-isolated ]
-    [ "home", "Home", "/", "Home", true, false ],
+    [ "home", "Home", "/", "Home", false, false ],
     [ "work", "Work", "/work", "Videos", true, false ],
     [ "about", "About", "/about", "About", true, false ],
-    [ "work-single", "Video", "/work/:video_id", "Video", false, false ]
+    [ "work-single", "Video", "/work/:video_id", "Video", false, false ],
+    [ "client-login", "Client Access", "http://ftp2.totalmediagroup.com/", "Client Access", true, false ]
   ];
 
 for (var i = 0; i < navItems.length; i++) { navItems[i][3] = "Total Media Group | "+navItems[i][3]; }

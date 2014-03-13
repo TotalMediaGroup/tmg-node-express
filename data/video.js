@@ -89,7 +89,7 @@ var data = [
     secondary_content: [
       { title:"Fillmore East DVD Menu", image:"neil3", video:"Neil_Young_filmore menu_HD" },
       { title:"Living With War Title", image:"neil12", video:"Neil_Young_bloody book seq_HD" },
-      { title:"Prairie Wind DVD Menu", image:"neil1", video:"" }
+      { title:"Prairie Wind DVD Menu", image:"neil1", video:"Neil_Young_filmore menu_HD" }
       ],
     categories: ["media"],
     secondary_box_color: "ffffff",
