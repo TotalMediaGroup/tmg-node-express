@@ -18,7 +18,7 @@ var data = [
     secondary_content: [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       ],
     secondary_box_color: "808080",
     secondary_layout: "standard"
