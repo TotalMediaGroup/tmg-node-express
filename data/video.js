@@ -271,7 +271,7 @@ var data = [
 
 
   { id: "fenenbock-el-agua",
-    title: " - PSA'S",
+    title: "PSA'S",
     image_menu: "IC_elagua5",
     image_background: "BG_Agua2",
     image_background_xy_position: [0,0],
