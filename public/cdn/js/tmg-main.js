@@ -57,6 +57,7 @@ $(function(){
   // TMG.fn.initializeUi.setupMobileMenu();
   TMG.fn.initializeUi.onResize();
   TMG.fn.reactiveUi.modifyOverWidthElements();
+  TMG.fn.reactiveUi.modifyOverWidthElements();
   // TMG.fn.initializeUi.onScroll();
   // TMG.fn.initializeUi.externalizeModalPopups();
   // TMG.fn.reactiveUi.setOnOrientationChange();
@@ -396,15 +397,17 @@ TMG.fn.video.place = function(containerObj) {
 
   jqCont.append("<div class=\"video-player-inner\" id=\"video-player-"+vidId+"-"+hash+"\""
            +" style=\"width:"+vidDim[0]+"%;height:"+vidDim[1]+"%;top:"+vidPos[1]+"%;left:"+vidPos[0]+"%;\""
-        +"></div>");
+        +"></div>"
+        +"<div class=\"video-player-button video-player-button-fullscreen\" onClick=\"TMG.video.obj.requestFullScreen()\"><i class=\"fa fa-arrows-alt\"></i>FULLSCREEN</div>"
+//        +"<div class=\"video-player-button video-player-button-playback\" onClick=\"TMG.fn.video.ended()\">STOP<i class=\"fa fa-pause\"></i></div>"
+        );
 
   jqCont.find("img, span, .video-bttn").animate({opacity:0},1000);
   if (jqCont.parents(".page-video-bttm").length > 0) {
     jqCont.parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
       .css({display:'block',opacity:0}).animate({opacity:0.75},1000);
   }
-
-  
+  jqCont.find(".video-player-button").css({opacity:0,display:'block'}).animate({opacity:0.9},1000);
 
   jqCont.find("#video-player-"+vidId+"-"+hash).html(""
     +"<video class=\"video-js vjs-default-skin video-js-"+vidId+"\" controls preload=\"auto\""
@@ -429,31 +432,9 @@ TMG.fn.video.place = function(containerObj) {
      });
 
 
+}
 
-
-  // TMG.video.version = jqCont.attr("data-video-version");
-  // TMG.video.cc = parseInt(jqCont.attr("data-video-cc"));
-  // var wndw = [parseInt(jqCont.width()),Math.round(9*parseInt(jqCont.width())/16)];
-  // var offset = [0,0];
-  // if ((typeof jqCont.attr("data-video-height") != "undefined")) {
-  //   wndw[1] = parseInt(jqCont.attr("data-video-height"));
-  //   offset[0] = Math.round((16*wndw[1]/9-wndw[0])/2);
-  //   wndw[0] = Math.round(16*wndw[1]/9);
-  //   jqCont.css("overflow","hidden");
-  // }
-  // if ((typeof jqCont.attr("data-video-controls") != "undefined")) {
-  //   TMG.video.controls = (parseInt(jqCont.attr("data-video-controls"))==1);
-  // } else { TMG.video.controls = true; }
-  // if ((typeof jqCont.attr("data-video-run-followup") != "undefined")) {
-  //   TMG.video.runFollowUp = (parseInt(jqCont.attr("data-video-run-followup"))===1);
-  // } else { TMG.video.runFollowUp = false; }
-
-
-     // var uriBase = RFCX.cdn.rfcxStatic+"/video/"+RFCX.video.id
-     //     +"/v"+RFCX.video.version+"/"+RFCX.video.id+"-v"+RFCX.video.version+".",
-     //     vidUri = uriBase + vidSz[1];
-//     var vidUri = "//totalmediagroup.s3.amazonaws.com/video/shakey-neil-young-archives/Neil_Young_Archives_HD";
-
+TMG.fn.video.controls = function() {
 
 }
 
@@ -462,7 +443,8 @@ TMG.fn.video.ended = function() {
       $(this).find(".video-player-inner").remove();
       $(this).find("img, span, .video-bttn").animate({opacity:1},500);
       $(this).parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
-        .animate({opacity:0},500,function(){ $(this).css({display:'none'}); })
+        .animate({opacity:0},500,function(){ $(this).css({display:'none'}); });
+      $(this).find(".video-player-button").animate({opacity:0},500,function(){$(this).remove();});
     });
     TMG.fn.video.reset();
 }
