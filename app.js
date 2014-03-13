@@ -10,8 +10,11 @@ process.env.productionVersionId = require("./config/version.js").productionVersi
 
 // Express Initialization
 var express = require("express"), routes = require("./routes/all.js"),
-  http = require("http"), path = require("path")
-  middlewares = require("./middlewares/all.js").middlewares;
+  http = require("http"), path = require("path"),
+  middlewares = require("./middlewares/all.js").middlewares,
+  knox = require("knox").createClient({
+    key: S3_KEY, secret: S3_SECRET, bucket: S3_BUCKET
+  });
 var app = express();
 
 // all environments
@@ -34,8 +37,11 @@ if ('development' == app.get('env')) {
 }
 
 app.param("video_id",function(req,res,next,video_id){
-  req.url_params = {"video_id":video_id};
-  next();
+  req.url_params = {"video_id":video_id}; next();
+});
+
+app.param("client_id",function(req,res,next,client_id){
+  req.url_params = {"client_id":client_id}; next();
 });
 
 var data = {
@@ -68,6 +74,11 @@ app.get('/work', function(req,res){
 });
 app.get('/work/:video_id', function(req,res){
   res.render('work-single', routes.setJadeVars(process, req, data ));
+});
+
+app.get('/client/:client_id', function(req,res){
+  console.log("asdf");
+  res.render('about', routes.setJadeVars(process, req, data ));
 });
 
 app.get("/health_check", routes.returnHealthCheck );

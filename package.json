@@ -15,7 +15,8 @@
     "analytics-node": "*",
     "crypto": "*",
     "jade": "*",
-    "newrelic": "*"
+    "newrelic": "*",
+    "knox": "*"
   },
   "devDependencies": {
     "mocha": "*",
