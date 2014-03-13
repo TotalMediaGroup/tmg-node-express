@@ -249,7 +249,7 @@ var data = [
   { id: "polycom-vvx500",
     title: "vvx500",
     image_menu: "IC_bobcu",
-    image_background: "DBG_ploycom6",
+    image_background: "BG_VVX500",
     image_background_xy_position: [0,0],
     image_poster: "PF_ploycom7",
     video: [ [360,720], ["Polycom_VVX500_SD","Polycom_VVX500_HD"] ],
