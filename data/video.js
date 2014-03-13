@@ -588,7 +588,7 @@ var data = [
   { id: "opts-florida-gathering",
     title: "a gathering in florida",
     image_menu: "IC_fortigent",
-    image_background: "DBG_fortigent7",
+    image_background: "BG_Fortigent",
     image_background_xy_position: [0,0],
     image_poster: "PF_fortigent6",
     video: [ [360,720], ["Opts_Fortigent_V8_FINAL_ProRes_SD","Opts_Fortigent_V8_FINAL_ProRes_HD"] ],
@@ -598,7 +598,7 @@ var data = [
     production_roles: ["design","edit","animation"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
+      { title:"", image:"YellowPeople", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
