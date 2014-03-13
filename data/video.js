@@ -430,8 +430,8 @@ var data = [
     secondary_text: ["cast for this one was a blend of actors total staff and polycom staff.","no academy awards here."],
     secondary_content: [
       { title:"", image:"CX7000_1", video:"" },
-      { title:"", image:"CX7000_2", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"" },
+      { title:"", image:"CX7000_2", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
