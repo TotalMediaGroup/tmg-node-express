@@ -443,9 +443,9 @@ var data = [
   { id: "genentech-libo-welcome",
     title: "welcome to libo",
     image_menu: "IC_libo",
-    image_background: "DBG_libo6",
+    image_background: "BG_Libo",
     image_background_xy_position: [0,0],
-    image_poster: "PF_libo3",
+    image_poster: "PF_Libo",
     video: [ [360,720], ["Genentech_libo extracted_SD","Genentech_libo extracted_HD"] ],
     client: "genentech",
     one_liner: "internal team information video",
@@ -453,9 +453,9 @@ var data = [
     production_roles: ["design","script","shoot","vfx"],
     secondary_text: ["the budget did not allow for talent - stock - or any visual assets.","so we thought...","hey, let's create a sort of hand puppet spokesman.","we won't have to pay him. - these are SG's hands.","this clip is an excerpt from the longer (much longer) video.","there's only so much hand puppet one can take."],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"Libo1", video:"" },
+      { title:"", image:"Libo2", video:"" },
+      { title:"", image:"Libo3", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
