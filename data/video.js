@@ -16,8 +16,8 @@ var data = [
     production_roles: ["",""],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"" }
       ],
     secondary_box_color: "808080",
@@ -39,9 +39,9 @@ var data = [
     production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
     secondary_text: ["The video was displayed on an extremely wide screen - 180’x18’ - basically shaped like a curved mail slot. Designing a graphical piece for such an unusual format was a challenge.","The obvious approach would be to split the screen into multiple 16x9 areas across the horizontal width. But we wanted to use the wide format as a massive canvas instead. We thought the impact of the high contrast graphics operating across a180’ space would be pretty profound. Text on screen provides the common thread. Circles were used as the main element in the overall show design so we adopted dots as our primary characters."],
     secondary_content: [
-      { title:"", image:"employee3", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"employee2", video:"" }
+      { title:"", image:"employee3", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"employee2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media","featured","events"],
     secondary_box_color: "FFFFFF",
@@ -63,9 +63,9 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
     secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.","THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR. WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
     secondary_content: [
-      { title:"", image:"abbott1", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"abbott1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -87,9 +87,9 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","PRODUCTION"],
     secondary_text: ["<span style=\"color:red;\">FILMORE EAST DVD MENU</span>","A DECEPTIVELY COMPLEX PROJECT, THIS DVD MENU WAS CREATED FROM A NOW FAMOUS PHOTO OF FILMORE EAST IN NYC.","WE USED THE MARQUEE TO CREATE THE NAVIGATION ITEMS.","THEN BROUGHT THE PHOTO TO LIFE BY ANIMATING PEOPLE IN LINE AND CREATING A CITY AT NIGHT LIGHTING SCENE (CAR LIGHTS. STEAM FROM STREET VENTS, ETC)","WE SHOT A BUNCH OF FRIENDS ON GREEN ACTING AS THOUGH THEY WERE STROLLING DOWN THE BUSY STREET.","EVEN GOT IN ONE OF NEILS' FAVORITE CLASSIC CARS.","THE MENU TEXT CHANGES AS PEOPLE WALK BY IN THE FOREGROUND.","THIS HAPPENED EACH TIME THE VIEWER CLICKED THE BUTTON.","","<span style=\"color:red;\">PRAIRIE WIND DVD MENU.</span>","WE WANTED TO CREATE THE SENSE OF LAUNDRY BLOWING IN THE WIND IN FRONT OF A HOMESTEAD ON THE PRAIRIE.","WE SHOT THE SHEET OUT IN FRONT OF THE FACILITY.","THE GRASS BLOWING IN THE WIND IS ACTUALLY SAN FRANCISCO BAY MARSH GRASS.","SG WAS HAVING LUNCH BY THE BAY ONE DAY AND NOTICED THAT IT LOOKED AND MOVED A LOT LIKE PRAIRIE GRASS.","SO WE SHOT IT FOR THE COMP."],
     secondary_content: [
-      { title:"Fillmore East DVD Menu", image:"neil3", video:"Neil_Young_filmore menu_HD" },
-      { title:"Living With War Title", image:"neil12", video:"Neil_Young_bloody book seq_HD" },
-      { title:"Prairie Wind DVD Menu", image:"neil1", video:"Neil_Young_filmore menu_HD" }
+      { title:"Fillmore East DVD Menu", image:"neil3", video:"Neil_Young_filmore menu_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Living With War Title", image:"neil12", video:"Neil_Young_bloody book seq_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Prairie Wind DVD Menu", image:"neil1", video:"Neil_Young_filmore menu_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
     secondary_box_color: "ffffff",
@@ -111,9 +111,9 @@ var data = [
     production_roles: ["CREATIVE","SCRIPT","animation","edit","composite"],
     secondary_text: ["THE VIDEO WAS DISPLAYED ON AN EXTREMELY WIDE SCREEN - 180’X18’ - BASICALLY SHAPED LIKE A CURVED MAIL SLOT. DESIGNING A GRAPHICAL PIECE FOR SUCH AN UNUSUAL FORMAT WAS A CHALLENGE.","THE OBVIOUS APPROACH WOULD BE TO SPLIT THE SCREEN INTO MULTIPLE 16X9 AREAS ACROSS THE HORIZONTAL WIDTH. BUT WE WANTED TO USE THE WIDE FORMAT AS A MASSIVE CANVAS INSTEAD","WE THOUGHT THE IMPACT OF THE HIGH CONTRAST GRAPHICS OPERATING ACROSS A 180 FOOT SPACE WOULD BE PRETTY PROFOUND. TEXT ON SCREEN PROVIDES THE COMMON THREAD.","CIRCLES WERE USED AS THE MAIN ELEMENT IN THE OVERALL SHOW DESIGN SO WE ADOPTED DOTS AS OUR PRIMARY CHARACTERS."],
     secondary_content: [
-      { title:"", image:"anthem_right", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"anthem_right", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
@@ -134,9 +134,9 @@ var data = [
     production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
     secondary_text: ["THE ONE-DAY SHOOTS OFTEN MOVE ALONG PRETTY QUICKLY.","THIS LEADS TO SOME, WELL, “CHALLENGES”.","IN ADDITION TO FINDING AND EDITING THE PERFORMANCES WE OFTEN CLEAN OR EXTEND THE ENVIRONMENTS IN CG POST- ADD SOME TAROT CARDS, CANDLES OR FLYING PAPERS.","IN SOME CASES, WE CREATE THE ENTIRE BACKGROUND ENVIRONMENT- ALL ON A MODEST BUDGET."],
     secondary_content: [
-      { title:"Lousy Exterminator", image:"sharks28", video:"SJ_Sharks_FESTIVE_POLKA_HD" },
-      { title:"Board Room", image:"sharks31", video:"SJ_Sharks_SHAR_1303_BOARDROOM_CLOWE_EXCITING_NOW _HD" },
-      { title:"Delivery Room", image:"sharks32", video:"SJ_Sharks_SHAR_1306_DELIVERY_ROOM_MEATLOAF_CAMERA_HD" }
+      { title:"Lousy Exterminator", image:"sharks28", video:"SJ_Sharks_FESTIVE_POLKA_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Board Room", image:"sharks31", video:"SJ_Sharks_SHAR_1303_BOARDROOM_CLOWE_EXCITING_NOW _HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Delivery Room", image:"sharks32", video:"SJ_Sharks_SHAR_1306_DELIVERY_ROOM_MEATLOAF_CAMERA_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -161,9 +161,9 @@ var data = [
     production_roles: ["creative","script","editorial","animation"],
     secondary_text: ["let's face it. whiteboard animations are everywhere.","the relative ease of production has spawned some, well, less than professional work.","we wanted to maintain a commercial look and feel on these.","we lit and shot the illustration carefully, Then, keyed and re-composited the hand on the board allowing us to optimize art, live action and performance.","We tweaked the frame rate to disguise the massive time compression and create a cartoon feel."],
     secondary_content: [
-      { title:"Workstation 8 Overview", image:"vmwarews2", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD" },
-      { title:"Workstation 8 What's New", image:"vmwarews5", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD" },
-      { title:"", image:"IMG_0783_Crop", video:"" }
+      { title:"Workstation 8 Overview", image:"vmwarews2", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD", button_white_or_black:"black", title_white_or_black:"white" },
+      { title:"Workstation 8 What's New", image:"vmwarews5", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD", button_white_or_black:"black", title_white_or_black:"white" },
+      { title:"", image:"IMG_0783_Crop", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
@@ -186,9 +186,9 @@ var data = [
     production_roles: ["creative","animation","editorial"],
     secondary_text: ["We extended the brand by designing a system for producing ongoing informational videos.","The client gathers testimonial bites from customers all over the world.","different cameras, different shooters, different color… YIKES!","We created brand consistency by toning the disparate footage into the brand color and keying into a brand consistent “world”."],
     secondary_content: [
-      { title:"Testimonial Video", image:"silverpeak8", video:"Silver_Peak_Shaun_White_Master_Pet_ProRes_HD" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"SilverPeakBlue", video:"" }
+      { title:"Testimonial Video", image:"silverpeak8", video:"Silver_Peak_Shaun_White_Master_Pet_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"SilverPeakBlue", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -210,9 +210,9 @@ var data = [
     production_roles: ["creative","art direction","animation"],
     secondary_text: ["THIS CLIP IS AN EXCERPT OF THE MAIN 3 MINUTE VIDEO.","WE'VE CUT IT DOWN AND ELIMINATED THE VO BECAUSE, WELL, IT WAS KIND OF BORING."],
     secondary_content: [
-      { title:"", image:"VmwareFusion5", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"VmwareFusion5", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -234,9 +234,9 @@ var data = [
     production_roles: ["design","animation"],
     secondary_text: ["infographics of this type are no-doubt trendy right now,","but there was no doubt that this animated approach was the best method to deliver the message and content.","so little time - so much data."],
     secondary_content: [
-      { title:"", image:"Cisco1", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"cisco1green", video:"" }
+      { title:"", image:"Cisco1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"cisco1green", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -259,9 +259,9 @@ var data = [
     production_roles: ["creative","script","shoot","edit","vfx"],
     secondary_text: ["We Shot at the client's office with a small crew.","We tracked and comped the animated clocks counting down floating over everyones head.","the building was empty but we created the impression of a whole floor of workers slaving away in cubicles by floating the countdown clocks over the cubicles."],
     secondary_content: [
-      { title:"", image:"VVX5001", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"VVX5001", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -283,9 +283,9 @@ var data = [
     production_roles: ["ART DIRECTION","DESIGN","EDITORIAL","MUSIC DIRECTION"],
     secondary_text: ["All the pieces are driven by a popular piece of music by Latin music superstar Luis Miguel.","The agency was able to secure the rights to re-record his hit 'Sabor a Mi', a much beloved song in the Hispanic community.","Music was done at G&E music - New York. Creative Director Steven Gregory used his background in music to help direct the re-recording.","We posted 9 Spots and several long-form Public Awareness pieces.","The videos feature portraits of people from the farming community.","We found it deceptively challenging to edit a piece with effectively no motion.","The spots have a feel of a continuous portrait."],
     secondary_content: [
-      { title:"", image:"elagua_mom", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"martha", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD" }
+      { title:"", image:"elagua_mom", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"martha", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -308,9 +308,9 @@ var data = [
     production_roles: ["direction","animation","music"],
     secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version (if you've nothing better to do) here."],
     secondary_content: [
-      { title:"", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"ruckus2", video:"" }
+      { title:"", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"ruckus2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -332,9 +332,9 @@ var data = [
     production_roles: ["design","3d Animation"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -356,9 +356,9 @@ var data = [
     production_roles: ["creative","art direction","script","animation"],
     secondary_text: ["after creating the basic art and story boarding the show,","our illustrator recreated the drawings directly in After Effect's paint system.","Each brush stroke was recorded in real time and can then be manipulated."],
     secondary_content: [
-      { title:"", image:"VirtualizationGlobe", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"VirtualizationGlobe", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -381,9 +381,9 @@ var data = [
     production_roles: ["design","animation"],
     secondary_text: ["We shot at the client’s office with the clients acting as talent and created the imagery to coordinate with the message."],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -405,9 +405,9 @@ var data = [
     production_roles: ["design","editorial","animation"],
     secondary_text: ["Yes Video services are also found in CVS, Walgreens and Costco, so we slightly repurposed  and rebrand the project to align with each company’s style and brand guidelines. Each video needed to be somewhat unique but maintain the same script, message and YesVideo product images and elements."],
     secondary_content: [
-      { title:"", image:"", video:"YSVD_CVS_v06_1920x1080_H264_HD" },
-      { title:"", image:"", video:"YesVideo_Costco_v4_ProRes_HD" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"YSVD_CVS_v06_1920x1080_H264_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"YesVideo_Costco_v4_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -429,9 +429,9 @@ var data = [
     production_roles: ["creative","script","shoot","design","animation"],
     secondary_text: ["cast for this one was a blend of actors total staff and polycom staff.","no academy awards here."],
     secondary_content: [
-      { title:"", image:"CX7000_1", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"CX7000_2", video:"" }
+      { title:"", image:"CX7000_1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"CX7000_2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -453,9 +453,9 @@ var data = [
     production_roles: ["design","script","shoot","vfx"],
     secondary_text: ["the budget did not allow for talent - stock - or any visual assets.","so we thought...","hey, let's create a sort of hand puppet spokesman.","we won't have to pay him. - these are SG's hands.","this clip is an excerpt from the longer (much longer) video.","there's only so much hand puppet one can take."],
     secondary_content: [
-      { title:"", image:"Libo1", video:"" },
-      { title:"", image:"Libo2", video:"" },
-      { title:"", image:"Libo3", video:"" }
+      { title:"", image:"Libo1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"Libo2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"Libo3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -478,9 +478,9 @@ var data = [
     production_roles: ["creative","editorial","animation"],
     secondary_text: ["the spots range from cinematic to comical to downright weird.","all these candidates were elected."],
     secondary_content: [
-      { title:"", image:"Political_Middle", video:"Jim_Costa_ACCOMPLISMENTS_33112_HD" },
-      { title:"", image:"PoliticalRight", video:"Anna_Caballero_CHAMELEON_MIXED_5_PR_HD" },
-      { title:"", image:"PoliticalLeft", video:"Forescee_Hogan_Rowles_ONE VOICE_pr_HD" }
+      { title:"", image:"Political_Middle", video:"Jim_Costa_ACCOMPLISMENTS_33112_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"PoliticalRight", video:"Anna_Caballero_CHAMELEON_MIXED_5_PR_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"PoliticalLeft", video:"Forescee_Hogan_Rowles_ONE VOICE_pr_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -502,9 +502,9 @@ var data = [
     production_roles: ["design","animation","editorial"],
     secondary_text: ["tennis tournaments are typically shot with 2 cameras.","one high in the stands and one tucked into a back corner of the court space.","neither camera record shots that lend themselves to heroic editing.","the challenge is to create a spot from footage that is not shot for promotional editing."],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -526,9 +526,9 @@ var data = [
     production_roles: ["3d animation","editorial"],
     secondary_text: ["Animated using CAD files, lit and textured in Cinema 4D.","We had already designed many of the 3D animations for use on ipad, and were able to leverage these in this piece. Composited in After Effects."],
     secondary_content: [
-      { title:"", image:"THSML_versitomic1", video:"Stryker_JP_Versitomic_LIM_HD" },
-      { title:"", image:"THSML_microfx1", video:"Stryker_JP_MicroFX_LIM_v05_ProRes_HD" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"THSML_versitomic1", video:"Stryker_JP_Versitomic_LIM_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"THSML_microfx1", video:"Stryker_JP_MicroFX_LIM_v05_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -550,9 +550,9 @@ var data = [
     production_roles: ["design","editorial","animation"],
     secondary_text: ["a note about 'broadcast' tv","broadcast standards are not yet 'standard'","each station that carries a commercial requires a different file format. believe it or not, some still insist on tape.","it's not uncommon to create 6 different formats in many different shapes and sizes for each spot.","and then need to distribute it to 6 different stations.","it can quickly become a bit of a maze."],
     secondary_content: [
-      { title:"", image:"ThisIsHowWeDoIt", video:"Stanford_STAN_2012_TV_GEN_2_HD" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD" }
+      { title:"", image:"ThisIsHowWeDoIt", video:"Stanford_STAN_2012_TV_GEN_2_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -574,9 +574,9 @@ var data = [
     production_roles: ["creative","multi-location shoot","editorial"],
     secondary_text: ["This video is part of a series – and seems to resonate strongly with the people that review it."],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -598,9 +598,9 @@ var data = [
     production_roles: ["design","edit","animation"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"YellowPeople", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"YellowPeople", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -622,9 +622,9 @@ var data = [
     production_roles: ["creative","shoot","edit","animation"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"DGDG_1", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"DGDG_1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -646,9 +646,9 @@ var data = [
     production_roles: ["design","editorial"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -670,9 +670,9 @@ var data = [
     production_roles: ["Design","3d animation"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -694,9 +694,9 @@ var data = [
     production_roles: ["design","animation"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -719,9 +719,9 @@ var data = [
     production_roles: ["creative","design","animation"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -743,9 +743,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -767,9 +767,9 @@ var data = [
     production_roles: ["creative","production","shoot","editorial"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"RightRozBW", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"Left_BlueRoz", video:"" }
+      { title:"", image:"RightRozBW", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"Left_BlueRoz", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -791,9 +791,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"THSML_andes", video:"ANDES_EXPO_HD" },
-      { title:"", image:"THSML_NIEMI", video:"NIEMI COMPOSITE BREAKDOWN_HD" },
-      { title:"", image:"THSML_samsung", video:"SAMSUNG_MOCK_HD" }
+      { title:"", image:"THSML_andes", video:"ANDES_EXPO_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"THSML_NIEMI", video:"NIEMI COMPOSITE BREAKDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"THSML_samsung", video:"SAMSUNG_MOCK_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
@@ -815,9 +815,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"THSML_ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"THSML_ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -839,9 +839,9 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the super wide-screen format created a nice big canvas to paint on.","we're still cleaning up."],
     secondary_content: [
-      { title:"", image:"THSML_salix6", video:"Salix_DAY_2_OPEN_PJPG_DISCTRETE _HD" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"THSML_salix6", video:"Salix_DAY_2_OPEN_PJPG_DISCTRETE _HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -863,9 +863,9 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the highlight of day 2 was an appearance by homer hickam,","the young hero of the movie October sky who rose from the coal mines of west virginia to become one of the leading rocket scientists at nasa."],
     secondary_content: [
-      { title:"", image:"PF_salixrocket", video:"Futura_DayFour_COMP _FILM_h_HD" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"PF_salixrocket", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -887,9 +887,9 @@ var data = [
     production_roles: ["Pre-Production","Creative","Producing/Directing","Motion Graphics","Video Editing"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"THSML_anthemwide", video:"Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD" },
-      { title:"", image:"THSML_OptsAccountView1", video:"Opts_tech_demos_2013_Account_View_Desktop_BC_v8_ProRes_HD" },
-      { title:"", image:"THSML_OptsTandR_2", video:"Opts_tech_demos_2013_Enhanced_Trading_and_Rebalancing_App_Expo_Video_BC_v8_HD" }
+      { title:"", image:"THSML_anthemwide", video:"Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"THSML_OptsAccountView1", video:"Opts_tech_demos_2013_Account_View_Desktop_BC_v8_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"THSML_OptsTandR_2", video:"Opts_tech_demos_2013_Enhanced_Trading_and_Rebalancing_App_Expo_Video_BC_v8_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -911,9 +911,9 @@ var data = [
     production_roles: ["creative","editorial","Motion Graphics"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -935,9 +935,9 @@ var data = [
     production_roles: ["3D","Creative"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"Stryker_Medical_MEDENDO_WALK IN VARIATIONS_HD" },
-      { title:"", image:"", video:"Stryker_MEDICAL_TRANSITION_YOULOOP_HD" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"Stryker_Medical_MEDENDO_WALK IN VARIATIONS_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"Stryker_MEDICAL_TRANSITION_YOULOOP_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "808080",
@@ -959,9 +959,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -984,9 +984,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1008,9 +1008,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1032,9 +1032,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1056,9 +1056,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1080,9 +1080,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1104,9 +1104,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1128,9 +1128,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1154,9 +1154,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1178,9 +1178,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1202,9 +1202,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1226,9 +1226,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1250,9 +1250,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1274,9 +1274,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1299,9 +1299,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1323,9 +1323,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1347,9 +1347,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1371,9 +1371,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1395,9 +1395,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1420,9 +1420,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
@@ -1444,9 +1444,9 @@ var data = [
     production_roles: [],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["design"],
     secondary_box_color: "808080",
