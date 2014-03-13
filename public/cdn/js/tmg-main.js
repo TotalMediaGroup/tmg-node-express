@@ -152,10 +152,11 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
         if (textHeight > 0) { $(this).find(".clmn-lf").css({height:textHeight+"px"}); }
       }
       $(this).find(".tmg-thmb img.video-frame-secondary").each(function(){
-        var offset = $(this).position();
-        if (offset.left == offset.top) { setSquImg(this,'wd');
-        } else if (offset.top > offset.left) { setSquImg(this,'ht');
-        } else { setSquImg(this,'wd'); }
+        setSquImg(this);
+        // var offset = $(this).position();
+        // if (offset.left == offset.top) { setSquImg(this,'wd');
+        // } else if (offset.top > offset.left) { setSquImg(this,'ht');
+        // } else { setSquImg(this,'wd'); }
       });
     });
 }
@@ -453,7 +454,6 @@ TMG.fn.video.place = function(containerObj) {
 TMG.fn.video.ended = function() {
     $(".video-js-"+TMG.video.id).parents(".video-player").each(function(){
       $(this).find(".video-player-inner").remove();
-      // if ($(this).hasClass("tmg-thmb")) { $(this).find(".video-frame-secondary").each(function(){ setSquImg(this,'ht'); }); }
       $(this).find("img, span, .video-bttn").animate({opacity:1},500);
       $(this).parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
         .animate({opacity:0},500,function(){ $(this).css({display:'none'}); })
