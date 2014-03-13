@@ -757,7 +757,7 @@ var data = [
   { id: "life-is-a-banquet",
     title: "life is a banquet",
     image_menu: "IC_roz2",
-    image_background: "DBG_roz1",
+    image_background: "BG_Roz",
     image_background_xy_position: [0,0],
     image_poster: "PF_ros3",
     video: [ [360,720], ["Rosalind_Russell_Life_Is_A_Banquet_Trailer_SD","Rosalind_Russell_Life_Is_A_Banquet_Trailer_HD"] ],
@@ -767,8 +767,8 @@ var data = [
     production_roles: ["creative","production","shoot","editorial"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"" },
-      { title:"", image:"", video:"" },
+      { title:"", image:"Left_BlueRoz", video:"" },
+      { title:"", image:"RightRozBW", video:"" },
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
