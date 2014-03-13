@@ -308,7 +308,7 @@ var data = [
     production_roles: ["direction","animation","music"],
     secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version (if you've nothing better to do) here."],
     secondary_content: [
-      { title:"", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Full Client Version", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"ruckus2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
