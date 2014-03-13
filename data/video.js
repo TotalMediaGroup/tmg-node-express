@@ -309,8 +309,8 @@ var data = [
     secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version (if you've nothing better to do) here."],
     secondary_content: [
       { title:"", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD" },
-      { title:"", image:"ruckus2", video:"" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"" },
+      { title:"", image:"ruckus2", video:"" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
