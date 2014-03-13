@@ -550,9 +550,9 @@ var data = [
     production_roles: ["design","editorial","animation"],
     secondary_text: ["a note about 'broadcast' tv","broadcast standards are not yet 'standard'","each station that carries a commercial requires a different file format. believe it or not, some still insist on tape.","it's not uncommon to create 6 different formats in many different shapes and sizes for each spot.","and then need to distribute it to 6 different stations.","it can quickly become a bit of a maze."],
     secondary_content: [
-      { title:"", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD" },
       { title:"", image:"ThisIsHowWeDoIt", video:"Stanford_STAN_2012_TV_GEN_2_HD" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"" },
+      { title:"", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD" }
       ],
     categories: ["media"],
     secondary_box_color: "808080",
