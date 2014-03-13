@@ -346,7 +346,7 @@ var data = [
   { id: "vmware-virtualization-info",
     title: "what is virtualization",
     image_menu: "IC_vmglobe",
-    image_background: "DBG_vmwarevirtualzation2",
+    image_background: "BG_Virtualization",
     image_background_xy_position: [0,0],
     image_poster: "PF_virtualization",
     video: [ [360,720], ["VMware_VIRTUALIZATION_V09_mixed_SD","VMware_VIRTUALIZATION_V09_mixed_HD"] ],
@@ -356,7 +356,7 @@ var data = [
     production_roles: ["creative","art direction","script","animation"],
     secondary_text: ["after creating the basic art and story boarding the show,","our illustrator recreated the drawings directly in After Effect's paint system.","Each brush stroke was recorded in real time and can then be manipulated."],
     secondary_content: [
-      { title:"", image:"", video:"" },
+      { title:"", image:"VirtualizationGlobe", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
