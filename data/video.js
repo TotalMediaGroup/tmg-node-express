@@ -18,7 +18,7 @@ var data = [
     secondary_content: [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       ],
     secondary_box_color: "808080",
     secondary_layout: "standard"
@@ -271,21 +271,21 @@ var data = [
 
 
   { id: "fenenbock-el-agua",
-    title: "el agua es asunto de todos",
+    title: "PSA'S",
     image_menu: "IC_elagua5",
     image_background: "BG_Agua2",
     image_background_xy_position: [0,0],
     image_poster: "PF_elagua2",
     video: [ [360,720], ["Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_SD","Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_HD"] ],
-    client: "the fenenbock group",
+    client: "el agua es asunto de todos",
     one_liner: "public service tv commercials",
-    primary_text: ["THE FARMING COMMUNITIES IN THE CENTRAL VALLEY OF CALIFORNIA HAVE BEEN AT THE CENTER OF A LONG CULTURAL - POLITICAL BATTLE.","FOR DECADES WATER FROM THE SAN JUAQUIN RIVER DELTA IN NORTHERN CALIFORNIA HAS BEEN REDIRECTED TO THE CENTRAL VALLEY TO PROVIDE WATER FOR IRRIGATION.","POLITICAL GROUPS IN NORTHERN CA HAVE BEEN ACTIVELY INVOLVED IN EFFORTS TO SHUT OFF THE FLOW CITING NEGATIVE IMPACT ON THE LOCAL ENVIRONMENT.","THE PUBLIC INTEREST CAMPAIGN 'EL AGUA ES ASUNTO DE TODOS' WAS DESIGNED TO RAISE AWARENESS WITHIN THE CENTRAL VALLEY FARMING COMMUNITY AND GENERATE VOTER ACTION."],
+    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","'THE FARMING COMMUNITIES IN THE CENTRAL VALLEY OF CALIFORNIA HAVE BEEN AT THE CENTER OF A LONG CULTURAL - POLITICAL BATTLE.","FOR DECADES WATER FROM THE SAN JUAQUIN RIVER DELTA IN NORTHERN CALIFORNIA HAS BEEN REDIRECTED TO THE CENTRAL VALLEY TO PROVIDE WATER FOR IRRIGATION.","POLITICAL GROUPS IN NORTHERN CA HAVE BEEN ACTIVELY INVOLVED IN EFFORTS TO SHUT OFF THE FLOW CITING NEGATIVE IMPACT ON THE LOCAL ENVIRONMENT.","THE PUBLIC INTEREST CAMPAIGN 'EL AGUA ES ASUNTO DE TODOS' WAS DESIGNED TO RAISE AWARENESS WITHIN THE CENTRAL VALLEY FARMING COMMUNITY AND GENERATE VOTER ACTION."],
     production_roles: ["ART DIRECTION","DESIGN","EDITORIAL","MUSIC DIRECTION"],
-    secondary_text: ["All the pieces are driven by a popular piece of music by Latin music superstar Luis Miguel.","The agency was able to secure the rights to re-record his hit 'Sabor a Mi', a much beloved song in the Hispanic community.","Music was done at G&E music - New York. Creative Director Steven Gregory used his background in music to help direct the re-recording.","We posted 9 Spots and several long-form Public Awareness pieces.","The videos feature portraits of people from the farming community.","We found it deceptively challenging to edit a piece with effectively no motion.","The spots have a feel of a continuous portrait."],
+    secondary_text: ["All the pieces are driven by a popular piece of music by Latin music superstar Luis","Miguel. The agency was able to secure the rights to re-record his hit 'Sabor a Mi', a much beloved song in the Hispanic community. Music was done at G&E music - New"," York. Creative Director Steven Gregory used his background in music to help direct the re-recording.","We posted 9 Spots and several long-form Public Awareness pieces.","The videos feature portraits of people from the farming community.","We found it deceptively challenging to edit a piece with effectively no motion.","The spots have a feel of a continuous portrait."],
     secondary_content: [
-      { title:"", image:"elagua_mom", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Real People", image:"elagua_momCropped", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"martha", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Real People", image:"martha", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -299,16 +299,16 @@ var data = [
     title: "wi-fi you can believe in",
     image_menu: "IC_oldtv",
     image_background: "BG_Ruckus",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [0,10],
     image_poster: "PF_ruckus2",
     video: [ [360,720], ["Ruckus_Believe_092412_uncompressed_SD","Ruckus_Believe_092412_uncompressed_HD"] ],
     client: "ruckus wireless",
     one_liner: "PRODUCT LAUNCH - BRAND AWARENESS",
     primary_text: ["Client wanted something really different to cut through the noise at a national trade show.","He shared a video made at the church he attends.","We latched on to the Idea and went with it.","We hired a preacher to come in and deliver the authentic and emphatic VO.","then proceeded to lock type to every syllable."],
     production_roles: ["direction","animation","music"],
-    secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version (if you've nothing better to do) here."],
+    secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version here, (if you have nothing better to do.)"],
     secondary_content: [
-      { title:"", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Full Client Version", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"ruckus2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -322,7 +322,7 @@ var data = [
   { id: "stryker-timeline",
     title: "timeline",
     image_menu: "IC_homertimeline",
-    image_background: "DBG_homerbg1",
+    image_background: "homertimelinesecondary",
     image_background_xy_position: [0,0],
     image_poster: "PF_homertimeline2",
     video: [ [360,720], ["Stryker_JP_Homer_Timeline_MoComp_v01_halfres_SD","Stryker_JP_Homer_Timeline_MoComp_v01_halfres_HD"] ],
@@ -330,11 +330,11 @@ var data = [
     one_liner: "history of stryker medical innovations",
     primary_text: ["stryker medical is an extraordinary example of the american dream.","one of the largest medical device manufactures in the world, the company was started by a single man, homer stryker, in 1942.","this timeline is an excerpt from a short doc detailing the succession or homer's innovative products."],
     production_roles: ["design","3d Animation"],
-    secondary_text: [],
+    secondary_text: [Test Text],
     secondary_content: [
+      { title:"", image:"DBG_homerbg1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"homertimeline2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
