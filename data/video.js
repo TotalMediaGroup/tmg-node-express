@@ -333,7 +333,7 @@ var data = [
     secondary_text: [],
     secondary_content: [
       { title:"", image:"DBG_homerbg1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"homertimeline2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
