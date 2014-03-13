@@ -330,7 +330,7 @@ var data = [
     one_liner: "history of stryker medical innovations",
     primary_text: ["stryker medical is an extraordinary example of the american dream.","one of the largest medical device manufactures in the world, the company was started by a single man, homer stryker, in 1942.","this timeline is an excerpt from a short doc detailing the succession or homer's innovative products."],
     production_roles: ["design","3d Animation"],
-    secondary_text: [Test Text],
+    secondary_text: [Test Text"],
     secondary_content: [
       { title:"", image:"DBG_homerbg1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -347,7 +347,7 @@ var data = [
     title: "what is virtualization",
     image_menu: "IC_vmglobe",
     image_background: "BG_Virtualization",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [40,0],
     image_poster: "PF_virtualization",
     video: [ [360,720], ["VMware_VIRTUALIZATION_V09_mixed_SD","VMware_VIRTUALIZATION_V09_mixed_HD"] ],
     client: "vmware",
