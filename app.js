@@ -13,7 +13,9 @@ var express = require("express"), routes = require("./routes/all.js"),
   http = require("http"), path = require("path"),
   middlewares = require("./middlewares/all.js").middlewares,
   knox = require("knox").createClient({
-    key: S3_KEY, secret: S3_SECRET, bucket: S3_BUCKET
+    key: process.env.AWS_ACCESS_KEY_ID,
+    secret: process.env.AWS_SECRET_KEY,
+    bucket: process.env.AWS_S3_BUCKET
   });
 var app = express();
 
@@ -76,9 +78,26 @@ app.get('/work/:video_id', function(req,res){
   res.render('work-single', routes.setJadeVars(process, req, data ));
 });
 
-app.get('/client/:client_id', function(req,res){
-  console.log("asdf");
-  res.render('about', routes.setJadeVars(process, req, data ));
+// app.get('/client/:client_id', function(req,res){
+//   // knox.list({prefix:'vmware/'},function(err,data){
+//   //   console.log(data);
+//   // });
+//   var jV = routes.setJadeVars(process,req,data);
+//   res.render('client', jV);
+// });
+
+app.get('/ajax/list/:client_id', function(req,res){
+  var prefix = req.url_params.client_id+'/';
+  knox.list({prefix:prefix},function(err,data){
+    var dataOut = [];
+    for (i in data.Contents) {
+      var d = data.Contents[i];
+      if (d.Key !== prefix) {
+        dataOut.push({ key: d.Key, LastModified: d.LastModified, Size: d.Size });
+      }
+    }
+    res.send(dataOut);
+  });  
 });
 
 app.get("/health_check", routes.returnHealthCheck );
