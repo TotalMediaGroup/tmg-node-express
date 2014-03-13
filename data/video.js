@@ -224,7 +224,7 @@ var data = [
   { id: "cisco-it-consumption",
     title: "it consumption",
     image_menu: "demoImages_8",
-    image_background: "DBG_ciscoisbg6",
+    image_background: "CiscoBG",
     image_background_xy_position: [0,0],
     image_poster: "PF_ciscoisbg6",
     video: [ [360,720], ["CiscoIBSG_ItCameInAStream_F_SD","CiscoIBSG_ItCameInAStream_F_HD"] ],
@@ -234,7 +234,7 @@ var data = [
     production_roles: ["design","animation"],
     secondary_text: ["infographics of this type are no-doubt trendy right now,","but there was no doubt that this animated approach was the best method to deliver the message and content.","so little time - so much data."],
     secondary_content: [
-      { title:"", image:"", video:"" },
+      { title:"", image:"Cisco1", video:"" },
       { title:"", image:"", video:"" },
       { title:"", image:"", video:"" }
       ],
