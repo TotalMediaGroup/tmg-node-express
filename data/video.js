@@ -102,7 +102,7 @@ var data = [
     title: "ANTHEM",
     image_menu: "IC_dandys2",
     image_background: "DBG_optsanthem6",
-    image_background_xy_position: [15,15],
+    image_background_xy_position: [10,15],
     image_poster: "PF_optsanthem10",
     video: [ [360,720], ["Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_SD","Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD"] ],
     client: "OPTS IDEAS",
