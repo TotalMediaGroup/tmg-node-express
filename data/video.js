@@ -347,7 +347,7 @@ var data = [
     title: "what is virtualization",
     image_menu: "IC_vmglobe",
     image_background: "BG_Virtualization",
-    image_background_xy_position: [0,-150],
+    image_background_xy_position: [0,-750],
     image_poster: "PF_virtualization",
     video: [ [360,720], ["VMware_VIRTUALIZATION_V09_mixed_SD","VMware_VIRTUALIZATION_V09_mixed_HD"] ],
     client: "vmware",
