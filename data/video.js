@@ -372,7 +372,7 @@ var data = [
     title: "liposonix - one hour",
     image_menu: "demoImages_14",
     image_background: "DBG_solta3",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [10,0],
     image_poster: "PF_solta1",
     video: [ [360,720], ["Solta_Liposonix_SD","Solta_Liposonix_HD"] ],
     client: "solta medical",
