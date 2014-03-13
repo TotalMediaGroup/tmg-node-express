@@ -176,7 +176,7 @@ var data = [
   { id: "silver-peak-brand-video",
     title: "Brand Video",
     image_menu: "demoImages_13",
-    image_background: "DBG_silverpeak1",
+    image_background: "SP_BG",
     image_background_xy_position: [0,0],
     image_poster: "PF_silverpeak5",
     video: [ [360,720], ["Silver_Peak_FINAL_021312_SG_TYPECHANGE_AN_SD","Silver_Peak_FINAL_021312_SG_TYPECHANGE_AN_HD"] ],
@@ -186,8 +186,8 @@ var data = [
     production_roles: ["creative","animation","editorial"],
     secondary_text: ["We extended the brand by designing a system for producing ongoing informational videos.","The client gathers testimonial bites from customers all over the world.","different cameras, different shooters, different color… YIKES!","We created brand consistency by toning the disparate footage into the brand color and keying into a brand consistent “world”."],
     secondary_content: [
-      { title:"", image:"Silverpeak_Trublu_1", video:"Silver_Peak_Tru_Blu_Beverages_ProRes_FINAL_HD" },
       { title:"", image:"THSML_silverpeak9", video:"Silver_Peak_Shaun_White_Master_Pet_ProRes_HD" },
+      { title:"", image:"Silverpeak_Trublu_1", video:"Silver_Peak_Tru_Blu_Beverages_ProRes_FINAL_HD" },
       { title:"", image:"", video:"" }
       ],
     categories: ["media"],
