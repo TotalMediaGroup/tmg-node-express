@@ -299,7 +299,7 @@ var data = [
     title: "wi-fi you can believe in",
     image_menu: "IC_oldtv",
     image_background: "BG_Ruckus",
-    image_background_xy_position: [0,20],
+    image_background_xy_position: [0,10],
     image_poster: "PF_ruckus2",
     video: [ [360,720], ["Ruckus_Believe_092412_uncompressed_SD","Ruckus_Believe_092412_uncompressed_HD"] ],
     client: "ruckus wireless",
