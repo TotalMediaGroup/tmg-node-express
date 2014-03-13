@@ -273,7 +273,7 @@ var data = [
   { id: "fenenbock-el-agua",
     title: "el agua es asunto de todos",
     image_menu: "IC_elagua5",
-    image_background: "BG_Agua2",
+    image_background: "elagua13bluedoor",
     image_background_xy_position: [0,0],
     image_poster: "PF_elagua2",
     video: [ [360,720], ["Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_SD","Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_HD"] ],
