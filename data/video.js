@@ -283,7 +283,7 @@ var data = [
     production_roles: ["ART DIRECTION","DESIGN","EDITORIAL","MUSIC DIRECTION"],
     secondary_text: ["All the pieces are driven by a popular piece of music by Latin music superstar Luis","Miguel. The agency was able to secure the rights to re-record his hit 'Sabor a Mi', a much beloved song in the Hispanic community. Music was done at G&E music - New"," York. Creative Director Steven Gregory used his background in music to help direct the re-recording.","We posted 9 Spots and several long-form Public Awareness pieces.","The videos feature portraits of people from the farming community.","We found it deceptively challenging to edit a piece with effectively no motion.","The spots have a feel of a continuous portrait."],
     secondary_content: [
-      { title:"Real People", image:"elagua_momCropped", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"Real People", image:"elagua_momCropped", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Real People", image:"martha", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
