@@ -285,7 +285,7 @@ var data = [
     secondary_content: [
       { title:"Real People", image:"elagua_momCropped", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"Real People", image:"martha", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Real People", image:"martha", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD", button_white_or_black:"black", title_white_or_black:"black" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
