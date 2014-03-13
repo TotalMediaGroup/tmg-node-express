@@ -30,7 +30,7 @@ var data = [
     title: "EMPLOYEE STRATEGY",
     image_menu: "IC_simplicity",
     image_background: "employee6",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [20,0],
     image_poster: "employee1",
     video: [ [360,720], ["Opts_EMPLOYEE_DIRCUT_1M_SD","Opts_EMPLOYEE_DIRCUT_1M_HD"] ],
     client: "OPTS IDEAS",
