@@ -7,14 +7,23 @@ block content
 
   div.container
     div.row.page-about
-      div.col-lf.col-sm-5
-        p.header= "THE COMPANY"
+      div.col-lf.col-sm-4
+        span.title-bracket(style="position:relative;left:0px;")= "["
+        span.title-body= "THE COMPANY"
+        span.title-bracket= "]"
+      div.col-rt.col-sm-6.col-sm-offset-1
+        span.title-bracket(style="margin-left:10%;position:relative;left:0px;")= "["
+        span.title-body= "THE PEOPLE"
+        span.title-bracket= "]"
+
+    div.row.page-about(style="margin-top:40px;")
+      div.col-lf.col-sm-4
         for item in data["company"]
           div.big-bracket= "["
           for itm, ind in item[0]
             p
               if (ind === 0)
-                | <span class="company-name">TOTAL MEDIA GROUP</span> — 
+                | <span class="company-name">TOTAL MEDIA GROUP — </span>
               | #{itm}
           br
           br
@@ -24,8 +33,10 @@ block content
             br
 
 
-      div.col-rt.col-sm-6.col-sm-offset-1
-        p.header= "THE PEOPLE"
+      div.col-rt.col-sm-6.col-sm-offset-1.team-members
+
+        div.vertical-rule.tmg-trans-80
+
         for item in data["team"]
           div.team-member
             img(src="#{tmg_cdn}/img/team/#{item[4]}.jpg?v=#{app_version}")
@@ -38,9 +49,12 @@ block content
             a.team-email(target="_blank",href="mailt:#{item[3]}")
               i.fa.fa-envelope
             br
-            br
-            for itm in item[2]
-              p
-                | #{itm}
+            div.team-body
+              for itm in item[2]
+                p
+                  | #{itm}
+            div.team-more(onClick="TMG.fn.aboutTeamExpand(this)")
+              span= "MORE"
+              i.fa.fa-caret-down
 
           

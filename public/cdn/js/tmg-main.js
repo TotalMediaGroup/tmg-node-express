@@ -238,6 +238,17 @@ TMG.fn.load.jqueryAnimateScroll = function(){
   $.getScript(TMG.cdn.tmgVendor+"/jquery-animate-scroll/1.0.5/animatescroll.js");
 }
 
+// TMG.fn.load.jScrollPane = function(){
+//   TMG.fn.insertCss(TMG.cdn.bootstrap+"/jscrollpane/2.0.19/jquery.jscrollpane.css");
+//   $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/mwheelIntent.js",function(){
+//     $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.mousewheel.js",function(){
+//       $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.min.js",function(){
+
+//       });
+//     });
+//   });
+// }
+
 TMG.fn.load.browserDetect = function() {
   if (!TMG.renderForMobile) {
     $.getScript(TMG.cdn.tmgVendor+"/browser-detect/browser-detect.min.js",function(){
@@ -513,4 +524,20 @@ TMG.fn.work.filterVideos = function(filter) {
 
 }
 
+TMG.aboutTeamSmallHeight = 0;
+
+TMG.fn.aboutTeamExpand = function(obj) {
+  var target = $(obj).parent(".team-member").find(".team-body");
+
+  if (parseInt(target.css('height')) > 64) {
+    target.css({height:TMG.aboutTeamSmallHeight+'px'});
+    $(obj).css('top','0px').find("span").html("MORE");
+    $(obj).find(".fa").replaceWith("<i class=\"fa fa-caret-down\"></i>");
+  } else {
+    TMG.aboutTeamSmallHeight = parseInt(target.css('height'));
+    target.css({height:'auto'});
+    $(obj).css('top','-36px').find("span").html("LESS");
+    $(obj).find(".fa").replaceWith("<i class=\"fa fa-caret-up\"></i>");
+  }
+}
 
