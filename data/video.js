@@ -347,7 +347,7 @@ var data = [
     title: "what is virtualization",
     image_menu: "IC_vmglobe",
     image_background: "BG_Virtualization",
-    image_background_xy_position: [20,0],
+    image_background_xy_position: [10,5],
     image_poster: "PF_virtualization",
     video: [ [360,720], ["VMware_VIRTUALIZATION_V09_mixed_SD","VMware_VIRTUALIZATION_V09_mixed_HD"] ],
     client: "vmware",
@@ -371,8 +371,8 @@ var data = [
   { id: "solta-liposonix",
     title: "liposonix - one hour",
     image_menu: "demoImages_14",
-    image_background: "DBG_solta3",
-    image_background_xy_position: [0,0],
+    image_background: "soltagrass",
+    image_background_xy_position: [10,0],
     image_poster: "PF_solta1",
     video: [ [360,720], ["Solta_Liposonix_SD","Solta_Liposonix_HD"] ],
     client: "solta medical",
@@ -381,7 +381,7 @@ var data = [
     production_roles: ["design","animation"],
     secondary_text: ["We shot at the client’s office with the clients acting as talent and created the imagery to coordinate with the message."],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"DBG_solta3", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -405,9 +405,9 @@ var data = [
     production_roles: ["design","editorial","animation"],
     secondary_text: ["Yes Video services are also found in CVS, Walgreens and Costco, so we slightly repurposed  and rebrand the project to align with each company’s style and brand guidelines. Each video needed to be somewhat unique but maintain the same script, message and YesVideo product images and elements."],
     secondary_content: [
-      { title:"", image:"", video:"YSVD_CVS_v06_1920x1080_H264_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"YesVideo_Costco_v4_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"CVS", image:"yesvideo3flop", video:"YSVD_CVS_v06_1920x1080_H264_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Costco", image:"yesvideo2", video:"YesVideo_Costco_v4_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -419,8 +419,8 @@ var data = [
   { id: "polycom-cx7000",
     title: "cx7000 product launch",
     image_menu: "IC_watching",
-    image_background: "BG_CX7000",
-    image_background_xy_position: [0,0],
+    image_background: "polycom14",
+    image_background_xy_position: [10,0],
     image_poster: "PF_CX7000",
     video: [ [360,720], ["Polycom_CX7000_FINAL_2_10_5_11_SD","Polycom_CX7000_FINAL_2_10_5_11_HD"] ],
     client: "polycom",
@@ -444,7 +444,7 @@ var data = [
     title: "welcome to libo",
     image_menu: "IC_libo",
     image_background: "BG_Libo",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [0,10],
     image_poster: "PF_Libo",
     video: [ [360,720], ["Genentech_libo extracted_SD","Genentech_libo extracted_HD"] ],
     client: "genentech",
@@ -453,9 +453,9 @@ var data = [
     production_roles: ["design","script","shoot","vfx"],
     secondary_text: ["the budget did not allow for talent - stock - or any visual assets.","so we thought...","hey, let's create a sort of hand puppet spokesman.","we won't have to pay him. - these are SG's hands.","this clip is an excerpt from the longer (much longer) video.","there's only so much hand puppet one can take."],
     secondary_content: [
-      { title:"", image:"Libo1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"Libo2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"Libo3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"sghandshoot1", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
