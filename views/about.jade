@@ -39,7 +39,7 @@ block content
 
         for item in data["team"]
           div.team-member
-            img(src="#{tmg_cdn}/img/team/#{item[4]}.jpg?v=#{app_version}")
+            img(src="#{tmg_static_cdn}/web/portraits/#{item[4]}.jpg?v=#{app_version}")
             span.team-name
               | #{item[0]}
             span.team-div= "|"
