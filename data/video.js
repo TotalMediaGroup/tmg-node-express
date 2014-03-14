@@ -502,9 +502,9 @@ var data = [
     production_roles: ["design","animation","editorial"],
     secondary_text: ["tennis tournaments are typically shot with 2 cameras.","one high in the stands and one tucked into a back corner of the court space.","neither camera record shots that lend themselves to heroic editing.","the challenge is to create a spot from footage that is not shot for promotional editing."],
     secondary_content: [
+      { title:"", image:"SAPOpen4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"sapopen2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -518,7 +518,7 @@ var data = [
     image_menu: "IC_versatomic",
     image_background: "DBG_versitomic",
     image_background_xy_position: [0,0],
-    image_poster: "THSML_iconix2",
+    image_poster: "iconix2",
     video: [ [360,720], ["Stryker_JP_ICONIX_LIM_REVISED_5_21_13_ProRes_SD","Stryker_JP_ICONIX_LIM_REVISED_5_21_13_ProRes_HD"] ],
     client: "various",
     one_liner: "detailed product information",
@@ -526,9 +526,9 @@ var data = [
     production_roles: ["3d animation","editorial"],
     secondary_text: ["Animated using CAD files, lit and textured in Cinema 4D.","We had already designed many of the 3D animations for use on ipad, and were able to leverage these in this piece. Composited in After Effects."],
     secondary_content: [
-      { title:"", image:"THSML_versitomic1", video:"Stryker_JP_Versitomic_LIM_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"THSML_microfx1", video:"Stryker_JP_MicroFX_LIM_v05_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"MicroFX Osteochondral Drill", image:"microfx1", video:"Stryker_JP_MicroFX_LIM_v05_ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"", image:"", video:"", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"Versitomic Flexible Reamer System", image:"versitonic4", video:"Stryker_JP_Versitomic_LIM_HD", button_white_or_black:"black", title_white_or_black:"black" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -574,7 +574,7 @@ var data = [
     production_roles: ["creative","multi-location shoot","editorial"],
     secondary_text: ["This video is part of a series – and seems to resonate strongly with the people that review it."],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"thereforyou8", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -596,11 +596,11 @@ var data = [
     one_liner: "destination teaser",
     primary_text: ["An opening video for a gathering of nation-wide financial advisors held in miami.","The agency wanted to create a sense of enthusiasm in the audience by displaying interesting facts about florida, the company and clients they serve."],
     production_roles: ["design","edit","animation"],
-    secondary_text: [],
+    secondary_text: ["This piece was created entirely in after effects, a variety of different types of media and styles to create the energy that the client was after."],
     secondary_content: [
-      { title:"", image:"YellowPeople", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"fortigent10", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"fortigent9", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -620,9 +620,9 @@ var data = [
     one_liner: "television commercials",
     primary_text: ["sean del grande of del grand dealer group (DGDG) is a natural on camera.","director bob kilburg created the 'happy car buyer' brand.","and scripted the spots.","we stuck sean in front of a camera and turned him loose.","then created the cg world for him to perform in."],
     production_roles: ["creative","shoot","edit","animation"],
-    secondary_text: [],
+    secondary_text: [" "],
     secondary_content: [
-      { title:"", image:"DGDG_1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"dgdg2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -636,7 +636,7 @@ var data = [
   { id: "boston-bruins-hockey",
     title: "boston bruins hockey",
     image_menu: "IC_bruins1",
-    image_background: "DBG_bruins2",
+    image_background: "bruins2",
     image_background_xy_position: [0,0],
     image_poster: "PF_bruins1",
     video: [ [360,720], ["Boston_Bruins_30_TV_landmarks_SD","Boston_Bruins_30_TV_landmarks_HD"] ],
@@ -646,7 +646,7 @@ var data = [
     production_roles: ["design","editorial"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"bruins4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -660,17 +660,17 @@ var data = [
   { id: "intuity-on-q",
     title: "on q",
     image_menu: "IC_onq1",
-    image_background: "DBG_onQ10",
-    image_background_xy_position: [0,0],
+    image_background: "onQ9",
+    image_background_xy_position: [20,0],
     image_poster: "PF_onQ10",
     video: [ [360,720], ["Intuity_OnQ_ProRes_SD","Intuity_OnQ_ProRes_HD"] ],
     client: "intuity medical",
     one_liner: "product demonstration",
-    primary_text: ["A mix of 3d animation and 2d illustrated hands.","The video clearly demonstrates all modes of use."],
+    primary_text: ["Glucose Blood testing is cumbersome, Intuity believes it should be simplified.  They came to us with a need for a video demonstrating their new OnQ system, focusing on the need for an easy alternative.  OnQ is designed to integrate test strips, lancets, and lancing device into once compact meter and cartridge system to make testing easy, convenient and discrete.  This video demonstrates all modes of use with the product.  "],
     production_roles: ["Design","3d animation"],
-    secondary_text: [],
+    secondary_text: ["A mix of 3d animation and 2d illustrated hands.","The video clearly demonstrates all modes of use."],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"onQ6", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -685,18 +685,18 @@ var data = [
     title: "attract loop",
     image_menu: "IC_hightail2",
     image_background: "DBG_hightail5",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [0,10],
     image_poster: "PF_hightail3",
     video: [ [360,720], ["Hightail_BrandVid_Boothe_v4_1080_pr2_SD","Hightail_BrandVid_Boothe_v4_1080_pr2_HD"] ],
     client: "hightail",
     one_liner: "attract loop for trade show",
-    primary_text: ["Hightail needed a piece that would quickly demonstrate the central benefits of the new brand.","The live venue would not allow audio so we needed to tell the story using text and graphics.","We worked from a client script and crafted the 60 second piece."],
+    primary_text: ["Hightail needed a piece that would quickly demonstrate the central benefits of the new brand.  The live venue would not allow audio so we needed to tell the story using text and graphics.  We worked from a client script and crafted the 60 second piece."],
     production_roles: ["design","animation"],
-    secondary_text: [],
+    secondary_text: ["We created this entirely in Adobe After Effects, utilizing vector images and fast paced movement to keep the users attention with no audio."],
     secondary_content: [
+      { title:"", image:"Hightail_Device", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"Hightail_Security_Control", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -710,18 +710,18 @@ var data = [
     title: "sound station duo",
     image_menu: "IC_polycity",
     image_background: "DBG_polycity",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [10,5],
     image_poster: "PF_polycom-13",
     video: [ [360,720], ["Polycom_STD_Final_v2_SD","Polycom_STD_Final_v2_HD"] ],
     client: "polycom",
     one_liner: "product launch video",
     primary_text: ["sound station duo is polycom's entry level conference phone system.","they wanted to highlight the benefits of the system for the modest budget."],
     production_roles: ["creative","design","animation"],
-    secondary_text: [],
+    secondary_text: ["We had a great time Coming up with interesting camera moves and creating a story out of pictures and the 3D model, "],
     secondary_content: [
+      { title:"", image:"Polycom_Soundstation2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"Polycom_Soundstation3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -739,11 +739,11 @@ var data = [
     video: [ [360,720], ["Stryker_RegenKit_Lobby_Loop_SD","Stryker_RegenKit_Lobby_Loop_HD"] ],
     client: "stryker medical",
     one_liner: "lobby loop",
-    primary_text: ["lobby loop displayed in stryker's main corporate lobby."],
+    primary_text: ["The client came to us in need of a video to play in their lobby.  They wanted an informational piece, that was graphically pleasing and pretty to look at.","utilizing their script and branding, we came up with this."],
     production_roles: [],
-    secondary_text: [],
+    secondary_text: ["lobby loop displayed in stryker's main corporate lobby."],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"RegenKit1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -765,9 +765,9 @@ var data = [
     one_liner: "rosalind russell documentary",
     primary_text: ["Narrated by Kathleen turner, this insightful documentary about film icon rosalind Russell comes on the occasion of the 70th anniversary of her breakthrough role as Hildy in His girl friday.","The film explores not only Russell's life in film,  but also her humanitarian work.","available at amazon.","TMG produced and edited the film."],
     production_roles: ["creative","production","shoot","editorial"],
-    secondary_text: [],
+    secondary_text: [""],
     secondary_content: [
-      { title:"", image:"RightRozBW", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"ros2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"Left_BlueRoz", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -788,12 +788,12 @@ var data = [
     client: "Various",
     one_liner: "Various bits of vfx work",
     primary_text: ["various bits of motion graphics fun and vfx.","these are comps done to experiment and learn new tools."],
-    production_roles: [],
-    secondary_text: [],
+    production_roles: ["Creative", "Production", "Shoot", "Editorial", "Compositing"],
+    secondary_text: ["Whether it's new software, plug-ins, or techniques, all of our artists are constantly trying to better themselves and come up with new methods to solve challenging situations."],
     secondary_content: [
-      { title:"", image:"THSML_andes", video:"ANDES_EXPO_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"THSML_NIEMI", video:"NIEMI COMPOSITE BREAKDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"THSML_samsung", video:"SAMSUNG_MOCK_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Andes Expo", image:"PF_andes", video:"ANDES_EXPO_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Lousy Poker Player", image:"PF_NIEMI", video:"NIEMI COMPOSITE BREAKDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"CG Greenscreen Composite", image:"Samsung_1", video:"SAMSUNG_MOCK_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
@@ -811,13 +811,13 @@ var data = [
     video: [ [360,720], ["CiscoLive2013_Candids_FINAL_ALT_ProRes_SD","CiscoLive2013_Candids_FINAL_ALT_ProRes_HD"] ],
     client: "cisco systems",
     one_liner: "live event production",
-    primary_text: [],
-    production_roles: [],
-    secondary_text: [],
+    primary_text: ["TMG has been working with Cisco for many years now, producing aspects of their show 'Cisco Live.'  We've enjoyed working on site with the client; producing, editing and delivering content on the fly during the show."],
+    production_roles: ["Production", "Shoot", "Editorial"],
+    secondary_text: ["The show is always a week…"],
     secondary_content: [
-      { title:"", image:"THSML_ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"DJ Robbie", image:"ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"ciscolive5", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -839,9 +839,9 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the super wide-screen format created a nice big canvas to paint on.","we're still cleaning up."],
     secondary_content: [
-      { title:"", image:"THSML_salix6", video:"Salix_DAY_2_OPEN_PJPG_DISCTRETE _HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Day 2 Open Video", image:"salix2", video:"Salix_DAY_2_OPEN_PJPG_DISCTRETE _HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"salix5", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -863,7 +863,7 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the highlight of day 2 was an appearance by homer hickam,","the young hero of the movie October sky who rose from the coal mines of west virginia to become one of the leading rocket scientists at nasa."],
     secondary_content: [
-      { title:"", image:"PF_salixrocket", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"Salix_OctSky1", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
