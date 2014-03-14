@@ -33,9 +33,9 @@ var data = [
     image_background_xy_position: [15,0],
     image_poster: "employee1",
     video: [ [360,720], ["Opts_EMPLOYEE_DIRCUT_1M_SD","Opts_EMPLOYEE_DIRCUT_1M_HD"] ],
-    client: "OPTS IDEAS",
+    client: "LPL Financial",
     one_liner: "INFORMATIONAL VIDEO",
-    primary_text: ["The piece was intended to inspire the audience and create a sense of anticipation around new technology soon to be released.","We had been warned that the audience had become suspicious of broken promises, so we wanted to stay away from anything that resembled the typical corporate motivational piece.","We thought something unusual, and authentic would be a better approach. We wanted the audience to THINK.","The script speaks to the dreams of the investor / clients and how staff could better help them achieve those dreams. It was written as a sort of poem.","The graphics were designed to present and support the on-screen text with sublime - abstract forms."],
+    primary_text: ["Agency: Opts Ideas","","The piece was intended to inspire the audience and create a sense of anticipation around new technology soon to be released.","We had been warned that the audience had become suspicious of broken promises, so we wanted to stay away from anything that resembled the typical corporate motivational piece.","We thought something unusual, and authentic would be a better approach. We wanted the audience to THINK.","The script speaks to the dreams of the investor / clients and how staff could better help them achieve those dreams. It was written as a sort of poem.","The graphics were designed to present and support the on-screen text with sublime - abstract forms."],
     production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
     secondary_text: ["The video was displayed on an extremely wide screen - 180’x18’ - basically shaped like a curved mail slot. Designing a graphical piece for such an unusual format was a challenge.","The obvious approach would be to split the screen into multiple 16x9 areas across the horizontal width. But we wanted to use the wide format as a massive canvas instead. We thought the impact of the high contrast graphics operating across a180’ space would be pretty profound. Text on screen provides the common thread. Circles were used as the main element in the overall show design so we adopted dots as our primary characters."],
     secondary_content: [
@@ -57,7 +57,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "pf_abbott",
     video: [ [360,720], ["Abbott_ALWAYS WITH YOU_DIRCUT 1_SD","Abbott_ALWAYS WITH YOU_DIRCUT 1_HD"] ],
-    client: "abbott",
+    client: "abbott diabetes",
     one_liner: "in store brand video",
     primary_text: ["ABBOTT HAD BEEN EXPERIMENTING WITH THE USE OF A SAINT BERNARD IN ITS PRINT ADS.","THE DOG COMMUNICATES A SENSE OF RELIABILITY TO THE TARGET MARKET.","THE PHOTOGRAPHIC CHARACTER PROVED EFFECTIVE TO THE BRAND BUT FAILED TO FULLY LEVERAGE THE DOG’S CHARACTER.","WE THOUGHT BRINGING HIM TO LIFE IN CG WOULD BE A FUN WAY TO CREATE SORT OF “MASCOT” AND ON-SCREEN PERSONALITY.","WE CALL HIM HECTOR."],
     production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
@@ -105,9 +105,9 @@ var data = [
     image_background_xy_position: [10,15],
     image_poster: "PF_optsanthem10",
     video: [ [360,720], ["Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_SD","Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD"] ],
-    client: "OPTS IDEAS",
+    client: "LPL Financial",
     one_liner: "ANIMATED DOTS TELL A MAGICAL STORY",
-    primary_text: ["THE PIECE WAS INTENDED TO INSPIRE THE AUDIENCE AND CREATE A SENSE OF ANTICIPATION AROUND NEW TECHNOLOGY SOON TO BE RELEASED.","WE HAD BEEN WARNED THAT THE AUDIENCE HAD BECOME SUSPICIOUS OF BROKEN PROMISES, SO WE WANTED TO STAY AWAY FROM ANYTHING THAT RESEMBLED THE TYPICAL CORPORATE MOTIVATIONAL PIECE.","WE THOUGHT SOMETHING UNUSUAL, AND AUTHENTIC WOULD BE A BETTER APPROACH. WE WANTED THE AUDIENCE TO THINK.","THE SCRIPT SPEAKS TO THE DREAMS OF THE INVESTOR / CLIENTS AND HOW STAFF COULD BETTER HELP THEM ACHIEVE THOSE DREAMS. IT WAS WRITTEN AS A SORT OF POEM.","THE GRAPHICS WERE DESIGNED TO PRESENT AND SUPPORT THE ON-SCREEN TEXT WITH SUBLIME - ABSTRACT FORMS."],
+    primary_text: ["Agency: Opts Ideas","","THE PIECE WAS INTENDED TO INSPIRE THE AUDIENCE AND CREATE A SENSE OF ANTICIPATION AROUND NEW TECHNOLOGY SOON TO BE RELEASED.","WE HAD BEEN WARNED THAT THE AUDIENCE HAD BECOME SUSPICIOUS OF BROKEN PROMISES, SO WE WANTED TO STAY AWAY FROM ANYTHING THAT RESEMBLED THE TYPICAL CORPORATE MOTIVATIONAL PIECE.","WE THOUGHT SOMETHING UNUSUAL, AND AUTHENTIC WOULD BE A BETTER APPROACH. WE WANTED THE AUDIENCE TO THINK.","THE SCRIPT SPEAKS TO THE DREAMS OF THE INVESTOR / CLIENTS AND HOW STAFF COULD BETTER HELP THEM ACHIEVE THOSE DREAMS. IT WAS WRITTEN AS A SORT OF POEM.","THE GRAPHICS WERE DESIGNED TO PRESENT AND SUPPORT THE ON-SCREEN TEXT WITH SUBLIME - ABSTRACT FORMS."],
     production_roles: ["CREATIVE","SCRIPT","animation","edit","composite"],
     secondary_text: ["THE VIDEO WAS DISPLAYED ON AN EXTREMELY WIDE SCREEN - 180’X18’ - BASICALLY SHAPED LIKE A CURVED MAIL SLOT. DESIGNING A GRAPHICAL PIECE FOR SUCH AN UNUSUAL FORMAT WAS A CHALLENGE.","THE OBVIOUS APPROACH WOULD BE TO SPLIT THE SCREEN INTO MULTIPLE 16X9 AREAS ACROSS THE HORIZONTAL WIDTH. BUT WE WANTED TO USE THE WIDE FORMAT AS A MASSIVE CANVAS INSTEAD","WE THOUGHT THE IMPACT OF THE HIGH CONTRAST GRAPHICS OPERATING ACROSS A 180 FOOT SPACE WOULD BE PRETTY PROFOUND. TEXT ON SCREEN PROVIDES THE COMMON THREAD.","CIRCLES WERE USED AS THE MAIN ELEMENT IN THE OVERALL SHOW DESIGN SO WE ADOPTED DOTS AS OUR PRIMARY CHARACTERS."],
     secondary_content: [
@@ -122,13 +122,13 @@ var data = [
 
 
   { id: "san-jose-sharks",
-    title: "San JOSE SHARKS",
+    title: "TV Commercials",
     image_menu: "IC_sharks_sales",
     image_background: "sharks15BW",
     image_background_xy_position: [20,0],
     image_poster: "PF_sharks4",
     video: [ [360,720], ["SJ_Sharks_SHAR1230_RASH_200_HD","SJ_Sharks_SHAR1230_RASH_200_SD"] ],
-    client: "KILBURG AND ASSOCIATES",
+    client: "San Jose Sharks",
     one_liner: "TELEVISION COMMERCIALS",
     primary_text: ["AGENCY: KILBURG AND ASSOCIATES","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","TRY AND GET SEVEN ELITE PROFESSIONAL ATHLETES TOGETHER IN THE SAME ROOM FOR A DAY. GO AHEAD, TRY IT.","DIRECTOR BOB KILBURG MANAGES TO GET THESE BUSY PLAYERS ALL TOGETHER JUST LONG ENOUGH TO CAPTURE PERFORMANCES OF THE LOOSELY SCRIPTED COMEDIC VIGNETTES. THE CHALLENGE THEN, IS TO CREATE TV SPOTS WITH EDITORIAL INTEGRITY AND VISUAL INTEREST.","THE TEAM OF KILBURG AND GREGORY HAS BEEN PUMPING THESE SPOTS OUT FOR 8 GREAT SEASONS. THEY ARE CONSIDERED BY THE FANS TO BE SOME OF THE BEST IN THE NHL.","NOW IF WE COULD JUST WIN THE DANG CUP!"],
     production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
@@ -466,15 +466,15 @@ var data = [
 
 
   { id: "various-political-spots",
-    title: "political spots",
+    title: "Various Candidates",
     image_menu: "IC_chamelion",
     image_background: "BG_Political",
     image_background_xy_position: [0,0],
     image_poster: "PF_political13",
     video: [ [360,720], ["Jim_Costa_VALLEY_HOME_4x3_SAFE_SD","Jim_Costa_VALLEY_HOME_4x3_SAFE_HD"] ],
-    client: "various",
+    client: "political spots",
     one_liner: "political tv spots",
-    primary_text: ["Michael fenenbock (the fenenbock group) is considered one of the nations leading campaign strategists.","a gifted filmmaker he has a unique gift for crafting compelling stories.","creative director Steven Gregory has worked with michael for many years and created many spots for candidates on both sides of the aisle.","here are a few."],
+    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","Michael fenenbock (the fenenbock group) is considered one of the nations leading campaign strategists.","a gifted filmmaker he has a unique gift for crafting compelling stories.","creative director Steven Gregory has worked with michael for many years and created many spots for candidates on both sides of the aisle.","here are a few."],
     production_roles: ["creative","editorial","animation"],
     secondary_text: ["the spots range from cinematic to comical to downright weird.","all these candidates were elected."],
     secondary_content: [
@@ -490,15 +490,15 @@ var data = [
 
 
   { id: "kilburg-sap-open",
-    title: "sap open tennis",
+    title: "TV Spots",
     image_menu: "IC_sapopen",
     image_background: "DBG_sapopen1",
     image_background_xy_position: [0,0],
     image_poster: "PF_sapopen3",
     video: [ [360,720], ["SAPOpen_1202_SAP_OPEN_GEN_USE_30_SD","SAPOpen_1202_SAP_OPEN_GEN_USE_30_HD"] ],
-    client: "kilburg and associates",
+    client: "sap open tennis",
     one_liner: "television commercials",
-    primary_text: ["tech giant sap sponsors this annual tennis tournament.","silicon valley sports and entertainment run the show.","director bob kilburg and sg have been cutting these spots together for many years","marquee players from all over the world compete."],
+    primary_text: ["AGENCY: Kilburg and Associates","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","tech giant sap sponsors this annual tennis tournament.","silicon valley sports and entertainment run the show.","director bob kilburg and sg have been cutting these spots together for many years","marquee players from all over the world compete."],
     production_roles: ["design","animation","editorial"],
     secondary_text: ["tennis tournaments are typically shot with 2 cameras.","one high in the stands and one tucked into a back corner of the court space.","neither camera record shots that lend themselves to heroic editing.","the challenge is to create a spot from footage that is not shot for promotional editing."],
     secondary_content: [
@@ -931,9 +931,11 @@ var data = [
     video: [ [360,720], ["NSM2013_Open_FINAL_SD","NSM2013_Open_FINAL_HD"] ],
     client: "Stryker",
     one_liner: "",
-    primary_text: ["We've been working with Stryker for over 20 years, what started out as open videos for National Sales Meetings, quickly turned into work for Stryker Biotech, Stryker Spine, Stryker Sports Medicine, as well as Stryker Global Operations.  While we began our relationship with message driven video, the creative output has grown to include print, signage, web, event production, trade show design, 3D animation, and much more. We've come a long way and we continue to learn and grow with Stryker."],
+    primary_text: ["TMG has provided client service to Stryker Corporation for over twenty years.&nbsp;&nbsp;What began by producing sales meeting videos for a small portion of the corporation has grown steadily into a collaborative effort, spanning many of Stryker’s product divisions and global entities.&nbsp;&nbsp;TMG contributes to all aspects and phases of media production.&nbsp;&nbsp;Our collective output has expanded and diversified to include creative content development, motion graphic design and animation, trade show and event production, print and signage, web and much more."],
     production_roles: ["3D","Creative","Event Production","editorial"],
-    secondary_text: ["We've utilized all aspects of production on these pieces, from pre-production, to production, and into Post.&nbsp;&nbsp;In pre-production, we determine the venue size, screen size, and various aspects of the show to set the course for production and post.&nbsp;&nbsp;After we shoot the media, we then pull it all into post and then Utilize Adobe Creative Suite, Apple Final Cut Studio, Maxon's Cinema 4D, and other software, to create the elements below.&nbsp;&nbsp;We send the deliverables to show site with our on-site production staff to ensure that all media plays correctly and the client is happy."],
+    secondary_text: ["Additionally, pre-production spotlights our ability to carefully plot the course for production and post.&nbsp;&nbsp;Upon acquisition, we employ an assortment of software and other tools to craft programming.&nbsp;&nbsp;Deliverables are fully realized on show site and our production team is there to support the event and client to ensure complete customer satisfaction.";"";"
+
+We’ve come a long way.&nbsp;&nbsp;The partnership between Stryker and TMG continues to be a strong and successful one."],
     secondary_content: [
       { title:"Stryker Chicklets", image:"stryker_medical_chicklets", video:"stryker_medical_generic_loop_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Stryker Walk-in Loop ", image:"strykerpurple", video:"NSM2013_Open_FINAL_HD", button_white_or_black:"black", title_white_or_black:"black" },
