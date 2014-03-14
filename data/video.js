@@ -685,18 +685,18 @@ var data = [
     title: "attract loop",
     image_menu: "IC_hightail2",
     image_background: "DBG_hightail5",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [0,10],
     image_poster: "PF_hightail3",
     video: [ [360,720], ["Hightail_BrandVid_Boothe_v4_1080_pr2_SD","Hightail_BrandVid_Boothe_v4_1080_pr2_HD"] ],
     client: "hightail",
     one_liner: "attract loop for trade show",
     primary_text: ["Hightail needed a piece that would quickly demonstrate the central benefits of the new brand.  The live venue would not allow audio so we needed to tell the story using text and graphics.  We worked from a client script and crafted the 60 second piece."],
     production_roles: ["design","animation"],
-    secondary_text: [],
+    secondary_text: ["We created this entirely in Adobe After Effects, utilizing vector images and fast paced movement to keep the users attention with no audio."],
     secondary_content: [
+      { title:"", image:"Hightail_Device", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"Hightail_Security_Control", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
