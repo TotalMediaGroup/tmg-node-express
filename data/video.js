@@ -694,9 +694,9 @@ var data = [
     production_roles: ["design","animation"],
     secondary_text: ["We created this entirely in Adobe After Effects, utilizing vector images and fast paced movement to keep the users attention with no audio."],
     secondary_content: [
-      { title:"", image:"Hightail_Device", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"hightail1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"Hightail_Security_Control", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"hightail2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -885,7 +885,7 @@ var data = [
     one_liner: "show files",
     primary_text: ["Opts Ideas came to us with a quick deadline, and a lot of work that needed to happen.&nbsp;&nbsp;They had a conference happening, with multiple deliverables in multiple formats and sizes.  Some were on iPads, some on Apple Retina Displays, and some were to be displayed on a super wide 8500 pixel screen.  We had a team of 17 artists working around the clock from start to finish to create all of the deliverables in just short of 2 weeks, totaling around an hour of content."],
     production_roles: ["Pre-Production","Creative","Producing/Directing","Motion Graphics","Video Editing"],
-    secondary_text: ["Our studio generally only houses a few primary artists, however, with this particular project, we had an influx of freelance animators, motion graphics artists, and compositors to come in and help us bang out the content in the short timespan that we had.  Clients were in the office with us, some nights as late as 2am, constantly editing and doing graphics to make sure that the deadline was met.  We were right up to the end, but as we have always done in 35 years, we never missed the deadline and the end client LPL Financial was thrilled at the outcome."],
+    secondary_text: ["TMG mobilized a team of freelance animators, motion graphics artists, and compositors to help us bang out 22 modules in 2 weeks.  Clients were in the office with us, some nights as late as 2am, partnering with us during the editorial and graphical process to make sure that the deadline was met.  We were right up to the end, but as we have always done in 35 years, we never missed the deadline and the end client LPL Financial was thrilled with the outcome."],
     secondary_content: [
       { title:"Anthem", image:"optsdots3", video:"Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"Account View Tech Demo", image:"OptsTechAccountView5", video:"Opts_tech_demos_2013_Account_View_Desktop_BC_v8_ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
@@ -923,7 +923,7 @@ var data = [
 
 
   { id: "stryker-national-sales-meeting",
-    title: "Chicklets",
+    title: "National Sales Meeting",
     image_menu: "IC_chicklet2",
     image_background: "DBG_chickletwall",
     image_background_xy_position: [0,0],
@@ -955,9 +955,9 @@ var data = [
     video: [ [360,720], ["Equinix_Globe_SD","Equinix_Globe_HD"] ],
     client: "equinix",
     one_liner: "event opener",
-    primary_text: [],
-    production_roles: [],
-    secondary_text: [""],
+    primary_text: ["equinix is in the data business.&nbsp;&nbsp;they build and maintain massive data centers all over the globe.&nbsp;&nbsp;this opener for the 2013 trade show was intended to present a sort of world tour, and supply a glimpse of the company from the inside."],
+    production_roles: ["creative","design","3D Animation"],
+    secondary_text: ["This piece takes the viewer on a tour starting in the east and moving westward through many timezones.&nbsp;&nbsp;Starting in Sydney, and finishing up with a sunset in San Francisco.&nbsp;&nbsp;Telling the story that the sun never sets on planet Equinix."],
     secondary_content: [
       { title:"", image:"equinix1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
