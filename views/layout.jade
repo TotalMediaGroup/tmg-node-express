@@ -21,6 +21,11 @@ html(lang="en")
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-main.css?v=#{app_version}')
     script(type='text/javascript', src='#{tmg_cdn}/js/tmg-preload.js?v=#{app_version}')
   
+    script(type="text/javascript")
+      | var tmgRules=[], tmgCurrentRule=0;
+      for item in data["tmg_rules"]
+        | tmgRules[#{data["tmg_rules"].indexOf(item)}]={num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'};
+  
   body(class="body-#{current_page[0]}")
     
     div.container#tmg-container
@@ -40,16 +45,40 @@ html(lang="en")
                     a.hover-trans-67(href="#{item[2]}")= item[1]
 
             div.social-buttons
-              a(href="https://www.facebook.com/pages/Total-Media-Group-Inc/388304704588058",target="_blank",style="padding-left:8px;padding-right:9px;")
-                i.fa.fa-facebook(style="position:relative;top:1px;")
-              a(href="https://www.linkedin.com/company/total-media-group",target="_blank",style="padding-left:5px;padding-right:5px;")
-                i.fa.fa-linkedin
+              a(href="https://www.facebook.com/pages/Total-Media-Group-Inc/388304704588058",target="_blank")
+                i.fa.fa-facebook-square
+              a(href="https://www.linkedin.com/company/total-media-group",target="_blank")
+                i.fa.fa-linkedin-square
               a(href="mailto:",target="_blank")
-                i.fa.fa-envelope(style="position:relative;top:1px;")
+                i.fa.fa-envelope
 
       block content
 
     div.footer
+      div.container
+        a.footer-logo(href="/")
+          img(src="#{tmg_cdn}/img/logo/masthead-creative.png?v=#{app_version}")
+        div.vertical-rule.tmg-trans-33.vertical-rule-logo
+        div.footer-address
+          p= "432 NORTH CANAL STREET SUITE 12"
+          p= "SOUTH SAN FRANCISCO, CA, 94080"
+          p!= "P-650-583-8236 <span style='position:relative;left:15px;'>F-650-583-4708</span>"
+          div.social-buttons
+            a(href="https://www.facebook.com/pages/Total-Media-Group-Inc/388304704588058",target="_blank")
+              i.fa.fa-facebook-square
+            a(href="https://www.linkedin.com/company/total-media-group",target="_blank")
+              i.fa.fa-linkedin-square
+            a(href="mailto:",target="_blank")
+              i.fa.fa-envelope
+        div.home-rules.footer-rules
+          div.home-rules-number-stretch.rule-number= "Rule #00"
+          hr.rule-hr(style="top:5px;")
+          div.home-rules-body-squeeze.rule-body
+            span.brackets= "[ "
+            span.rule-body-inner= "RULE"
+            span.brackets= " ]"
+          hr.rule-hr(style="top:-85px;")
+          span.rule-footer= "HOW TO DO REALLY GREAT WORK"
     
     script(type='text/javascript', src='#{googlelibs_cdn}/jquery/1.11.0/jquery.min.js')
     script(type='text/javascript', src='#{cdnjs_cdn}/modernizr/2.6.2/modernizr.min.js')

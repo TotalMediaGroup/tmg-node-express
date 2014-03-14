@@ -190,19 +190,22 @@ TMG.fn.load.jqueryGalleria = function(){
         autoplay: TMG.slideShowDelay,
         carousel: false
     });
+
     if (typeof tmgRules !== "undefined") {
       tmgRules.sort(TMG.randomSort);
-      $('.rule-body').flowtype({
-  //      minFont : 72,
-        maxFont: 112,
-        fontRatio: 10
-        // maximum : 1200
-      });
+      if (TMG.currentPage === 'home') { 
+        $('.rule-body').flowtype({
+    //      minFont : 72,
+          maxFont: 112,
+          fontRatio: 10
+          // maximum : 1200
+        });
+      }
     }
 
     TMG.jqueryGalleria[0].on('start', function(e) {
       if (typeof tmgRules !== "undefined") {
-        alert("asdf");
+
       }
     });
 
@@ -226,6 +229,8 @@ TMG.fn.load.jqueryGalleria = function(){
       $(this).css({width:TMG.bodyWidth+"px"});
       TMG.jqueryGalleria[0].run('.galleria-bg');
     });
+
+    if (TMG.currentPage !== 'home') { TMG.setCurrentRule(); }
 
   });
 }
@@ -263,18 +268,28 @@ TMG.fn.load.browserDetect = function() {
   });}
 }
 
-TMG.cycleBgImage = function() {
+TMG.setCurrentRule = function() {
   $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
   $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
   $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
   $(".home-rules").animate({opacity:0.90},500);
-  var fadeOut = setTimeout(function(){
-    $(".home-rules").animate({opacity:0},1000,function(){
-      tmgCurrentRule++;
-      if (tmgCurrentRule==tmgRules.length) { tmgCurrentRule=0; }
-      tmgRules.sort(TMG.randomSort);
-    });
-  },TMG.slideShowDelay-1000);  
+}
+
+TMG.cycleBgImage = function() {
+  TMG.setCurrentRule();
+  // $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
+  // $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
+  // $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
+  // $(".home-rules").animate({opacity:0.90},500);
+  if (TMG.currentPage === 'home') {
+    var fadeOut = setTimeout(function(){
+      $(".home-rules").animate({opacity:0},1000,function(){
+        tmgCurrentRule++;
+        if (tmgCurrentRule==tmgRules.length) { tmgCurrentRule=0; }
+        tmgRules.sort(TMG.randomSort);
+      });
+    },TMG.slideShowDelay-1000);  
+  }
 }
 
 TMG.randomSort = function(a,b) {

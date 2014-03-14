@@ -55,14 +55,17 @@ var data = {
   "about": {
     background_images: require("./data/home-backgrounds.js").load(),
     team: require("./data/about-team.js").load(),
-    company: require("./data/about-company.js").load()
+    company: require("./data/about-company.js").load(),
+    tmg_rules: require("./data/home-rules.js").load()
   },
   "work": {
     background_images: require("./data/home-backgrounds.js").load(),
-    video: require("./data/video.js").load()
+    video: require("./data/video.js").load(),
+    tmg_rules: require("./data/home-rules.js").load()
   },
   "work-single": {
-    video: require("./data/video.js").load()
+    video: require("./data/video.js").load(),
+    tmg_rules: require("./data/home-rules.js").load()
   }
 };
 

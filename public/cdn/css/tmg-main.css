@@ -26,7 +26,19 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .navbar-nav li a:hover { color:#999999 !important; }
 .navbar-nav>li>a { padding-bottom:0px; }
 .navbar-inverse .navbar-nav>.active>a { box-shadow:none; background-image:none; }
-.footer { position:relative; top:0px; height:66px; z-index:10; width:100%; background-color:rgba(78,78,78,1); border:0; margin-top:0px; }
+
+.footer { position:relative; top:0px; height:120px; z-index:10; width:100%; background-color:rgba(78,78,78,1); border:0; margin-top:0px; overflow:hidden; }
+.footer .footer-logo { position:relative; float:left; padding:45px; padding-top:25px; }
+.footer .footer-logo img:hover { filter:alpha(opacity=67); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=67)"; -moz-opacity:0.67; -khtml-opacity:0.67; opacity:0.67; }
+.footer .footer-address { position:relative; font-size:11px; color:#cccccc; float:left; width:auto; text-align:left; margin-top:15px; padding:15px 40px 0px 40px; height:200px; border-left:dashed 1px #cccccc; border-right:dashed 1px #cccccc; }
+.footer .footer-address p { font-family:"gothamrounded_book"; line-height:1.7; margin-top:1px; margin-bottom:1px; text-transform: uppercase; }
+.footer .vertical-rule { display:none; position:absolute; left:0%; top:20%; height:120px; border:0; border-left:dashed 1px #cccccc; width:0px; }
+.footer .vertical-rule-logo { left:12%; }
+.footer .vertical-rule-address { left:35%; }
+.footer .vertical-rule-rules { left:60%; }
+.footer .footer-address .social-buttons { margin-top:2px; float:left; margin-left:0px; position:relative; left:-5px; display:none; }
+.footer .footer-rules { position:absolute; right:0%; height:0px; width:100%; top:-20px; left:20%; margin-left:0px; margin-right:0px; padding-top:0px; padding-left:0px; -webkit-transform:scale(0.4); -moz-transform:scale(0.4); -ms-transform:scale(0.4); -o-transform:scale(0.4); transform:scale(0.4);  }
+
 .navbar-inverse { background-image:none; }
 /*.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a { text-shadow:none; }*/
 .body-home .footer { display:none; }
@@ -37,8 +49,9 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .wide-container { width:1280px !important; }
 
 .social-buttons { float:right; height:25px; margin-top:64px; margin-right:20px; }
-.social-buttons a { position:relative; color:#cccccc; font-size:15px; padding:4px; cursor:pointer; border:0; background-color:#666666; margin:0px 2px; vertical-align:middle; }
+.social-buttons a { position:relative; color:#cccccc; font-size:18px; padding:4px; cursor:pointer; border:0; background-color:transparent; margin:0px 2px; vertical-align:middle; }
 .social-buttons a:hover { color:#999999; }
+.social-buttons a .fa-envelope { position:relative; left:-1px; font-size:19px; -webkit-transform: scaleX(0.83); -moz-transform: scaleX(0.83); -ms-transform: scaleX(0.83); -o-transform: scaleX(0.83); transform: scaleX(0.83); }
 
 .galleria-container { z-index:0 !important; margin-top:88px; }
 .galleria-bg .galleria-info { visibility:hidden; }
@@ -179,6 +192,8 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-about .title-body { font-size:12px; position:relative; top:-16px; color:white; }
 .page-about .vertical-rule { position:absolute; left:-5%; top:-80px; height:100%; border:0; border-left:dashed 1px #cccccc; width:0px; }
 .team-members { max-height:580px; overflow-y:scroll; overflow-x:hidden; margin-bottom:30px; }
+
+
 
 .radial-gradient {
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNDUiLz4KICAgIDxzdG9wIG9mZnNldD0iNjclIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
