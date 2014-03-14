@@ -455,7 +455,7 @@ var data = [
     secondary_content: [
       { title:"", image:"sghandshoot1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"libo2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"Libo2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
