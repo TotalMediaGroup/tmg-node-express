@@ -160,6 +160,10 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
         // } else { setSquImg(this,'wd'); }
       });
     });
+
+  if (TMG.currentPage == "work") {
+    $(".page-work").css({minHeight:parseInt($(".galleria-container").innerHeight()-$(".page-work-nav").innerHeight()-88-110-90)+"px"});
+  }
 }
 
 TMG.fn.reactiveUi.setOnOrientationChange = function() {
@@ -522,13 +526,13 @@ TMG.fn.ui.work.setupVideoMenu = function() {
 
 TMG.fn.work.filterVideos = function(filter) {
 
-  if (filter == null) {
+
+  if ((filter== null) || (filter == 'reset')) {
     $('.page-work').isotope({
       itemSelector: '.video-browser-box',
-      animationEngine: 'best-available'
+      animationEngine: 'best-available',
+      filter: '*'
     }); 
-  } else if (filter == 'reset') {
-    $('.page-work').isotope( 'reLayout', function(){} );
   } else {
     $('.page-work').isotope({
       itemSelector: '.video-browser-box',
@@ -536,6 +540,8 @@ TMG.fn.work.filterVideos = function(filter) {
       filter:'.'+filter
     });
   }
+
+  TMG.fn.reactiveUi.modifyOverWidthElements();
 
 }
 
