@@ -596,11 +596,11 @@ var data = [
     one_liner: "destination teaser",
     primary_text: ["An opening video for a gathering of nation-wide financial advisors held in miami.","The agency wanted to create a sense of enthusiasm in the audience by displaying interesting facts about florida, the company and clients they serve."],
     production_roles: ["design","edit","animation"],
-    secondary_text: [],
+    secondary_text: ["This piece was created entirely in after effects, a variety of different types of media and styles to create the energy that the client was after."],
     secondary_content: [
-      { title:"", image:"YellowPeople", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"fortigent10", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"fortigent1", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"fortigent9", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -620,9 +620,9 @@ var data = [
     one_liner: "television commercials",
     primary_text: ["sean del grande of del grand dealer group (DGDG) is a natural on camera.","director bob kilburg created the 'happy car buyer' brand.","and scripted the spots.","we stuck sean in front of a camera and turned him loose.","then created the cg world for him to perform in."],
     production_roles: ["creative","shoot","edit","animation"],
-    secondary_text: [],
+    secondary_text: [" "],
     secondary_content: [
-      { title:"", image:"DGDG_1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"dgdg2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -636,7 +636,7 @@ var data = [
   { id: "boston-bruins-hockey",
     title: "boston bruins hockey",
     image_menu: "IC_bruins1",
-    image_background: "DBG_bruins2",
+    image_background: "bruins2",
     image_background_xy_position: [0,0],
     image_poster: "PF_bruins1",
     video: [ [360,720], ["Boston_Bruins_30_TV_landmarks_SD","Boston_Bruins_30_TV_landmarks_HD"] ],
@@ -646,7 +646,7 @@ var data = [
     production_roles: ["design","editorial"],
     secondary_text: [],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"bruins4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
