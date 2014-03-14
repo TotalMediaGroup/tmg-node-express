@@ -813,7 +813,7 @@ var data = [
     one_liner: "live event production",
     primary_text: ["TMG has been working with Cisco for many years now, producing aspects of their show 'Cisco Live.'  We've enjoyed working on site with the client; producing, editing and delivering content on the fly during the show."],
     production_roles: ["Production", "Shoot", "Editorial"],
-    secondary_text: ["The show is always a week… Jeff is helping write"],
+    secondary_text: ["The show is always a week…"],
     secondary_content: [
       { title:"DJ Robbie", image:"ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
