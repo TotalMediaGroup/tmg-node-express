@@ -779,17 +779,17 @@ var data = [
 
 
   { id: "various-vfx",
-    title: "Vfx",
+    title: "Artists having fun",
     image_menu: "IC_connections",
     image_background: "DBG_connections",
     image_background_xy_position: [0,0],
     image_poster: "PF_connection",
     video: [ [360,720], ["","CONNECTIONS_HD"] ],
-    client: "Various",
+    client: "Visual Effects",
     one_liner: "Various bits of vfx work",
-    primary_text: ["various bits of motion graphics fun and vfx.","these are comps done to experiment and learn new tools."],
+    primary_text: ["Whether learning new software or exploring new techniques, our artists are continually working to lean and improve their skills.&nbsp;&nbsp;When we have bits of downtime (which is rare) we produce little “spec” pieces.&nbsp;&nbsp;they are rarely seen by clients.&nbsp;&nbsp;here are a few."],
     production_roles: ["Creative", "Production", "Shoot", "Editorial", "Compositing"],
-    secondary_text: ["Whether it's new software, plug-ins, or techniques, all of our artists are constantly trying to better themselves and come up with new methods to solve challenging situations."],
+    secondary_text: ["various bits of motion graphics fun and vfx.&nbsp;&nbsp;these are comps done to experiment and learn new tools."],
     secondary_content: [
       { title:"Andes Expo", image:"PF_andes", video:"ANDES_EXPO_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Lousy Poker Player", image:"PF_NIEMI", video:"NIEMI COMPOSITE BREAKDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
@@ -885,7 +885,7 @@ var data = [
     one_liner: "show files",
     primary_text: ["Opts Ideas came to us with a quick deadline, and a lot of work that needed to happen.&nbsp;&nbsp;They had a conference happening, with multiple deliverables in multiple formats and sizes.  Some were on iPads, some on Apple Retina Displays, and some were to be displayed on a super wide 8500 pixel screen.  We had a team of 17 artists working around the clock from start to finish to create all of the deliverables in just short of 2 weeks, totaling around an hour of content."],
     production_roles: ["Pre-Production","Creative","Producing/Directing","Motion Graphics","Video Editing"],
-    secondary_text: [""],
+    secondary_text: ["Our studio generally only houses a few primary artists, however, with this particular project, we had an influx of freelance animators, motion graphics artists, and compositors to come in and help us bang out the content in the short timespan that we had.  Clients were in the office with us, some nights as late as 2am, constantly editing and doing graphics to make sure that the deadline was met.  We were right up to the end, but as we have always done in 35 years, we never missed the deadline and the end client LPL Financial was thrilled at the outcome."],
     secondary_content: [
       { title:"Anthem", image:"optsdots3", video:"Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"Account View Tech Demo", image:"OptsTechAccountView5", video:"Opts_tech_demos_2013_Account_View_Desktop_BC_v8_ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
@@ -909,11 +909,11 @@ var data = [
     one_liner: "informational show open",
     primary_text: ["An open video done for Covidien's show, set in Miami. The client came to us and said they wanted a high energy piece that was centered around the phrase 'Ride the Wave.'","From that phrase alone, and the data that they provided, this is what we created."],
     production_roles: ["creative","editorial","Motion Graphics"],
-    secondary_text: [],
+    secondary_text: ["This piece was created in Adobe After Effects, in Tandem with Apple's Final Cut Studio.&nbsp;&nbsp;We utilized stock footage and creative commons licensed footage alongside graphics, timed to music to create the energy and information that the client was requesting."],
     secondary_content: [
+      { title:"", image:"wave7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"Covidien_Boarder2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -922,7 +922,7 @@ var data = [
 
 
 
-  { id: "stryker-chicklets",
+  { id: "stryker-national-sales-meeting",
     title: "Chicklets",
     image_menu: "IC_chicklet2",
     image_background: "DBG_chickletwall",
@@ -946,7 +946,7 @@ var data = [
 
 
 
-  { id: "planet-equinox",
+  { id: "planet-equinix",
     title: "planet equinix",
     image_menu: "IC_EQUINIX",
     image_background: "DBG_equinix_2",
@@ -957,11 +957,11 @@ var data = [
     one_liner: "event opener",
     primary_text: [],
     production_roles: [],
-    secondary_text: [],
+    secondary_text: [""],
     secondary_content: [
+      { title:"", image:"equinix1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"equinix2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
