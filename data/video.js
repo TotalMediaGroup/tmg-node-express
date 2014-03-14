@@ -936,7 +936,7 @@ var data = [
     secondary_text: ["We've utilized all aspects of production on these pieces, from pre-production, to production, and into Post.&nbsp;&nbsp;In pre-production, we determine the venue size, screen size, and various aspects of the show to set the course for production and post.&nbsp;&nbsp;After we shoot the media, we then pull it all into post and then Utilize Adobe Creative Suite, Apple Final Cut Studio, Maxon's Cinema 4D, and other software, to create the elements below.&nbsp;&nbsp;We send the deliverables to show site with our on-site production staff to ensure that all media plays correctly and the client is happy."],
     secondary_content: [
       { title:"Stryker Chicklets", image:"stryker_medical_chicklets", video:"stryker_medical_generic_loop_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"Stryker Walk-in Loop ", image:"strykerpurple", video:"NSM2013_Open_FINAL_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Stryker Walk-in Loop ", image:"strykerpurple", video:"NSM2013_Open_FINAL_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"Stryker Chicklets", image:"stryker_bluechicklets", video:"Stryker_Chicklets_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
