@@ -431,7 +431,7 @@ var data = [
     secondary_content: [
       { title:"", image:"CX7000_1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"CX7000_2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"polycom14", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
