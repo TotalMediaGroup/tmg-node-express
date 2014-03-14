@@ -420,7 +420,7 @@ var data = [
     title: "cx7000 product launch",
     image_menu: "IC_watching",
     image_background: "polycom14",
-    image_background_xy_position: [20,0],
+    image_background_xy_position: [10,0],
     image_poster: "PF_CX7000",
     video: [ [360,720], ["Polycom_CX7000_FINAL_2_10_5_11_SD","Polycom_CX7000_FINAL_2_10_5_11_HD"] ],
     client: "polycom",
