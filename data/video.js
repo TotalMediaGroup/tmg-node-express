@@ -932,7 +932,7 @@ var data = [
     client: "Stryker",
     one_liner: "",
     primary_text: ["We've been working with Stryker for over 20 years, what started out as open videos for National Sales Meetings, quickly turned into work for Stryker Biotech, Stryker Spine, Stryker Sports Medicine, as well as Stryker Global Operations.  While we began our relationship with message driven video, the creative output has grown to include print, signage, web, event production, trade show design, 3D animation, and much more. We've come a long way and we continue to learn and grow with Stryker."],
-    production_roles: ["3D","Creative"],
+    production_roles: ["3D","Creative","Event Production","editorial"],
     secondary_text: ["We've utilized all aspects of production on these pieces, from pre-production, to production, and into Post.&nbsp;&nbsp;In pre-production, we determine the venue size, screen size, and various aspects of the show to set the course for production and post.&nbsp;&nbsp;After we shoot the media, we then pull it all into post and then Utilize Adobe Creative Suite, Apple Final Cut Studio, Maxon's Cinema 4D, and other software, to create the elements below.&nbsp;&nbsp;We send the deliverables to show site with our on-site production staff to ensure that all media plays correctly and the client is happy."],
     secondary_content: [
       { title:"Stryker Chicklets", image:"stryker_medical_chicklets", video:"stryker_medical_generic_loop_HD", button_white_or_black:"white", title_white_or_black:"white" },
