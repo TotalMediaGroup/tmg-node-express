@@ -933,9 +933,7 @@ var data = [
     one_liner: "",
     primary_text: ["TMG has provided client service to Stryker Corporation for over twenty years.&nbsp;&nbsp;What began by producing sales meeting videos for a small portion of the corporation has grown steadily into a collaborative effort, spanning many of Stryker’s product divisions and global entities.&nbsp;&nbsp;TMG contributes to all aspects and phases of media production.&nbsp;&nbsp;Our collective output has expanded and diversified to include creative content development, motion graphic design and animation, trade show and event production, print and signage, web and much more."],
     production_roles: ["3D","Creative","Event Production","editorial"],
-    secondary_text: ["Additionally, pre-production spotlights our ability to carefully plot the course for production and post.&nbsp;&nbsp;Upon acquisition, we employ an assortment of software and other tools to craft programming.&nbsp;&nbsp;Deliverables are fully realized on show site and our production team is there to support the event and client to ensure complete customer satisfaction.";"";"
-
-We’ve come a long way.&nbsp;&nbsp;The partnership between Stryker and TMG continues to be a strong and successful one."],
+    secondary_text: ["Additionally, pre-production spotlights our ability to carefully plot the course for production and post.&nbsp;&nbsp;Upon acquisition, we employ an assortment of software and other tools to craft programming.&nbsp;&nbsp;Deliverables are fully realized on show site and our production team is there to support the event and client to ensure complete customer satisfaction.","","We’ve come a long way.&nbsp;&nbsp;The partnership between Stryker and TMG continues to be a strong and successful one."],
     secondary_content: [
       { title:"Stryker Chicklets", image:"stryker_medical_chicklets", video:"stryker_medical_generic_loop_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Stryker Walk-in Loop ", image:"strykerpurple", video:"NSM2013_Open_FINAL_HD", button_white_or_black:"black", title_white_or_black:"black" },
