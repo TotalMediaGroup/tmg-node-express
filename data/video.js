@@ -453,9 +453,9 @@ var data = [
     production_roles: ["design","script","shoot","vfx"],
     secondary_text: ["the budget did not allow for talent - stock - or any visual assets.","so we thought...","hey, let's create a sort of hand puppet spokesman.","we won't have to pay him. - these are SG's hands.","this clip is an excerpt from the longer (much longer) video.","there's only so much hand puppet one can take."],
     secondary_content: [
-      { title:"", image:"sghandshoot1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"Libo2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"Libo2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"sghandshoot1", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
