@@ -765,7 +765,7 @@ var data = [
     one_liner: "rosalind russell documentary",
     primary_text: ["Narrated by Kathleen turner, this insightful documentary about film icon rosalind Russell comes on the occasion of the 70th anniversary of her breakthrough role as Hildy in His girl friday.","The film explores not only Russell's life in film,  but also her humanitarian work.","available at amazon.","TMG produced and edited the film."],
     production_roles: ["creative","production","shoot","editorial"],
-    secondary_text: [""],
+    secondary_text: ["Head on over to Amazon and check it out for <a href='www.amazon.com/Life-Banquet-Rosalind-Russell-Story/dp/B002PDUYXS/ref=sr_1_4?ie=UTF8&qid=1394781244&sr=8-4&keywords=Life+is+a+banquet'>purchase</a>, or rent on <a href='http://www.amazon.com/Life-Banquet-Rosalind-Russell-Story/dp/B00CNE2LNK/ref=sr_1_2?ie=UTF8&qid=1394781337&sr=8-2&keywords=Life+is+a+banquet'>Amazon Instant Video</a>"],
     secondary_content: [
       { title:"", image:"ros2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -853,7 +853,7 @@ var data = [
   { id: "salix-october-sky-show",
     title: "october sky show",
     image_menu: "IC_octobersky",
-    image_background: "DBG_octobersky",
+    image_background: "Salix_OctSky1",
     image_background_xy_position: [0,0],
     image_poster: "PF_octsky",
     video: [ [360,720], ["Futura_DAY_ONE_COMP_1h_SD","Futura_DAY_ONE_COMP_1h_HD"] ],
@@ -863,7 +863,7 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the highlight of day 2 was an appearance by homer hickam,","the young hero of the movie October sky who rose from the coal mines of west virginia to become one of the leading rocket scientists at nasa."],
     secondary_content: [
-      { title:"", image:"Salix_OctSky1", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"DBG_octobersky", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
