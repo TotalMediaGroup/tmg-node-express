@@ -502,9 +502,9 @@ var data = [
     production_roles: ["design","animation","editorial"],
     secondary_text: ["tennis tournaments are typically shot with 2 cameras.","one high in the stands and one tucked into a back corner of the court space.","neither camera record shots that lend themselves to heroic editing.","the challenge is to create a spot from footage that is not shot for promotional editing."],
     secondary_content: [
+      { title:"", image:"SAPOpen4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"sapopen2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -518,7 +518,7 @@ var data = [
     image_menu: "IC_versatomic",
     image_background: "DBG_versitomic",
     image_background_xy_position: [0,0],
-    image_poster: "THSML_iconix2",
+    image_poster: "iconix2",
     video: [ [360,720], ["Stryker_JP_ICONIX_LIM_REVISED_5_21_13_ProRes_SD","Stryker_JP_ICONIX_LIM_REVISED_5_21_13_ProRes_HD"] ],
     client: "various",
     one_liner: "detailed product information",
@@ -526,9 +526,9 @@ var data = [
     production_roles: ["3d animation","editorial"],
     secondary_text: ["Animated using CAD files, lit and textured in Cinema 4D.","We had already designed many of the 3D animations for use on ipad, and were able to leverage these in this piece. Composited in After Effects."],
     secondary_content: [
-      { title:"", image:"THSML_versitomic1", video:"Stryker_JP_Versitomic_LIM_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"THSML_microfx1", video:"Stryker_JP_MicroFX_LIM_v05_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"MicroFX Osteochondral Drill", image:"microfx1", video:"Stryker_JP_MicroFX_LIM_v05_ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"", image:"", video:"", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"Versitomic Flexible Reamer System", image:"versitonic4", video:"Stryker_JP_Versitomic_LIM_HD", button_white_or_black:"black", title_white_or_black:"black" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -574,7 +574,7 @@ var data = [
     production_roles: ["creative","multi-location shoot","editorial"],
     secondary_text: ["This video is part of a series – and seems to resonate strongly with the people that review it."],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"thereforyou8", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
