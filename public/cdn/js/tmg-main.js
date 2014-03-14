@@ -526,7 +526,7 @@ TMG.fn.ui.work.setupVideoMenu = function() {
 
 TMG.fn.work.filterVideos = function(filter) {
 
-  $(".page-work-nav a").removeClass("active");
+  $(".page-work-nav span").removeClass("active");
 
   if ((filter== null) || (filter == 'reset')) {
     $('.page-work').isotope({
@@ -535,7 +535,7 @@ TMG.fn.work.filterVideos = function(filter) {
       filter: '*'
     }); 
   } else {
-    $(".page-work-nav a.filter-"+filter).addClass("active");
+    $(".page-work-nav span.filter-"+filter).addClass("active");
     $('.page-work').isotope({
       itemSelector: '.video-browser-box',
       animationEngine: 'best-available',

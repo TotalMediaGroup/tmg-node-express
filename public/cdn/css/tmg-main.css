@@ -52,7 +52,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .wide-container { width:1280px !important; }
 
 .social-buttons { float:right; height:25px; margin-top:64px; margin-right:20px; }
-.social-buttons a { position:relative; color:#cccccc; font-size:18px; padding:4px; cursor:pointer; border:0; background-color:transparent; margin:0px 2px; vertical-align:middle; }
+.social-buttons a { position:relative; color:#cccccc; font-size:18px; padding:4px; cursor:pointer; border:0; background-color:transparent; margin:0px 1px; vertical-align:middle; }
 .social-buttons a:hover { color:#999999; }
 .social-buttons a .fa-envelope { position:relative; left:-1px; font-size:19px; -webkit-transform: scaleX(0.83); -moz-transform: scaleX(0.83); -ms-transform: scaleX(0.83); -o-transform: scaleX(0.83); transform: scaleX(0.83); }
 
@@ -140,10 +140,11 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-work .col-lg-12 .page-work-bg, .page-work-nav .col-lg-12 .page-work-bg { position:absolute; top:0%; left:-10%; width:120%; height:100%; z-index:0; display:none; }
 .page-work-nav { margin-top:75px; }
 .page-work-nav ul { position:relative; left:-40px; margin-bottom:20px; z-index:1; }
+.page-work-nav img { cursor:pointer; }
 .page-work-nav li { border-right:solid 2px rgba(255, 255, 255, .6);; }
-.page-work-nav li a { text-shadow:none; }
-.page-work-nav li:hover a { color:red !important; }
-.page-work-nav li a.active { color:red !important; }
+.page-work-nav li span { text-shadow:none; line-height:20px; position: relative; display: block; padding: 3px 10px; cursor:pointer;  }
+.page-work-nav li:hover span { color:red !important; text-shadow: 0 -1px 0 rgba(0,0,0,.25); }
+.page-work-nav li span.active { color:red !important; }
 .page-work-nav .navbar-category-icon { position:relative; float:left; top:2px; margin-right:8px; }
 .page-work-nav .navbar-category-icon:hover { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.8; -khtml-opacity:0.8; opacity:0.8; }
 .page-work a, .page-work-nav li a { text-decoration:none; color:#ffffff !important; }
