@@ -811,9 +811,9 @@ var data = [
     video: [ [360,720], ["CiscoLive2013_Candids_FINAL_ALT_ProRes_SD","CiscoLive2013_Candids_FINAL_ALT_ProRes_HD"] ],
     client: "cisco systems",
     one_liner: "live event production",
-    primary_text: ["TMG has been working with Cisco for many years now, producing aspects of their show 'Cisco Live.'  We've enjoyed working on site with the client; producing, editing and delivering content on the fly during the show."],
+    primary_text: ["TMG has produced content for the Cisco Live! event for almost fifteen years.  Our production team attends the yearly event providing a variety of services in a very fast paced working environment, including video production, editorial and graphic design.  This range extends to programming before, during and following the event. "],
     production_roles: ["Production", "Shoot", "Editorial"],
-    secondary_text: ["The show is always a week…"],
+    secondary_text: ["Deliverables for Cisco Live feature a destination teaser introducing the location for the following year’s event, various montage examples showcasing daily activity, interviews and other message driven videos and a candids module highlighting the event as a whole.  All videos are executed from concept to completion by TMG.  "],
     secondary_content: [
       { title:"DJ Robbie", image:"ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -883,13 +883,13 @@ var data = [
     video: [ [360,720], ["Opts_LPL_Day_2_16x9_Treated_1920x1080_Revised_Disclaimer_SD","Opts_LPL_Day_2_16x9_Treated_1920x1080_Revised_Disclaimer_HD"] ],
     client: "Opts Ideas",
     one_liner: "show files",
-    primary_text: ["Show files created in various sizes and formats"],
+    primary_text: ["Opts Ideas came to us with a quick deadline, and a lot of work that needed to happen.&nbsp;&nbsp;They had a conference happening, with multiple deliverables in multiple formats and sizes.  Some were on iPads, some on Apple Retina Displays, and some were to be displayed on a super wide 8500 pixel screen.  We had a team of 17 artists working around the clock from start to finish to create all of the deliverables in just short of 2 weeks, totaling around an hour of content."],
     production_roles: ["Pre-Production","Creative","Producing/Directing","Motion Graphics","Video Editing"],
-    secondary_text: [],
+    secondary_text: [""],
     secondary_content: [
-      { title:"", image:"THSML_anthemwide", video:"Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"THSML_OptsAccountView1", video:"Opts_tech_demos_2013_Account_View_Desktop_BC_v8_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"THSML_OptsTandR_2", video:"Opts_tech_demos_2013_Enhanced_Trading_and_Rebalancing_App_Expo_Video_BC_v8_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Anthem", image:"optsdots3", video:"Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"Account View Tech Demo", image:"OptsTechAccountView5", video:"Opts_tech_demos_2013_Account_View_Desktop_BC_v8_ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"Trading and Rebalancing Tech Demo", image:"optsanthem3", video:"Opts_tech_demos_2013_Enhanced_Trading_and_Rebalancing_App_Expo_Video_BC_v8_HD", button_white_or_black:"black", title_white_or_black:"black" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
