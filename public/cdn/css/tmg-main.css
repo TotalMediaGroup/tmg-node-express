@@ -48,7 +48,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .body-work .footer { margin-top:100px; }
 .body-work-single .footer { margin-top:0px; }
 
-.container { position:relative; z-index:10; /*margin-right:auto; margin-left:44px;*/  }
+.container { position:relative; z-index:11; /*margin-right:auto; margin-left:44px;*/  }
 .wide-container { width:1280px !important; }
 
 .social-buttons { float:right; height:25px; margin-top:64px; margin-right:20px; }
@@ -130,9 +130,10 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .video-bttm-secondary-layout-corner .page-video-bttm .col-lf { /*height:280px;*/ }
 .page-video-bttm .fader-block { position:absolute; top:0%; left:0%; width:100%; height:100%; z-index:9; background-color:black; display:none; }
 
-.back-to-menu { position:relative; top:-40px; left:0px; margin-left:4%; height:0px; width:0px; overflow:visible; cursor:pointer; }
-.back-to-menu:hover i.fa-play { color:red; }
-.back-to-menu i.fa-play { position:absolute; font-size:18px; color:white; left:-30px; top:1px; }
+.back-to-menu { position:absolute; top:96px; left:8px; height:auto; width:auto; overflow:visible; cursor:pointer; z-index:1; }
+.back-to-menu:hover span { color:red; }
+.back-to-menu img {  }
+.back-to-menu span { color:white; font-family:"gothamrounded_book"; font-size:10px; margin-left:6px; }
 
 .page-video .page-video-bttm .clmn-lf .clmn-lf-bt .video-bttn { left:auto; right:80px; top:30px !important; bottom:auto; }
 .page-video .page-video-bttm .clmn-lf .clmn-lf-bt .secondary-title { left:auto; right:10px; }
@@ -151,7 +152,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-work-nav li { border-right:solid 2px rgba(255, 255, 255, .6);; }
 .page-work-nav li span { text-shadow:none; line-height:20px; position: relative; display: block; padding: 3px 10px; cursor:pointer;  }
 .page-work-nav li:hover span { color:red !important; text-shadow: 0 -1px 0 rgba(0,0,0,.25); }
-.page-work-nav li span.active { color:red !important; }
+.page-work-nav li span.active { color:red !important; text-shadow: 0 -1px 0 rgba(0,0,0,.25); }
 .page-work-nav .navbar-category-icon { position:relative; float:left; top:2px; margin-right:8px; }
 .page-work-nav .navbar-category-icon:hover { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.8; -khtml-opacity:0.8; opacity:0.8; }
 .page-work a, .page-work-nav li a { text-decoration:none; color:#ffffff !important; }

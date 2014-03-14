@@ -62,7 +62,7 @@ $(function(){
   // TMG.fn.initializeUi.externalizeModalPopups();
   // TMG.fn.reactiveUi.setOnOrientationChange();
 
-  $(".video-prev, .video-next").each(function(){ $(this).parent("a").appendTo("body"); });
+  $(".video-prev, .video-next, .back-to-menu").each(function(){ $(this).parent("a").appendTo("body"); });
 
 });
 
@@ -401,6 +401,10 @@ TMG.fn.video.prepare = function() {
 
 TMG.fn.video.place = function(containerObj) {
 
+  if ($(".video-player-inner").length > 0) {
+    TMG.fn.video.ended();
+  }
+
   var jqCont = $(containerObj);
   var vidDim = [jqCont.outerWidth(),jqCont.outerHeight()];
   var absDim = [vidDim[0],vidDim[1]];
@@ -452,6 +456,7 @@ TMG.fn.video.place = function(containerObj) {
     +"</video>");
 
     TMG.video.id = vidId;
+
     videojs("video-player-"+vidId+"-"+hash+"-obj").ready(function(){
         TMG.video.obj = this;
         TMG.video.obj.on("pause", function(){ TMG.fn.video.paused(); });
