@@ -710,18 +710,18 @@ var data = [
     title: "sound station duo",
     image_menu: "IC_polycity",
     image_background: "DBG_polycity",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [10,5],
     image_poster: "PF_polycom-13",
     video: [ [360,720], ["Polycom_STD_Final_v2_SD","Polycom_STD_Final_v2_HD"] ],
     client: "polycom",
     one_liner: "product launch video",
     primary_text: ["sound station duo is polycom's entry level conference phone system.","they wanted to highlight the benefits of the system for the modest budget."],
     production_roles: ["creative","design","animation"],
-    secondary_text: [],
+    secondary_text: ["We had a great time Coming up with interesting camera moves and creating a story out of pictures and the 3D model, "],
     secondary_content: [
+      { title:"", image:"Polycom_Soundstation2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"Polycom_Soundstation3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -739,11 +739,11 @@ var data = [
     video: [ [360,720], ["Stryker_RegenKit_Lobby_Loop_SD","Stryker_RegenKit_Lobby_Loop_HD"] ],
     client: "stryker medical",
     one_liner: "lobby loop",
-    primary_text: ["lobby loop displayed in stryker's main corporate lobby."],
+    primary_text: ["The client came to us in need of a video to play in their lobby.  They wanted an informational piece, that was graphically pleasing and pretty to look at.","utilizing their script and branding, we came up with this."],
     production_roles: [],
-    secondary_text: [],
+    secondary_text: ["lobby loop displayed in stryker's main corporate lobby."],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"RegenKit1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -765,9 +765,9 @@ var data = [
     one_liner: "rosalind russell documentary",
     primary_text: ["Narrated by Kathleen turner, this insightful documentary about film icon rosalind Russell comes on the occasion of the 70th anniversary of her breakthrough role as Hildy in His girl friday.","The film explores not only Russell's life in film,  but also her humanitarian work.","available at amazon.","TMG produced and edited the film."],
     production_roles: ["creative","production","shoot","editorial"],
-    secondary_text: [],
+    secondary_text: [""],
     secondary_content: [
-      { title:"", image:"RightRozBW", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"ros2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"Left_BlueRoz", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -788,12 +788,12 @@ var data = [
     client: "Various",
     one_liner: "Various bits of vfx work",
     primary_text: ["various bits of motion graphics fun and vfx.","these are comps done to experiment and learn new tools."],
-    production_roles: [],
-    secondary_text: [],
+    production_roles: ["Creative", "Production", "Shoot", "Editorial", "Compositing"],
+    secondary_text: ["Whether it's new software, plug-ins, or techniques, all of our artists are constantly trying to better themselves and come up with new methods to solve challenging situations."],
     secondary_content: [
-      { title:"", image:"THSML_andes", video:"ANDES_EXPO_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"THSML_NIEMI", video:"NIEMI COMPOSITE BREAKDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"THSML_samsung", video:"SAMSUNG_MOCK_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Andes Expo", image:"PF_andes", video:"ANDES_EXPO_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Lousy Poker Player", image:"PF_NIEMI", video:"NIEMI COMPOSITE BREAKDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"CG Greenscreen Composite", image:"Samsung_1", video:"SAMSUNG_MOCK_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
@@ -811,13 +811,13 @@ var data = [
     video: [ [360,720], ["CiscoLive2013_Candids_FINAL_ALT_ProRes_SD","CiscoLive2013_Candids_FINAL_ALT_ProRes_HD"] ],
     client: "cisco systems",
     one_liner: "live event production",
-    primary_text: [],
-    production_roles: [],
-    secondary_text: [],
+    primary_text: ["TMG has been working with Cisco for many years now, producing aspects of their show 'Cisco Live.'  We've enjoyed working on site with the client; producing, editing and delivering content on the fly during the show."],
+    production_roles: ["Production", "Shoot", "Editorial"],
+    secondary_text: ["The show is always a week… Jeff is helping write"],
     secondary_content: [
-      { title:"", image:"THSML_ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"DJ Robbie", image:"ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"ciscolive5", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
