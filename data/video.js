@@ -405,7 +405,7 @@ var data = [
     production_roles: ["design","editorial","animation"],
     secondary_text: ["Yes Video services are also found in CVS, Walgreens and Costco, so we slightly repurposed  and rebrand the project to align with each company’s style and brand guidelines. Each video needed to be somewhat unique but maintain the same script, message and YesVideo product images and elements."],
     secondary_content: [
-      { title:"CVS", image:"yesvideo3flop", video:"YSVD_CVS_v06_1920x1080_H264_HD", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"CVS", image:"yesvideo3flop", video:"YSVD_CVS_v06_1920x1080_H264_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Costco", image:"yesvideo2", video:"YesVideo_Costco_v4_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
