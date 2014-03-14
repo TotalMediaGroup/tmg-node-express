@@ -839,9 +839,9 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the super wide-screen format created a nice big canvas to paint on.","we're still cleaning up."],
     secondary_content: [
-      { title:"", image:"THSML_salix6", video:"Salix_DAY_2_OPEN_PJPG_DISCTRETE _HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Day 2 Open Video", image:"salix2", video:"Salix_DAY_2_OPEN_PJPG_DISCTRETE _HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"salix5", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
@@ -863,7 +863,7 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the highlight of day 2 was an appearance by homer hickam,","the young hero of the movie October sky who rose from the coal mines of west virginia to become one of the leading rocket scientists at nasa."],
     secondary_content: [
-      { title:"", image:"PF_salixrocket", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"Salix_OctSky1", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
