@@ -145,7 +145,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
       width: (bodyWidth)+"px"
     }).each(function(){
       $(".bg-static img").css({minHeight:$(this).offset().top+"px"}).each(function(){
-        $(this).css({minWidth:Math.round(parseInt($(this).css("min-height"))*($(this).width()/$(this).height()))+"px"})
+        $(this).css({minWidth:Math.round(parseInt($(this).css("min-height"))*($(this).width()/$(this).height()))+"px"});
       });
 
       if ($(".video-bttm-secondary-layout-corner").length > 0) {
@@ -401,7 +401,7 @@ TMG.fn.video.prepare = function() {
 
 TMG.fn.video.place = function(containerObj) {
 
-  if ($(".video-player-inner").length > 0) {
+  if (($(".video-player-inner").length > 0) && TMG.renderForTouch) {
     TMG.fn.video.ended();
   }
 
@@ -432,7 +432,7 @@ TMG.fn.video.place = function(containerObj) {
   jqCont.append("<div class=\"video-player-inner\" id=\"video-player-"+vidId+"-"+hash+"\""
            +" style=\"width:"+vidDim[0]+"%;height:"+vidDim[1]+"%;top:"+vidPos[1]+"%;left:"+vidPos[0]+"%;\""
         +"></div>"
-        +"<div class=\"video-player-button video-player-button-fullscreen\" onClick=\"TMG.video.obj.requestFullScreen()\"><i class=\"fa fa-arrows-alt\"></i>FULLSCREEN</div>"
+        +"<div class=\"video-player-button video-player-button-fullscreen\" onClick=\"TMG.video.obj.requestFullScreen()\"><i class=\"fa fa-arrows-alt\"></i>FULL SCREEN</div>"
 //        +"<div class=\"video-player-button video-player-button-playback\" onClick=\"TMG.fn.video.ended()\">STOP<i class=\"fa fa-pause\"></i></div>"
         );
 
@@ -440,6 +440,8 @@ TMG.fn.video.place = function(containerObj) {
   if (jqCont.parents(".page-video-bttm").length > 0) {
     jqCont.parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
       .css({display:'block',opacity:0}).animate({opacity:0.75},1000);
+    var fullScreenBttn = $(".video-player-button-fullscreen");
+    fullScreenBttn.css({bottom:vidPos[1]+"px",right:vidPos[0]+"px",left:"auto",color:((vidPos[0] > 0) ? "transparent" : "#cccccc")});
   }
   jqCont.find(".video-player-button").css({opacity:0,display:'block'}).animate({opacity:0.9},1000);
 

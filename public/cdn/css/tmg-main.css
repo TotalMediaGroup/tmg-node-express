@@ -86,10 +86,10 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-video p { margin-top:1px; margin-bottom:1px; }
 .page-video .video-player .video-bttn { position:absolute; margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto; left:0; right:0; top:0; bottom:0; width:67px; height:67px; }
 
-.page-video .video-player .video-player-button { position:absolute; bottom:-40px; width:auto; height:30px; cursor:pointer; background-color:transparent; border:0; margin-right:8px; font-size:8px; text-align:left; color:#cccccc; display:none; }
+.page-video .video-player .video-player-button { position:absolute; bottom:-40px; width:auto; height:30px; cursor:pointer; background-color:transparent; border:0; margin-right:8px; font-size:8px; text-align:left; color:#cccccc; display:none; z-index:10; }
 .page-video .video-player .video-player-button:hover { color:white; }
-.page-video .video-player .video-player-button i { float:right; font-size:18px; margin-right:0px; margin-left:8px; position:relative; top:-3px; }
-.page-video .video-player .video-player-button-fullscreen { right:0%; }
+.page-video .video-player .video-player-button i { float:right; font-size:18px; color:#cccccc; margin-right:0px; margin-left:8px; position:relative; top:-3px; }
+.page-video .video-player .video-player-button-fullscreen { right:0%; left:auto; }
 .page-video .video-player .video-player-button-playback { left:0%; text-align:left; }
 .page-video .video-player .video-player-button-playback i { float:left; margin-right:8px; }
 
@@ -101,8 +101,8 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-video .page-video-bttm .video-player .video-player-inner { z-index:12; }
 .page-video-scroll .video-scroll { position:relative; margin-left:auto; margin-right:auto; }
 .page-video-scroll .video-scroll .radial-gradient { display:none; }
-.video-prev { position:absolute; left:-20px; top:300px; z-index:30; }
-.video-next { position:absolute; right:-20px; top:300px; z-index:30; }
+.video-prev { position:absolute; left:-20px; top:300px; z-index:2; }
+.video-next { position:absolute; right:-20px; top:300px; z-index:2; }
 .video-prev:hover, .video-next:hover, .page-video-scroll .video-scroll:hover { filter:alpha(opacity=50); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; -moz-opacity:0.50; -khtml-opacity:0.50; opacity:0.50; }
 .page-video-scroll .video-scroll .down-label { position:absolute; width:140%; left:-20%; top:10%; color:white; text-align:center; font-size:140%; font-family:"gothamrounded_book"; }
 .page-video-bttm { margin-top:20px; position:relative; }
@@ -130,7 +130,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .video-bttm-secondary-layout-corner .page-video-bttm .col-lf { /*height:280px;*/ }
 .page-video-bttm .fader-block { position:absolute; top:0%; left:0%; width:100%; height:100%; z-index:9; background-color:black; display:none; }
 
-.back-to-menu { position:absolute; top:96px; left:8px; height:auto; width:auto; overflow:visible; cursor:pointer; z-index:1; }
+.back-to-menu { position:absolute; top:96px; left:8px; height:auto; width:auto; overflow:visible; cursor:pointer; z-index:2; }
 .back-to-menu:hover span { color:red; }
 .back-to-menu img {  }
 .back-to-menu span { color:white; font-family:"gothamrounded_book"; font-size:10px; margin-left:6px; }
