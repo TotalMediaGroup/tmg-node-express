@@ -168,9 +168,9 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
 
 TMG.fn.reactiveUi.setOnOrientationChange = function() {
   window.onorientationchange = function() {
-    if (TMG.renderForTouch) {
-      TMG.fn.video.init();
-    }
+    // if (TMG.renderForTouch) {
+    //   TMG.fn.video.init();
+    // }
   }
 }
 
@@ -370,11 +370,11 @@ TMG.fn.video.init = function(){
 
 TMG.fn.video.initUI = function(){
   $(".video-player").each(function(){
-    if (TMG.renderForTouch) {
-      TMG.fn.video.place(this);
-    } else {
+    // if (TMG.renderForTouch) {
+    //   TMG.fn.video.place(this);
+    // } else {
       $(this).find(".video-bttn").click(function(){ TMG.fn.video.place($(this).parent(".video-player")); });
-    }
+    // }
   });
 }
 
@@ -401,7 +401,7 @@ TMG.fn.video.prepare = function() {
 
 TMG.fn.video.place = function(containerObj) {
 
-  if (($(".video-player-inner").length > 0) && TMG.renderForTouch) {
+  if ($(".video-player-inner").length > 0) {
     TMG.fn.video.ended();
   }
 
