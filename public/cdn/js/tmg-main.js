@@ -121,10 +121,7 @@ TMG.fn.reactiveUi.scrollQueues = function() {
 
   if (TMG.currentPage == "work-single") {
     $(".back-to-menu").css({marginTop:scrollTop+"px"});
-
     $(".video-prev, .video-next").css({marginTop:( (scrollTop > 190) ? (scrollTop-190) : 0 )+"px"});
-    // console.log(scrollTop);
-//    .back-to-menu
   }
   // for (func in TMG.scrollQueues) {
   //   if  (!TMG.scrollQueues[func].isLoaded) {
@@ -162,10 +159,6 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
       }
       $(this).find(".tmg-thmb img.video-frame-secondary").each(function(){
         setSquImg(this);
-        // var offset = $(this).position();
-        // if (offset.left == offset.top) { setSquImg(this,'wd');
-        // } else if (offset.top > offset.left) { setSquImg(this,'ht');
-        // } else { setSquImg(this,'wd'); }
       });
     });
 

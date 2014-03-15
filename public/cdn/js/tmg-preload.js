@@ -13,16 +13,12 @@ function setSquImg(inputObj,baseline){
       };
     objDim.rat = objDim.wd/objDim.ht;
     divDim.rat = divDim.wd/divDim.ht;
-    console.log(objDim);
     if (baseline == null) {
       if ((objDim.rat >= 1) && (divDim.rat >= 1)) {
-        console.log((objDim.rat > divDim.rat) ? '1.1' : '1.2');
         baseline = (objDim.rat > divDim.rat) ? 'ht' : 'wd';
       } else if ((objDim.rat < 1) && (divDim.rat < 1)) {
-        console.log(2);
         baseline = (objDim.rat > divDim.rat) ? 'wd' : 'ht';
       } else {
-        console.log(3);
         baseline = (objDim.rat >= divDim.rat) ? 'ht' : 'wd';
       }
     }

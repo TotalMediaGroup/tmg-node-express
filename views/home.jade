@@ -4,17 +4,18 @@ block content
 
   div.bg-slideshow.galleria-bg
     for item in data["background_images"]
-      img(src="#{tmg_cdn}/img/misc/trans.gif",data-big="#{tmg_static_cdn}/web/slideshow/#{item[0]}.jpg?v=#{app_version}")
+      img(src="data:image/gif;base64,R0lGODlhAQABAJAAAAAAAAAAACH5BAEUAAAALAAAAAABAAEAAAICRAEAOw==",data-big="#{tmg_static_cdn}/web/slideshow/#{item[0]}.jpg?v=#{app_version}")
 
+  div.home-rules-buffer
   div.home-rules.gradient.tmg-trans-0.tmg-unselectable
 
     div.rules-bg.radial-gradient
     div.home-rules-number-stretch.rule-number= "Rule #00"
-    hr.rule-hr(style="top:5px;")
+    hr.rule-hr(style="top:-120px;")
     div.home-rules-body-squeeze.rule-body
       span.brackets= "[ "
       span.rule-body-inner= "RULE"
       span.brackets= " ]"
-    hr.rule-hr(style="top:-85px;")
+    hr.rule-hr(style="top:-210px;")
     span.rule-footer= "HOW TO DO REALLY GREAT WORK"
 
