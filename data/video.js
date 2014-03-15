@@ -1453,6 +1453,107 @@ var data = [
     secondary_layout: "standard"
   },
 
+  { id: "tmg-studio-reel",
+    title: "Studio Reel",
+    image_menu: "IC_WOW",
+    image_background: "",
+    image_background_xy_position: [0,0],
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "TMG",
+    one_liner: "TMG Studio Reel 2014",
+    primary_text: [],
+    production_roles: [],
+    secondary_text: [],
+    secondary_content: [
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    categories: ["reels"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+  { id: "tmg-event-reel",
+    title: "Event Reel",
+    image_menu: "IC_WOW",
+    image_background: "",
+    image_background_xy_position: [0,0],
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "TMG",
+    one_liner: "TMG Event Reel 2014",
+    primary_text: [],
+    production_roles: [],
+    secondary_text: [],
+    secondary_content: [
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    categories: ["reels"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+  { id: "tmg-tech-reel",
+    title: "Tech Reel",
+    image_menu: "IC_WOW",
+    image_background: "",
+    image_background_xy_position: [0,0],
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "TMG",
+    one_liner: "TMG Tech Reel 2014",
+    primary_text: [],
+    production_roles: [],
+    secondary_text: [],
+    secondary_content: [
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    categories: ["reels"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+  { id: "tmg-medical-reel",
+    title: "Medical Reel",
+    image_menu: "IC_WOW",
+    image_background: "",
+    image_background_xy_position: [0,0],
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "TMG",
+    one_liner: "TMG Medical Reel 2014",
+    primary_text: [],
+    production_roles: [],
+    secondary_text: [],
+    secondary_content: [
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    categories: ["reels"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
