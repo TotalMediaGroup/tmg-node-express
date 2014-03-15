@@ -1455,7 +1455,7 @@ var data = [
 
   { id: "tmg-studio-reel",
     title: "Studio Reel",
-    image_menu: "IC_WOW",
+    image_menu: "IC_elagua5",
     image_background: "",
     image_background_xy_position: [0,0],
     image_poster: "",
@@ -1477,7 +1477,7 @@ var data = [
 
   { id: "tmg-event-reel",
     title: "Event Reel",
-    image_menu: "IC_WOW",
+    image_menu: "IC_ciscolive",
     image_background: "",
     image_background_xy_position: [0,0],
     image_poster: "",
@@ -1499,7 +1499,7 @@ var data = [
 
   { id: "tmg-tech-reel",
     title: "Tech Reel",
-    image_menu: "IC_WOW",
+    image_menu: "IC_cisco",
     image_background: "",
     image_background_xy_position: [0,0],
     image_poster: "",
@@ -1521,7 +1521,7 @@ var data = [
 
   { id: "tmg-medical-reel",
     title: "Medical Reel",
-    image_menu: "IC_WOW",
+    image_menu: "IC_hectorlogo",
     image_background: "",
     image_background_xy_position: [0,0],
     image_poster: "",
