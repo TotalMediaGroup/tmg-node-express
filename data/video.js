@@ -1471,29 +1471,29 @@ var data = [
       { title:"", image:"Left_BlueRoz", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["reels"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
   { id: "tmg-event-reel",
     title: "Event Reel",
     image_menu: "IC_ciscolive",
-    image_background: "",
+    image_background: "ciscolive5crop",
     image_background_xy_position: [0,0],
-    image_poster: "",
+    image_poster: "ciscolive8",
     video: [ [360,720], ["TMG_Event_REEL_021214_SD","TMG_Event_REEL_021214_HD"] ],
     client: "TMG",
     one_liner: "TMG Event Reel 2014",
-    primary_text: [],
+    primary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
     production_roles: ["creative","editorial","3D Animation","Event Production"],
-    secondary_text: [],
+    secondary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
     secondary_content: [
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"lituprobotcrop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"Homer_withText", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"ciscolive2crop", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["reels"],
-    secondary_box_color: "808080",
+    secondary_box_color: "FFFFFF",
     secondary_layout: "standard"
   },
 
