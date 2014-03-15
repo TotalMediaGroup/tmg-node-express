@@ -78,7 +78,7 @@ block content
                         br
               
               if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][2]['image'].length > 0))
-                div(class="tmg-thmb clmn-lf-bt clmn-lf-bt-below-#{v['secondary_text'].length} video-player", data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][2]['video']}",data-video-hd="#{v['secondary_content'][2]['video']}")
+                div#video-frame-secondary-a(class="tmg-thmb clmn-lf-bt clmn-lf-bt-below-#{v['secondary_text'].length} video-player", data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][2]['video']}",data-video-hd="#{v['secondary_content'][2]['video']}")
                   div.fader-block(onClick="TMG.fn.video.ended();")
                   if (v['secondary_content'][2]['video'].length > 0)
                     div.video-bttn
@@ -91,11 +91,12 @@ block content
                         | #{v['secondary_content'][2]['title']}
                       div.radial-gradient
                   if (v["secondary_text"].length > 0)
-                    img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
+                    script(type="text/javascript").
+                      var secImgA = new Image(); secImgA.class = 'video-frame-secondary'; secImgA.onload = function(){setSquImg(this);}; secImgA.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-a').appendChild(secImgA);
               else
                 div.clmn-lf-bg
             if ((v['secondary_layout'] == 'corner') || (v['secondary_content'][1]['image'].length == 0))
-              div.col-lf.tmg-thmb.col-sm-8.clmn-md.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][0]['video']}",data-video-hd="#{v['secondary_content'][0]['video']}")
+              div.col-lf.tmg-thmb.col-sm-8.clmn-md.video-player#video-frame-secondary-b(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][0]['video']}",data-video-hd="#{v['secondary_content'][0]['video']}")
                 if (v['secondary_content'][0]['video'].length > 0)
                   div.video-bttn
                     img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][0]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][0]['button_white_or_black']}.png?v=#{app_version}'")
@@ -105,11 +106,13 @@ block content
                     span(style="color:#{v['secondary_content'][0]['title_white_or_black']};")
                       | #{v['secondary_content'][0]['title']}
                     div.radial-gradient
-                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                 div.fader-block(onClick="TMG.fn.video.ended();")
+
+                script(type="text/javascript").
+                  var secImgB = new Image(); secImgB.class = 'video-frame-secondary'; secImgB.onload = function(){setSquImg(this);}; secImgB.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-b').appendChild(secImgB);
 
             if ((v['secondary_layout'] == 'standard') && (v['secondary_content'][1]['image'].length > 0))
-              div.col-lf.tmg-thmb.col-sm-4.clmn-md.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][0]['video']}",data-video-hd="#{v['secondary_content'][0]['video']}")
+              div.col-lf.tmg-thmb.col-sm-4.clmn-md.video-player#video-frame-secondary-c(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][0]['video']}",data-video-hd="#{v['secondary_content'][0]['video']}")
                 if (v['secondary_content'][0]['video'].length > 0)
                   div.video-bttn
                     img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][0]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][0]['button_white_or_black']}.png?v=#{app_version}'")
@@ -119,10 +122,12 @@ block content
                     span(style="color:#{v['secondary_content'][0]['title_white_or_black']};")
                       | #{v['secondary_content'][0]['title']}
                     div.radial-gradient
-                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
+
+                script(type="text/javascript").
+                  var secImgC = new Image(); secImgC.class = 'video-frame-secondary'; secImgC.onload = function(){setSquImg(this);}; secImgC.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-c').appendChild(secImgC);
                 div.fader-block(onClick="TMG.fn.video.ended();")
 
-              div.col-lf.tmg-thmb.col-sm-4.clmn-rt.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
+              div.col-lf.tmg-thmb.col-sm-4.clmn-rt.video-player#video-frame-secondary-d(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
                 if (v['secondary_content'][1]['video'].length > 0)
                   div.video-bttn
                     img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}'")
@@ -132,14 +137,16 @@ block content
                     span(style="color:#{v['secondary_content'][1]['title_white_or_black']};")
                       | #{v['secondary_content'][1]['title']}
                     div.radial-gradient
-                img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
+
+                script(type="text/javascript").
+                  var secImgD = new Image(); secImgD.class = 'video-frame-secondary'; secImgD.onload = function(){setSquImg(this);}; secImgD.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-d').appendChild(secImgD);
                 div.fader-block(onClick="TMG.fn.video.ended();")
 
           if (v['secondary_layout'] == 'corner')
             if ((v['secondary_content'][1]['image'].length > 0) && (v['secondary_content'][2]['image'].length > 0))
               div.row.page-video-bttm.page-video-bttm-row-2
                 
-                div.col-lf.tmg-thmb.col-sm-4.clmn-md.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][2]['video']}",data-video-hd="#{v['secondary_content'][2]['video']}")
+                div.col-lf.tmg-thmb.col-sm-4.clmn-md.video-player#video-frame-secondary-e(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][2]['video']}",data-video-hd="#{v['secondary_content'][2]['video']}")
                   if (v['secondary_content'][2]['video'].length > 0)
                     div.video-bttn
                       img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][2]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][2]['button_white_or_black']}.png?v=#{app_version}'")
@@ -149,10 +156,12 @@ block content
                       span(style="color:#{v['secondary_content'][2]['title_white_or_black']};")
                         | #{v['secondary_content'][2]['title']}
                       div.radial-gradient
-                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
+
+                  script(type="text/javascript").
+                    var secImgE = new Image(); secImgE.class = 'video-frame-secondary'; secImgE.onload = function(){setSquImg(this);}; secImgE.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-e').appendChild(secImgE);
                   div.fader-block(onClick="TMG.fn.video.ended();")
 
-                div.col-lf.tmg-thmb.col-sm-8.clmn-rt.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
+                div.col-lf.tmg-thmb.col-sm-8.clmn-rt.video-player#video-frame-secondary-f(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
                   if (v['secondary_content'][1]['video'].length > 0)
                     div.video-bttn
                       img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}'")
@@ -162,12 +171,14 @@ block content
                       span(style="color:#{v['secondary_content'][1]['title_white_or_black']};")
                         | #{v['secondary_content'][1]['title']}
                       div.radial-gradient
-                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
+
+                  script(type="text/javascript").
+                    var secImgF = new Image(); secImgF.class = 'video-frame-secondary'; secImgF.onload = function(){setSquImg(this);}; secImgF.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-f').appendChild(secImgF);
                   div.fader-block(onClick="TMG.fn.video.ended();")
 
             else if (v['secondary_content'][1]['image'].length > 0)
               div.row.page-video-bttm.page-video-bttm-row-2
-                div.col-lf.tmg-thmb.col-sm-12.clmn-md.video-player(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
+                div.col-lf.tmg-thmb.col-sm-12.clmn-md.video-player#video-frame-secondary-g(data-video-id="#{v['id']}",data-video-sd="#{v['secondary_content'][1]['video']}",data-video-hd="#{v['secondary_content'][1]['video']}")
                   if (v['secondary_content'][1]['video'].length > 0)
                     div.video-bttn
                       img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}'")
@@ -177,8 +188,10 @@ block content
                       span(style="color:#{v['secondary_content'][1]['title_white_or_black']};")
                         | #{v['secondary_content'][1]['title']}
                       div.radial-gradient
-                  img.video-frame-secondary(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}",onLoad="setSquImg(this)")
                   div.fader-block(onClick="TMG.fn.video.ended();")
+   
+                  script(type="text/javascript").
+                    var secImgG = new Image(); secImgG.class = 'video-frame-secondary'; secImgG.onload = function(){setSquImg(this);}; secImgG.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-g').appendChild(secImgG);
 
 
 

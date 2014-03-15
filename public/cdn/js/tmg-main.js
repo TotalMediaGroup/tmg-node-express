@@ -57,7 +57,6 @@ $(function(){
   // TMG.fn.initializeUi.setupMobileMenu();
   TMG.fn.initializeUi.onResize();
   TMG.fn.reactiveUi.modifyOverWidthElements();
-  TMG.fn.reactiveUi.modifyOverWidthElements();
   // TMG.fn.initializeUi.onScroll();
   // TMG.fn.initializeUi.externalizeModalPopups();
   // TMG.fn.reactiveUi.setOnOrientationChange();
