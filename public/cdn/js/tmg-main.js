@@ -57,7 +57,7 @@ $(function(){
   // TMG.fn.initializeUi.setupMobileMenu();
   TMG.fn.initializeUi.onResize();
   TMG.fn.reactiveUi.modifyOverWidthElements();
-  // TMG.fn.initializeUi.onScroll();
+  TMG.fn.initializeUi.onScroll();
   // TMG.fn.initializeUi.externalizeModalPopups();
   // TMG.fn.reactiveUi.setOnOrientationChange();
 
@@ -116,16 +116,25 @@ TMG.fn.initializeUi.externalizeModalPopups = function() {
 
 
 TMG.fn.reactiveUi.scrollQueues = function() {
-  var scrollPosition = $(window).scrollTop() + $(window).height();
-  for (func in TMG.scrollQueues) {
-    if  (!TMG.scrollQueues[func].isLoaded) {
-      var runAtPosition = (TMG.scrollQueues[func].whenVisible[TMG.currentPage]!=null) ? $(TMG.scrollQueues[func].whenVisible[TMG.currentPage]).offset().top : ((TMG.renderForMobile) ? TMG.scrollQueues[func].position : TMG.scrollQueues[func].mobilePosition);
-      if (scrollPosition >= runAtPosition) {
-        TMG.fn.reactiveUi[func]();
-        TMG.scrollQueues[func].isLoaded = true;
-      }
-    }
+  var scrollTop = $(window).scrollTop();
+  var scrollPosition = scrollTop + $(window).height();
+
+  if (TMG.currentPage == "work-single") {
+    $(".back-to-menu").css({marginTop:scrollTop+"px"});
+
+    $(".video-prev, .video-next").css({marginTop:( (scrollTop > 190) ? (scrollTop-190) : 0 )+"px"});
+    // console.log(scrollTop);
+//    .back-to-menu
   }
+  // for (func in TMG.scrollQueues) {
+  //   if  (!TMG.scrollQueues[func].isLoaded) {
+  //     var runAtPosition = (TMG.scrollQueues[func].whenVisible[TMG.currentPage]!=null) ? $(TMG.scrollQueues[func].whenVisible[TMG.currentPage]).offset().top : ((TMG.renderForMobile) ? TMG.scrollQueues[func].position : TMG.scrollQueues[func].mobilePosition);
+  //     if (scrollPosition >= runAtPosition) {
+  //       TMG.fn.reactiveUi[func]();
+  //       TMG.scrollQueues[func].isLoaded = true;
+  //     }
+  //   }
+  // }
 }
 
 TMG.fn.reactiveUi.modifyOverWidthElements = function() {
