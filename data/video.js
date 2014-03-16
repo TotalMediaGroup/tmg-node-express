@@ -853,7 +853,7 @@ var data = [
   { id: "salix-october-sky-show",
     title: "october sky show",
     image_menu: "IC_octobersky",
-    image_background: "Salix_OctSky1",
+    image_background: "OctoberSkyRunners",
     image_background_xy_position: [0,0],
     image_poster: "PF_octsky",
     video: [ [360,720], ["Futura_DAY_ONE_COMP_1h_SD","Futura_DAY_ONE_COMP_1h_HD"] ],
@@ -863,9 +863,9 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the highlight of day 2 was an appearance by homer hickam,","the young hero of the movie October sky who rose from the coal mines of west virginia to become one of the leading rocket scientists at nasa."],
     secondary_content: [
-      { title:"", image:"DBG_octobersky", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"OctoberSky_SpaceShuttle", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"OctoberSky_Motorcycle", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
