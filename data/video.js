@@ -637,18 +637,18 @@ var data = [
     title: "boston bruins hockey",
     image_menu: "IC_bruins1",
     image_background: "bruins2",
-    image_background_xy_position: [0,0],
+    image_background_xy_position: [0,25],
     image_poster: "PF_bruins1",
     video: [ [360,720], ["Boston_Bruins_30_TV_landmarks_SD","Boston_Bruins_30_TV_landmarks_HD"] ],
     client: "boston bruins",
     one_liner: "television commercials",
     primary_text: ["Boston is a hockey town.&nbsp;&nbsp;The spots were intended as a sort of homage to Boston's great fans and rallying cry to go get the cup which, by the way, they did that year."],
     production_roles: ["design","editorial"],
-    secondary_text: [],
+    secondary_text: ["I'd like some text to go here, I don't know what… - B"],
     secondary_content: [
-      { title:"", image:"bruins4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"bruins4crop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"bruins3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
