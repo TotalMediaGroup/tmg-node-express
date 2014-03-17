@@ -41,10 +41,10 @@ html(lang="en")
             ul.nav.navbar-nav.tmg-unselectable
               for item in nav_items
                 if ((item[0] == current_page[0]) && item[4])
-                  li.active
+                  li.active(id="navbar-#{item[0]}")
                     a= item[1]
                 else if (item[4])
-                  li
+                  li(id="navbar-#{item[0]}")
                     a.hover-trans-67(href="#{item[2]}")= item[1]
 
             div.social-buttons

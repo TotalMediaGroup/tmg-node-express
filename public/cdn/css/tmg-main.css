@@ -28,6 +28,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .navbar-nav li a:hover { color:#999999 !important; }
 .navbar-nav>li>a { padding-bottom:0px; }
 .navbar-inverse .navbar-nav>.active>a { box-shadow:none; background-image:none; }
+#navbar-client-login { border-right:solid 0px #777; }
 
 .footer { position:relative; top:0px; height:110px; z-index:10; width:100%; background-color:rgba(78,78,78,1); border:0; margin-top:0px; overflow:hidden; }
 .footer .footer-logo { position:relative; float:left; padding:45px; padding-top:25px; }
