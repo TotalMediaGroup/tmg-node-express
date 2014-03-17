@@ -272,7 +272,7 @@ TMG.setCurrentRule = function() {
   $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
   $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
   $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
-  $(".home-rules").animate({opacity:0.90},500);
+  $(".home-rules").animate({opacity:0.95},500);
 }
 
 TMG.cycleBgImage = function() {

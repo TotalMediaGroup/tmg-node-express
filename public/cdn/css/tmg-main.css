@@ -178,7 +178,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 
 .home-rules-buffer { position:relative; width:100%; z-index:10; background:transparent; height:50%; margin:44px 0px 0px 0px; clear:both;  }
 .home-rules { position:relative; text-align:center; z-index:10; top:-44px; width:96%; max-width:1280px; min-width:900px; left:1%; clear:both; padding-bottom:0px; padding-top:0px; background-color:transparent; border:0; height:0px; color:#ffffff; }
-.home-rules .rules-bg { position:absolute; left:-25%; top:-200px; width:150%; height:400px; border:none; }
+.home-rules .rules-bg { display:none; position:absolute; left:-25%; top:-400px; width:150%; height:800px; border:none; }
 .home-rules .rule-number { font-size:30px; font-family:"acaslonpro_regular"; font-weight:400; font-style:italic; position:relative; top:-100px; }
 .home-rules .rule-body { font-size:128px; width:120%; text-align:center; position:relative; left:-10%; white-space:nowrap; font-family:"alternategot_no1_dot"; position:relative; top:-160px; line-height:1.2; }
 .home-rules .rule-body .brackets { color:#ff0000; font-size:120%; text-shadow: 0px 0px 0px;  }
