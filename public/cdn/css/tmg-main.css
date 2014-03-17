@@ -164,7 +164,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-work-nav li a.active { color:red !important; text-shadow: 0 -1px 0 rgba(0,0,0,.25); }
 .page-work-nav .navbar-category-icon { position:relative; float:left; top:2px; margin-right:8px; }
 .page-work-nav .navbar-category-icon:hover { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.8; -khtml-opacity:0.8; opacity:0.8; }
-.page-work a, .page-work-nav li a { text-decoration:none; color:#ffffff !important; }
+.page-work a, .page-work-nav li a { text-decoration:none; color:#ffffff !important; outline: medium none; }
 .page-work .video-browser-box { position:relative; float:left; width:200px; height:227px; border:none; margin:8px 8px 18px 8px; padding:5px; overflow:hidden; /*background-color:rgba(69,69,69,1);*/ background-color:transparent; }
 .page-work .video-browser-box .browser-box-bg { position:absolute; top:160px; left:0%; width:100%; height:44px; z-index:0; background-color:#2f2e2e; }
 .page-work .video-browser-box p { margin-top:0px; margin-bottom:0px; margin-left:8px; width:300%; z-index:2; }
