@@ -239,7 +239,7 @@ TMG.fn.load.jqueryAnimateScroll = function(){
 
 TMG.fn.load.jScrollPane = function(){
   if (TMG.currentPage === "about") {
-    TMG.fn.insertCss(TMG.cdn.bootstrap+"/jscrollpane/2.0.19/jquery.jscrollpane.css");
+    TMG.fn.insertCss(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.css");
     $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/mwheelIntent.js",function(){
       $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.mousewheel.js",function(){
         $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.min.js",function(){
