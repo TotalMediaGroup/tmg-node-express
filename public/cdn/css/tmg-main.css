@@ -152,15 +152,15 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .body-work {  }
 .page-work, .page-work-nav { margin-top:0px; font-size:10px; color:white; padding-left:22px; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; overflow-x:visible;  }
 .page-work-nav { padding-top:10px; }
-.page-work { margin-top:20px; }
+.page-work { margin-top:20px; min-height:800px; }
 .page-work .col-lg-12 {  }
 .page-work-nav { margin-top:75px; }
 .page-work-nav ul { position:relative; left:-35px; margin-bottom:20px; z-index:1; }
 .page-work-nav img { cursor:pointer; }
 .page-work-nav li { border-right:solid 2px rgba(255, 255, 255, .6);; }
-.page-work-nav li span { text-shadow:none; line-height:20px; position: relative; display: block; padding: 3px 10px; cursor:pointer;  }
-.page-work-nav li:hover span { color:red !important; text-shadow: 0 -1px 0 rgba(0,0,0,.25); }
-.page-work-nav li span.active { color:red !important; text-shadow: 0 -1px 0 rgba(0,0,0,.25); }
+.page-work-nav li a { text-shadow:none; line-height:20px; position: relative; display: block; padding: 3px 10px; cursor:pointer;  }
+.page-work-nav li:hover a { color:red !important; text-shadow: 0 -1px 0 rgba(0,0,0,.25); }
+.page-work-nav li a.active { color:red !important; text-shadow: 0 -1px 0 rgba(0,0,0,.25); }
 .page-work-nav .navbar-category-icon { position:relative; float:left; top:2px; margin-right:8px; }
 .page-work-nav .navbar-category-icon:hover { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.8; -khtml-opacity:0.8; opacity:0.8; }
 .page-work a, .page-work-nav li a { text-decoration:none; color:#ffffff !important; }
