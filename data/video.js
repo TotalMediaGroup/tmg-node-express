@@ -330,7 +330,7 @@ var data = [
     one_liner: "history of stryker medical innovations",
     primary_text: ["stryker medical is an extraordinary example of the american dream.","one of the largest medical device manufactures in the world, the company was started by a single man, homer stryker, in 1942.","this timeline is an excerpt from a short doc detailing the succession or homer's innovative products."],
     production_roles: ["design","3d Animation"],
-    secondary_text: ["Test Text"],
+    secondary_text: ["The sequence is excerpted from a longer show.&nbsp;&nbsp;it was used to create chapter markers periodically directing us to the main show."],
     secondary_content: [
       { title:"", image:"DBG_homerbg1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
