@@ -175,7 +175,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 
 .bg-corner-darkener { position:fixed; margin-top:88px; left:-75%; top:-300px; width:150%; height:600px; }
 
-.home-rules-buffer { position:relative; width:100%; z-index:10; background:transparent; height:50%; margin:88px 0px 0px 0px; clear:both;  }
+.home-rules-buffer { position:relative; width:100%; z-index:10; background:transparent; height:50%; margin:44px 0px 0px 0px; clear:both;  }
 .home-rules { position:relative; text-align:center; z-index:10; top:-44px; width:96%; max-width:1280px; min-width:900px; left:1%; clear:both; padding-bottom:0px; padding-top:0px; background-color:transparent; border:0; height:0px; color:#ffffff; }
 .home-rules .rules-bg { position:absolute; left:-10%; top:15%; width:120%; height:70%; border:none; filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.8; -khtml-opacity:0.8; opacity:0.8;  }
 .home-rules .rule-number { font-size:30px; font-family:"acaslonpro_regular"; font-weight:400; font-style:italic; position:relative; top:-100px; }
