@@ -13,22 +13,22 @@ block content
       div.col-lg-12
 
         ul.nav.navbar-nav
-          span(data-href="#",onClick="TMG.fn.work.filterVideos('reset')")
+          a(href="#filter=*")
             img.navbar-category-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png",onMouseOver="this.src='#{tmg_cdn}/img/misc/category-grid-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/category-grid-white.png?v=#{app_version}'")
           li
-            span(class="filter-featured",data-href="#featured",onClick="TMG.fn.work.filterVideos('featured')")
+            a(class="filter-featured",href="#filter=.featured")
               | FEATURED
           li
-            span(class="filter-reels",vhref="#reels",onClick="TMG.fn.work.filterVideos('reels')")
+            a(class="filter-reels",href="#filter=.reels")
               | TMG REELS
           li
-            span(class="filter-media",data-href="#media",onClick="TMG.fn.work.filterVideos('media')")
+            a(class="filter-media",href="#filter=.media")
               | MEDIA
           li
-            span(class="filter-events",data-href="#events",onClick="TMG.fn.work.filterVideos('events')")
+            a(class="filter-events",href="#filter=.events")
               | EVENTS
           li(style="border-right:none")
-            span(class="filter-design",data-href="#design",onClick="TMG.fn.work.filterVideos('design')")
+            a(class="filter-design",href="#filter=.design")
               | DESIGN
 
     div.row.page-work

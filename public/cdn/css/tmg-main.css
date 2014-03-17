@@ -43,6 +43,8 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .footer .footer-rules { position:absolute; right:0%; height:0px; width:100%; top:50px; left:20%; clear:none; margin-left:0px; margin-right:0px; padding-top:0px; padding-left:0px; -webkit-transform:scale(0.4); -moz-transform:scale(0.4); -ms-transform:scale(0.4); -o-transform:scale(0.4); transform:scale(0.4);  }
 .footer .footer-rules .rule-footer { font-size:24px; }
 .footer .footer-rules .rule-number { font-size:36px; }
+.footer .footer-rules .home-rules-body-squeeze {  }
+
 
 
 .navbar-inverse { background-image:none; }

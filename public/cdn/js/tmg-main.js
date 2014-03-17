@@ -24,6 +24,7 @@ var TMG = {
   slideShowDelay: 7000,
   slideShowTransitionSpeed: 4000,
   containerInfo: {left:0,padLeft:0,width:''},
+  isotopeOptions: { itemSelector: '.video-browser-box', animationEngine: 'best-available', filter: '*' },
 //  bgImageDim: [$(".bg-static img").width(),$(".bg-static img").height()],
   scrollQueues: {
 //    loadFollowButtons: {
@@ -523,31 +524,39 @@ TMG.fn.video.percentComplete = function() {
 }
 
 TMG.fn.ui.work.setupVideoMenu = function() {
-  TMG.fn.work.filterVideos();
-}
 
-TMG.fn.work.filterVideos = function(filter) {
+  $(window).bind('hashchange', function(event){
+    var hashOptions = $.deparam.fragment();
+    for (i in hashOptions) {
+      TMG.isotopeOptions[i] = hashOptions[i];
+    }
 
-  $(".page-work-nav span").removeClass("active");
+    $(".page-work-nav a").removeClass("active");
+    if (TMG.isotopeOptions.filter !== "*") {
+      $(".page-work-nav .filter-"+TMG.isotopeOptions.filter.substr(1)).addClass("active");
+    }
+    $('.page-work').isotope(TMG.isotopeOptions);
+    TMG.fn.reactiveUi.modifyOverWidthElements();
+  }).trigger('hashchange');
 
-  if ((filter== null) || (filter == 'reset')) {
-    $('.page-work').isotope({
-      itemSelector: '.video-browser-box',
-      animationEngine: 'best-available',
-      filter: '*'
-    }); 
-  } else {
-    $(".page-work-nav span.filter-"+filter).addClass("active");
-    $('.page-work').isotope({
-      itemSelector: '.video-browser-box',
-      animationEngine: 'best-available',
-      filter:'.'+filter
-    });
-  }
-
+  $('.page-work').isotope(TMG.isotopeOptions);
   TMG.fn.reactiveUi.modifyOverWidthElements();
-
 }
+
+// TMG.fn.work.filterVideos = function(filter) {
+
+//   $(".page-work-nav a").removeClass("active");
+
+//   if ((filter== null) || (filter == 'reset')) {
+//     $('.page-work').isotope(TMG.isotopeOptions); 
+//   } else {
+//     $(".page-work-nav .filter-"+filter).addClass("active");
+//     $('.page-work').isotope(TMG.isotopeOptions);
+//   }
+
+//   TMG.fn.reactiveUi.modifyOverWidthElements();
+
+// }
 
 TMG.aboutTeamSmallHeight = 0;
 
