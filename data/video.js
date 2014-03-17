@@ -26,27 +26,6 @@ var data = [
 
 */
 
-  { id: "opts-ideas-employee-strategy",
-    title: "EMPLOYEE STRATEGY",
-    image_menu: "IC_simplicity",
-    image_background: "employee6",
-    image_background_xy_position: [15,0],
-    image_poster: "employee1",
-    video: [ [360,720], ["Opts_EMPLOYEE_DIRCUT_1M_SD","Opts_EMPLOYEE_DIRCUT_1M_HD"] ],
-    client: "LPL Financial",
-    one_liner: "INFORMATIONAL VIDEO",
-    primary_text: ["Agency: Opts Ideas","","The piece was intended to inspire the audience and create a sense of anticipation around new technology soon to be released.","We had been warned that the audience had become suspicious of broken promises, so we wanted to stay away from anything that resembled the typical corporate motivational piece.","We thought something unusual, and authentic would be a better approach. We wanted the audience to THINK.","The script speaks to the dreams of the investor / clients and how staff could better help them achieve those dreams. It was written as a sort of poem.","The graphics were designed to present and support the on-screen text with sublime - abstract forms."],
-    production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
-    secondary_text: ["The video was displayed on an extremely wide screen - 180’x18’ - basically shaped like a curved mail slot. Designing a graphical piece for such an unusual format was a challenge.","The obvious approach would be to split the screen into multiple 16x9 areas across the horizontal width. But we wanted to use the wide format as a massive canvas instead. We thought the impact of the high contrast graphics operating across a180’ space would be pretty profound. Text on screen provides the common thread. Circles were used as the main element in the overall show design so we adopted dots as our primary characters."],
-    secondary_content: [
-      { title:"", image:"employee3", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"employee2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
-      ],
-    categories: ["media","featured","events"],
-    secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
-  },
 
 
 
@@ -96,6 +75,27 @@ var data = [
     secondary_layout: "corner"
   },
 
+  { id: "opts-ideas-employee-strategy",
+    title: "EMPLOYEE STRATEGY",
+    image_menu: "IC_simplicity",
+    image_background: "employee6",
+    image_background_xy_position: [15,0],
+    image_poster: "employee1",
+    video: [ [360,720], ["Opts_EMPLOYEE_DIRCUT_1M_SD","Opts_EMPLOYEE_DIRCUT_1M_HD"] ],
+    client: "LPL Financial",
+    one_liner: "INFORMATIONAL VIDEO",
+    primary_text: ["Agency: Opts Ideas","","The piece was intended to inspire the audience and create a sense of anticipation around new technology soon to be released.","We had been warned that the audience had become suspicious of broken promises, so we wanted to stay away from anything that resembled the typical corporate motivational piece.","We thought something unusual, and authentic would be a better approach. We wanted the audience to THINK.","The script speaks to the dreams of the investor / clients and how staff could better help them achieve those dreams. It was written as a sort of poem.","The graphics were designed to present and support the on-screen text with sublime - abstract forms."],
+    production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
+    secondary_text: ["The video was displayed on an extremely wide screen - 180’x18’ - basically shaped like a curved mail slot. Designing a graphical piece for such an unusual format was a challenge.","The obvious approach would be to split the screen into multiple 16x9 areas across the horizontal width. But we wanted to use the wide format as a massive canvas instead. We thought the impact of the high contrast graphics operating across a180’ space would be pretty profound. Text on screen provides the common thread. Circles were used as the main element in the overall show design so we adopted dots as our primary characters."],
+    secondary_content: [
+      { title:"", image:"employee3", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"employee2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    categories: ["media","featured","events"],
+    secondary_box_color: "FFFFFF",
+    secondary_layout: "standard"
+  },
 
 
   { id: "opts-ideas-anthem",
@@ -1455,7 +1455,7 @@ var data = [
 
   { id: "tmg-studio-reel",
     title: "Studio Reel",
-    image_menu: "IC_elagua5",
+    image_menu: "IC_skateboard",
     image_background: "skateboard",
     image_background_xy_position: [0,0],
     image_poster: "skateboard",
@@ -1468,7 +1468,7 @@ var data = [
     secondary_content: [
       { title:"", image:"connections_clean", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"hightail3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"neil4", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
@@ -1478,7 +1478,7 @@ var data = [
   { id: "tmg-event-reel",
     title: "Event Reel",
     image_menu: "IC_ciscolive",
-    image_background: "ciscolive5crop",
+    image_background: "ciscolive5cropcontrastcolorposscale",
     image_background_xy_position: [0,0],
     image_poster: "ciscolive8",
     video: [ [360,720], ["TMG_Event_REEL_021214_SD","TMG_Event_REEL_021214_HD"] ],
@@ -1488,9 +1488,9 @@ var data = [
     production_roles: ["creative","editorial","3D Animation","Event Production"],
     secondary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
     secondary_content: [
-      { title:"", image:"lituprobotcrop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"Homer_withText", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"ciscolive2crop", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"ciscolive2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"lituprobotcrophead", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
@@ -1499,10 +1499,10 @@ var data = [
 
   { id: "tmg-tech-reel",
     title: "Tech Reel",
-    image_menu: "IC_cisco",
-    image_background: "cisco1",
+    image_menu: "IC_polyphone",
+    image_background: "polycom14",
     image_background_xy_position: [10,6],
-    image_poster: "ciscoisbg6",
+    image_poster: "ciscoglobe",
     video: [ [360,720], ["TMG_Tech_Reel_021014_SD","TMG_Tech_Reel_021014_HD"] ],
     client: "TMG",
     one_liner: "TMG Tech Reel 2014",
@@ -1510,9 +1510,9 @@ var data = [
     production_roles: ["creative","editorial","3D Animation","Event Production"],
     secondary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
     secondary_content: [
-      { title:"", image:"vmwarevirtualzation4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"polycom13", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"ruckus6", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"vmwarevirtualzation4", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
@@ -1521,7 +1521,7 @@ var data = [
 
   { id: "tmg-medical-reel",
     title: "Medical Reel",
-    image_menu: "IC_hectorlogo",
+    image_menu: "IC_versitonic2",
     image_background: "Versitomic_Flexible_instruments",
     image_background_xy_position: [0,30],
     image_poster: "versitonic1",
@@ -1534,7 +1534,7 @@ var data = [
     secondary_content: [
       { title:"", image:"cobas7crop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"onQ6_bluetint", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"onQ6", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
