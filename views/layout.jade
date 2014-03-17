@@ -20,6 +20,9 @@ html(lang="en")
     link(rel='stylesheet', type='text/css', href='#{tmg_vendor_cdn}/jquery-isotope/1.5.26/jquery.isotope.css')
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-main.css?v=#{app_version}')
     script(type='text/javascript', src='#{tmg_cdn}/js/tmg-preload.js?v=#{app_version}')
+    link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-tablet.css?v=#{app_version}', media='all and (max-device-width: 1024px)')
+    link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-mobile.css?v=#{app_version}', media='all and (max-device-width: 480px)')
+    link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-mobile-portrait.css?v=#{app_version}', media='all and (max-device-width: 480px) and (orientation:portrait)')
   
     script(type="text/javascript")
       | var tmgRules=[], tmgCurrentRule=0;
@@ -95,5 +98,5 @@ html(lang="en")
         window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",window.analytics.load("#{segment_io_client_id}");window.analytics.page();
 
     div.tmg-body-cover
-    div#rfcx-disclaimer-mobile
+    div#tmg-disclaimer-mobile
       span
