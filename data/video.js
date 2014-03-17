@@ -330,7 +330,7 @@ var data = [
     one_liner: "history of stryker medical innovations",
     primary_text: ["stryker medical is an extraordinary example of the american dream.","one of the largest medical device manufactures in the world, the company was started by a single man, homer stryker, in 1942.","this timeline is an excerpt from a short doc detailing the succession or homer's innovative products."],
     production_roles: ["design","3d Animation"],
-    secondary_text: ["Test Text"],
+    secondary_text: ["The sequence is excerpted from a longer show.&nbsp;&nbsp;it was used to create chapter markers periodically directing us to the main show."],
     secondary_content: [
       { title:"", image:"DBG_homerbg1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -468,23 +468,23 @@ var data = [
   { id: "various-political-spots",
     title: "Various Candidates",
     image_menu: "IC_chamelion",
-    image_background: "BG_Political",
-    image_background_xy_position: [0,0],
+    image_background: "chameleoncropped2",
+    image_background_xy_position: [8,25],
     image_poster: "PF_political13",
     video: [ [360,720], ["Jim_Costa_VALLEY_HOME_4x3_SAFE_SD","Jim_Costa_VALLEY_HOME_4x3_SAFE_HD"] ],
     client: "political spots",
     one_liner: "political tv spots",
     primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","Michael fenenbock (the fenenbock group) is considered one of the nations leading campaign strategists.","a gifted filmmaker he has a unique gift for crafting compelling stories.","creative director Steven Gregory has worked with michael for many years and created many spots for candidates on both sides of the aisle.","here are a few."],
     production_roles: ["creative","editorial","animation"],
-    secondary_text: ["the spots range from cinematic to comical to downright weird.","all these candidates were elected."],
+    secondary_text: ["<span style=\"color:white;\">politics being what it is, the concepts evolve pretty much in real-time.&nbsp;&nbsp;this opens the door to some pretty odd concepts.&nbsp;&nbsp;chameleons???</span>","","<span style=\"color:white;\">the spots range from cinematic to comical to downright weird.&nbsp;&nbsp;all of these candidates were elected.</span>"],
     secondary_content: [
-      { title:"", image:"Political_Middle", video:"Jim_Costa_ACCOMPLISMENTS_33112_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"PoliticalRight", video:"Anna_Caballero_CHAMELEON_MIXED_5_PR_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"PoliticalLeft", video:"Forescee_Hogan_Rowles_ONE VOICE_pr_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Anna Caballero", image:"PoliticalRight", video:"Anna_Caballero_CHAMELEON_MIXED_5_PR_HD", button_white_or_black:"black", title_white_or_black:"black" },      
+      { title:"Jim Costa", image:"BG_Political", video:"Jim_Costa_ACCOMPLISMENTS_33112_HD", button_white_or_black:"white", title_white_or_black:"black" },
+      { title:"Forescee Hogan Rowles", image:"PoliticalLeft", video:"Forescee_Hogan_Rowles_ONE VOICE_pr_HD", button_white_or_black:"white", title_white_or_black:"black" }
       ],
     categories: ["media"],
-    secondary_box_color: "FFFFFF",
-    secondary_layout: "corner"
+    secondary_box_color: "4E4E4E",
+    secondary_layout: "standard"
   },
 
 
@@ -974,7 +974,7 @@ var data = [
   { id: "salix-sales-meeting",
     title: "salix national sales meeting",
     image_menu: "IC_SALIXNSM",
-    image_background: "",
+    image_background: "DI_salix_nsm",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
@@ -1462,9 +1462,9 @@ var data = [
     video: [ [360,720], ["TMG_Reel_021214_SD","TMG_Reel_021214_HD"] ],
     client: "TMG",
     one_liner: "TMG Studio Reel 2014",
-    primary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+    primary_text: ["CREATIVITY","GOOD DESIGN USUALLY INVOLVES A GOOD DEAL OF PROBLEM SOLVING.","THE PRETTY PICTURES NEVER HAPPEN IF YOU ARE UNABLE TO SOLVE THE TECHNICAL AND LOGISTICAL PROBLEMS WHICH ALWAYS PROCEED THEM.","CREATING A PIECE OR CONFORMING AND FINISHING A SHOW MADE UP OF HUNDREDS OF FORMATS AND FILE TYPES CAN BE DAUNTING.","TO SAY NOTHING OF THE WIDE VARIETY OF DELIVERY FORMATS WHICH ARE COMMON NOW.","TO DO ALL THIS UNDER A DEADLINE REQUIRES A COMPLETE UNDERSTANDING OF ALL PHASES OF THE PROCESS.","WE ROUTINELY HANDLE LARGE, COMPLEX PROJECTS AND WE'RE PROUD TO SAY WE HAVE NOT MISSED A DEADLINE IN 18 YEARS."],
     production_roles: ["creative","3D Animation","editorial"],
-    secondary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+    secondary_text: ["TMG WORKS WITH CLIENTS ACROSS MANY SECTORS: TECHNOLOGY, Medical, FINANCIAL, commercial, retail, sports, entertainment, AND AGENCY."],
     secondary_content: [
       { title:"", image:"connections_clean", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1484,7 +1484,7 @@ var data = [
     video: [ [360,720], ["TMG_Event_REEL_021214_SD","TMG_Event_REEL_021214_HD"] ],
     client: "TMG",
     one_liner: "TMG Event Reel 2014",
-    primary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+    primary_text: ["Every client's brand is unique.&nbsp;&nbsp;Every purpose and every message can be communicated in a multitude of ways.&nbsp;&nbsp;Whether a 'literature in motion' piece, or a multi camera live action, each video we produce is customized to fit that project.&nbsp;&nbsp;You won't find a recycled gimmick or trend here."],
     production_roles: ["creative","editorial","3D Animation","Event Production"],
     secondary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
     secondary_content: [
@@ -1502,11 +1502,11 @@ var data = [
     image_menu: "IC_polyphone",
     image_background: "polycom14",
     image_background_xy_position: [10,6],
-    image_poster: "ciscoglobe",
+    image_poster: "PFIT1",
     video: [ [360,720], ["TMG_Tech_Reel_021014_SD","TMG_Tech_Reel_021014_HD"] ],
     client: "TMG",
     one_liner: "TMG Tech Reel 2014",
-    primary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+    primary_text: ["How do you talk about a world that seems to exist in ether?&nbsp;&nbsp;Rapidly evolving technology is so complex it requires its own language.&nbsp;&nbsp;Translating a message from engineers and developers to marketers to businesses takes a crafty scriptwriter and a team of visual storytellers."],
     production_roles: ["creative","editorial","3D Animation","Event Production"],
     secondary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
     secondary_content: [
@@ -1528,7 +1528,7 @@ var data = [
     video: [ [360,720], ["TMG_Med_Reel_021214_SD","TMG_Med_Reel_021214_HD"] ],
     client: "TMG",
     one_liner: "TMG Medical Reel 2014",
-    primary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+    primary_text: ["The use of 3D modeling and animation is a powerful tool for the bio-med and pharma industries.&nbsp;&nbsp;These videos helps medical professionals visualize, understand, explore, educate and inform patients and clients.&nbsp;&nbsp;We have the honor, privilege and pleasure of working with clients like Genentech, here in our very own South SF, the home of the bio-tech industry."],
     production_roles: ["creative","editorial","3D Animation","Event Production"],
     secondary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
     secondary_content: [
