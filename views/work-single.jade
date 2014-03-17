@@ -45,7 +45,7 @@ block content
               div.page-video-scroll
                 div.video-bttn.tmg-unselectable.video-scroll(onClick="$(this).animatescroll()")
                   img(src="#{tmg_cdn}/img/misc/arrow-down-red.png?v=#{app_version}")
-                  div.tmg-trans-50.radial-gradient
+                  //- div.tmg-trans-50.radial-gradient
                   div.down-label= "MORE"
                 if (data['video'][(v_index-1)] != null)
                   a(href="../work/#{data['video'][(v_index-1)]['id']}")
@@ -98,13 +98,13 @@ block content
                     if (v['secondary_content'][2]['video'].length > 0)
                       div.video-bttn
                         img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][2]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][2]['button_white_or_black']}.png?v=#{app_version}'")
-                        div.tmg-trans-50.radial-gradient
+                        //- div.tmg-trans-50.radial-gradient
 
                     if (v['secondary_content'][2]['title'].length > 0)
                       div.secondary-title
                         span(style="color:#{v['secondary_content'][2]['title_white_or_black']};")
                           | #{v['secondary_content'][2]['title']}
-                        div.radial-gradient
+                        //- div.radial-gradient
                     if (v["secondary_text"].length > 0)
                       script(type="text/javascript").
                         var secImgA = new Image(); secImgA.class = 'video-frame-secondary'; secImgA.onload = function(){setSquImg(this);}; secImgA.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-a').appendChild(secImgA);
@@ -115,12 +115,12 @@ block content
                   if (v['secondary_content'][0]['video'].length > 0)
                     div.video-bttn
                       img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][0]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][0]['button_white_or_black']}.png?v=#{app_version}'")
-                      div.tmg-trans-50.radial-gradient
+                      //- div.tmg-trans-50.radial-gradient
                   if (v['secondary_content'][0]['title'].length > 0)
                     div.secondary-title
                       span(style="color:#{v['secondary_content'][0]['title_white_or_black']};")
                         | #{v['secondary_content'][0]['title']}
-                      div.radial-gradient
+                      //- div.radial-gradient
                   div.fader-block(onClick="TMG.fn.video.ended();")
 
                   script(type="text/javascript").
@@ -131,12 +131,12 @@ block content
                   if (v['secondary_content'][0]['video'].length > 0)
                     div.video-bttn
                       img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][0]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][0]['button_white_or_black']}.png?v=#{app_version}'")
-                      div.tmg-trans-50.radial-gradient
+                      //- div.tmg-trans-50.radial-gradient
                   if (v['secondary_content'][0]['title'].length > 0)
                     div.secondary-title
                       span(style="color:#{v['secondary_content'][0]['title_white_or_black']};")
                         | #{v['secondary_content'][0]['title']}
-                      div.radial-gradient
+                      //- div.radial-gradient
 
                   script(type="text/javascript").
                     var secImgC = new Image(); secImgC.class = 'video-frame-secondary'; secImgC.onload = function(){setSquImg(this);}; secImgC.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][0]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-c').appendChild(secImgC);
@@ -146,12 +146,12 @@ block content
                   if (v['secondary_content'][1]['video'].length > 0)
                     div.video-bttn
                       img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}'")
-                      div.tmg-trans-50.radial-gradient
+                      //- div.tmg-trans-50.radial-gradient
                   if (v['secondary_content'][1]['title'].length > 0)
                     div.secondary-title
                       span(style="color:#{v['secondary_content'][1]['title_white_or_black']};")
                         | #{v['secondary_content'][1]['title']}
-                      div.radial-gradient
+                      //- div.radial-gradient
 
                   script(type="text/javascript").
                     var secImgD = new Image(); secImgD.class = 'video-frame-secondary'; secImgD.onload = function(){setSquImg(this);}; secImgD.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-d').appendChild(secImgD);
@@ -165,12 +165,12 @@ block content
                     if (v['secondary_content'][2]['video'].length > 0)
                       div.video-bttn
                         img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][2]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][2]['button_white_or_black']}.png?v=#{app_version}'")
-                        div.tmg-trans-50.radial-gradient
+                        //- div.tmg-trans-50.radial-gradient
                     if (v['secondary_content'][2]['title'].length > 0)
                       div.secondary-title
                         span(style="color:#{v['secondary_content'][2]['title_white_or_black']};")
                           | #{v['secondary_content'][2]['title']}
-                        div.radial-gradient
+                        //- div.radial-gradient
 
                     script(type="text/javascript").
                       var secImgE = new Image(); secImgE.class = 'video-frame-secondary'; secImgE.onload = function(){setSquImg(this);}; secImgE.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][2]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-e').appendChild(secImgE);
@@ -180,12 +180,12 @@ block content
                     if (v['secondary_content'][1]['video'].length > 0)
                       div.video-bttn
                         img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}'")
-                        div.tmg-trans-50.radial-gradient
+                        //- div.tmg-trans-50.radial-gradient
                     if (v['secondary_content'][1]['title'].length > 0)
                       div.secondary-title
                         span(style="color:#{v['secondary_content'][1]['title_white_or_black']};")
                           | #{v['secondary_content'][1]['title']}
-                        div.radial-gradient
+                        //- div.radial-gradient
 
                     script(type="text/javascript").
                       var secImgF = new Image(); secImgF.class = 'video-frame-secondary'; secImgF.onload = function(){setSquImg(this);}; secImgF.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['secondary_content'][1]['image']}.jpg?v=#{app_version}'; document.getElementById('video-frame-secondary-f').appendChild(secImgF);
@@ -197,12 +197,12 @@ block content
                     if (v['secondary_content'][1]['video'].length > 0)
                       div.video-bttn
                         img(src="#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-#{v['secondary_content'][1]['button_white_or_black']}.png?v=#{app_version}'")
-                        div.tmg-trans-50.radial-gradient
+                        //- div.tmg-trans-50.radial-gradient
                     if (v['secondary_content'][1]['title'].length > 0)
                       div.secondary-title
                         span(style="color:#{v['secondary_content'][1]['title_white_or_black']};")
                           | #{v['secondary_content'][1]['title']}
-                        div.radial-gradient
+                        //- div.radial-gradient
                     div.fader-block(onClick="TMG.fn.video.ended();")
      
                     script(type="text/javascript").

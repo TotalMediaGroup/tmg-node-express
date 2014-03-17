@@ -11,7 +11,7 @@ block content
   div.container
     div.row.page-work-nav
       div.col-lg-12
-        div.page-work-bg.bg-vertical-bar-gradient
+
         ul.nav.navbar-nav
           span(data-href="#",onClick="TMG.fn.work.filterVideos('reset')")
             img.navbar-category-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png",onMouseOver="this.src='#{tmg_cdn}/img/misc/category-grid-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/category-grid-white.png?v=#{app_version}'")
@@ -33,7 +33,7 @@ block content
 
     div.row.page-work
       div.col-lg-12
-        div.page-work-bg.bg-vertical-bar-gradient
+      
         for v,i in data["video"]
           a(href="work/#{v['id']}")
             div(class="video-browser-box #{v['categories'].join(' ')}")
