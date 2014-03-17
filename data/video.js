@@ -1468,7 +1468,7 @@ var data = [
     secondary_content: [
       { title:"", image:"connections_clean", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"Left_BlueRoz", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"hightail3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
