@@ -484,7 +484,7 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "corner"
   },
 
 
