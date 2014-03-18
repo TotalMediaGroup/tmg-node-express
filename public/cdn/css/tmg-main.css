@@ -79,13 +79,14 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-design { margin-top:88px; background-color:transparent; height:400px; }
 .page-design .col-lg-12 { position:relative; }
 .page-design-header-bg { position:absolute; left:-800%; height:100%; width:1700%; background-color:rgba(64,64,64,1); z-index:10; top:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
-.page-design-header-text { position:relative; width:100%; padding:32px 0px 8px 0px; color:white; z-index:11; text-align:left; left:0%; height:100%; font-size:18px; font-family:"gothamrounded_book"; text-transform:uppercase; }
-.page-design .primary-body { position:absolute; left:5%; top:5%; width:33%; height:auto; background-color:transparent; }
+.page-design-header-text { position:relative; width:100%; padding:32px 0px 8px 0px; color:white; z-index:11; text-align:left; left:0%; height:100%; font-size:14px; font-family:"gothamrounded_book"; text-transform:uppercase; }
+.page-design .primary-body { position:absolute; left:5%; top:5%; width:33%; height:auto; color:#444444; background-color:transparent; font-size:10px; font-family:"gothamrounded_book"; text-transform:uppercase; letter-spacing:.03em; line-height:1.7;  }
+.page-design .primary-body p { margin-top:1px; margin-bottom:1px; }
 .page-design .page-design-image { position:relative; overflow:visible; width:100%; height:auto; left:0%; top:0%; margin:0px 0px 133px 0px; border:0; }
 .page-design .page-design-image .bottom-strip { position:absolute; bottom:-133px; background-color:#cccccc; height:133px; width:1700%; left:-800%; }
 .page-design .page-design-image img { position:relative; width:100%; height:auto; left:0%; top:0%; }
 
-.page-video { letter-spacing:.05em; text-transform:uppercase; margin-top:176px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
+.page-video { letter-spacing:.03em; text-transform:uppercase; margin-top:176px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
 .page-video .video-player { background-color:transparent; overflow:visible; position:relative; }
 .page-video .video-player-box .video-player { width:96%; float:right; margin-bottom:40px; }
 .page-video .video-player-box .video-player img { width:96%; float:right; margin-bottom:40px; width:100%; }
@@ -180,7 +181,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .bg-corner-darkener { position:fixed; margin-top:88px; left:-75%; top:-300px; width:150%; height:600px; }
 
 .home-rules-buffer { position:relative; width:100%; z-index:10; background:transparent; height:50%; margin:44px 0px 0px 0px; clear:both;  }
-.home-rules { position:relative; text-align:center; z-index:10; top:-44px; width:96%; max-width:1280px; min-width:900px; left:1%; clear:both; padding-bottom:0px; padding-top:0px; background-color:transparent; border:0; height:0px; color:#ffffff; }
+.home-rules { position:relative; text-align:center; z-index:10; top:-44px; width:96%; max-width:1280px; min-width:900px; left:1%; clear:both; padding-bottom:0px; padding-top:0px; background-color:transparent; border:0; height:0px; color:#ffffff; -moz-osx-font-smoothing:grayscale; }
 .home-rules .rules-bg { display:none; position:absolute; left:-25%; top:-400px; width:150%; height:800px; border:none; }
 .home-rules .rule-number { font-size:30px; font-family:"acaslonpro_regular"; font-weight:400; font-style:italic; position:relative; top:-100px; }
 .home-rules .rule-body { font-size:128px; width:120%; text-align:center; position:relative; left:-10%; white-space:nowrap; font-family:"alternategot_no1_dot"; position:relative; top:-160px; line-height:1.2; }
@@ -190,7 +191,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .home-rules-body-squeeze { -webkit-transform: scaleX(0.83); -moz-transform: scaleX(0.83); -ms-transform: scaleX(0.83); -o-transform: scaleX(0.83); transform: scaleX(0.83); }
 .home-rules-number-stretch { -webkit-transform: scale(0.95,1.05); -moz-transform: scale(0.95,1.05); -ms-transform: scale(0.95,1.05); -o-transform: scale(0.95,1.05); transform: scale(0.95,1.05); }
 
-.footer .footer-rules { position:absolute; right:0%; height:0px; width:60%; min-width:50%; top:130px; left:40%; clear:none; margin-left:0px; margin-right:0px; padding-top:0px; padding-left:0px; }
+.footer .footer-rules { position:absolute; right:0%; height:0px; width:60%; min-width:50%; top:130px; left:40%; clear:none; margin-left:0px; margin-right:0px; padding-top:0px; padding-left:0px; -moz-osx-font-smoothing:grayscale; }
 .footer .footer-rules .rule-number { font-size:16px; top:-125px; }
 .footer .footer-rules .rule-body { font-size:52px; top:-170px; }
 .footer .footer-rules .rule-footer { font-size:10px; }

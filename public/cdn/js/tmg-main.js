@@ -122,8 +122,15 @@ TMG.fn.reactiveUi.scrollQueues = function() {
   // var scrollPosition = scrollTop + $(window).height();
 
   if (TMG.currentPage == "work-single") {
-    $(".back-to-menu").animate({marginTop:scrollTop+"px"},250);
-    $(".video-prev, .video-next").animate({marginTop:( (scrollTop > 190) ? (scrollTop-190) : 0 )+"px"},250);
+    $(".back-to-menu").animate({opacity:0},100,function(){
+      $(this).css({marginTop:scrollTop+"px"}).animate({opacity:1},1000);
+    });
+
+    // if (parseInt($(".video-prev").css("margin-top")) > (scrollTop-190)) {
+    //   $(".video-prev, .video-next").animate({opacity:0},100,function(){
+    //       $(this).css({marginTop:( (scrollTop > 190) ? (scrollTop-190) : 0 )+"px"}).animate({opacity:1},1000);
+    //   });
+    // }
   }
   // for (func in TMG.scrollQueues) {
   //   if  (!TMG.scrollQueues[func].isLoaded) {
@@ -155,9 +162,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
 
       //.css({minHeight:(minHeight+88)+"px"})
       $(".bg-static img").each(function(){
-        console.log((minHeight+88)+" - "+parseInt($(this).css("min-height")));
         if (TMG.bgAspectRatio === 0) { TMG.bgAspectRatio = this.width/this.height; }
-        console.log(TMG.bgAspectRatio);
         
 //        var minWidth = parseInt($(this).css("min-height"))*($(this).width()/$(this).height());
         // console.log((minWidth/TMG.bgAspectRatio)+" - "+(minHeight+88));
@@ -252,17 +257,17 @@ TMG.fn.load.jqueryAnimateScroll = function(){
 
 TMG.fn.load.jScrollPane = function(){
   if (TMG.currentPage === "about") {
-    TMG.fn.insertCss(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.css");
-    $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/mwheelIntent.js",function(){
-      $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.mousewheel.js",function(){
-        $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.min.js",function(){
-          $('.jscroll-pane').jScrollPane({
-            showArrows: false
-          });
-          console.log("loaded jScrollPane");
-        });
-      });
-    });
+    // TMG.fn.insertCss(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.css");
+    // $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/mwheelIntent.js",function(){
+    //   $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.mousewheel.js",function(){
+    //     $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.min.js",function(){
+    //       $('.jscroll-pane').jScrollPane({
+    //         showArrows: false
+    //       });
+    //       console.log("loaded jScrollPane");
+    //     });
+    //   });
+    // });
   }
 }
 
