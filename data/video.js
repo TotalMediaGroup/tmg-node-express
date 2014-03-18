@@ -21,7 +21,8 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       ],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 */
@@ -48,7 +49,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -72,7 +74,8 @@ var data = [
       ],
     categories: ["media", "featured"],
     secondary_box_color: "ffffff",
-    secondary_layout: "corner"
+    secondary_layout: "corner",
+    hide_client_on_menu: false
   },
 
   { id: "opts-ideas-employee-strategy",
@@ -94,7 +97,8 @@ var data = [
       ],
     categories: ["media","featured","events"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -117,7 +121,8 @@ var data = [
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -140,7 +145,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -167,7 +173,8 @@ var data = [
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -192,7 +199,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -216,7 +224,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -240,7 +249,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -265,7 +275,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -289,7 +300,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -314,7 +326,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -338,7 +351,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -362,7 +376,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -387,7 +402,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -411,7 +427,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -435,7 +452,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -459,7 +477,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -484,7 +503,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "4E4E4E",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -508,7 +528,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -532,7 +553,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -556,7 +578,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -580,7 +603,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -604,7 +628,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -628,7 +653,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -652,7 +678,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -676,7 +703,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -700,7 +728,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -725,7 +754,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -749,7 +779,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -773,7 +804,8 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -797,7 +829,8 @@ var data = [
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -821,7 +854,8 @@ var data = [
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -845,7 +879,8 @@ var data = [
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -869,7 +904,8 @@ var data = [
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -893,7 +929,8 @@ var data = [
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -917,7 +954,8 @@ var data = [
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -941,7 +979,8 @@ var data = [
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -965,7 +1004,8 @@ var data = [
       ],
     categories: ["events"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -990,7 +1030,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1014,7 +1055,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1038,7 +1080,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1062,7 +1105,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1086,7 +1130,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1110,7 +1155,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1134,7 +1180,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1160,7 +1207,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1184,7 +1232,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1208,7 +1257,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1232,7 +1282,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1256,7 +1307,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1280,7 +1332,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1305,7 +1358,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1329,7 +1383,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1353,7 +1408,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1377,7 +1433,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1401,7 +1458,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1426,7 +1484,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
@@ -1450,7 +1509,8 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
   { id: "tmg-studio-reel",
@@ -1472,7 +1532,8 @@ var data = [
       ],
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
   { id: "tmg-event-reel",
@@ -1494,7 +1555,8 @@ var data = [
       ],
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
   { id: "tmg-tech-reel",
@@ -1516,7 +1578,8 @@ var data = [
       ],
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
   { id: "tmg-medical-reel",
@@ -1538,7 +1601,8 @@ var data = [
       ],
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard"
+    secondary_layout: "standard",
+    hide_client_on_menu: false
   },
 
 
