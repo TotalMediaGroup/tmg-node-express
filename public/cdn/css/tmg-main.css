@@ -76,9 +76,11 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .vjs-default-skin .vjs-big-play-button { display:none !important; }
 .vjs-default-skin .vjs-control-bar { top:auto !important; bottom:-30px !important; }
 
-.page-design { margin-top:176px; background-color:red; }
+.page-design { margin-top:88px; background-color:transparent; height:400px; }
 .page-design .col-lg-12 { position:relative; }
-.page-design-header-bg { position:absolute; left:800%; height:50px; width:1700%; background-color:green; z-index:10; top:-80px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
+.page-design-header-bg { position:absolute; left:-800%; height:100%; width:1700%; background-color:rgba(64,64,64,1); z-index:10; top:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
+.page-design-header-text { position:relative; width:100%; padding:32px 0px 8px 0px; color:white; z-index:11; text-align:left; left:0%; height:100%; font-size:18px; font-family:"gothamrounded_book"; text-transform:uppercase; }
+
 
 .page-video { letter-spacing:.05em; text-transform:uppercase; margin-top:176px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
 .page-video .video-player { background-color:transparent; overflow:visible; position:relative; }

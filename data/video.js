@@ -22,7 +22,8 @@ var data = [
       ],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 */
@@ -50,7 +51,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -75,7 +77,8 @@ var data = [
     categories: ["media", "featured"],
     secondary_box_color: "ffffff",
     secondary_layout: "corner",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
   { id: "opts-ideas-employee-strategy",
@@ -98,7 +101,8 @@ var data = [
     categories: ["media","featured","events"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -122,7 +126,8 @@ var data = [
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -146,7 +151,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -174,7 +180,8 @@ var data = [
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -200,7 +207,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -225,7 +233,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -250,7 +259,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -276,7 +286,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -301,7 +312,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -327,7 +339,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -352,7 +365,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -377,7 +391,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -403,7 +418,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -428,7 +444,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -453,7 +470,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -478,7 +496,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -504,7 +523,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "4E4E4E",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -529,7 +549,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -554,7 +575,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -579,7 +601,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -604,7 +627,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -629,7 +653,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -654,7 +679,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -679,7 +705,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -704,7 +731,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -729,7 +757,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -755,7 +784,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -780,7 +810,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -805,7 +836,8 @@ var data = [
     categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -830,7 +862,8 @@ var data = [
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -855,7 +888,8 @@ var data = [
     categories: ["events"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -880,7 +914,8 @@ var data = [
     categories: ["events"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -905,7 +940,8 @@ var data = [
     categories: ["events"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -930,7 +966,8 @@ var data = [
     categories: ["events"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -955,7 +992,8 @@ var data = [
     categories: ["events"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -980,7 +1018,8 @@ var data = [
     categories: ["events"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1005,7 +1044,8 @@ var data = [
     categories: ["events"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1031,7 +1071,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1056,7 +1097,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1081,7 +1123,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1106,7 +1149,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1131,7 +1175,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1156,7 +1201,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1181,7 +1227,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1208,7 +1255,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1233,7 +1281,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1258,7 +1307,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1283,7 +1333,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1308,7 +1359,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1333,7 +1385,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1359,7 +1412,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1384,7 +1438,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1409,7 +1464,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1434,7 +1490,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1459,7 +1516,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1485,7 +1543,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
@@ -1510,7 +1569,8 @@ var data = [
     categories: ["design"],
     secondary_box_color: "808080",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: false,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
   { id: "tmg-studio-reel",
@@ -1533,7 +1593,8 @@ var data = [
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: true
+    hide_client_on_menu: true,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
   { id: "tmg-event-reel",
@@ -1556,7 +1617,8 @@ var data = [
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: true
+    hide_client_on_menu: true,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
   { id: "tmg-tech-reel",
@@ -1579,7 +1641,8 @@ var data = [
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: true
+    hide_client_on_menu: true,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
   { id: "tmg-medical-reel",
@@ -1602,7 +1665,8 @@ var data = [
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: true
+    hide_client_on_menu: true,
+    design_page_primary_text_left_top_width: [5,5,33]
   },
 
 
