@@ -15,6 +15,18 @@ block content
               div.page-design-header-text
                 | <span style="color:#ff0000;">#{v["client"]}</span> — 
                 | #{v["title"]}
+          div.row
+            div.col-lg-12
+              div.page-design-image(style="padding-top:#{v['design_page']['image_background']['top_padding_pixels']}px;")
+                img.tmg-unselectable(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_background']}.jpg?v=#{app_version}",style="margin-bottom:#{v['design_page']['image_background']['bottom_padding_pixels']}px;")
+                div.bottom-strip
+              div.primary-body(style="left:#{v['design_page']['primary_text']['left_percent']}%;top:#{v['design_page']['primary_text']['top_percent']}%;width:#{v['design_page']['primary_text']['width_percent']}%;color:#{v['design_page']['primary_text']['color']};padding-top:#{v['design_page']['image_background']['top_padding_pixels']}px;padding-bottom:#{v['design_page']['image_background']['bottom_padding_pixels']}px;")
+                for itm, ind in v["primary_text"]
+                  p
+                    != itm
+                    if (itm.length == 0)
+                      br
+
 
 
       else

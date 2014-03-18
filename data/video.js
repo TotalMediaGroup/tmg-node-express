@@ -23,7 +23,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 */
@@ -52,7 +55,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -78,7 +84,10 @@ var data = [
     secondary_box_color: "ffffff",
     secondary_layout: "corner",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
   { id: "opts-ideas-employee-strategy",
@@ -102,7 +111,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -127,7 +139,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -152,7 +167,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -181,7 +199,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -208,7 +229,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -234,7 +258,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -260,7 +287,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -287,7 +317,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -313,7 +346,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -340,7 +376,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -366,7 +405,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -392,7 +434,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -419,7 +464,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -445,7 +493,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -471,7 +522,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -497,7 +551,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -524,7 +581,10 @@ var data = [
     secondary_box_color: "4E4E4E",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -550,7 +610,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -576,7 +639,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -602,7 +668,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -628,7 +697,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -654,7 +726,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -680,7 +755,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -706,7 +784,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -732,7 +813,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -758,7 +842,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -785,7 +872,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -811,7 +901,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -837,7 +930,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -863,7 +959,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -889,7 +988,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -915,7 +1017,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -941,7 +1046,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -967,7 +1075,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -993,7 +1104,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1019,7 +1133,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1045,7 +1162,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1060,7 +1180,7 @@ var data = [
     video: [ [360,720], ["",""] ],
     client: "salix pharmacuticals",
     one_liner: "theme logo / signage",
-    primary_text: [],
+    primary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1072,7 +1192,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1098,7 +1221,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1124,7 +1250,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1150,7 +1279,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1176,7 +1308,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1202,7 +1337,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1228,7 +1366,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1256,7 +1397,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1282,7 +1426,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1308,7 +1455,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1334,7 +1484,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1360,7 +1513,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1386,7 +1542,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1413,7 +1572,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1439,7 +1601,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1465,7 +1630,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1491,7 +1659,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1517,7 +1688,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1544,7 +1718,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 
@@ -1570,7 +1747,10 @@ var data = [
     secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
   { id: "tmg-studio-reel",
@@ -1594,7 +1774,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: true,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
   { id: "tmg-event-reel",
@@ -1618,7 +1801,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: true,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
   { id: "tmg-tech-reel",
@@ -1642,7 +1828,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: true,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
   { id: "tmg-medical-reel",
@@ -1666,7 +1855,10 @@ var data = [
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: true,
-    design_page_primary_text_left_top_width: [5,5,33]
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, color: "000000" },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 50 }
+    }
   },
 
 

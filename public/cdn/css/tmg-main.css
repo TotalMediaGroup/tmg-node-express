@@ -80,7 +80,10 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-design .col-lg-12 { position:relative; }
 .page-design-header-bg { position:absolute; left:-800%; height:100%; width:1700%; background-color:rgba(64,64,64,1); z-index:10; top:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
 .page-design-header-text { position:relative; width:100%; padding:32px 0px 8px 0px; color:white; z-index:11; text-align:left; left:0%; height:100%; font-size:18px; font-family:"gothamrounded_book"; text-transform:uppercase; }
-
+.page-design .primary-body { position:absolute; left:5%; top:5%; width:33%; height:auto; background-color:transparent; }
+.page-design .page-design-image { position:relative; overflow:visible; width:100%; height:auto; left:0%; top:0%; margin:0px 0px 133px 0px; border:0; }
+.page-design .page-design-image .bottom-strip { position:absolute; bottom:-133px; background-color:#cccccc; height:133px; width:1700%; left:-800%; }
+.page-design .page-design-image img { position:relative; width:100%; height:auto; left:0%; top:0%; }
 
 .page-video { letter-spacing:.05em; text-transform:uppercase; margin-top:176px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
 .page-video .video-player { background-color:transparent; overflow:visible; position:relative; }
