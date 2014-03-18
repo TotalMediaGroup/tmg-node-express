@@ -21,6 +21,7 @@ html(lang="en")
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-main.css?v=#{app_version}')
     script(type='text/javascript', src='#{tmg_cdn}/js/tmg-preload.js?v=#{app_version}')
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-tablet.css?v=#{app_version}', media='all and (max-device-width: 1024px)')
+    link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-tablet-portrait.css?v=#{app_version}', media='all and (max-device-width: 1024px) and (orientation:portrait)')
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-mobile.css?v=#{app_version}', media='all and (max-device-width: 480px)')
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-mobile-portrait.css?v=#{app_version}', media='all and (max-device-width: 480px) and (orientation:portrait)')
   
@@ -75,15 +76,16 @@ html(lang="en")
               i.fa.fa-envelope
         div.home-rules.footer-rules
           div.home-rules-number-stretch.rule-number= "Rule #00"
-          hr.rule-hr(style="top:5px;")
+          hr.rule-hr(style="top:-142px;")
           div.home-rules-body-squeeze.rule-body
             span.brackets= "[ "
             span.rule-body-inner= "RULE"
             span.brackets= " ]"
-          hr.rule-hr(style="top:-85px;")
+          hr.rule-hr(style="top:-201px;")
           span.rule-footer= "HOW TO DO REALLY GREAT WORK"
     
     script(type='text/javascript', src='#{googlelibs_cdn}/jquery/1.11.0/jquery.min.js')
+    //- script(type='text/javascript', src='#{tmg_vendor_cdn}/jquery-migrate/1.1.1/jquery-migrate.js')
     script(type='text/javascript', src='#{cdnjs_cdn}/modernizr/2.6.2/modernizr.min.js')
     script(type='text/javascript', src='#{tmg_vendor_cdn}/flowtype.js/1.1/flowtype.js')
     script(type='text/javascript', src='#{tmg_vendor_cdn}/jquery-animate-scroll/1.0.5/animatescroll.js')
