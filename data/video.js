@@ -1533,7 +1533,7 @@ var data = [
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: true
   },
 
   { id: "tmg-event-reel",
@@ -1556,7 +1556,7 @@ var data = [
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: true
   },
 
   { id: "tmg-tech-reel",
@@ -1579,7 +1579,7 @@ var data = [
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: true
   },
 
   { id: "tmg-medical-reel",
@@ -1602,7 +1602,7 @@ var data = [
     categories: ["reels"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
-    hide_client_on_menu: false
+    hide_client_on_menu: true
   },
 
 

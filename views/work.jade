@@ -13,22 +13,22 @@ block content
       div.col-lg-12
 
         ul.nav.navbar-nav
-          a(href="#filter=*")
+          a(href="#*")
             img.navbar-category-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png",onMouseOver="this.src='#{tmg_cdn}/img/misc/category-grid-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/category-grid-white.png?v=#{app_version}'")
           li
-            a(class="filter-featured",href="#filter=.featured")
+            a(class="filter-featured",href="#featured")
               | FEATURED
           li
-            a(class="filter-reels",href="#filter=.reels")
+            a(class="filter-reels",href="#reels")
               | TMG REELS
           li
-            a(class="filter-media",href="#filter=.media")
+            a(class="filter-media",href="#media")
               | MEDIA
           li
-            a(class="filter-events",href="#filter=.events")
+            a(class="filter-events",href="#events")
               | EVENTS
           li(style="border-right:none")
-            a(class="filter-design",href="#filter=.design")
+            a(class="filter-design",href="#design")
               | DESIGN
 
     div.row.page-work
@@ -45,8 +45,9 @@ block content
               div.meta
                 p
                   | <span class="red">TITLE:</span> <span class="value">#{v["title"]}</span>
-                p
-                  | <span class="red">CLIENT:</span> <span class="value">#{v["client"]}</span>
+                if (!v['hide_client_on_menu'])
+                  p
+                    | <span class="red">CLIENT:</span> <span class="value">#{v["client"]}</span>
               p.one-liner
                 | #{v["one_liner"]}
               

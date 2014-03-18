@@ -120,10 +120,10 @@ TMG.fn.reactiveUi.scrollQueues = function() {
   var scrollTop = $(window).scrollTop();
   var scrollPosition = scrollTop + $(window).height();
 
-  if (TMG.currentPage == "work-single") {
-    $(".back-to-menu").css({marginTop:scrollTop+"px"});
-    $(".video-prev, .video-next").css({marginTop:( (scrollTop > 190) ? (scrollTop-190) : 0 )+"px"});
-  }
+  // if (TMG.currentPage == "work-single") {
+  //   $(".back-to-menu").css({marginTop:scrollTop+"px"});
+  //   $(".video-prev, .video-next").css({marginTop:( (scrollTop > 190) ? (scrollTop-190) : 0 )+"px"});
+  // }
   // for (func in TMG.scrollQueues) {
   //   if  (!TMG.scrollQueues[func].isLoaded) {
   //     var runAtPosition = (TMG.scrollQueues[func].whenVisible[TMG.currentPage]!=null) ? $(TMG.scrollQueues[func].whenVisible[TMG.currentPage]).offset().top : ((TMG.renderForMobile) ? TMG.scrollQueues[func].position : TMG.scrollQueues[func].mobilePosition);
@@ -528,7 +528,7 @@ TMG.fn.ui.work.setupVideoMenu = function() {
   $(window).bind('hashchange', function(event){
     var hashOptions = $.deparam.fragment();
     for (i in hashOptions) {
-      TMG.isotopeOptions[i] = hashOptions[i];
+      TMG.isotopeOptions.filter = ((i==="*") ? "" : ".")+i;
     }
 
     $(".page-work-nav a").removeClass("active");
