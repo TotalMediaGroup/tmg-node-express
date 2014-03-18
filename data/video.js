@@ -32,8 +32,8 @@ var data = [
   { id: "abbott-always-with-you",
     title: "always with you",
     image_menu: "IC_hectorlogo",
-    image_background: "bg_abbott",
-    image_background_xy_position: [0,0],
+    image_background: "abbot11",
+    image_background_xy_position: [9,10],
     image_poster: "pf_abbott",
     video: [ [360,720], ["Abbott_ALWAYS WITH YOU_DIRCUT 1_SD","Abbott_ALWAYS WITH YOU_DIRCUT 1_HD"] ],
     client: "abbott diabetes",
@@ -42,9 +42,9 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
     secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.","THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR. WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
     secondary_content: [
-      { title:"", image:"abbott1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"abbot9", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"abbot10", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -202,7 +202,7 @@ var data = [
     image_menu: "IC_fusion2",
     image_background: "DBG_vmwarefusion3",
     image_background_xy_position: [0,0],
-    image_poster: "PF_vmwarefusion3",
+    image_poster: "vmware_poster",
     video: [ [360,720], ["Vmware_FUSION 5 CUTDOWN MUSIC_SD","Vmware_FUSION 5 CUTDOWN MUSIC_HD"] ],
     client: "vmware",
     one_liner: "PRODUCT LAUNCH - BRAND AWARENESS",
@@ -210,9 +210,9 @@ var data = [
     production_roles: ["creative","art direction","animation"],
     secondary_text: ["THIS CLIP IS AN EXCERPT OF THE MAIN 3 MINUTE VIDEO.","WE'VE CUT IT DOWN AND ELIMINATED THE VO BECAUSE, WELL, IT WAS KIND OF BORING."],
     secondary_content: [
-      { title:"", image:"VmwareFusion5", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"vmwarefusion2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"VmwareFusion5", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -550,9 +550,9 @@ var data = [
     production_roles: ["design","editorial","animation"],
     secondary_text: ["a note about 'broadcast' tv","broadcast standards are not yet 'standard'","each station that carries a commercial requires a different file format. believe it or not, some still insist on tape.","it's not uncommon to create 6 different formats in many different shapes and sizes for each spot.","and then need to distribute it to 6 different stations.","it can quickly become a bit of a maze."],
     secondary_content: [
-      { title:"", image:"ThisIsHowWeDoIt", video:"Stanford_STAN_2012_TV_GEN_2_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"This Is How We Do It", image:"ThisIsHowWeDoIt", video:"Stanford_STAN_2012_TV_GEN_2_HD", button_white_or_black:"white", title_white_or_black:"black" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Cardinal Rules", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -590,7 +590,7 @@ var data = [
     image_menu: "IC_fortigent",
     image_background: "BG_Fortigent",
     image_background_xy_position: [0,0],
-    image_poster: "PF_fortigent6",
+    image_poster: "fortigent7",
     video: [ [360,720], ["Opts_Fortigent_V8_FINAL_ProRes_SD","Opts_Fortigent_V8_FINAL_ProRes_HD"] ],
     client: "LPL Financial",
     one_liner: "destination teaser",
@@ -598,7 +598,7 @@ var data = [
     production_roles: ["design","edit","animation"],
     secondary_text: ["This piece was created entirely in after effects, a variety of different types of media and styles to create the energy that the client was after."],
     secondary_content: [
-      { title:"", image:"fortigent10", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"fortigent5", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"fortigent9", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
