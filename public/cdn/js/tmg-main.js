@@ -437,7 +437,7 @@ TMG.fn.video.place = function(containerObj) {
 //        +"<div class=\"video-player-button video-player-button-playback\" onClick=\"TMG.fn.video.ended()\">STOP<i class=\"fa fa-pause\"></i></div>"
         );
 
-  jqCont.find("img, span, .video-bttn").animate({opacity:0},1000);
+  jqCont.find("img, span, .video-bttn").animate({opacity:0},1000,function(){jqCont.find(".video-bttn, .bracket").css({display:"none"})});
   if (jqCont.parents(".page-video-bttm").length > 0) {
     jqCont.parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
       .css({display:'block',opacity:0}).animate({opacity:0.75},1000);
@@ -479,7 +479,7 @@ TMG.fn.video.controls = function() {
 TMG.fn.video.ended = function() {
     $(".video-js-"+TMG.video.id).parents(".video-player").each(function(){
       $(this).find(".video-player-inner").remove();
-      $(this).find("img, span, .video-bttn").animate({opacity:1},500);
+      $(this).find("img, span, .video-bttn").css({display:"block"}).animate({opacity:1},500);
       $(this).parents(".page-video").find(".page-video-bttm .fader-block, .page-video-bttm-row-2 .fader-block")
         .animate({opacity:0},500,function(){ $(this).css({display:'none'}); });
       $(this).find(".video-player-button").animate({opacity:0},500,function(){$(this).remove();});
