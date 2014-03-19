@@ -17,6 +17,23 @@ block content
                 | #{v["title"]}
           div.row
             div.col-lg-12
+              
+              a(href="/work##{v['categories'][0]}")
+                div.back-to-menu(onMouseOver="document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-red.png?v=#{app_version}'",onMouseOut="document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-gray.png?v=#{app_version}'",style="top:150px;")
+                  img#back-to-menu-icon(src="#{tmg_cdn}/img/misc/category-grid-gray.png")
+                  span.gray
+                   | BACK
+
+              div.page-video-scroll
+                if (data['work'][(v_index-1)] != null)
+                  a(href="../work/#{data['work'][(v_index-1)]['id']}")
+                    div.video-bttn.tmg-unselectable.video-prev
+                      img(src="#{tmg_cdn}/img/misc/arrow-left-red.png?v=#{app_version}")
+                if (data['work'][(v_index+1)] != null)
+                  a(href="../work/#{data['work'][(v_index+1)]['id']}")
+                    div.video-bttn.tmg-unselectable.video-next
+                      img(src="#{tmg_cdn}/img/misc/arrow-right-red.png?v=#{app_version}")
+
               div.page-design-image(style="padding-top:#{v['design_page']['image_background']['top_padding_pixels']}px;")
                 img.tmg-unselectable(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_background']}.jpg?v=#{app_version}",style="margin-bottom:#{v['design_page']['image_background']['bottom_padding_pixels']}px;width:#{v['design_page']['image_background']['width_percent']}%;left:#{((100-parseInt(v['design_page']['image_background']['width_percent']))/2)}%;border:solid #{(Boolean(v['design_page']['image_background']['show_black_border'])) ? '1' : '0'}px black;")
                 div.bottom-strip
@@ -42,7 +59,7 @@ block content
           div.row
             div.col-lf.video-player-box.col-sm-6
 
-              a(href="javascript:history.go(-1)")
+              a(href="/work##{v['categories'][0]}")
                 div.back-to-menu(onMouseOver="document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-red.png?v=#{app_version}'",onMouseOut="document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-white.png?v=#{app_version}'")
                   img#back-to-menu-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png")
                   span= "BACK"

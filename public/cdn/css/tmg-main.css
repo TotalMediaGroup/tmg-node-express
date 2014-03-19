@@ -149,9 +149,10 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-video-bttm .fader-block { position:absolute; top:0%; left:0%; width:100%; height:100%; z-index:9; background-color:black; display:none; }
 
 .back-to-menu { position:absolute; top:96px; left:8px; height:auto; width:auto; overflow:visible; cursor:pointer; z-index:2; }
-.back-to-menu:hover span { color:red; }
-.back-to-menu img {  }
+.back-to-menu:hover span, .back-to-menu:hover span.gray { color:red; }
+.back-to-menu img { width:18px; height:18px;  }
 .back-to-menu span { color:white; font-family:"gothamrounded_book"; font-size:10px; margin-left:6px; }
+.back-to-menu span.gray { color:#cccccc; }
 
 .page-video .page-video-bttm .clmn-lf .clmn-lf-bt .video-bttn { left:auto; right:80px; top:30px !important; bottom:auto; }
 .page-video .page-video-bttm .clmn-lf .clmn-lf-bt .secondary-title { left:auto; right:0px; }
