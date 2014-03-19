@@ -149,11 +149,13 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
       left:(0-TMG.containerInfo.left-TMG.containerInfo.padLeft)+"px",
       width: (bodyWidth)+"px"
     }).each(function(){
-      var minHeight = $(this).offset().top;
+ //     var minHeight = $(this).offset().top;
 
       //.css({minHeight:(minHeight+88)+"px"})
       $(".bg-static img").each(function(){
-        if (TMG.bgAspectRatio === 0) { TMG.bgAspectRatio = this.width/this.height; }
+        var bgStatic = $(this).parent(".bg-static").offset();
+        bgStaticResize(this,bgStatic.left,bgStatic.top);
+      //  if (TMG.bgAspectRatio === 0) { TMG.bgAspectRatio = this.width/this.height; }
         
 //        var minWidth = parseInt($(this).css("min-height"))*($(this).width()/$(this).height());
         // console.log((minWidth/TMG.bgAspectRatio)+" - "+(minHeight+88));
@@ -221,11 +223,6 @@ TMG.fn.load.jqueryGalleria = function(){
     $(".bg-fadeout-gradient").each(function(){
       $(this).remove();
       $("body").append("<div class=\"bg-fadeout-gradient gradient\"></div>");
-    });
-
-    $(".bg-static").each(function(){
-      $("body").append("<div class=\"bg-static\"><img src=\""+$(this).find("img").attr("src")+"\" /></div>");
-      $(this).remove();
     });
 
     $(".galleria-bg").each(function(){

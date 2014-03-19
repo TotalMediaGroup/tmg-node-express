@@ -36,3 +36,21 @@ function setSquImg(inputObj,baseline){
   }
 }
 
+function bgStaticResize(inputObj,left,top){
+  if (typeof $ === "undefined") {
+    var wait = setTimeout(function(){bgStaticResize(inputObj,left,top)},333);
+  } else {
+    var obj = $(inputObj);
+    var div = obj.parent(".bg-static");
+    var objDim = {lf:0,tp:0,wd:parseInt(inputObj.width),ht:parseInt(inputObj.height),padLf:0,padTp:0};
+    var divDim = {wd:$(window).width(),ht:$(window).height(),padLf:0,padTp:0};
+    divDim.lf = parseInt((left/100)*divDim.wd);
+    divDim.tp = parseInt((top/100)*divDim.ht);
+    objDim.rat = objDim.wd/objDim.ht;
+
+    var topPos = $(".page-video-bttm").offset().top;
+    if ((objDim.ht-divDim.tp) < topPos) {
+      obj.css({width:parseInt((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",minWidth:parseInt((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px"});
+    }
+  }
+}

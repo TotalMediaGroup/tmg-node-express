@@ -34,7 +34,7 @@ block content
     div.row.page-work
       div.col-lg-12
       
-        for v,i in data["video"]
+        for v,i in data["work"]
           a(href="work/#{v['id']}")
             div(class="video-browser-box #{v['categories'].join(' ')}")
               div.browser-box-bg

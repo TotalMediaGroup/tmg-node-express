@@ -61,11 +61,11 @@ var dataIndex = {
   },
   "work": {
     background_images: "home-backgrounds",
-    video: "video",
+    work: "work",
     tmg_rules: "home-rules"
   },
   "work-single": {
-    video: "video",
+    work: "work",
     tmg_rules: "home-rules"
   }
 };

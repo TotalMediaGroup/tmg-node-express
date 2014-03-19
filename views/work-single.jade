@@ -2,7 +2,7 @@ extends layout
 
 block content
 
-  for v,v_index in data["video"]
+  for v,v_index in data["work"]
     if (v["id"] === url_params["video_id"])
 
       if ((v['categories'].length > 0) && (v['categories'][0] === 'design'))
@@ -35,8 +35,8 @@ block content
 
         style(type="text/css")= '.bg-static { left:-'+v['image_background_xy_position'][0]+'%;top:-'+v['image_background_xy_position'][1]+'%; }'
 
-        div.bg-static
-          img(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_background']}.jpg?v=#{app_version}")
+        script(type="text/javascript").
+          var secImgBG = new Image(); secImgBG.onload = function(){ bgStaticResize(this,#{v['image_background_xy_position'][0]},#{v['image_background_xy_position'][1]}); }; secImgBG.src = '#{tmg_static_cdn}/video/#{v['id']}/#{v['image_background']}.jpg?v=#{app_version}'; document.getElementById('bg-static').appendChild(secImgBG);
 
         div.container.page-video
           div.row
@@ -60,12 +60,12 @@ block content
                   img(src="#{tmg_cdn}/img/misc/arrow-down-red.png?v=#{app_version}")
                   //- div.tmg-trans-50.gradient.radial-gradient
                   div.down-label= "MORE"
-                if (data['video'][(v_index-1)] != null)
-                  a(href="../work/#{data['video'][(v_index-1)]['id']}")
+                if (data['work'][(v_index-1)] != null)
+                  a(href="../work/#{data['work'][(v_index-1)]['id']}")
                     div.video-bttn.tmg-unselectable.video-prev
                       img(src="#{tmg_cdn}/img/misc/arrow-left-red.png?v=#{app_version}")
-                if (data['video'][(v_index+1)] != null)
-                  a(href="../work/#{data['video'][(v_index+1)]['id']}")
+                if (data['work'][(v_index+1)] != null)
+                  a(href="../work/#{data['work'][(v_index+1)]['id']}")
                     div.video-bttn.tmg-unselectable.video-next
                       img(src="#{tmg_cdn}/img/misc/arrow-right-red.png?v=#{app_version}")
 

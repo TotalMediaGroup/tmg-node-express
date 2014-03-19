@@ -30,7 +30,9 @@ html(lang="en")
       for item in data["tmg_rules"]
         | tmgRules[#{data["tmg_rules"].indexOf(item)}]={num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'};
   
-  body(class="body-#{current_page[0]}")
+  body(id="body-#{current_page[0]}",class="body-#{current_page[0]}")
+    
+    div.bg-static#bg-static
     
     div.container#tmg-container
       div.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
