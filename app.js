@@ -48,39 +48,47 @@ app.param("client_id",function(req,res,next,client_id){
   req.url_params = {"client_id":client_id}; next();
 });
 
-var data = {
+var dataIndex = {
   "home": {
-    background_images: require("./data/home-backgrounds.js").load(),
-    tmg_rules: require("./data/home-rules.js").load()
+    background_images: "home-backgrounds",
+    tmg_rules: "home-rules"
   },
   "about": {
-    background_images: require("./data/home-backgrounds.js").load(),
-    team: require("./data/about-team.js").load(),
-    company: require("./data/about-company.js").load(),
-    tmg_rules: require("./data/home-rules.js").load()
+    background_images: "home-backgrounds",
+    team: "about-team",
+    company: "about-company",
+    tmg_rules: "home-rules"
   },
   "work": {
-    background_images: require("./data/home-backgrounds.js").load(),
-    video: require("./data/video.js").load(),
-    tmg_rules: require("./data/home-rules.js").load()
+    background_images: "home-backgrounds",
+    video: "video",
+    tmg_rules: "home-rules"
   },
   "work-single": {
-    video: require("./data/video.js").load(),
-    tmg_rules: require("./data/home-rules.js").load()
+    video: "video",
+    tmg_rules: "home-rules"
   }
 };
 
+var data = {}; for (i in dataIndex) { data[i] = {}; for (j in dataIndex[i]) { data[i][j] = require("./data/"+dataIndex[i][j]+".js").load(); } }
+var dataDirectory = ""; for (i in require.cache) { if (i.indexOf("home-backgrounds.js") > -1) { dataDirectory = i.substr(0,i.indexOf("home-backgrounds.js")); } }
+function reCache(page) { for (i in dataIndex[page]) { delete require.cache[dataDirectory+dataIndex[page][i]+'.js']; } for (i in dataIndex[page]) { data[page][i] = require("./data/"+dataIndex[page][i]+".js").load(); } }
+
 app.get('/', function(req,res){
-  res.render('home', routes.setJadeVars(process, req, data ));
+  reCache('home');
+  res.render('home', routes.setJadeVars(process, req, data));
 });
 app.get('/about', function(req,res){
-  res.render('about', routes.setJadeVars(process, req, data ));
+  reCache('about');
+  res.render('about', routes.setJadeVars(process, req, data));
 });
 app.get('/work', function(req,res){
-  res.render('work', routes.setJadeVars(process, req, data ));
+  reCache('work');
+  res.render('work', routes.setJadeVars(process, req, data));
 });
 app.get('/work/:video_id', function(req,res){
-  res.render('work-single', routes.setJadeVars(process, req, data ));
+  reCache('work-single');
+  res.render('work-single', routes.setJadeVars(process, req, data));
 });
 
 app.get('/ajax/list/:client_id', function(req,res){
