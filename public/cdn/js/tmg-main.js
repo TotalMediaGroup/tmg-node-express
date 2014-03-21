@@ -62,6 +62,7 @@ $(function(){
   TMG.fn.initializeUi.onScroll();
   // TMG.fn.initializeUi.externalizeModalPopups();
   TMG.fn.reactiveUi.setOnOrientationChange();
+  TMG.fn.initializeUi.hideMobileHeader();
 
   $(".video-prev, .video-next").each(function(){ $(this).parent("a").appendTo("body"); });
 
@@ -192,10 +193,11 @@ TMG.fn.insertCss = function(url) {
 
 TMG.fn.load.slideShowSetup = function(){
 
+  tmgRules.sort(TMG.randomSort); tmgRules.sort(TMG.randomSort); tmgRules.sort(TMG.randomSort);
+  tmgBackgrounds.sort(TMG.randomSort); tmgBackgrounds.sort(TMG.randomSort); tmgBackgrounds.sort(TMG.randomSort);
+
   $(".body-home, .body-work").each(function(){
 
-    tmgRules.sort(TMG.randomSort);
-    tmgBackgrounds.sort(TMG.randomSort);
     if (TMG.currentPage === 'home') { 
       $('.rule-body').flowtype({ maxFont: 112, fontRatio: 10 });
     }
@@ -208,6 +210,11 @@ TMG.fn.load.slideShowSetup = function(){
     });
 
   });
+
+  if (TMG.currentPage !== 'home') { 
+    TMG.setCurrentRule();
+    $(".footer .footer-rules").css({display:"block"});
+  }
 
 }
 
@@ -258,7 +265,7 @@ TMG.setCurrentBackground = function() {
   document.getElementById('bg-static').appendChild(TMG.bgImages.curr);
 
   tmgCurrentBg++;
-  if (tmgCurrentBg==tmgBackgrounds.length) { tmgCurrentBg=0; tmgBackgrounds.sort(TMG.randomSort); }
+  if (tmgCurrentBg==tmgBackgrounds.length) { tmgCurrentBg=0; }
 
   TMG.bgImages.next = new Image();
   TMG.bgImages.next.src = TMG.cdn.tmgStatic+'/web/slideshowpredarkened/'+tmgBackgrounds[tmgCurrentBg]+'.jpg?v='+TMG.appVersion;
@@ -277,20 +284,20 @@ TMG.cycleBgImage = function() {
 
   if (TMG.currentPage === 'home') {
     
-    var fadeIn = setTimeout(function(){
+    TMG.bgFadeIn = setTimeout(function(){
       TMG.setCurrentRule();
     }, Math.round(TMG.slideShowTransitionSpeed/2) );
 
-    var fadeOut = setTimeout(function(){
+    TMG.bgFadeOut = setTimeout(function(){
       $(".home-rules").animate({opacity:0},Math.round(TMG.slideShowTransitionSpeed/2),function(){
         tmgCurrentRule++;
-        if (tmgCurrentRule==tmgRules.length) { tmgCurrentRule=0; tmgRules.sort(TMG.randomSort); }
+        if (tmgCurrentRule==tmgRules.length) { tmgCurrentRule=0; }
       });
     }, (TMG.slideShowTransitionSpeed + TMG.slideShowDelay - Math.round(TMG.slideShowTransitionSpeed/2)));
 
   }
 
-  var nextImage = setTimeout(function(){
+  TMG.bgNextImage = setTimeout(function(){
     TMG.cycleBgImage();
   }, (TMG.slideShowTransitionSpeed + TMG.slideShowDelay) );
 
