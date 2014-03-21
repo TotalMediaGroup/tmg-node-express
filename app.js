@@ -65,6 +65,7 @@ var dataIndex = {
     tmg_rules: "home-rules"
   },
   "work-single": {
+    background_images: "home-backgrounds",
     work: "work",
     tmg_rules: "home-rules"
   }

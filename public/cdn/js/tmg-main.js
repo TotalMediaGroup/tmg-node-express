@@ -63,7 +63,7 @@ $(function(){
   // TMG.fn.initializeUi.externalizeModalPopups();
   TMG.fn.reactiveUi.setOnOrientationChange();
 
-  $(".video-prev, .video-next, .back-to-menu").each(function(){ $(this).parent("a").appendTo("body"); });
+  $(".video-prev, .video-next").each(function(){ $(this).parent("a").appendTo("body"); });
 
 });
 
