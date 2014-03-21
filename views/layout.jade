@@ -26,13 +26,15 @@ html(lang="en")
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-mobile-portrait.css?v=#{app_version}', media='all and (max-device-width: 480px) and (orientation:portrait)')
   
     script(type="text/javascript")
-      | var tmgRules=[], tmgCurrentRule=0;
+      | var tmgRules=[], tmgCurrentRule=0, tmgBackgrounds=[], tmgCurrentBg=0;
       for item in data["tmg_rules"]
-        | tmgRules[#{data["tmg_rules"].indexOf(item)}]={num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'};
+        | tmgRules.push({num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'});
+      for item in data["background_images"]
+        | tmgBackgrounds.push('#{item[0].replace(/'/g,"\\'")}');
   
   body(id="body-#{current_page[0]}",class="body-#{current_page[0]}")
     
-    div.bg-static#bg-static
+    div.tmg-thmb.bg-static#bg-static
     
     div.container#tmg-container
       div.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
