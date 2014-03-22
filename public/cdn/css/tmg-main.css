@@ -30,7 +30,8 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .navbar-inverse .navbar-nav>.active>a { box-shadow:none; background-image:none; }
 #navbar-client-login { border-right:solid 0px #777; }
 
-.footer { position:relative; top:0px; height:150px; z-index:20; width:100%; background-color:rgba(78,78,78,1); border:0; margin-top:0px; overflow:hidden; }
+.footer { position:relative; top:0px; height:150px; z-index:20; width:100%; background-color:rgba(78,78,78,1); border:0; margin-top:0px; overflow-x:hidden; overflow-y:hidden; }
+.footer .container { overflow-x:hidden; overflow-y:hidden; height:100%; }
 .footer .footer-logo { position:relative; float:left; padding:45px; padding-top:25px; }
 .footer .footer-logo img { height:60px; }
 .footer .footer-logo img:hover { filter:alpha(opacity=67); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=67)"; -moz-opacity:0.67; -khtml-opacity:0.67; opacity:0.67; }
@@ -42,6 +43,13 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .footer .vertical-rule-rules { left:60%; }
 .footer .footer-address .social-buttons { margin-top:2px; float:left; margin-left:0px; position:relative; left:-5px; display:none; }
 
+.footer .footer-rules { position:absolute; right:0%; height:0px; width:50%; min-width:50%; top:140px; left:50%; clear:none; margin-left:0px; margin-right:0px; padding-top:0px; padding-left:0px; -moz-osx-font-smoothing:grayscale; display:none; }
+.footer .footer-rules .rule-number { font-size:16px; top:-125px; }
+.footer .footer-rules .rule-body { font-size:52px; top:-170px; }
+.footer .footer-rules .rule-footer { font-size:10px; }
+.footer .footer-rules .rule-hr {  }
+.footer .footer-rules .rules-bg { display:none; }
+.footer .footer-rules .home-rules-body-squeeze {  }
 
 /*.row { overflow-x:hidden !important; }*/
 
@@ -80,14 +88,13 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .vjs-default-skin .vjs-progress-control { left:auto !important; width:95% !important; height:1.67em !important; }
 .vjs-default-skin .vjs-control-text, .vjs-default-skin .vjs-fullscreen-control, .vjs-default-skin .vjs-mute-control, .vjs-default-skin .vjs-volume-control, .vjs-default-skin .vjs-remaining-time, .vjs-default-skin .vjs-duration, .vjs-default-skin .vjs-time-divider, .vjs-default-skin .vjs-current-time { display:none !important; }
 
-.page-design { margin-top:88px; background-color:transparent; height:400px; }
+.page-design { margin-top:88px; background-color:transparent; height:auto; z-index:10; }
 .page-design .col-lg-12 { position:relative; }
 .page-design-header-bg { position:absolute; left:-800%; height:100%; width:1700%; background-color:rgba(64,64,64,1); z-index:10; top:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
 .page-design-header-text { position:relative; width:100%; padding:32px 0px 8px 0px; color:white; z-index:11; text-align:left; left:0%; height:100%; font-size:14px; font-family:"gothamrounded_book"; text-transform:uppercase; }
 .page-design .primary-body { position:absolute; left:5%; top:5%; width:33%; height:auto; color:#444444; background-color:transparent; font-size:10px; font-family:"gothamrounded_book"; text-transform:uppercase; letter-spacing:.03em; line-height:1.7;  }
 .page-design .primary-body p { margin-top:1px; margin-bottom:1px; }
-.page-design .page-design-image { position:relative; overflow:visible; width:100%; height:auto; left:0%; top:0%; margin:0px 0px 133px 0px; border:0; }
-.page-design .page-design-image .bottom-strip { position:absolute; bottom:-133px; background-color:#cccccc; height:133px; width:1700%; left:-800%; }
+.page-design .page-design-image { position:relative; overflow:visible; width:100%; height:auto; left:0%; top:0%; margin:0px 0px 0px 0px; border:0; }
 .page-design .page-design-image img { position:relative; width:100%; height:auto; left:0%; top:0%; }
 
 .page-video { letter-spacing:.03em; text-transform:uppercase; margin-top:176px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
@@ -151,10 +158,10 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .back-to-menu { position:absolute; top:96px; left:8px; height:auto; width:auto; overflow:visible; cursor:pointer; z-index:30; display:none; }
 .body-work-single .back-to-menu { display:block; }
 .back-to-menu a { text-decoration:none; }
-.back-to-menu:hover span, .back-to-menu:hover span.gray { color:red; }
-.back-to-menu img { width:18px; height:18px;  }
+.back-to-menu:hover span, .back-to-menu-gray:hover span { color:red; }
+.back-to-menu img, .back-to-menu-gray img { width:18px; height:18px;  }
 .back-to-menu span { color:white; font-family:"gothamrounded_book"; font-size:10px; margin-left:6px; text-transform:uppercase;  }
-.back-to-menu span.gray { color:#cccccc; }
+.back-to-menu-gray span { color:#cccccc; }
 
 .body-work-single .video-prev, .body-work-single .video-next { display:block; }
 
@@ -200,13 +207,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .home-rules-body-squeeze { -webkit-transform: scaleX(0.83); -moz-transform: scaleX(0.83); -ms-transform: scaleX(0.83); -o-transform: scaleX(0.83); transform: scaleX(0.83); }
 .home-rules-number-stretch { -webkit-transform: scale(0.95,1.05); -moz-transform: scale(0.95,1.05); -ms-transform: scale(0.95,1.05); -o-transform: scale(0.95,1.05); transform: scale(0.95,1.05); }
 
-.footer .footer-rules { position:absolute; right:0%; height:0px; width:60%; min-width:50%; top:140px; left:40%; clear:none; margin-left:0px; margin-right:0px; padding-top:0px; padding-left:0px; -moz-osx-font-smoothing:grayscale; display:none; }
-.footer .footer-rules .rule-number { font-size:16px; top:-125px; }
-.footer .footer-rules .rule-body { font-size:52px; top:-170px; }
-.footer .footer-rules .rule-footer { font-size:10px; }
-.footer .footer-rules .rule-hr {  }
-.footer .footer-rules .rules-bg { display:none; }
-.footer .footer-rules .home-rules-body-squeeze {  }
+
 
 
 .page-about { margin-top:128px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; }

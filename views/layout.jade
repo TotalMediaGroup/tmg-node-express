@@ -4,6 +4,7 @@ html(lang="en")
   head
     title= current_page[3]
     meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui=yes")
     meta(name="apple-mobile-web-app-capable", content="yes")
     meta(name="title", content="Total Media Group")
@@ -14,8 +15,9 @@ html(lang="en")
     link(rel='stylesheet', type='text/css', href='#{bootstrap_cdn}/bootstrap/3.1.1/css/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='#{bootstrap_cdn}/bootstrap/3.1.1/css/bootstrap-theme.min.css')
     link(id='font-awesome-4', rel='stylesheet', type='text/css', href='#{bootstrap_cdn}/font-awesome/4.0.3/css/font-awesome.min.css')
-    | <!--[if lt IE 9]> <script type="text/javascript" src="#{bootstrap_cdn}/html5shiv/3.6.1/html5shiv.js"></script> -->
-    | <!--[if lt IE 9]> <link rel="stylesheet" type="text/css" href="#{tmg_cdn}/css/gradient-ie9.css" /> -->
+    | <!--[if lt IE 9]> <script type="text/javascript" src="#{tmg_vendor_cdn}/html5shiv/3.7.0/html5shiv.js"></script> -->
+    | <!--[if lt IE 9]> <script type="text/javascript" src="#{tmg_vendor_cdn}/respond.js/1.4.2/respond.min.js"></script> -->
+    | <!--[if lt IE 10]> <link rel="stylesheet" type="text/css" href="#{tmg_cdn}/css/gradient-ie9.css" /> -->
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/font/fonts.css?v=#{app_version}')
     link(rel='stylesheet', type='text/css', href='#{tmg_vendor_cdn}/jquery-isotope/1.5.26/jquery.isotope.css')
     link(rel='stylesheet', type='text/css', href='#{tmg_cdn}/css/tmg-main.css?v=#{app_version}')
@@ -36,7 +38,7 @@ html(lang="en")
     
     div.tmg-thmb.bg-static#bg-static
 
-    div.back-to-menu(onMouseOver="document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-red.png?v=#{app_version}'",onMouseOut="document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-white.png?v=#{app_version}'")
+    div.back-to-menu#back-to-menu(onMouseOver="document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-red.png?v=#{app_version}'",onMouseOut="document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-white.png?v=#{app_version}'")
       a#back-to-menu-link(href="/work")
         img#back-to-menu-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png")
         span#back-to-menu-label= "BACK TO MENU"
@@ -48,6 +50,8 @@ html(lang="en")
       div.video-bttn.tmg-unselectable.video-next
         a#video-next-link(href="../work")
           img(src="#{tmg_cdn}/img/misc/arrow-right-red.png?v=#{app_version}")
+
+    div.tmg-body-cover#tmg-body-cover
     
     div.container#tmg-container
       div.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
@@ -74,7 +78,7 @@ html(lang="en")
 
       block content
 
-    div.footer
+    div.footer#footer
       div.container
         a.footer-logo(href="/")
           img(src="#{tmg_cdn}/img/logo/masthead-creative.large.png?v=#{app_version}")
@@ -82,7 +86,7 @@ html(lang="en")
         div.footer-address
           p= "432 NORTH CANAL STREET SUITE 12"
           p= "SOUTH SAN FRANCISCO, CA, 94080"
-          p!= "P-650-583-8236 <span style='position:relative;left:15px;'>F-650-583-4708</span>"
+          p!= "<span style='margin-right:15px;'>P-650-583-8236</span> F-650-583-4708"
           div.social-buttons
             a(href="https://www.facebook.com/pages/Total-Media-Group-Inc/388304704588058",target="_blank")
               i.fa.fa-facebook-square
@@ -116,6 +120,5 @@ html(lang="en")
       script(type='text/javascript').
         window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",window.analytics.load("#{segment_io_client_id}");window.analytics.page();
 
-    div.tmg-body-cover#tmg-body-cover
     div#tmg-disclaimer-mobile
       span

@@ -65,6 +65,11 @@ $(function(){
   TMG.fn.initializeUi.hideMobileHeader();
 
 
+  var footerBorderHeight = ((TMG.renderForMobile) ? 100 : 133);
+  $(".page-design").each(function(){  
+    $(".footer").css({borderTop:"solid "+footerBorderHeight+"px #cccccc",height:(footerBorderHeight+$(".footer").innerHeight())+"px"});
+  });
+
 
 
 });
@@ -178,6 +183,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
 
 TMG.fn.reactiveUi.setOnOrientationChange = function() {
   window.onorientationchange = function() {
+    TMG.fn.reactiveUi.modifyOverWidthElements();
     // if (TMG.renderForTouch) {
     //   TMG.fn.video.init();
     // }
@@ -273,6 +279,7 @@ TMG.setCurrentBackground = function() {
 }
 
 TMG.setCurrentRule = function() {
+  if (TMG.renderForMobile && (tmgRules[tmgCurrentRule].rule.length > 30)) { tmgCurrentRule++; }
   $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
   $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
   $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);

@@ -25,7 +25,7 @@ block content
       if ((v['categories'].length > 0) && (v['categories'][0] === 'design'))
 
         script(type="text/javascript").
-          document.getElementById('body-work-single').style.backgroundColor='white'; document.getElementById('tmg-body-cover').style.backgroundColor='white';
+          document.getElementById('body-work-single').style.backgroundColor='white'; document.getElementById('tmg-body-cover').style.backgroundColor='white'; var backToMenu = document.getElementById('back-to-menu'); /*backToMenu.style.top='156px';*/ backToMenu.onmouseout=function(){document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-gray.png?v=#{app_version}';}; document.getElementById('back-to-menu-icon').src='#{tmg_cdn}/img/misc/category-grid-gray.png?v=#{app_version}'; backToMenu.className = backToMenu.className+' back-to-menu-gray';
 
         div.container.page-design
           div.row
@@ -38,14 +38,15 @@ block content
             div.col-lg-12
 
               div.page-design-image(style="padding-top:#{v['design_page']['image_background']['top_padding_pixels']}px;")
+                
                 img.tmg-unselectable(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_background']}.jpg?v=#{app_version}",style="margin-bottom:#{v['design_page']['image_background']['bottom_padding_pixels']}px;width:#{v['design_page']['image_background']['width_percent']}%;left:#{((100-parseInt(v['design_page']['image_background']['width_percent']))/2)}%;border:solid #{(Boolean(v['design_page']['image_background']['show_black_border'])) ? '1' : '0'}px black;")
-                div.bottom-strip
-              div.primary-body(style="left:#{v['design_page']['primary_text']['left_percent']}%;top:#{v['design_page']['primary_text']['top_percent']}%;width:#{v['design_page']['primary_text']['width_percent']}%;padding-top:#{v['design_page']['image_background']['top_padding_pixels']}px;padding-bottom:#{v['design_page']['image_background']['bottom_padding_pixels']}px;border:solid #{(Boolean(v['design_page']['primary_text']['show_black_border'])) ? '1' : '0'}px black;")
-                for itm, ind in v["primary_text"]
-                  p
-                    != itm
-                    if (itm.length == 0)
-                      br
+                
+                div.primary-body(style="left:#{v['design_page']['primary_text']['left_percent']}%;top:#{v['design_page']['primary_text']['top_percent']}%;width:#{v['design_page']['primary_text']['width_percent']}%;padding-top:#{v['design_page']['image_background']['top_padding_pixels']}px;padding-bottom:#{v['design_page']['image_background']['bottom_padding_pixels']}px;border:solid #{(Boolean(v['design_page']['primary_text']['show_black_border'])) ? '1' : '0'}px black;")
+                  for itm, ind in v["primary_text"]
+                    p
+                      != itm
+                      if (itm.length == 0)
+                        br
 
       else
         

@@ -45,3 +45,21 @@ exports.returnHealthCheck = function(req,res) {
   if (req.query.headers==="1") { sendString += "<br />"+JSON.stringify(req.headers); }
   res.send(sendString);
 };
+
+exports.checkLogin = function(req,data) {
+  var rtrn = false;
+  if ((req.body.login != null) && (req.body.password != null)) {
+    for (c in data.clients.clients) {
+      if ((req.body.login === data.clients.clients[c].login) && (req.body.password === data.clients.clients[c].password)) {
+        rtrn = true;
+        break;
+      }
+    }
+  }
+  return rtrn;
+}
+
+exports.generateInsecureToken = function(process,req) {
+  var token = require('crypto').createHash('md5').update(process.env.productionVersionId+req.body.login+req.body.password).digest("hex");
+  return token;
+}

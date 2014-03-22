@@ -68,6 +68,9 @@ var dataIndex = {
     background_images: "home-backgrounds",
     work: "work",
     tmg_rules: "home-rules"
+  },
+  "clients": {
+    clients: "clients",
   }
 };
 
@@ -90,6 +93,13 @@ app.get('/work', function(req,res){
 app.get('/work/:video_id', function(req,res){
   reCache('work-single');
   res.render('work-single', routes.setJadeVars(process, req, data));
+});
+
+app.post('/login', function(req,res){
+  reCache('clients');
+  var loggedIn = { success: routes.checkLogin(req,data) };
+  loggedIn.hash = routes.generateInsecureToken(process,req);
+  res.send(loggedIn);
 });
 
 app.get('/ajax/list/:client_id', function(req,res){

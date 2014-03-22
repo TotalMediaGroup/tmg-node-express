@@ -1193,7 +1193,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 75, width_percent: 90, show_black_border: false },
+      primary_text: { left_percent: 7.5, top_percent: 75, width_percent: 85, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 150, width_percent: 90, show_black_border: false } 
     }
   },

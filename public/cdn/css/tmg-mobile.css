@@ -33,7 +33,7 @@ body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 
 
 .social-buttons { bottom:2px; }
 
-.footer { display:none; }
+.bg-corner-darkener { margin-top:44px; left:-75%; top:-150px; width:150%; height:300px; }
 
 .page-work, .page-work-nav { padding-left:0px; position:relative; left:11%; width:78%; }
 .page-work-nav { left:9%; width:82%; }
@@ -46,3 +46,15 @@ body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 
 
 .page-video .page-video-scroll { position:absolute; left:18%; top:auto; bottom:8px;}
 
+.page-design { margin-top:44px; }
+.page-design .page-design-image { margin-top:44px; }
+.page-design .row, .page-design .col-lg-12 { height:100%; }
+.page-design .page-design-image img { margin-bottom:10px !important; }
+.page-design .primary-body { position:relative; left:5%; float:left; clear:both; width:90%; padding-top:0px !important; padding-bottom:10px !important; }
+
+.footer { position:relative; top:0px; height:240px; }
+
+.body-work .footer { border-top:none !important; }
+
+.footer .footer-rules { position:absolute; left:0%; top:auto; bottom:0px; width:100%; }
+.footer .footer-address { position:absolute; left:40%; width:60%; border-right:none; height:80px; text-align:right; }
