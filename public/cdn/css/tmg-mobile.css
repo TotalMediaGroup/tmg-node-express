@@ -20,7 +20,7 @@ body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 
 
 .page-video .video-player-box .video-player { width:80%; float:left; left:10%; }
 
-.page-video { margin-top:88px; }
+.page-video { margin-top:66px; }
 
 .back-to-menu { top:52px; }
 .video-prev { top:160px; }
