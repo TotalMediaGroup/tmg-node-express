@@ -58,6 +58,10 @@ block content
           div.row
             div.col-lf.video-player-box.col-sm-6
 
+              div.primary-title.mobile-only
+                | <span style="color:#ff0000;">#{v["client"]}</span> — 
+                | #{v["title"]}
+
               div.video-player(data-video-id="#{v['id']}",data-video-poster="#{v['image_poster']}",data-video-sd="#{v['video'][1][0]}",data-video-hd="#{v['video'][1][1]}")
                 img.aspect-ratio(src="#{tmg_cdn}/img/misc/16x9.16.gif")
                 img.bracket(src="#{tmg_cdn}/img/misc/bracket-red.png")
@@ -66,14 +70,14 @@ block content
                   img(src="#{tmg_cdn}/img/misc/play-white.png?v=#{app_version}",onMouseOver="this.src='#{tmg_cdn}/img/misc/play-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/play-white.png?v=#{app_version}'")
                   div.tmg-trans-50.gradient.radial-gradient
 
-              div.page-video-scroll
+              div.page-video-scroll.non-mobile-only
                 div.video-bttn.tmg-unselectable.video-scroll(onClick="$(this).animatescroll()")
                   img(src="#{tmg_cdn}/img/misc/arrow-down-red.png?v=#{app_version}")
                   //- div.tmg-trans-50.gradient.radial-gradient
                   div.down-label= "MORE"
 
             div.col-lf.col-sm-6
-              div.primary-title
+              div.primary-title.non-mobile-only
                 | <span style="color:#ff0000;">#{v["client"]}</span> — 
                 | #{v["title"]}
               div.primary-body
@@ -89,6 +93,12 @@ block content
                   for itm, ind in v["production_roles"]
                     p
                       = itm
+
+              div.page-video-scroll.mobile-only
+                div.video-bttn.tmg-unselectable.video-scroll(onClick="$(this).animatescroll()")
+                  img(src="#{tmg_cdn}/img/misc/arrow-down-red.png?v=#{app_version}")
+                  //- div.tmg-trans-50.gradient.radial-gradient
+                  div.down-label= "MORE"
 
 
           if (v["secondary_box_color"] !== "")

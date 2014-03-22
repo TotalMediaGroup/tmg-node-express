@@ -1,10 +1,11 @@
 
 body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 0px 0px;  padding-left:0px !important; padding-right:0px !important; margin-left:0px !important; margin-right:0px !important; }
 
+.mobile-only { display:block; }
+.non-mobile-only { display:none; }
 
-
-.bg-static { position:absolute; margin-top:22px; }
-.body-work-single .bg-static { margin-top:22px; }
+.bg-static { position:absolute; margin-top:0px; top:22px; }
+.body-work-single .bg-static { margin-top:0px; top:22px; }
 
 .navbar { height:44px; min-height:44px; }
 .navbar .navbar-header img { height:32px; position:relative; top:-8px;  margin-left:10px; }
@@ -13,7 +14,7 @@ body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 
 
 #tmg-container { /*margin-left:25px;*/ }
 
-.body-home #tmg-container { /*padding-top:22px; overflow-y:hidden;*/ }
+.body-home #tmg-container { padding-top:22px; overflow-y:hidden; }
 
 .container, #tmg-container, .row, .col-lf { width:100% !important; padding-left:0px !important; padding-right:0px !important; margin-left:0px !important; margin-right:0px !important; overflow-x:hidden; }
 
@@ -26,12 +27,22 @@ body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 
 .video-next { top:160px; }
 
 .home-rules-buffer { margin:44px 0px 0px 0px; }
-.home-rules { top:-22px; min-width:240px; width:96%; left:2%; margin:0px 0px 0px 0px; }
+.home-rules { top:-22px; min-width:240px; max-width:960px; width:100%; left:0%; margin:0px 0px 0px 0px; }
+.home-rules .rule-number { font-size:18px; top:-105px; }
+.home-rules .rule-footer { top:-217px; font-size:12px; }
 
 .social-buttons { bottom:2px; }
 
 .footer { display:none; }
 
-.page-work, .page-work-nav { padding-left:0px; }
+.page-work, .page-work-nav { padding-left:0px; position:relative; left:11%; width:78%; }
+.page-work-nav { left:9%; width:82%; }
 .page-work-nav .navbar-nav { margin-left:0px; left:0px; }
+
+.page-video .primary-title { position:relative; left:10%; width:80%; }
+.page-video .primary-body { position:relative; left:10%; width:80%; }
+
+.page-video .production-roles { float:right; margin-right:20%; }
+
+.page-video .page-video-scroll { position:absolute; left:18%; top:auto; bottom:8px;}
 

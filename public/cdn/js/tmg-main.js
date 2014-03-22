@@ -166,9 +166,9 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
       });
     });
 
-  if (TMG.currentPage == "work") {
-    $(".page-work").css({minHeight:parseInt($(".galleria-container").innerHeight()-$(".page-work-nav").innerHeight()-88-90)+"px"});
-  }
+  // if (TMG.currentPage == "work") {
+  //   $(".page-work").css({minHeight:parseInt($(".galleria-container").innerHeight()-$(".page-work-nav").innerHeight()-88-90)+"px"});
+  // }
 
   $(".body-home .bg-static img, .body-work .bg-static img").each(function(){
     setSquImg(this);
