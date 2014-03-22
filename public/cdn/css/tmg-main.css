@@ -54,7 +54,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .container { position:relative; z-index:11; /*margin-right:auto; margin-left:44px;*/  }
 .wide-container { width:1280px !important; }
 
-.social-buttons { float:right; height:25px; margin-top:64px; margin-right:20px; }
+.social-buttons { position:absolute; left:auto; right:0px; height:25px; margin:0px 20px 0px 0px; bottom:-3px; top:auto; }
 .social-buttons a { position:relative; color:#cccccc; font-size:18px; padding:4px; cursor:pointer; border:0; background-color:transparent; margin:0px 1px; vertical-align:middle; }
 .social-buttons a:hover { color:#999999; }
 .social-buttons a .fa-envelope { position:relative; left:-1px; font-size:19px; -webkit-transform: scaleX(0.83); -moz-transform: scaleX(0.83); -ms-transform: scaleX(0.83); -o-transform: scaleX(0.83); transform: scaleX(0.83); }

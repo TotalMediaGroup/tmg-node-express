@@ -4,7 +4,7 @@ html(lang="en")
   head
     title= current_page[3]
     meta(charset="utf-8")
-    meta(name="viewport", content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no")
+    meta(name="viewport", content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui=yes")
     meta(name="apple-mobile-web-app-capable", content="yes")
     meta(name="title", content="Total Media Group")
     meta(name="description", content="Total Media Group")
@@ -55,23 +55,22 @@ html(lang="en")
           div.navbar-header
             a.tmg-unselectable.navbar-brand(href="/")
               img.logo(src="#{tmg_cdn}/img/logo/masthead-creative.png?v=#{app_version}")
-          div.collapse.navbar-collapse
-            ul.nav.navbar-nav.tmg-unselectable
-              for item in nav_items
-                if ((item[0] == current_page[0]) && item[4])
-                  li.active(id="navbar-#{item[0]}")
-                    a= item[1]
-                else if (item[4])
-                  li(id="navbar-#{item[0]}")
-                    a.hover-trans-67(href="#{item[2]}")= item[1]
+          ul.nav.navbar-nav.pull-left.tmg-unselectable
+            for item in nav_items
+              if ((item[0] == current_page[0]) && item[4])
+                li.pull-left.active(id="navbar-#{item[0]}")
+                  a= item[1]
+              else if (item[4])
+                li.pull-left(id="navbar-#{item[0]}")
+                  a.hover-trans-67(href="#{item[2]}")= item[1]
 
-            div.social-buttons
-              a(href="https://www.facebook.com/pages/Total-Media-Group-Inc/388304704588058",target="_blank")
-                i.fa.fa-facebook-square
-              a(href="https://www.linkedin.com/company/total-media-group",target="_blank")
-                i.fa.fa-linkedin-square
-              a(href="mailto:info@totalmediagroup.com",target="_blank")
-                i.fa.fa-envelope
+          div.social-buttons
+            a(href="https://www.facebook.com/pages/Total-Media-Group-Inc/388304704588058",target="_blank")
+              i.fa.fa-facebook-square
+            a(href="https://www.linkedin.com/company/total-media-group",target="_blank")
+              i.fa.fa-linkedin-square
+            a(href="mailto:info@totalmediagroup.com",target="_blank")
+              i.fa.fa-envelope
 
       block content
 

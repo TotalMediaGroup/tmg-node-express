@@ -1,9 +1,9 @@
 
 body { min-width:320px; max-width:320px; overflow-x:hidden; padding:0px 0px 0px 0px; }
 
-#tmg-container, #tmg-menu-mobile, .galleria-container, .tmg-body-cover { display:none; }
+#tmg-container, #tmg-menu-mobile, .tmg-body-cover, #bg-static, .back-to-menu, .page-video-scroll, .footer { display:none; }
 
-#tmg-disclaimer-mobile { display:block; position:fixed; width:100%; height:100%; padding:5%; font-family:"gothamrounded_book"; text-transform: uppercase; text-align:center; background-color:gray; color:black; font-size:20px;  }
+#tmg-disclaimer-mobile { z-index:10001; display:block; position:fixed; width:100%; height:100%; padding:5%; font-family:"gothamrounded_book"; text-transform: uppercase; text-align:center; background-color:gray; color:black; font-size:20px;  }
 #tmg-disclaimer-mobile span:before { content:"Currently, this site can only be viewed on mobile devices that are horizontally-oriented ('landscape mode'). Please rotate your device to view the page. Thank you!"; }
 
 .galleria-container { display:none; }
