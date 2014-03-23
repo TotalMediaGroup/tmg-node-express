@@ -5,6 +5,15 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 
 #tmg-disclaimer-mobile { display:none; }
 
+body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-left:auto; margin-right:auto; background-color:transparent; z-index:11000; }
+.tmg-popup { position:absolute; left:40%; top:0%; width:50%; margin-top:228px; height:350px; background-color:red; }
+.tmg-popup .tmg-popup-lf { position:relative; float:left; width:35%; padding:2%; left:5%; background-color:green; height:250px; }
+.tmg-popup .tmg-popup-rt { position:relative; float:left; width:55%; padding:2%; left:5%; background-color:orange; height:250px; }
+.tmg-popup-x { position:absolute; right:0%; bottom:0%; width:auto; height:auto; background-color:#888888; cursor:pointer; color:#cccccc; }
+.tmg-popup-x:hover { color:#eeeeee; background-color:#aaaaaa; }
+.tmg-popup-x .fa-times { float:right; font-size:24px; margin:8px 11px; }
+.tmg-popup-bg { display:none; position:fixed; height:100%; width:100%; left:0%; top:0%; background-color:black; z-index:10999; }
+
 .tmg-trans-90 { filter:alpha(opacity=90); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; -moz-opacity:0.90; -khtml-opacity:0.90; opacity:0.90; }
 .tmg-trans-80 { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.80; -khtml-opacity:0.80; opacity:0.80; }
 .tmg-trans-67 { filter:alpha(opacity=67); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=67)"; -moz-opacity:0.67; -khtml-opacity:0.67; opacity:0.67; }
@@ -209,12 +218,14 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 
 
 
-
+.about-popup { color:#cccccc; text-decoration:none; }
 .page-about { margin-top:128px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; text-transform: uppercase; z-index:10; }
 .page-about p { margin-top:1px; margin-bottom:1px; }
-.page-about .col-lf { position:relative; }
-.page-about .team-member { position:relative; float:left; height:auto; border:0; width:25%; font-size:10px; color:#ffffff; margin:0px 0px 20px 5px; overflow:hidden; }
-.page-about .team-member img { margin:0px 0px 4px 0px; float:left; z-index:8; cursor:pointer; }
+.page-about .col-lf, .page-about .col-rt { position:relative; overflow:visible; }
+.page-about .col-sm-4 { padding-right:5%; /*border-right:dashed 2px gray; */}
+.page-about .team-member { position:relative; float:left; height:auto; border:0; width:133px; font-size:10px; color:#ffffff; margin:0px 0px 20px 5px; overflow:hidden; cursor:pointer; }
+.page-about .team-member:hover img { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.80; -khtml-opacity:0.80; opacity:0.80;  }
+.page-about .team-member img { margin:0px 0px 4px 0px; float:left; z-index:8; }
 .page-about .team-member span { line-height:1.25em; }
 .page-about .team-member .team-name { color:#ff0000; font-size:120%; clear:left; float:left; }
 .page-about .team-member .team-div { padding:0px 8px; display:none; }
@@ -233,8 +244,9 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .page-about .company-name { color:red; }
 .page-about .title-bracket { color:red; font-size:75px; font-family:"alternategot_no1_dot"; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
 .page-about .title-body { font-size:12px; position:relative; top:-16px; color:white; }
-.page-about .vertical-rule { position:absolute; left:-5%; top:-80px; height:100%; border:0; border-left:dashed 1px #cccccc; width:0px; }
+.page-about .vertical-rule { position:absolute; left:-10%; top:-90px; height:300%; border:0; border-left:dashed 2px #cccccc; width:0px; }
 .team-members { max-height:580px; overflow-y:scroll; overflow-x:hidden; margin-bottom:30px; }
+
 
 .jspDrag { background-color:red !important; }
 

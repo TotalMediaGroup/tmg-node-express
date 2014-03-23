@@ -175,7 +175,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
   //   $(".page-work").css({minHeight:parseInt($(".galleria-container").innerHeight()-$(".page-work-nav").innerHeight()-88-90)+"px"});
   // }
 
-  $(".body-home .bg-static img, .body-work .bg-static img").each(function(){
+  $(".body-home .bg-static img, .body-work .bg-static img, .body-about .bg-static img").each(function(){
     setSquImg(this);
   });
 
@@ -591,6 +591,18 @@ TMG.fn.aboutTeamExpand = function(obj) {
     target.css({height:'auto'});
     $(obj).css('top','-36px').find("span").html("LESS");
     $(obj).find(".fa").replaceWith("<i class=\"fa fa-caret-up\"></i>");
+  }
+}
+
+TMG.fn.aboutPopup = function(onOff) {
+  if (onOff) {
+    $(".tmg-popup-container, .tmg-popup-bg").css({display:"block",opacity:0});
+    $(".tmg-popup-container").animate({opacity:1},500);
+    $(".tmg-popup-bg").animate({opacity:0.5},500);
+  } else {
+    $(".tmg-popup-container, .tmg-popup-bg").animate({opacity:0},500,function(){
+      $(this).css({display:"none",opacity:0});
+    });
   }
 }
 
