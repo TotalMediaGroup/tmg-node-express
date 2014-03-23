@@ -7,18 +7,24 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 
 body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-left:auto; margin-right:auto; background-color:transparent; z-index:11000; }
 .tmg-popup { position:absolute; left:30%; top:0%; width:65%; margin-top:228px; height:auto; background-color:#dd1f26; }
-.tmg-popup .tmg-popup-lf { position:relative; float:left; width:35%; left:5%; margin-top:15px; margin-bottom:15px; background-color:transparent; height:auto; }
-.tmg-popup .tmg-popup-rt { position:relative; float:left; width:55%; left:5%; margin-top:15px; margin-bottom:15px; background-color:transparent; height:auto; }
+.tmg-popup .tmg-popup-lf { position:relative; float:left; width:35%; left:5%; margin-top:30px; margin-bottom:30px; background-color:transparent; height:auto; }
+.tmg-popup .tmg-popup-rt { position:relative; float:left; width:55%; left:5%; margin-top:30px; margin-bottom:30px; background-color:transparent; height:auto; }
 .tmg-popup-x { position:absolute; right:0%; bottom:0%; width:auto; height:auto; background-color:#888888; cursor:pointer; color:#cccccc; }
 .tmg-popup-x:hover { color:#eeeeee; background-color:#aaaaaa; }
 .tmg-popup-x .fa-times { float:right; font-size:24px; margin:8px 11px; }
 .tmg-popup-bg { display:none; position:fixed; height:100%; width:100%; left:0%; top:0%; background-color:black; z-index:10999; }
-.tmg-popup p, .tmg-popup a { font-family:"gothamrounded_book"; line-height:1.7; font-size:10px; margin-top:1px; margin-bottom:1px; text-transform: uppercase; color:#ffffff; }
+.tmg-popup p, .tmg-popup a, .tmg-popup span { font-family:"gothamrounded_book"; line-height:1.7; font-size:10px; margin-top:1px; margin-bottom:1px; text-transform: uppercase; color:#ffffff; }
 
-.tmg-popup-img { float:left; clear:left; width:90%; }
-.tmg-popup-email-lf { float:left; clear:left; }
-.tmg-popup-name-lf { float:left; clear:left; }
-.tmg-popup-title-lf { float:left; clear:left; }
+.tmg-popup .tmg-popup-img { float:left; clear:left; width:90%; margin-bottom:4px; z-index:0; }
+.tmg-popup .tmg-popup-email-lf { float:left; clear:left; width:90%; text-align:right; font-size:14px; position:relative; }
+.tmg-popup .tmg-popup-email-lf:hover { color:#aaaaaa; }
+.tmg-popup span.bracket-popup { font-family:"alternategot_no1_dot"; position:absolute; top:-0.33em; font-size:128px; z-index:1; color:red; }
+.tmg-popup .tmg-popup-name-lf { float:left; clear:left; font-size:12px; line-height:1em; padding-left:15px; }
+.tmg-popup .tmg-popup-title-lf { float:left; clear:left; font-size:12px; line-height:1em; padding-left:15px; }
+.tmg-popup .tmg-popup-bracket-lf { float:left; clear:left; font-size:12px; line-height:1em; padding-left:15px; position:relative; }
+.tmg-popup .tmg-popup-bracket-lf span { font-family:"alternategot_no1_dot"; position:absolute; left:0px; overflow:visible; top:-1.25em; font-size:36px; }
+
+.tmg-popup .tmg-popup-name { color:black; font-size:12px; }
 
 
 .tmg-trans-90 { filter:alpha(opacity=90); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; -moz-opacity:0.90; -khtml-opacity:0.90; opacity:0.90; }

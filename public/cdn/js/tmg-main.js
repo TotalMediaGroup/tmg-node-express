@@ -597,10 +597,12 @@ TMG.fn.aboutTeamExpand = function(obj) {
 TMG.fn.aboutPopup = function(onOff, profileId) {
   if (onOff) {
     $(".tmg-popup-lf").html(""
+      +"<span class=\"bracket-popup\">[</span>"
       +"<img src=\""+TMG.cdn.tmgStatic+"/web/portraits/"+profileId+"-candid.jpg?v="+TMG.appVersion+"\" class=\"tmg-popup-img\" />"
       +"<a class=\"tmg-popup-email-lf\" target=\"_blank\" href=\""+$("#team-member-"+profileId+" .team-email").attr("href")+"\"><i class=\"fa fa-envelope\"></i></a>"
       +"<p class=\"tmg-popup-name-lf\">"+$("#team-member-"+profileId+" .team-name").html()+"</p>"
       +"<p class=\"tmg-popup-title-lf\">"+$("#team-member-"+profileId+" .team-title").html()+"</p>"
+      +"<p class=\"tmg-popup-bracket-lf\"><span>[</span></p>"
       +""
       );
     $(".tmg-popup-rt").html(""
