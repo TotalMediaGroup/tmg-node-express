@@ -8,7 +8,7 @@ block content
         span.title-bracket(style="position:relative;left:0px;")= "["
         span.title-body= "THE COMPANY"
         span.title-bracket= "]"
-      div.col-rt.col-sm-6.col-sm-offset-1
+      div.col-rt.col-sm-7.col-sm-offset-1
         span.title-bracket(style="margin-left:10%;position:relative;left:0px;")= "["
         span.title-body= "THE PEOPLE"
         span.title-bracket= "]"
@@ -21,14 +21,12 @@ block content
             p
               if (ind === 0)
                 | <span class="company-name">TOTAL MEDIA GROUP — </span>
-              | #{itm}
-          br
-          for itm in item[1]
-            | #{itm}
-            br
+              if (itm.length == 0)
+                br
+              != itm
 
 
-      div.col-rt.col-sm-6.col-sm-offset-1.team-members.jscroll-pane
+      div.col-rt.col-sm-7.col-sm-offset-1.team-members
 
         div.vertical-rule.tmg-trans-80
 
@@ -41,6 +39,7 @@ block content
             span.team-title
               | #{item[1]}
             span.team-div= "|"
+            div.team-email-bg
             a.team-email(target="_blank",href="mailto:#{item[3]}")
               i.fa.fa-envelope
             br

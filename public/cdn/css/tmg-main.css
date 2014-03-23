@@ -210,20 +210,20 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 
 
 
-.page-about { margin-top:128px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; }
+.page-about { margin-top:128px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; text-transform: uppercase; z-index:10; }
 .page-about p { margin-top:1px; margin-bottom:1px; }
 .page-about .col-lf { position:relative; }
-.page-about .col-lg-7 { border:solid 1px white; }
-.page-about .team-member { float:left; height:auto; border:none; width:89%; font-size:10px; color:#ffffff; margin:5px 0px 20px 10%; overflow:hidden; }
-.page-about .team-member img { margin:5px 15px 12px 0px; float:left; }
-.page-about .team-member span { }
-.page-about .team-member .team-name { color:#ff0000; font-size:120%; }
-.page-about .team-member .team-div { padding:0px 8px; }
-.page-about .team-member .team-title { font-size:120%;  }
-.page-about .team-member .team-email { font-size:130%; position:relative; top:0px; color:#ffffff; }
-.page-about .team-member .team-email:hover { color:#999999 !important; }
-.page-about .team-member .team-body { position:relative; height:5em; margin-top:20px; overflow:hidden; color:#cccccc; }
-.page-about .team-member .team-more { position:relative; left:-4px; margin-top:1px; width:44px; text-align:center; height:20px; border:0; float:left; background-color:transparent; cursor:pointer; }
+.page-about .team-member { position:relative; float:left; height:auto; border:0; width:25%; font-size:10px; color:#ffffff; margin:0px 0px 20px 5px; overflow:hidden; }
+.page-about .team-member img { margin:0px 0px 4px 0px; float:left; z-index:8; cursor:pointer; }
+.page-about .team-member span { line-height:1.25em; }
+.page-about .team-member .team-name { color:#ff0000; font-size:120%; clear:left; float:left; }
+.page-about .team-member .team-div { padding:0px 8px; display:none; }
+.page-about .team-member .team-title { font-size:100%; clear:left; float:left; }
+.page-about .team-member .team-email-bg { position:absolute; left:69px; top:99px; width:18px; height:18px; background-color:#888888; z-index:9; }
+.page-about .team-member .team-email { font-size:130%; position:absolute; left:72px; top:98px; color:#ffffff; z-index:10; }
+.page-about .team-member .team-email:hover { color:#000000 !important; }
+.page-about .team-member .team-body { display:none; position:relative; height:5em; margin-top:20px; overflow:hidden; color:#cccccc; }
+.page-about .team-member .team-more { display:none; position:relative; left:-4px; margin-top:1px; width:44px; text-align:center; height:20px; border:0; float:left; background-color:transparent; cursor:pointer; }
 .page-about .team-member .team-more span { font-size:10px; line-height:4px; color:red; font-weight:bold; }
 .page-about .team-member .team-more .fa { font-size:36px; color:#cccccc; position:relative; top:-13px; left:-1px; }
 .page-about .team-member .team-more:hover span { color:#cccccc; }
