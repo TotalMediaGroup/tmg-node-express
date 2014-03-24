@@ -101,7 +101,7 @@ var data = [
     one_liner: "INFORMATIONAL VIDEO",
     primary_text: ["Agency: Opts Ideas","","The piece was intended to inspire the audience and create a sense of anticipation around new technology soon to be released.","We had been warned that the audience had become suspicious of broken promises, so we wanted to stay away from anything that resembled the typical corporate motivational piece.","We thought something unusual, and authentic would be a better approach. We wanted the audience to THINK.","The script speaks to the dreams of the investor / clients and how staff could better help them achieve those dreams. It was written as a sort of poem.","The graphics were designed to present and support the on-screen text with sublime - abstract forms."],
     production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
-    secondary_text: ["The video was displayed on an extremely wide screen - 180’x18’ - basically shaped like a curved mail slot. Designing a graphical piece for such an unusual format was a challenge.","The obvious approach would be to split the screen into multiple 16x9 areas across the horizontal width. But we wanted to use the wide format as a massive canvas instead. We thought the impact of the high contrast graphics operating across a180’ space would be pretty profound. Text on screen provides the common thread. Circles were used as the main element in the overall show design so we adopted dots as our primary characters."],
+    secondary_text: ["We shot the live action in one day under tight budget constraints.&nbsp;&nbsp;We constructed a monitor rig using one of our AJA cards to create a monitoring environment that allowed us to register the actress gestures with the art.&nbsp;&nbsp;Effectively adjusting art and performance in real-time as we shot."],
     secondary_content: [
       { title:"", image:"employee3", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1232,7 +1232,7 @@ var data = [
   { id: "fenenbock-jim-costa-campaign",
     title: "jim costa campaign",
     image_menu: "IC_costa",
-    image_background: "",
+    image_background: "DSN_Costa",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
