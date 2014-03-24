@@ -10,6 +10,7 @@ if (fs.existsSync("./config/env_vars.js")) {
 
 // Load Production Version ID
 process.env.productionVersionId = require("./config/version.js").productionVersionId;
+var inProd = (process.env.NODE_ENV === "production");
 
 // Express Initialization
 var express = require("express"), routes = require("./routes/all.js"),
@@ -79,24 +80,24 @@ var dataDirectory = ""; for (i in require.cache) { if (i.indexOf("home-backgroun
 function reCache(page) { for (i in dataIndex[page]) { delete require.cache[dataDirectory+dataIndex[page][i]+'.js']; } for (i in dataIndex[page]) { data[page][i] = require("./data/"+dataIndex[page][i]+".js").load(); } }
 
 app.get('/', function(req,res){
-  reCache('home');
+  if (!inProd) { reCache('home'); }
   res.render('home', routes.setJadeVars(process, req, data));
 });
 app.get('/about', function(req,res){
-  reCache('about');
+  if (!inProd) { reCache('about'); }
   res.render('about', routes.setJadeVars(process, req, data));
 });
 app.get('/work', function(req,res){
-  reCache('work');
+  if (!inProd) { reCache('work'); }
   res.render('work', routes.setJadeVars(process, req, data));
 });
 app.get('/work/:video_id', function(req,res){
-  reCache('work-single');
+  if (!inProd) { reCache('work-single'); }
   res.render('work-single', routes.setJadeVars(process, req, data));
 });
 
 app.post('/login', function(req,res){
-  reCache('clients');
+  if (!inProd) { reCache('clients'); }
   var loggedIn = { success: routes.checkLogin(req,data) };
   loggedIn.hash = routes.generateInsecureToken(process,req);
   res.send(loggedIn);
