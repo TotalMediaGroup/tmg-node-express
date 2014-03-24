@@ -1238,9 +1238,9 @@ var data = [
     video: [ [360,720], ["",""] ],
     client: "the fenenbock group",
     one_liner: "various design components",
-    primary_text: [],
-    production_roles: [],
-    secondary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, "],
+    production_roles: ["Production Roles","Production Roles","Production Roles","Production Roles"],
+    secondary_text: ["This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, "],
     secondary_content: [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1248,10 +1248,10 @@ var data = [
       ],
     categories: ["design"],
     secondary_box_color: "808080",
-    secondary_layout: "standard",
+    secondary_layout: "design",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 55, top_percent: 25, width_percent: 33, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
