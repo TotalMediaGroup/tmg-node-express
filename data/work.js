@@ -45,7 +45,7 @@ var data = [
     one_liner: "in store brand video",
     primary_text: ["ABBOTT HAD BEEN EXPERIMENTING WITH THE USE OF A SAINT BERNARD IN ITS PRINT ADS.","THE DOG COMMUNICATES A SENSE OF RELIABILITY TO THE TARGET MARKET.","THE PHOTOGRAPHIC CHARACTER PROVED EFFECTIVE TO THE BRAND BUT FAILED TO FULLY LEVERAGE THE DOG’S CHARACTER.","WE THOUGHT BRINGING HIM TO LIFE IN CG WOULD BE A FUN WAY TO CREATE SORT OF “MASCOT” AND ON-SCREEN PERSONALITY.","WE CALL HIM HECTOR."],
     production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
-    secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.","THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR. WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
+    secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.&nbsp;&nbsp;THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR.&nbsp;&nbsp;WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
     secondary_content: [
       { title:"", image:"abbot9", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -165,7 +165,7 @@ var data = [
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
+    secondary_layout: "corner",
     hide_client_on_menu: false,
     design_page: {
       primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
@@ -191,8 +191,8 @@ var data = [
     production_roles: ["creative","script","editorial","animation"],
     secondary_text: ["let's face it. whiteboard animations are everywhere.","the relative ease of production has spawned some, well, less than professional work.","we wanted to maintain a commercial look and feel on these.","we lit and shot the illustration carefully, Then, keyed and re-composited the hand on the board allowing us to optimize art, live action and performance.","We tweaked the frame rate to disguise the massive time compression and create a cartoon feel."],
     secondary_content: [
-      { title:"Workstation 8 Overview", image:"vmwarews2", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD", button_white_or_black:"black", title_white_or_black:"white" },
-      { title:"Workstation 8 What's New", image:"vmwarews5", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"Workstation 8 Overview", image:"vmwarews2_cropblue", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD", button_white_or_black:"white	", title_white_or_black:"white" },
+      { title:"Workstation 8 What's New", image:"vmwarews5crop", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"", image:"IMG_0783_Crop", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
@@ -225,7 +225,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"SilverPeakBlue", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media"],
+    categories: ["media","featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -283,7 +283,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"cisco1green", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media"],
+    categories: ["media","featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -460,7 +460,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media"],
+    categories: ["media","featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -518,7 +518,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"CX7000_2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media"],
+    categories: ["media","featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -539,7 +539,7 @@ var data = [
     video: [ [360,720], ["Genentech_libo extracted_SD","Genentech_libo extracted_HD"] ],
     client: "genentech",
     one_liner: "internal team information video",
-    primary_text: ["libo is a department inside genentech.","they hold regular meetings to keep in the team informed and updated.","these videos were created to review the information discussed.","the animation style is intentionally quirky and fun."],
+    primary_text: ["libo is a department inside genentech.","they hold regular meetings to keep in the team informed and updated.","these videos were created to review the information discussed.","the animation style is intentionally quirky and fun.","Strange Piece? - Yes. &nbsp;Creative solution? - We think so."],
     production_roles: ["design","script","shoot","vfx"],
     secondary_text: ["the budget did not allow for talent - stock - or any visual assets.","so we thought...","hey, let's create a sort of hand puppet spokesman.","we won't have to pay him. - these are SG's hands.","this clip is an excerpt from the longer (much longer) video.","there's only so much hand puppet one can take."],
     secondary_content: [
@@ -664,7 +664,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Cardinal Rules", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media"],
+    categories: ["media","featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -722,7 +722,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"fortigent9", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media"],
+    categories: ["media","featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -776,7 +776,7 @@ var data = [
     production_roles: ["design","editorial"],
     secondary_text: ["I'd like some text to go here, I don't know what… - B"],
     secondary_content: [
-      { title:"", image:"bruins4crop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Viewmaster", image:"bruins4crop", video:"Boston_Bruins_Viewmaster_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"bruins3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -838,7 +838,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"hightail2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media"],
+    categories: ["media","featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -1071,7 +1071,7 @@ var data = [
       { title:"Account View Tech Demo", image:"OptsTechAccountView5", video:"Opts_tech_demos_2013_Account_View_Desktop_BC_v8_ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"Trading and Rebalancing Tech Demo", image:"optsanthem3", video:"Opts_tech_demos_2013_Enhanced_Trading_and_Rebalancing_App_Expo_Video_BC_v8_HD", button_white_or_black:"black", title_white_or_black:"black" }
       ],
-    categories: ["events"],
+    categories: ["events","featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -1158,7 +1158,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"equinix2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["events"],
+    categories: ["events","featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
