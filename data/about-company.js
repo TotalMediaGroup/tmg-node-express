@@ -1,7 +1,7 @@
 
 var data = [
 
-  [ ["IS A CREATIVE AGENCY AND FULL-SERVICE MEDIA DESIGN STUDIO BASED IN SOUTH SAN FRANCISCO, CALIFORNIA.&nbsp;&nbsp;WE ARE STAFFED BY EXPERIENCED PEOPLE WHO ARE PASSIONATE ABOUT THE ART OF VISUAL STORYTELLING.","","OUR INDUSTRY HAS undergone something of a sea change in the last few years.&nbsp;&nbsp;there are suddenly artists and agencies popping out of every crack and crevice.&nbsp;&nbsp;some good - some great - some not.&nbsp;&nbsp;it takes time to acquire the skills and mindset needed to create clean compelling visual statements.","","we specialize in contemporary media design.&nbsp;&nbsp;no tricks, no trends."],
+  [ ["Total Media Group, Is a creative agency and full-service production studio.","We create visual media for tv, web and live events and put a strong emphasis on great design and well crafted stories.&nbsp;&nbsp;We know all the latest tricks, but never rely on them.&nbsp;&nbsp;We are staffed by experienced directors, producers and artists who are passionate about the art of visual storytelling and thrive on collaborative relationships.&nbsp;&nbsp;We're based in South San Francisco, just over the hill from the city and right near the airport.&nbsp;&nbsp;Close enough to have lunch on the Embarcadero and far enough to miss the traffic going home.","The creative energy that drives San Francisco is infectious.&nbsp;&nbsp;Anyone who lives and works here is affected by it.","We grew up here.&nbsp;&nbsp;We work here, we raise our families here.&nbsp;&nbsp;We live and breathe creative.","It's what we do.&nbsp;&nbsp;It's who we are."],
   ],
 
 
