@@ -370,7 +370,7 @@ var data = [
     secondary_content: [
       { title:"Full Client Version", image:"ruckus1", video:"Ruckus_WIFI_TO_BELIEVE_IN_10 CUTDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"ruckus2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"ruckus1", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",

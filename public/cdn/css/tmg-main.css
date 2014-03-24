@@ -156,7 +156,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-video-bttm .col-lf { border:none; height:420px; text-align:right; } 
 .page-video-bttm .clmn-lf { background-color:transparent; overflow:hidden; }
 .page-video-bttm .clmn-lf .clmn-lf-tp { height:auto; overflow:hidden; background-color:transparent; width:120%; position:relative; left:-10%; padding:20px 17% 20px 17%; border:0px 0px 0px 0px; border-bottom:solid 185px; z-index:1; color:#333; }
-.page-video-bttm .clmn-lf .clmn-lf-bt { height:200px; overflow:hidden; background-color:transparent; width:100%; position:absolute; left:0px; bottom:0px; z-index:2; padding:5px 15px; }
+.page-video-bttm .clmn-lf .clmn-lf-bt { height:200px; overflow:hidden; background-color:transparent; width:100%; position:absolute; left:0px; bottom:0px; z-index:2; padding:0px 0px; }
 .page-video-bttm .clmn-lf .clmn-lf-bg { position:absolute; left:0%; top:0%; width:100%; height:100%; background-color:transparent; z-index:0; }
 .page-video-bttm .clmn-lf .clmn-lf-bt-below-0 { height:100%; }
 .page-video-bttm .clmn-md { background-color:transparent; overflow:hidden; }

@@ -165,7 +165,14 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
       if ($(".video-bttm-secondary-layout-corner").length > 0) {
         var textHeight = $(this).find(".clmn-lf-tp").innerHeight();
         if (textHeight > 0) { $(this).find(".clmn-lf").css({height:textHeight+"px"}); }
+      } else {
+        var textHeight = $(this).find(".clmn-lf-tp").innerHeight();
+        if (textHeight > 235) {
+          $(this).find(".clmn-lf, .clmn-md, .clmn-rt").css({height:(420+textHeight-235)+"px"});
+          $(this).find(".clmn-lf-bt>img, .clmn-md>img, .clmn-rt>img").each(function(){ setSquImg(this); });
+        }
       }
+
       $(this).find(".tmg-thmb img.video-frame-secondary").each(function(){
         setSquImg(this);
       });
