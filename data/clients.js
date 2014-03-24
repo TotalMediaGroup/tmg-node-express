@@ -6,7 +6,8 @@ var data = [
     password: "password"
   },
 
-    { title: "Best Client Ever",
+
+  { title: "VMWare",
     login: "vmware",
     password: "password"
   },
