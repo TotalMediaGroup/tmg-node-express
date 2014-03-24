@@ -311,6 +311,18 @@ TMG.cycleBgImage = function() {
 
 }
 
+TMG.incrementFooterRule = function() {
+  $(".footer-rules").animate({opacity:0},Math.round(TMG.slideShowTransitionSpeed/6),function(){
+    tmgCurrentRule++;
+    if (tmgCurrentRule==tmgRules.length) { tmgCurrentRule=0; }
+    if (TMG.renderForMobile && (tmgRules[tmgCurrentRule].rule.length > 30)) { tmgCurrentRule++; }
+    $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
+    $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
+    $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
+    $(".footer-rules").animate({opacity:0.95},Math.round(TMG.slideShowTransitionSpeed/6));
+  });
+}
+
 TMG.randomSort = function(a,b) {
     var temp = parseInt( Math.random()*10 );
     var isOddOrEven = temp%2;
