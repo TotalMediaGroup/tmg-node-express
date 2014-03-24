@@ -33,6 +33,7 @@ app.set('view engine', 'jade');
 app.use(express.favicon("./public/cdn/img/logo/favicon.ico"));
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
+app.use(express.cookieParser());
 app.use(express.methodOverride());
 app.use(middlewares.allowCrossDomain);
 app.use(middlewares.tmgDemos);
@@ -102,23 +103,35 @@ app.get('/work/:video_id', function(req,res){
 
 app.post('/login', function(req,res){
   if (!inProd) { reCache('clients'); }
-  var loggedIn = { success: routes.checkLogin(req,data) };
-  loggedIn.hash = routes.generateInsecureToken(process,req);
-  res.send(loggedIn);
+  var d = { success: routes.checkLogin(req,data), login: req.body.login.toLowerCase(), token: null };
+  if (d.success) {
+    d.token = routes.generateLoginToken(process,req);
+    res.cookie('token', d.token, { maxAge: 3*3600*1000, httpOnly: false});
+  }
+  res.send(d);
+});
+
+app.get('/logout', function(req,res){
+  res.clearCookie('token');
+  res.send([]);
 });
 
 app.get('/ajax/list/:client_id', function(req,res){
-  var prefix = req.url_params.client_id+'/';
-  knoxClient.list({prefix:prefix},function(err,data){
-    var dataOut = [];
-    for (i in data.Contents) {
-      var d = data.Contents[i];
-      if (d.Key !== prefix) {
-        dataOut.push({ key: d.Key, LastModified: d.LastModified, Size: d.Size });
+  var login = req.url_params.client_id;
+  if (routes.verifyToken(process,req,data,login)) {
+    knoxClient.list({prefix:login+'/'},function(err,data){
+      var dataOut = [];
+      for (i in data.Contents) {
+        var d = data.Contents[i];
+        if (d.Key !== login+'/') {
+          dataOut.push({ key: d.Key, LastModified: d.LastModified, Size: d.Size });
+        }
       }
-    }
-    res.send(dataOut);
-  });  
+      res.send(dataOut);
+    });
+  } else {
+    res.send([]);
+  } 
 });
 
 app.get("/health_check", routes.returnHealthCheck );

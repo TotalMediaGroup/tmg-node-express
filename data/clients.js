@@ -6,6 +6,11 @@ var data = [
     password: "password"
   },
 
+    { title: "Best Client Ever",
+    login: "vmware",
+    password: "password"
+  },
+
 
 
 
