@@ -48,9 +48,9 @@ exports.returnHealthCheck = function(req,res) {
 
 exports.checkLogin = function(req,data) {
   var rtrn = false;
-  if ((req.body.login != null) && (req.body.password != null)) {
+  if ((req.body.login.toLowerCase() != null) && (req.body.password != null)) {
     for (c in data.clients.clients) {
-      if ((req.body.login === data.clients.clients[c].login) && (req.body.password === data.clients.clients[c].password)) {
+      if ((req.body.login.toLowerCase() === data.clients.clients[c].login) && (req.body.password === data.clients.clients[c].password)) {
         rtrn = true;
         break;
       }
@@ -59,7 +59,25 @@ exports.checkLogin = function(req,data) {
   return rtrn;
 }
 
-exports.generateInsecureToken = function(process,req) {
-  var token = require('crypto').createHash('md5').update(process.env.productionVersionId+req.body.login+req.body.password).digest("hex");
+function generateInsecureToken(productionVersionId,login,password) {
+  var token = require('crypto').createHash('md5')
+    .update(productionVersionId+login.toLowerCase()+password)
+    .digest("hex");
   return token;
 }
+
+exports.generateLoginToken = function(process,req) {
+  return generateInsecureToken(process.env.productionVersionId,req.body.login,req.body.password);
+}
+
+exports.generateInsecureToken = function(productionVersionId,login,password) {
+  return generateInsecureToken(productionVersionId,login,password);
+}
+
+exports.verifyToken = function(process,req,data,login) {
+  var token = req.cookies.token, password = null;
+  for (c in data.clients.clients) { if (data.clients.clients[c].login===login) { password = data.clients.clients[c].password; break; } }
+  return token === generateInsecureToken(process.env.productionVersionId,login,password);
+}
+
+
