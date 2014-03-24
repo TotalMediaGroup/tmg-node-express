@@ -16,9 +16,13 @@ var inProd = (process.env.NODE_ENV === "production");
 var express = require("express"), routes = require("./routes/all.js"),
   http = require("http"), path = require("path"),
   middlewares = require("./middlewares/all.js").middlewares,
-  knox = require("knox").createClient({
-    key: process.env.AWS_ACCESS_KEY_ID, secret: process.env.AWS_SECRET_KEY, bucket: process.env.AWS_S3_BUCKET
-  });
+  knoxClient = require("knox").createClient({
+    key: process.env.AWS_ACCESS_KEY_ID, secret: process.env.AWS_SECRET_KEY, bucket: process.env.AWS_S3_BUCKET_CLIENT
+  }),
+  knoxData = require("knox").createClient({
+    key: process.env.AWS_ACCESS_KEY_ID, secret: process.env.AWS_SECRET_KEY, bucket: process.env.AWS_S3_BUCKET_DATA
+  })
+  ;
 var app = express();
 
 // all environments
@@ -105,7 +109,7 @@ app.post('/login', function(req,res){
 
 app.get('/ajax/list/:client_id', function(req,res){
   var prefix = req.url_params.client_id+'/';
-  knox.list({prefix:prefix},function(err,data){
+  knoxClient.list({prefix:prefix},function(err,data){
     var dataOut = [];
     for (i in data.Contents) {
       var d = data.Contents[i];

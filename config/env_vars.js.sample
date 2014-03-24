@@ -12,6 +12,8 @@ exports.env = {
 
   AWS_SECRET_KEY: "-",
 
-  AWS_S3_BUCKET: "bucket-name"
+  AWS_S3_BUCKET_CLIENT: "bucket-name",
+
+  AWS_S3_BUCKET_DATA: "bucket-name"
 
 }
