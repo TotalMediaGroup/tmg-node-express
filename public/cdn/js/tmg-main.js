@@ -173,14 +173,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
         }
       }
 
-      $(this).find(".tmg-thmb img.video-frame-secondary").each(function(){
-        setSquImg(this);
-      });
     });
-
-  // if (TMG.currentPage == "work") {
-  //   $(".page-work").css({minHeight:parseInt($(".galleria-container").innerHeight()-$(".page-work-nav").innerHeight()-88-90)+"px"});
-  // }
 
   $(".body-home .bg-static img, .body-work .bg-static img, .body-about .bg-static img").each(function(){
     setSquImg(this);
