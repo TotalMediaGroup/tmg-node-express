@@ -611,10 +611,10 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
     $(".tmg-popup-lf").html(""
       +"<span class=\"bracket-popup\">[</span>"
       +"<img src=\""+TMG.cdn.tmgStatic+"/web/portraits/"+profileId+"-candid.jpg?v="+TMG.appVersion+"\" class=\"tmg-popup-img\" />"
-      +"<a class=\"tmg-popup-email-lf\" target=\"_blank\" href=\""+$("#team-member-"+profileId+" .team-email").attr("href")+"\"><i class=\"fa fa-envelope\"></i></a>"
       +"<p class=\"tmg-popup-name-lf\">"+$("#team-member-"+profileId+" .team-name").html()+"</p>"
       +"<p class=\"tmg-popup-title-lf\">"+$("#team-member-"+profileId+" .team-title").html()+"</p>"
       +"<p class=\"tmg-popup-bracket-lf\"><span>[</span></p>"
+      +"<a class=\"tmg-popup-email-lf\" target=\"_blank\" href=\""+$("#team-member-"+profileId+" .team-email").attr("href")+"\">"+$("#team-member-"+profileId+" .team-email").attr("href").substr(7)+" <i class=\"fa fa-envelope\"></i></a>"
       +""
       );
     $(".tmg-popup-rt").html(""
@@ -625,9 +625,18 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
     $(".tmg-popup-container, .tmg-popup-bg").css({display:"block",opacity:0});
     $(".tmg-popup-container").animate({opacity:1},250);
     $(".tmg-popup-bg").animate({opacity:0.5},250);
+    
+    $(document).bind('keyup',function(pressed){
+      if (pressed.which == 27) {
+        pressed.preventDefault();
+        TMG.fn.aboutPopup(false);
+      }
+    });
+
   } else {
     $(".tmg-popup-container, .tmg-popup-bg").animate({opacity:0},250,function(){
       $(this).css({display:"none",opacity:0});
+      $(document).unbind('keyup');
     });
   }
 }
