@@ -176,7 +176,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-video .page-video-bttm-row-2 .clmn-rt .video-bttn { position:absolute; right:auto; left:80px; bottom:auto; top:30px; margin:0; }
 .page-video .page-video-bttm .clmn-md .video-bttn, .page-video-bttm .clmn-rt .video-bttn { right:auto; left:80px; bottom:auto; top:30px; margin:0; }
 .page-video .page-video-bttm-row-2 .clmn-md .video-bttn { left:auto; right:80px; bottom:auto; top:30px; margin:0; }
-.video-bttm-secondary-layout-corner .page-video-bttm .col-lf { /*height:280px;*/ }
+.video-bttm-secondary-layout-corner .page-video-bttm .col-lf { /*height:280px;*/ min-height:420px; }
 .page-video-bttm .fader-block { position:absolute; top:0%; left:0%; width:100%; height:100%; z-index:9; background-color:black; display:none; }
 
 .back-to-menu { position:absolute; top:96px; left:8px; height:auto; width:auto; overflow:visible; cursor:pointer; z-index:30; display:none; }
@@ -221,7 +221,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .bg-corner-darkener { position:fixed; margin-top:88px; left:-75%; top:-300px; width:150%; height:600px; }
 
 .home-rules-buffer { position:relative; width:100%; z-index:10; background:transparent; height:50%; margin:44px 0px 0px 0px; clear:both;  }
-.home-rules { position:relative; text-align:center; z-index:10; top:-44px; width:96%; max-width:1280px; min-width:900px; left:1%; clear:both; padding-bottom:0px; padding-top:0px; background-color:transparent; border:0; height:0px; color:#ffffff; -moz-osx-font-smoothing:grayscale; }
+.home-rules { position:relative; text-align:center; z-index:10; top:-44px; width:96%; /*max-width:1280px;*/ min-width:900px; left:2%; clear:both; padding-bottom:0px; padding-top:0px; background-color:transparent; border:0; height:0px; color:#ffffff; -moz-osx-font-smoothing:grayscale; }
 .home-rules .rules-bg { display:none; position:absolute; left:-25%; top:-400px; width:150%; height:800px; border:none; }
 .home-rules .rule-number { font-size:30px; font-family:"acaslonpro_regular"; font-weight:400; font-style:italic; position:relative; top:-100px; }
 .home-rules .rule-body { font-size:128px; width:120%; text-align:center; position:relative; left:-10%; white-space:nowrap; font-family:"alternategot_no1_dot"; position:relative; top:-160px; line-height:1.2; }
@@ -286,3 +286,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
   background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 67%,rgba(0,0,0,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 );
 }
+
+@-moz-document url-prefix() {
+
+}
+

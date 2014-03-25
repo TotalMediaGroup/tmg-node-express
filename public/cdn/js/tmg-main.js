@@ -1,3 +1,5 @@
+var doc = document.documentElement.setAttribute('data-useragent', navigator.userAgent);
+
 var TMG = {
   currentPage: null,
   pageLoaded:new Date(),
@@ -269,6 +271,7 @@ TMG.setCurrentBackground = function() {
   TMG.bgImages.curr.onload = function(){ setSquImg(this); };
   TMG.bgImages.curr.src = TMG.cdn.tmgStatic+'/web/slideshowpredarkened/'+tmgBackgrounds[tmgCurrentBg]+'.jpg?v='+TMG.appVersion;
   $("#bg-static img").addClass("curr").animate({opacity:0},TMG.slideShowTransitionSpeed,function(){$(this).remove();});
+  if (TMG.bgImages.curr.complete) { setSquImg(TMG.bgImages.curr); }
   document.getElementById('bg-static').appendChild(TMG.bgImages.curr);
 
   tmgCurrentBg++;
