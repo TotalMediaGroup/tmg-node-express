@@ -32,26 +32,24 @@ var data = [
 */
 
 
-
-
-  { id: "abbott-always-with-you",
-    title: "always with you",
-    image_menu: "IC_hectorlogo",
-    image_background: "abbot11",
-    image_background_xy_position: [9,10],
-    image_poster: "pf_abbott",
-    video: [ [360,720], ["Abbott_ALWAYS WITH YOU_DIRCUT 1_SD","Abbott_ALWAYS WITH YOU_DIRCUT 1_HD"] ],
-    client: "abbott diabetes",
-    one_liner: "in store brand video",
-    primary_text: ["ABBOTT HAD BEEN EXPERIMENTING WITH THE USE OF A SAINT BERNARD IN ITS PRINT ADS.","THE DOG COMMUNICATES A SENSE OF RELIABILITY TO THE TARGET MARKET.","THE PHOTOGRAPHIC CHARACTER PROVED EFFECTIVE TO THE BRAND BUT FAILED TO FULLY LEVERAGE THE DOG’S CHARACTER.","WE THOUGHT BRINGING HIM TO LIFE IN CG WOULD BE A FUN WAY TO CREATE SORT OF “MASCOT” AND ON-SCREEN PERSONALITY.","WE CALL HIM HECTOR."],
-    production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
-    secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.&nbsp;&nbsp;THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR.&nbsp;&nbsp;WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
+  { id: "opts-ideas-anthem",
+    title: "ANTHEM",
+    image_menu: "IC_dandys2",
+    image_background: "DBG_optsanthem6",
+    image_background_xy_position: [10,15],
+    image_poster: "PF_optsanthem10",
+    video: [ [360,720], ["Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_SD","Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD"] ],
+    client: "LPL Financial",
+    one_liner: "A Magical story of animated dots",
+    primary_text: ["Agency: Opts Ideas","","THE PIECE WAS INTENDED TO INSPIRE THE AUDIENCE AND CREATE A SENSE OF ANTICIPATION AROUND NEW TECHNOLOGY SOON TO BE RELEASED.","WE HAD BEEN WARNED THAT THE AUDIENCE HAD BECOME SUSPICIOUS OF BROKEN PROMISES, SO WE WANTED TO STAY AWAY FROM ANYTHING THAT RESEMBLED THE TYPICAL CORPORATE MOTIVATIONAL PIECE.","WE THOUGHT SOMETHING UNUSUAL, AND AUTHENTIC WOULD BE A BETTER APPROACH. WE WANTED THE AUDIENCE TO THINK.","THE SCRIPT SPEAKS TO THE DREAMS OF THE INVESTOR / CLIENTS AND HOW STAFF COULD BETTER HELP THEM ACHIEVE THOSE DREAMS. IT WAS WRITTEN AS A SORT OF POEM.","THE GRAPHICS WERE DESIGNED TO PRESENT AND SUPPORT THE ON-SCREEN TEXT WITH SUBLIME - ABSTRACT FORMS."],
+    production_roles: ["CREATIVE","SCRIPT","animation","edit","composite"],
+    secondary_text: ["THE VIDEO WAS DISPLAYED ON AN EXTREMELY WIDE SCREEN - 180’X18’ - BASICALLY SHAPED LIKE A CURVED MAIL SLOT. DESIGNING A GRAPHICAL PIECE FOR SUCH AN UNUSUAL FORMAT WAS A CHALLENGE.","THE OBVIOUS APPROACH WOULD BE TO SPLIT THE SCREEN INTO MULTIPLE 16X9 AREAS ACROSS THE HORIZONTAL WIDTH. BUT WE WANTED TO USE THE WIDE FORMAT AS A MASSIVE CANVAS INSTEAD","WE THOUGHT THE IMPACT OF THE HIGH CONTRAST GRAPHICS OPERATING ACROSS A 180 FOOT SPACE WOULD BE PRETTY PROFOUND. TEXT ON SCREEN PROVIDES THE COMMON THREAD.","CIRCLES WERE USED AS THE MAIN ELEMENT IN THE OVERALL SHOW DESIGN SO WE ADOPTED DOTS AS OUR PRIMARY CHARACTERS."],
     secondary_content: [
-      { title:"", image:"abbot9", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"anthem_right", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"abbot10", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media"],
+    categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -60,8 +58,6 @@ var data = [
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
-
-
 
   { id: "shakey-neil-young-archives",
     title: "neil young archives",
@@ -117,25 +113,24 @@ var data = [
     }
   },
 
-
-  { id: "opts-ideas-anthem",
-    title: "ANTHEM",
-    image_menu: "IC_dandys2",
-    image_background: "DBG_optsanthem6",
-    image_background_xy_position: [10,15],
-    image_poster: "PF_optsanthem10",
-    video: [ [360,720], ["Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_SD","Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD"] ],
-    client: "LPL Financial",
-    one_liner: "A Magical story of animated dots",
-    primary_text: ["Agency: Opts Ideas","","THE PIECE WAS INTENDED TO INSPIRE THE AUDIENCE AND CREATE A SENSE OF ANTICIPATION AROUND NEW TECHNOLOGY SOON TO BE RELEASED.","WE HAD BEEN WARNED THAT THE AUDIENCE HAD BECOME SUSPICIOUS OF BROKEN PROMISES, SO WE WANTED TO STAY AWAY FROM ANYTHING THAT RESEMBLED THE TYPICAL CORPORATE MOTIVATIONAL PIECE.","WE THOUGHT SOMETHING UNUSUAL, AND AUTHENTIC WOULD BE A BETTER APPROACH. WE WANTED THE AUDIENCE TO THINK.","THE SCRIPT SPEAKS TO THE DREAMS OF THE INVESTOR / CLIENTS AND HOW STAFF COULD BETTER HELP THEM ACHIEVE THOSE DREAMS. IT WAS WRITTEN AS A SORT OF POEM.","THE GRAPHICS WERE DESIGNED TO PRESENT AND SUPPORT THE ON-SCREEN TEXT WITH SUBLIME - ABSTRACT FORMS."],
-    production_roles: ["CREATIVE","SCRIPT","animation","edit","composite"],
-    secondary_text: ["THE VIDEO WAS DISPLAYED ON AN EXTREMELY WIDE SCREEN - 180’X18’ - BASICALLY SHAPED LIKE A CURVED MAIL SLOT. DESIGNING A GRAPHICAL PIECE FOR SUCH AN UNUSUAL FORMAT WAS A CHALLENGE.","THE OBVIOUS APPROACH WOULD BE TO SPLIT THE SCREEN INTO MULTIPLE 16X9 AREAS ACROSS THE HORIZONTAL WIDTH. BUT WE WANTED TO USE THE WIDE FORMAT AS A MASSIVE CANVAS INSTEAD","WE THOUGHT THE IMPACT OF THE HIGH CONTRAST GRAPHICS OPERATING ACROSS A 180 FOOT SPACE WOULD BE PRETTY PROFOUND. TEXT ON SCREEN PROVIDES THE COMMON THREAD.","CIRCLES WERE USED AS THE MAIN ELEMENT IN THE OVERALL SHOW DESIGN SO WE ADOPTED DOTS AS OUR PRIMARY CHARACTERS."],
+  { id: "abbott-always-with-you",
+    title: "always with you",
+    image_menu: "IC_hectorlogo",
+    image_background: "abbot11",
+    image_background_xy_position: [9,10],
+    image_poster: "pf_abbott",
+    video: [ [360,720], ["Abbott_ALWAYS WITH YOU_DIRCUT 1_SD","Abbott_ALWAYS WITH YOU_DIRCUT 1_HD"] ],
+    client: "abbott diabetes",
+    one_liner: "in store brand video",
+    primary_text: ["ABBOTT HAD BEEN EXPERIMENTING WITH THE USE OF A SAINT BERNARD IN ITS PRINT ADS.","THE DOG COMMUNICATES A SENSE OF RELIABILITY TO THE TARGET MARKET.","THE PHOTOGRAPHIC CHARACTER PROVED EFFECTIVE TO THE BRAND BUT FAILED TO FULLY LEVERAGE THE DOG’S CHARACTER.","WE THOUGHT BRINGING HIM TO LIFE IN CG WOULD BE A FUN WAY TO CREATE SORT OF “MASCOT” AND ON-SCREEN PERSONALITY.","WE CALL HIM HECTOR."],
+    production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
+    secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.&nbsp;&nbsp;THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR.&nbsp;&nbsp;WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
     secondary_content: [
-      { title:"", image:"anthem_right", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"abbot9", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"abbot10", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media", "featured"],
+    categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -191,8 +186,8 @@ var data = [
     production_roles: ["creative","script","editorial","animation"],
     secondary_text: ["let's face it. whiteboard animations are everywhere.","the relative ease of production has spawned some, well, less than professional work.","we wanted to maintain a commercial look and feel on these.","we lit and shot the illustration carefully, Then, keyed and re-composited the hand on the board allowing us to optimize art, live action and performance.","We tweaked the frame rate to disguise the massive time compression and create a cartoon feel."],
     secondary_content: [
-      { title:"Workstation 8 Overview", image:"vmwarews2_cropblue", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD", button_white_or_black:"white	", title_white_or_black:"white" },
-      { title:"Workstation 8 What's New", image:"vmwarews5crop", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"Workstation 8 Overview", image:"vmwarews2bluecrop2", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD", button_white_or_black:"white	", title_white_or_black:"white" },
+      { title:"Workstation 8 What's New", image:"vmwarews5crop2", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"", image:"IMG_0783_Crop", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
@@ -518,7 +513,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"CX7000_2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media","featured"],
+    categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -664,7 +659,7 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Cardinal Rules", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
-    categories: ["media","featured"],
+    categories: ["media"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -1071,7 +1066,7 @@ var data = [
       { title:"Account View Tech Demo", image:"OptsTechAccountView5", video:"Opts_tech_demos_2013_Account_View_Desktop_BC_v8_ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"Trading and Rebalancing Tech Demo", image:"optsanthem3", video:"Opts_tech_demos_2013_Enhanced_Trading_and_Rebalancing_App_Expo_Video_BC_v8_HD", button_white_or_black:"black", title_white_or_black:"black" }
       ],
-    categories: ["events","featured"],
+    categories: ["events"],
     secondary_box_color: "FFFFFF",
     secondary_layout: "standard",
     hide_client_on_menu: false,
@@ -1240,7 +1235,7 @@ var data = [
     one_liner: "various design components",
     primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, "],
     production_roles: ["Production Roles","Production Roles","Production Roles","Production Roles"],
-    secondary_text: ["This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, "],
+    secondary_text: ["This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text,"],
     secondary_content: [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1252,7 +1247,7 @@ var data = [
     hide_client_on_menu: false,
     design_page: {
       primary_text: { left_percent: 55, top_percent: 25, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 0, width_percent: 100, show_black_border: false }
     }
   },
 
