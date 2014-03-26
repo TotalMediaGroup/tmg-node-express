@@ -97,7 +97,7 @@ var data = [
     one_liner: "INFORMATIONAL VIDEO",
     primary_text: ["Agency: Opts Ideas","","The piece was intended to inspire the audience and create a sense of anticipation around new technology soon to be released.","We had been warned that the audience had become suspicious of broken promises, so we wanted to stay away from anything that resembled the typical corporate motivational piece.","We thought something unusual, and authentic would be a better approach. We wanted the audience to THINK.","The script speaks to the dreams of the investor / clients and how staff could better help them achieve those dreams. It was written as a sort of poem.","The graphics were designed to present and support the on-screen text with sublime - abstract forms."],
     production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
-    secondary_text: ["We shot the live action in one day under tight budget constraints.&nbsp;&nbsp;We constructed a monitor rig using one of our AJA cards to create a monitoring environment that allowed us to register the actress gestures with the art.&nbsp;&nbsp;Effectively adjusting art and performance in real-time as we shot."],
+    secondary_text: ["We shot the live action in one day under budget constraints.&nbsp;&nbsp;We constructed a live keying rig using one of our AJA cards to create a monitoring environment that allowed us to register the actress gestures with the art.&nbsp;&nbsp;Effectively adjusting art and performance in real-time as we shot."],
     secondary_content: [
       { title:"", image:"employee3reframe", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -272,7 +272,7 @@ var data = [
     one_liner: "web video",
     primary_text: ["Cisco had conducted a study on patterns in on-line video consumption.","The results of the study were published in the form of a white paper.","The video was intended as a sort of 'trailer' to inform and attract the audience to download the study.","we strained and compressed the data into a script and presented the information in a fun animated form."],
     production_roles: ["design","animation"],
-    secondary_text: ["infographics of this type are no-doubt trendy right now,","but there was no doubt that this animated approach was the best method to deliver the message and content.","so little time - so much data."],
+    secondary_text: ["infographics of this type are -- trendy right now,","but there was no doubt that this animated approach was the best method to deliver the message and content.","so little time - so much data."],
     secondary_content: [
       { title:"", image:"Cisco1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -300,7 +300,7 @@ var data = [
     video: [ [360,720], ["Polycom_VVX500_SD","Polycom_VVX500_HD"] ],
     client: "polycom",
     one_liner: "New Product - BRAND AWARENESS",
-    primary_text: ["The story of Bob and how outdated communication technology is wasting all his precious time.","Clocks continually counting up indicating 'time's a wasting' float over heads.","But when Polycom's new VVX500  is introduced the the time wasting stops and clocks start counting down - 'time is on my side'"],
+    primary_text: ["The story of Bob and how outdated communication technology is wasting all his precious time.","Clocks continually counting up indicating 'time's a wasting' float over workers heads.","But when Polycom's new VVX500  is introduced the the time wasting stops and clocks start counting down - 'time is on my side'"],
     production_roles: ["creative","script","shoot","edit","animation/vfx"],
     secondary_text: ["We Shot at the client's office with a small crew.","We tracked and comped the animated clocks counting down floating over everyones head.","the building was empty but we created the impression of a whole floor of workers slaving away in cubicles by floating the countdown clocks over the cubicles."],
     secondary_content: [
@@ -329,9 +329,9 @@ var data = [
     video: [ [360,720], ["Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_SD","Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_HD"] ],
     client: "el agua es asunto de todos",
     one_liner: "public service tv commercials",
-    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","'THE FARMING COMMUNITIES IN THE CENTRAL VALLEY OF CALIFORNIA HAVE BEEN AT THE CENTER OF A LONG CULTURAL - POLITICAL BATTLE.","FOR DECADES WATER FROM THE SAN JUAQUIN RIVER DELTA IN NORTHERN CALIFORNIA HAS BEEN REDIRECTED TO THE CENTRAL VALLEY TO PROVIDE WATER FOR IRRIGATION.","POLITICAL GROUPS IN NORTHERN CA HAVE BEEN ACTIVELY INVOLVED IN EFFORTS TO SHUT OFF THE FLOW CITING NEGATIVE IMPACT ON THE LOCAL ENVIRONMENT.","THE PUBLIC INTEREST CAMPAIGN 'EL AGUA ES ASUNTO DE TODOS' WAS DESIGNED TO RAISE AWARENESS WITHIN THE CENTRAL VALLEY FARMING COMMUNITY AND GENERATE VOTER ACTION."],
+    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","THE FARMING COMMUNITIES IN THE CENTRAL VALLEY OF CALIFORNIA HAVE BEEN AT THE CENTER OF A LONG CULTURAL - POLITICAL BATTLE.","FOR DECADES WATER FROM THE SAN JUAQUIN RIVER DELTA IN NORTHERN CALIFORNIA HAS BEEN REDIRECTED TO THE CENTRAL VALLEY TO PROVIDE WATER FOR IRRIGATION.","POLITICAL GROUPS IN NORTHERN CA HAVE BEEN ACTIVELY INVOLVED IN EFFORTS TO SHUT OFF THE FLOW CITING NEGATIVE IMPACT ON THE LOCAL ENVIRONMENT.","THE PUBLIC INTEREST CAMPAIGN 'EL AGUA ES ASUNTO DE TODOS' WAS DESIGNED TO RAISE AWARENESS WITHIN THE CENTRAL VALLEY FARMING COMMUNITY AND GENERATE VOTER ACTION."],
     production_roles: ["ART DIRECTION","DESIGN","EDITORIAL","MUSIC DIRECTION"],
-    secondary_text: ["All the pieces are driven by a popular piece of music by Latin music superstar Luis","Miguel. The agency was able to secure the rights to re-record his hit 'Sabor a Mi', a much beloved song in the Hispanic community. Music was done at G&E music - New"," York. Creative Director Steven Gregory used his background in music to help direct the re-recording.","We posted 9 Spots and several long-form Public Awareness pieces.","The videos feature portraits of people from the farming community.","We found it deceptively challenging to edit a piece with effectively no motion.","The spots have a feel of a continuous portrait."],
+    secondary_text: ["All the pieces are driven by a popular piece of music by Latin music superstar Luis","Miguel. The fenenbock group was able to secure the rights to re-record his hit 'Sabor a Mi', a much beloved song in the Hispanic community. Music was done at G&E music - New"," York. Creative Director Steven Gregory used his background in music to help direct the re-recording.","We posted 9 Spots and several long-form Public Awareness pieces.","The videos feature portraits of people from the farming community.","We found it deceptively challenging to edit a piece with effectively no motion.","The spots have a feel of a continuous portrait."],
     secondary_content: [
       { title:"Real People", image:"elagua_momCropped", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -388,7 +388,7 @@ var data = [
     video: [ [360,720], ["Stryker_JP_Homer_Timeline_MoComp_v01_halfres_SD","Stryker_JP_Homer_Timeline_MoComp_v01_halfres_HD"] ],
     client: "stryker medical",
     one_liner: "history of stryker medical",
-    primary_text: ["stryker medical is an extraordinary example of the american dream.","one of the largest medical device manufactures in the world, the company was started by a single man, homer stryker, in 1942.","this timeline is an excerpt from a short doc detailing the succession or homer's innovative products."],
+    primary_text: ["stryker medical is an extraordinary example of the american dream.","one of the largest medical device manufactures in the world, the company was started in 1942 by a single man, homer stryker.","this timeline is an excerpt from a short doc detailing the succession or homer's innovative products."],
     production_roles: ["design","3d Animation"],
     secondary_text: ["The sequence is excerpted from a longer show.&nbsp;&nbsp;it was used to create chapter markers periodically directing us to the main show."],
     secondary_content: [
@@ -417,9 +417,9 @@ var data = [
     video: [ [360,720], ["VMware_VIRTUALIZATION_V09_mixed_SD","VMware_VIRTUALIZATION_V09_mixed_HD"] ],
     client: "vmware",
     one_liner: "web based informational video",
-    primary_text: ["VMware designs systems that virtualize computer and datacenter operations.","The technology is complex very hard for the layman to understand without lengthy study.","This video is intended to supply a quick overview of the basic architecture.","Client wanted to keep the piece light and not technically heavy.","So we crafted the visuals with lots of little 'gags' to keep it fun."],
+    primary_text: ["VMware designs systems that virtualize computer and datacenter operations.","The technology is complex very hard for the layman to understand without lengthy study.","This video is intended to supply a quick overview of the basic system architecture.","Client wanted to keep the piece light and not technically heavy.","So we crafted the visuals with lots of little 'gags' to keep it fun."],
     production_roles: ["creative","art direction","script","animation"],
-    secondary_text: ["after creating the basic art and story boarding the show,","our illustrator recreated the drawings directly in After Effect's paint system.","Each brush stroke was recorded in real time and can then be manipulated."],
+    secondary_text: ["after creating the basic art, we created storyboards,","our illustrator recreated the drawings directly in After Effect's paint system.","Each brush stroke was recorded in real time and can then be manipulated."],
     secondary_content: [
       { title:"", image:"VirtualizationGlobe", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -476,9 +476,9 @@ var data = [
     video: [ [360,720], ["YSVD_RiteAid_v6_1920x1080_SD","YSVD_RiteAid_v6_1920x1080_HD"] ],
     client: "yes video",
     one_liner: "in-store kiosk loop",
-    primary_text: ["Yes Video wanted a series of in-store videos to show how easy and simple it is to use their transfer services. We used assets from the product, and designed the videos to carry a fun, soul bass look and feel."],
+    primary_text: ["Yes Video wanted a series of in-store videos to show how easy and simple it is to use their transfer services. We used assets from the product, and designed the videos to carry a fun, saul bass look and feel."],
     production_roles: ["design","editorial","animation"],
-    secondary_text: ["Yes Video services are also found in CVS, Walgreens and Costco, so we slightly repurposed  and rebrand the project to align with each company’s style and brand guidelines. Each video needed to be somewhat unique but maintain the same script, message and YesVideo product images and elements."],
+    secondary_text: ["Yes Video services are also found in CVS, Walgreens and Costco, so we slightly repurposed  and rebrand the project to align with each company’s style and brand guidelines. Each video needed to be somewhat unique but maintain the same script, message and Yes Video product images and elements."],
     secondary_content: [
       { title:"CVS", image:"yesvideo3flop", video:"YSVD_CVS_v06_1920x1080_H264_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -505,7 +505,7 @@ var data = [
     video: [ [360,720], ["Polycom_CX7000_FINAL_2_10_5_11_SD","Polycom_CX7000_FINAL_2_10_5_11_HD"] ],
     client: "polycom",
     one_liner: "b to b product capability video",
-    primary_text: ["the client wanted to show the benefits of their new real-time conferencing system.","the central system improvement had to do with real-time document sharing.","we set the story in a sales meeting which needed input from people in several remote offices.","we floated a stylized document in space between the rep and client then had several other team members interact with the document"],
+    primary_text: ["Polycom wanted to show the benefits of their new real-time conferencing system.","the central system improvement had to do with real-time document sharing.","we set the story in a sales meeting which needed input from people in several remote offices.","we floated a stylized document in space between the rep and client then had several other team members interact with the document"],
     production_roles: ["creative","script","shoot","design","animation/vfx"],
     secondary_text: ["cast for this one was a blend of actors total staff and polycom staff.","no academy awards here."],
     secondary_content: [
@@ -593,9 +593,9 @@ var data = [
     video: [ [360,720], ["SAPOpen_1202_SAP_OPEN_GEN_USE_30_SD","SAPOpen_1202_SAP_OPEN_GEN_USE_30_HD"] ],
     client: "sap open tennis",
     one_liner: "television commercials",
-    primary_text: ["AGENCY: Kilburg and Associates","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","tech giant sap sponsors this annual tennis tournament.","silicon valley sports and entertainment run the show.","director bob kilburg and sg have been cutting these spots together for many years","marquee players from all over the world compete."],
+    primary_text: ["AGENCY: Kilburg and Associates","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","tech giant sap sponsors this annual tennis tournament.","SVSE, silicon valley sports and entertainment run the show.","director bob kilburg and sg have been cutting these spots together for many years.","marquee players from all over the world compete."],
     production_roles: ["design","editorial","animation"],
-    secondary_text: ["tennis tournaments are typically shot with 2 cameras.","one high in the stands and one tucked into a back corner of the court space.","neither camera record shots that lend themselves to heroic editing.","the challenge is to create a spot from footage that is not shot for promotional editing."],
+    secondary_text: ["tennis tournaments are typically shot with 2 cameras.","one high in the stands and one tucked into a back corner of the court area.","neither camera record shots that lend themselves to heroic editing.","the challenge is to create a spot from footage that is not shot for promotional editing."],
     secondary_content: [
       { title:"", image:"SAPOpen4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
