@@ -25,11 +25,11 @@ function setSquImg(inputObj,baseline){
     if (obj.css("visibility")==="hidden") { obj.css({opacity:0}); }
     if (baseline == "ht") {
         var newWidth = divDim.ht*objDim.wd/objDim.ht;
-        obj.css({height:divDim.ht+"px",top:(0-divDim.padTp)+"px",width:newWidth+"px"});
+        obj.css({height:Math.round(divDim.ht)+"px",top:Math.round(0-divDim.padTp)+"px",width:Math.round(newWidth)+"px"});
         obj.css({left:Math.round(0-(((newWidth-divDim.wd)/2)+divDim.padLf))+"px"});
     } else {
         var newHeight = divDim.wd*objDim.ht/objDim.wd;
-        obj.css({width:(divDim.wd+divDim.padLf)+"px",left:(0-divDim.padLf)+"px",height:newHeight+"px"});
+        obj.css({width:Math.round(divDim.wd+divDim.padLf)+"px",left:Math.round(0-divDim.padLf)+"px",height:Math.round(newHeight)+"px"});
         obj.css({top:Math.round(0-(((newHeight-divDim.ht)/2)+divDim.padTp))+"px"});
     }
     obj.css({visibility:"visible"}).animate({opacity:1},500);
@@ -50,7 +50,7 @@ function bgStaticResize(inputObj,left,top){
 
     var topPos = $(".page-video-bttm").offset().top;
     if ((objDim.ht-divDim.tp) < topPos) {
-      obj.css({width:parseInt((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",minWidth:parseInt((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px"});
+      obj.css({width:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",minWidth:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px"});
     }
   }
 }
