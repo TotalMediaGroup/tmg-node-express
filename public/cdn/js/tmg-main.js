@@ -178,7 +178,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
     });
 
   $(".body-home .bg-static img, .body-work .bg-static img, .body-about .bg-static img").each(function(){
-    setSquImg(this);
+    if (this.complete) { setSquImg(this); }
   });
 
 }

@@ -1,10 +1,11 @@
 
-function setSquImg(inputObj,baseline){
+function setSquImg(inputObj){
 
-  if (typeof $ === "undefined") {
-    var wait = setTimeout(function(){setSquImg(inputObj,baseline)},333);
+  if ((typeof $ === "undefined") && (inputObj.complete)) {
+    var wait = setTimeout(function(){setSquImg(inputObj)},333);
   } else {
     var obj = $(inputObj);
+    obj.css("visibility","hidden");
     var divObj = obj.parent('div.tmg-thmb');
     var objDim = {/*lf:0,tp:0,*/wd:parseInt(obj.width()),ht:parseInt(obj.height()),padLf:0,padTp:0};
     var divDim = {/*lf:0,tp:0,*/
@@ -13,16 +14,19 @@ function setSquImg(inputObj,baseline){
       };
     objDim.rat = objDim.wd/objDim.ht;
     divDim.rat = divDim.wd/divDim.ht;
-    if (baseline == null) {
-      if ((objDim.rat >= 1) && (divDim.rat >= 1)) {
-        baseline = (objDim.rat > divDim.rat) ? 'ht' : 'wd';
-      } else if ((objDim.rat < 1) && (divDim.rat < 1)) {
-        baseline = (objDim.rat > divDim.rat) ? 'wd' : 'ht';
-      } else {
-        baseline = (objDim.rat >= divDim.rat) ? 'ht' : 'wd';
-      }
+
+    var baseline = 'wd';
+    if ((objDim.rat >= 1) && (divDim.rat >= 1)) {
+      baseline = (objDim.rat > divDim.rat) ? 'ht' : 'wd';
+    } else if ((objDim.rat < 1) && (divDim.rat < 1)) {
+      baseline = (objDim.rat > divDim.rat) ? 'wd' : 'ht';
+    } else {
+      baseline = (objDim.rat >= divDim.rat) ? 'ht' : 'wd';
     }
-    if (obj.css("visibility")==="hidden") { obj.css({opacity:0}); }
+
+//    console.log(inputObj.src+" - "+inputObj.complete+" - "+obj.css("visibility")+" - "+baseline);
+
+    if (obj.css("visibility")=="hidden") { obj.css({opacity:0}); }
     if (baseline == "ht") {
         var newWidth = divDim.ht*objDim.wd/objDim.ht;
         obj.css({height:Math.round(divDim.ht)+"px",top:Math.round(0-divDim.padTp)+"px",width:Math.round(newWidth)+"px"});
