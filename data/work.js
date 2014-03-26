@@ -68,7 +68,7 @@ var data = [
     video: [ [360,720], ["Neil_Young_Archives_SD","Neil_Young_Archives_HD"] ],
     client: "shakey pictures",
     one_liner: "10-DISC BOX SET",
-    primary_text: ["ARCHIVE PROJECT.","A MONUMENTAL PROJECT.","WE SET UP A SMALL PRODUCTION STUDIO WITHIN OUR FACILITY TO CREATE, MANAGE AND CURATE THE MASSIVE COLLECTION OF HISTORICAL ASSETS.","OUR ARTISTS TEAMED UP WITH SHAKEY PICTURES PRODUCERS TO CREATE THE 10 DISC SET.","THE PROJECT TOOK 2.5 YEARS TO COMPLETE."],
+    primary_text: ["A MONUMENTAL PROJECT.","WE SET UP A SMALL PRODUCTION STUDIO WITHIN OUR FACILITY TO CREATE, MANAGE AND CURATE THE MASSIVE COLLECTION OF HISTORICAL ASSETS.","OUR ARTISTS TEAMED UP WITH SHAKEY PICTURES PRODUCERS TO CREATE THE 10 DISC SET.","THE PROJECT TOOK 2.5 YEARS TO COMPLETE."],
     production_roles: ["CREATIVE","ART DIRECTION","PRODUCTION"],
     secondary_text: ["<span style=\"color:red;\">FILMORE EAST DVD MENU</span>","A DECEPTIVELY COMPLEX PROJECT, THIS DVD MENU WAS CREATED FROM A NOW FAMOUS PHOTO OF FILMORE EAST IN NYC.","WE USED THE MARQUEE TO CREATE THE NAVIGATION ITEMS.","THEN BROUGHT THE PHOTO TO LIFE BY ANIMATING PEOPLE IN LINE AND CREATING A CITY AT NIGHT LIGHTING SCENE (CAR LIGHTS. STEAM FROM STREET VENTS, ETC)","WE SHOT A BUNCH OF FRIENDS ON GREEN ACTING AS THOUGH THEY WERE STROLLING DOWN THE BUSY STREET.","EVEN GOT IN ONE OF NEILS' FAVORITE CLASSIC CARS.","THE MENU TEXT CHANGES AS PEOPLE WALK BY IN THE FOREGROUND.","THIS HAPPENED EACH TIME THE VIEWER CLICKED THE BUTTON.","","<span style=\"color:red;\">PRAIRIE WIND DVD MENU.</span>","WE WANTED TO CREATE THE SENSE OF LAUNDRY BLOWING IN THE WIND IN FRONT OF A HOMESTEAD ON THE PRAIRIE.","WE SHOT THE SHEET OUT IN FRONT OF THE FACILITY.","THE GRASS BLOWING IN THE WIND IS ACTUALLY SAN FRANCISCO BAY MARSH GRASS.","SG WAS HAVING LUNCH BY THE BAY ONE DAY AND NOTICED THAT IT LOOKED AND MOVED A LOT LIKE PRAIRIE GRASS.","SO WE SHOT IT FOR THE COMP."],
     secondary_content: [
@@ -151,7 +151,7 @@ var data = [
     client: "San Jose Sharks",
     one_liner: "TELEVISION COMMERCIALS",
     primary_text: ["AGENCY: KILBURG AND ASSOCIATES","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","TRY AND GET SEVEN ELITE PROFESSIONAL ATHLETES TOGETHER IN THE SAME ROOM FOR A DAY. GO AHEAD, TRY IT.","DIRECTOR BOB KILBURG MANAGES TO GET THESE BUSY PLAYERS ALL TOGETHER JUST LONG ENOUGH TO CAPTURE PERFORMANCES OF THE LOOSELY SCRIPTED COMEDIC VIGNETTES. THE CHALLENGE THEN, IS TO CREATE TV SPOTS WITH EDITORIAL INTEGRITY AND VISUAL INTEREST.","THE TEAM OF KILBURG AND GREGORY HAS BEEN PUMPING THESE SPOTS OUT FOR 8 GREAT SEASONS. THEY ARE CONSIDERED BY THE FANS TO BE SOME OF THE BEST IN THE NHL.","NOW IF WE COULD JUST WIN THE DANG CUP!"],
-    production_roles: ["CREATIVE","SCRIPT","ART DIRECTION","ANIMATION","COMPOSITE"],
+    production_roles: ["CREATIVE","ART DIRECTION","ANIMATION","COMPOSITE"],
     secondary_text: ["THE ONE-DAY SHOOTS OFTEN MOVE ALONG PRETTY QUICKLY.","THIS LEADS TO SOME, WELL, “CHALLENGES”.","IN ADDITION TO FINDING AND EDITING THE PERFORMANCES WE OFTEN CLEAN OR EXTEND THE ENVIRONMENTS IN CG POST- ADD SOME TAROT CARDS, CANDLES OR FLYING PAPERS.","IN SOME CASES, WE CREATE THE ENTIRE BACKGROUND ENVIRONMENT- ALL ON A MODEST BUDGET."],
     secondary_content: [
       { title:"Lousy Exterminator", image:"sharks28", video:"SJ_Sharks_FESTIVE_POLKA_HD", button_white_or_black:"white", title_white_or_black:"white" },
@@ -183,7 +183,7 @@ var data = [
     client: "vmware",
     one_liner: "New Product / BRAND AWARENESS",
     primary_text: ["VMware wanted a piece that was a bit different and fun to announce the release of it's new workstation product WS8.","We crafted a script from a set of features and benefits. Then we developed art to convey the central points in a fun way. Once the art was locked we transcribed it to a white board and the artist performed the drawing. The video was so well received that we went on to create more in the same style - effectively creating a brand within the brand."],
-    production_roles: ["creative","script","editorial","animation"],
+    production_roles: ["creative","script","editorial","animation","art direction"],
     secondary_text: ["let's face it. whiteboard animations are everywhere.","the relative ease of production has spawned some, well, less than professional work.","we wanted to maintain a commercial look and feel on these.","we lit and shot the illustration carefully, Then, keyed and re-composited the hand on the board allowing us to optimize art, live action and performance.","We tweaked the frame rate to disguise the massive time compression and create a cartoon feel."],
     secondary_content: [
       { title:"Workstation 8 Overview", image:"vmwarews2bluecrop2", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD", button_white_or_black:"white	", title_white_or_black:"white" },
@@ -301,7 +301,7 @@ var data = [
     client: "polycom",
     one_liner: "New Product - BRAND AWARENESS",
     primary_text: ["The story of Bob and how outdated communication technology is wasting all his precious time.","Clocks continually counting up indicating 'time's a wasting' float over heads.","But when Polycom's new VVX500  is introduced the the time wasting stops and clocks start counting down - 'time is on my side'"],
-    production_roles: ["creative","script","shoot","edit","vfx"],
+    production_roles: ["creative","script","shoot","edit","animation/vfx"],
     secondary_text: ["We Shot at the client's office with a small crew.","We tracked and comped the animated clocks counting down floating over everyones head.","the building was empty but we created the impression of a whole floor of workers slaving away in cubicles by floating the countdown clocks over the cubicles."],
     secondary_content: [
       { title:"", image:"VVX5001", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -360,7 +360,7 @@ var data = [
     client: "ruckus wireless",
     one_liner: "New Product - BRAND AWARENESS",
     primary_text: ["Client wanted something really different to cut through the noise at a national trade show.","He shared a video made at the church he attends.","We latched on to the Idea and went with it.","We hired a preacher to come in and deliver the authentic and emphatic VO.","then proceeded to lock type to every syllable."],
-    production_roles: ["direction","animation","music"],
+    production_roles: ["creative","animation"],
     secondary_text: ["This clip is an excerpt of the main 5 minute video.","We've cut it down because, well, client exuberance made it waaay too long.","once you've seen the first minute you pretty much get it.","you can see the long version here, (if you have nothing better to do.)"],
     secondary_content: [
       { title:"Full Client Version", image:"ruckus1", video:"Ruckus_Believe_092412_uncompressed_HD", button_white_or_black:"white", title_white_or_black:"white" },
@@ -506,7 +506,7 @@ var data = [
     client: "polycom",
     one_liner: "b to b product capability video",
     primary_text: ["the client wanted to show the benefits of their new real-time conferencing system.","the central system improvement had to do with real-time document sharing.","we set the story in a sales meeting which needed input from people in several remote offices.","we floated a stylized document in space between the rep and client then had several other team members interact with the document"],
-    production_roles: ["creative","script","shoot","design","animation"],
+    production_roles: ["creative","script","shoot","design","animation/vfx"],
     secondary_text: ["cast for this one was a blend of actors total staff and polycom staff.","no academy awards here."],
     secondary_content: [
       { title:"", image:"CX7000_1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -535,7 +535,7 @@ var data = [
     client: "genentech",
     one_liner: "internal team information video",
     primary_text: ["libo is a department inside genentech.","they hold regular meetings to keep in the team informed and updated.","these videos were created to review the information discussed.","the animation style is intentionally quirky and fun.","Strange Piece? - Yes. &nbsp;Creative solution? - We think so."],
-    production_roles: ["design","script","shoot","vfx"],
+    production_roles: ["design","script","shoot","animation"],
     secondary_text: ["the budget did not allow for talent - stock - or any visual assets.","so we thought...","hey, let's create a sort of hand puppet spokesman.","we won't have to pay him. - these are SG's hands.","this clip is an excerpt from the longer (much longer) video.","there's only so much hand puppet one can take."],
     secondary_content: [
       { title:"", image:"Libo2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -565,7 +565,7 @@ var data = [
     client: "political spots",
     one_liner: "political tv spots",
     primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","Michael fenenbock (the fenenbock group) is considered one of the nations leading campaign strategists.","a gifted filmmaker he has a unique gift for crafting compelling stories.","creative director Steven Gregory has worked with michael for many years and created many spots for candidates on both sides of the aisle.","here are a few."],
-    production_roles: ["creative","editorial","animation"],
+    production_roles: ["creative","editorial","animation","art direction"],
     secondary_text: ["<span style=\"color:white;\">politics being what it is, the concepts evolve pretty much in real-time.&nbsp;&nbsp;this opens the door to some pretty odd concepts.&nbsp;&nbsp;chameleons???</span>","","<span style=\"color:white;\">the spots range from cinematic to comical to downright weird.&nbsp;&nbsp;all of these candidates were elected.</span>"],
     secondary_content: [
       { title:"Anna Caballero", image:"PoliticalRight", video:"Anna_Caballero_CHAMELEON_MIXED_5_PR_HD", button_white_or_black:"black", title_white_or_black:"black" },      
@@ -594,7 +594,7 @@ var data = [
     client: "sap open tennis",
     one_liner: "television commercials",
     primary_text: ["AGENCY: Kilburg and Associates","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","tech giant sap sponsors this annual tennis tournament.","silicon valley sports and entertainment run the show.","director bob kilburg and sg have been cutting these spots together for many years","marquee players from all over the world compete."],
-    production_roles: ["design","animation","editorial"],
+    production_roles: ["design","editorial","animation"],
     secondary_text: ["tennis tournaments are typically shot with 2 cameras.","one high in the stands and one tucked into a back corner of the court space.","neither camera record shots that lend themselves to heroic editing.","the challenge is to create a spot from footage that is not shot for promotional editing."],
     secondary_content: [
       { title:"", image:"SAPOpen4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -623,7 +623,7 @@ var data = [
     client: "various",
     one_liner: "detailed product information",
     primary_text: ["The client wanted a series of videos under a cohesive brand to showcase the features and benefits of their products. We had designed a number of the product logos, so it was easy to come up with a design that would honor both the product brand, the overall Stryker brand, and a stand-alone series."],
-    production_roles: ["3d animation","editorial"],
+    production_roles: ["3d animation","editorial","motion graphics"],
     secondary_text: ["Animated using CAD files, lit and textured in Cinema 4D.","We had already designed many of the 3D animations for use on ipad, and were able to leverage these in this piece. Composited in After Effects."],
     secondary_content: [
       { title:"MicroFX Osteochondral Drill", image:"microfx1", video:"Stryker_JP_MicroFX_LIM_v05_ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
@@ -681,7 +681,7 @@ var data = [
     client: "stryker medical",
     one_liner: "documentary style",
     primary_text: ["Stryker had needed a video to help supplement their rebranding campaign.","The video had to serve a variety of exposures: their customers, their in-house staff, their sales reps, and the consumer/patient.","They provided the goal and the new brand rationale and we provided a concept that would sincerely reflect their new brand. Stryker helped find existing stories, and after we conducted interviews, we chose 3 to focus on – and the project took us to the UK, China and the U.S.  We did the scripting, directing, video production and editorial."],
-    production_roles: ["creative","multi-location shoot","editorial"],
+    production_roles: ["creative","worldwide location shoot","editorial"],
     secondary_text: ["This video is part of a series – and seems to resonate strongly with the people that review it."],
     secondary_content: [
       { title:"", image:"thereforyou8", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -710,7 +710,7 @@ var data = [
     client: "LPL Financial",
     one_liner: "destination teaser",
     primary_text: ["AGENCY: Opts Ideas","","An opening video for a gathering of nation-wide financial advisors held in miami.","The agency wanted to create a sense of enthusiasm in the audience by displaying interesting facts about florida, the company and clients they serve."],
-    production_roles: ["design","edit","animation"],
+    production_roles: ["design","editorial","motion graphics"],
     secondary_text: ["This piece was created entirely in after effects, a variety of different types of media and styles to create the energy that the client was after."],
     secondary_content: [
       { title:"", image:"fortigent5", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -739,7 +739,7 @@ var data = [
     client: "Del Grande Dealership",
     one_liner: "television commercials",
     primary_text: ["AGENCY: Kilburg and Associates","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","sean del grande of del grand dealer group (DGDG) is a natural on camera.&nbsp;&nbsp;director bob kilburg created the 'happy car buyer' brand, and scripted the spots.&nbsp;&nbsp;we stuck sean in front of a camera and turned him loose, then created the cg world for him to perform in."],
-    production_roles: ["creative","shoot","edit","animation"],
+    production_roles: ["creative","shoot","edit","composite"],
     secondary_text: ["Immersing sean in a 3D environment was great fun.&nbsp;&nbsp;Telling the story with the 3D elements, in addition to working with Sean's greenscreen body provided a nice, interesting, informative, and clean layout which displayed well across broadcast networks."],
     secondary_content: [
       { title:"", image:"dgdg2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -797,7 +797,7 @@ var data = [
     client: "intuity medical",
     one_liner: "product demonstration",
     primary_text: ["Glucose Blood testing is cumbersome, Intuity believes it should be simplified.  They came to us with a need for a video demonstrating their new OnQ system, focusing on the need for an easy alternative.  OnQ is designed to integrate test strips, lancets, and lancing device into once compact meter and cartridge system to make testing easy, convenient and discrete.  This video demonstrates all modes of use with the product.  "],
-    production_roles: ["Design","3d animation"],
+    production_roles: ["Design","3d animation","motion graphics"],
     secondary_text: ["A mix of 3d animation and 2d illustrated hands.","The video clearly demonstrates all modes of use."],
     secondary_content: [
       { title:"", image:"onQ6", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -826,7 +826,7 @@ var data = [
     client: "hightail",
     one_liner: "attract loop for trade show",
     primary_text: ["Hightail needed a piece that would quickly demonstrate the central benefits of the new brand.  The live venue would not allow audio so we needed to tell the story using text and graphics.  We worked from a client script and crafted the 60 second piece."],
-    production_roles: ["design","animation"],
+    production_roles: ["design","motion graphics"],
     secondary_text: ["We created this entirely in Adobe After Effects, utilizing vector images and fast paced movement to keep the users attention with no audio."],
     secondary_content: [
       { title:"", image:"hightail1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -856,7 +856,7 @@ var data = [
     client: "polycom",
     one_liner: "product launch video",
     primary_text: ["sound station duo is polycom's entry level conference phone system.","they wanted to highlight the benefits of the system for the modest budget."],
-    production_roles: ["creative","design","animation"],
+    production_roles: ["creative","script","design","animation"],
     secondary_text: ["We had a great time Coming up with interesting camera moves and creating a story out of pictures and the 3D model, "],
     secondary_content: [
       { title:"", image:"Polycom_Soundstation2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -885,7 +885,7 @@ var data = [
     client: "stryker medical",
     one_liner: "lobby loop",
     primary_text: ["The client came to us in need of a video to play in their lobby.  They wanted an informational piece, that was graphically pleasing and pretty to look at.","utilizing their script and branding, we came up with this."],
-    production_roles: [],
+    production_roles: ["design","motion graphics"],
     secondary_text: ["lobby loop displayed in stryker's main corporate lobby."],
     secondary_content: [
       { title:"", image:"RegenKit1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -914,7 +914,7 @@ var data = [
     client: "tmg",
     one_liner: "rosalind russell documentary",
     primary_text: ["Narrated by Kathleen turner, this insightful documentary about film icon rosalind Russell comes on the occasion of the 70th anniversary of her breakthrough role as Hildy in His girl friday.&nbsp;&nbsp;The film explores not only Russell's life in film,  but also her humanitarian work.&nbsp;&nbsp;TMG produced and edited the film."],
-    production_roles: ["creative","production","shoot","editorial"],
+    production_roles: ["creative","research","production","shoot","editorial"],
     secondary_text: ["Head on over to Amazon and check it out for <a href='http://www.amazon.com/Life-Banquet-Rosalind-Russell-Story/dp/B002PDUYXS/ref=sr_1_4?ie=UTF8&qid=1394781244&sr=8-4&keywords=Life+is+a+banquet'>purchase</a>, or rent on <a href='http://www.amazon.com/Life-Banquet-Rosalind-Russell-Story/dp/B00CNE2LNK/ref=sr_1_2?ie=UTF8&qid=1394781337&sr=8-2&keywords=Life+is+a+banquet'>Amazon Instant Video</a>"],
     secondary_content: [
       { title:"", image:"ros2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -972,7 +972,7 @@ var data = [
     client: "cisco systems",
     one_liner: "live event production",
     primary_text: ["TMG has produced content for the Cisco Live! event for almost fifteen years.  Our production team attends the yearly event providing a variety of services in a very fast paced working environment, including video production, editorial and graphic design.  This range extends to programming before, during and following the event. "],
-    production_roles: ["Production", "Shoot", "Editorial"],
+    production_roles: ["Event Production", "Shoot", "Editorial"],
     secondary_text: ["Deliverables for Cisco Live feature a destination teaser introducing the location for the following year’s event, various montage examples showcasing daily activity, interviews and other message driven videos and a candids module highlighting the event as a whole.  All videos are executed from concept to completion by TMG.  "],
     secondary_content: [
       { title:"DJ Robbie", image:"ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1059,7 +1059,7 @@ var data = [
     client: "LPL Financial",
     one_liner: "show openers",
     primary_text: ["AGENCY: Opts Ideas","","Opts Ideas came to us with a quick deadline, and a lot of work that needed to happen.&nbsp;&nbsp;They had a conference happening, with multiple deliverables in multiple formats and sizes.  Some were on iPads, some WERE on Apple Retina Displays, and some were to be displayed on a super wide 8500 pixel screen.  We had a team of 17 artists working around the clock from start to finish to create all of the deliverables in just short of 2 weeks, totaling around an hour of content."],
-    production_roles: ["Pre-Production","Creative","Producing/Directing","Motion Graphics","Video Editing"],
+    production_roles: ["Creative","Production","editorial","Motion Graphics"],
     secondary_text: ["TMG mobilized a team of freelance animators, motion graphics artists, and compositors to help us bang out 22 modules in 2 weeks.  Clients were in the office with us, some nights as late as 2am, partnering with us during the editorial and graphical process to make sure that the deadline was met.  We were right up to the end, but as we have always done in 35 years, we never missed the deadline and the end client LPL Financial was thrilled with the outcome."],
     secondary_content: [
       { title:"Anthem", image:"optsdots3", video:"Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD", button_white_or_black:"black", title_white_or_black:"black" },
@@ -1117,7 +1117,7 @@ var data = [
     client: "Stryker",
     one_liner: "Show Openers",
     primary_text: ["TMG has provided client service to Stryker Corporation for over twenty years.&nbsp;&nbsp;What began by producing sales meeting videos for a small portion of the corporation has grown steadily into a collaborative effort, spanning many of Stryker’s product divisions and global entities.&nbsp;&nbsp;TMG contributes to all aspects and phases of media production.&nbsp;&nbsp;Our collective output has expanded and diversified to include creative content development, motion graphic design and animation, trade show and event production, print and signage, web and much more."],
-    production_roles: ["3D","Creative","Event Production","editorial"],
+    production_roles: ["Creative","Event Production","editorial","3D Animation"],
     secondary_text: ["Additionally, pre-production spotlights our ability to carefully plot the course for production and post.&nbsp;&nbsp;Upon acquisition, we employ an assortment of software and other tools to craft programming.&nbsp;&nbsp;Deliverables are fully realized on show site and our production team is there to support the event and client to ensure complete customer satisfaction.","","We’ve come a long way.&nbsp;&nbsp;The partnership between Stryker and TMG continues to be a strong and successful one."],
     secondary_content: [
       { title:"Stryker Chicklets", image:"stryker_medical_chicklets", video:"stryker_medical_generic_loop_HD", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1146,7 +1146,7 @@ var data = [
     client: "equinix",
     one_liner: "event opener",
     primary_text: ["equinix is in the data business.&nbsp;&nbsp;they build and maintain massive data centers all over the globe.&nbsp;&nbsp;this opener for the 2013 trade show was intended to present a sort of world tour, and supply a glimpse of the company from the inside."],
-    production_roles: ["creative","design","3D Animation"],
+    production_roles: ["creative",,"script","design","3D Animation","motion graphics"],
     secondary_text: ["This piece takes the viewer on a tour starting in the east and moving westward through many timezones.&nbsp;&nbsp;Starting in Sydney, and finishing up with a sunset in San Francisco.&nbsp;&nbsp;Telling the story that the sun never sets on planet Equinix."],
     secondary_content: [
       { title:"", image:"equinix1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
