@@ -1004,7 +1004,7 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the super wide-screen format created a nice big canvas to paint on.&nbsp;&nbsp;we're still cleaning up."],
     secondary_content: [
-      { title:"", image:"salix2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Walk-in Loop", image:"salix2", video:"Salix_Revolution_LOGO_MORPH_LOOP 9_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"salix5", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
