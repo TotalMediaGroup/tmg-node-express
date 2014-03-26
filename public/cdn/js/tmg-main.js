@@ -462,7 +462,7 @@ TMG.fn.video.place = function(containerObj) {
   jqCont.append("<div class=\"video-player-inner\" id=\"video-player-"+vidId+"-"+hash+"\""
            +" style=\"width:"+vidDim[0]+"%;height:"+vidDim[1]+"%;top:"+vidPos[1]+"%;left:"+vidPos[0]+"%;\""
         +"></div>"
-        +"<div class=\"video-player-button video-player-button-fullscreen\" onClick=\"TMG.video.obj.requestFullScreen()\"><i class=\"fa fa-arrows-alt\"></i>FULL SCREEN</div>"
+        +"<div class=\"video-player-button video-player-button-fullscreen\" onClick=\"TMG.video.obj.requestFullScreen()\"><i class=\"fa fa-arrows-alt\"></i>"/*+"FULL SCREEN"*/+"</div>"
 //        +"<div class=\"video-player-button video-player-button-playback\" onClick=\"TMG.fn.video.ended()\">STOP<i class=\"fa fa-pause\"></i></div>"
         );
 
