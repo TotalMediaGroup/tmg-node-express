@@ -767,9 +767,9 @@ var data = [
     video: [ [360,720], ["Boston_Bruins_30_TV_landmarks_SD","Boston_Bruins_30_TV_landmarks_HD"] ],
     client: "boston bruins",
     one_liner: "television commercials",
-    primary_text: ["Boston is a hockey town.&nbsp;&nbsp;The spots were intended as a sort of homage to Boston's great fans and rallying cry to go get the cup which, by the way, they did that year."],
+    primary_text: ["Since November 1, 1924, the Boston Bruins have been at the epicenter of hockey in New England. On that day, a young grocery store financier from Vermont, Charles Francis Adams, who had fallen in love with the game while watching the Stanley Cup playoffs, paid the National Hockey League a rumored $15,000 for the privilege of owning a team in the finest hockey league in the world and icing the first American based squad in the NHL.  After that seminal day, the Bruins have served as the beloved hometown hockey team for each New England town, hamlet, city and village."],
     production_roles: ["design","editorial"],
-    secondary_text: ["I'd like some text to go here, I don't know what… - B"],
+    secondary_text: ["At their best, the squad has been a world-beater, with names such as Orr, Esposito, Cheevers, Bourque and Neely becoming household words as they led Boston to numerous division and conference crowns and five Stanley Cups. And even in the years when they did not post much of a challenge to their NHL brethren, Boston's hockey team held true to the notion that Bruins do not leave anything on the ice.  The spots were intended as a sort of homage to Boston's great fans and rallying cry to go get the cup which, by the way, they did that year.  "],
     secondary_content: [
       { title:"Viewmaster", image:"bruins4crop", video:"Boston_Bruins_Viewmaster_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1089,7 +1089,7 @@ var data = [
     one_liner: "informational show open",
     primary_text: ["Covidien wanted for a high energy video for their show in miami, which was centered around the phrase 'ride the wave.' From that phrase alone, and the data that they provided, this is what we created."],
     production_roles: ["creative","editorial","Motion Graphics"],
-    secondary_text: ["This piece was created in Adobe After Effects, in Tandem with Apple's Final Cut Studio.&nbsp;&nbsp;We utilized stock footage and creative commons licensed footage alongside graphics, timed to music to create the energy and information that the client was requesting."],
+    secondary_text: ["This piece was created in Adobe After Effects, in Tandem with Apple's Final Cut Studio.&nbsp;&nbsp;We utilized stock footage and creative commons licensed footage alongside graphics, timed to music to create the energy and information that Covidien requested."],
     secondary_content: [
       { title:"", image:"wave7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
