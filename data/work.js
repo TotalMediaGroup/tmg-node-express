@@ -176,8 +176,8 @@ var data = [
   { id: "vmware-workstation-launch",
     title: "workstation launch",
     image_menu: "IC_vmwarewsrobot",
-    image_background: "Vmware_IvyComp",
-    image_background_xy_position: [5,0],
+    image_background: "vmwarews3",
+    image_background_xy_position: [0,0],
     image_poster: "PF_vmwarews1",
     video: [ [360,720], ["Vmware_Workstation_9_MASTER v08 ProRes_SD","Vmware_Workstation_9_MASTER v08 ProRes_HD"] ],
     client: "vmware",
@@ -295,7 +295,7 @@ var data = [
     title: "vvx500",
     image_menu: "IC_bobcu",
     image_background: "BG_VVX500",
-    image_background_xy_position: [23,0],
+    image_background_xy_position: [0,0],
     image_poster: "PF_ploycom7",
     video: [ [360,720], ["Polycom_VVX500_SD","Polycom_VVX500_HD"] ],
     client: "polycom",
@@ -655,7 +655,7 @@ var data = [
     production_roles: ["design","editorial","animation"],
     secondary_text: ["a note about 'broadcast' tv","broadcast standards are not yet 'standard'","each station that carries a commercial requires a different file format. believe it or not, some still insist on tape.","it's not uncommon to create 6 different formats in many different shapes and sizes for each spot.","and then need to distribute it to 6 different stations.","it can quickly become a bit of a maze."],
     secondary_content: [
-      { title:"This Is How We Do It", image:"ThisIsHowWeDoIt", video:"Stanford_STAN_2012_TV_GEN_2_HD", button_white_or_black:"white", title_white_or_black:"black" },
+      { title:"This Is How We Do It", image:"ThisIsHowWeDoIt", video:"Stanford_STAN_2012_TV_GEN_2_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Cardinal Rules", image:"CardinalRules", video:"STANFORD_FOOTBALL_COLORADO_STAN9114_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -740,7 +740,7 @@ var data = [
     one_liner: "television commercials",
     primary_text: ["AGENCY: Kilburg and Associates","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","sean del grande of del grand dealer group (DGDG) is a natural on camera.&nbsp;&nbsp;director bob kilburg created the 'happy car buyer' brand, and scripted the spots.&nbsp;&nbsp;we stuck sean in front of a camera and turned him loose, then created the cg world for him to perform in."],
     production_roles: ["creative","shoot","edit","animation"],
-    secondary_text: [" "],
+    secondary_text: ["Immersing sean in a 3D environment was great fun.&nbsp;&nbsp;Telling the story with the 3D elements, in addition to working with Sean's greenscreen body provided a nice, interesting, informative, and clean layout which displayed well across broadcast networks."],
     secondary_content: [
       { title:"", image:"dgdg2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1033,7 +1033,7 @@ var data = [
     production_roles: ["creative","design","editorial"],
     secondary_text: ["the highlight of day 2 was an appearance by homer hickam,","the young hero of the movie October sky who rose from the coal mines of west virginia to become one of the leading rocket scientists at nasa."],
     secondary_content: [
-      { title:"", image:"OctoberSky_SpaceShuttle", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Day 2 Open Video", image:"OctoberSky_SpaceShuttle", video:"Futura_DayFour_COMP _FILM_h_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"OctoberSky_Motorcycle", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
@@ -1121,7 +1121,7 @@ var data = [
     secondary_text: ["Additionally, pre-production spotlights our ability to carefully plot the course for production and post.&nbsp;&nbsp;Upon acquisition, we employ an assortment of software and other tools to craft programming.&nbsp;&nbsp;Deliverables are fully realized on show site and our production team is there to support the event and client to ensure complete customer satisfaction.","","We’ve come a long way.&nbsp;&nbsp;The partnership between Stryker and TMG continues to be a strong and successful one."],
     secondary_content: [
       { title:"Stryker Chicklets", image:"stryker_medical_chicklets", video:"stryker_medical_generic_loop_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"Stryker Walk-in Loop ", image:"strykerpurple", video:"NSM2013_Open_FINAL_HD", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"Stryker Walk-in Loop ", image:"strykerpurple", video:"NSM2013_InstWalkInLoop_Main_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"Stryker Chicklets", image:"stryker_bluechicklets", video:"Stryker_Chicklets_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["events"],
