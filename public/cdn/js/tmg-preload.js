@@ -5,7 +5,7 @@ function setSquImg(inputObj){
     var wait = setTimeout(function(){setSquImg(inputObj)},333);
   } else {
     var obj = $(inputObj);
-    obj.css("visibility","hidden");
+//    obj.css("visibility","hidden");
     var divObj = obj.parent('div.tmg-thmb');
     var objDim = {/*lf:0,tp:0,*/wd:parseInt(obj.width()),ht:parseInt(obj.height()),padLf:0,padTp:0};
     var divDim = {/*lf:0,tp:0,*/
@@ -40,10 +40,12 @@ function setSquImg(inputObj){
   }
 }
 
+var allowTMGbgresize = true;
+
 function bgStaticResize(inputObj,left,top){
-  if (typeof $ === "undefined") {
+  if ((typeof $ === "undefined") && (inputObj.complete)) {
     var wait = setTimeout(function(){bgStaticResize(inputObj,left,top)},333);
-  } else {
+  } else if (allowTMGbgresize) {
     var obj = $(inputObj);
     var div = obj.parent(".bg-static");
     var objDim = {lf:0,tp:0,wd:parseInt(inputObj.width),ht:parseInt(inputObj.height),padLf:0,padTp:0};
@@ -54,7 +56,9 @@ function bgStaticResize(inputObj,left,top){
 
     var topPos = $(".page-video-bttm").offset().top;
     if ((objDim.ht-divDim.tp) < topPos) {
-      obj.css({width:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",minWidth:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px"});
+      obj.css({width:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",minWidth:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",visibility:"visible"});
+    } else {
+      
     }
   }
 }

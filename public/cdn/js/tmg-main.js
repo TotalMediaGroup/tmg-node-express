@@ -202,8 +202,8 @@ TMG.fn.insertCss = function(url) {
 
 TMG.fn.load.slideShowSetup = function(){
 
-  tmgRules.sort(TMG.randomSort); tmgRules.sort(TMG.randomSort); tmgRules.sort(TMG.randomSort);
-  tmgBackgrounds.sort(TMG.randomSort); tmgBackgrounds.sort(TMG.randomSort); tmgBackgrounds.sort(TMG.randomSort);
+  tmgRules.sort(TMG.randomSort);// tmgRules.sort(TMG.randomSort); tmgRules.sort(TMG.randomSort);
+  tmgBackgrounds.sort(TMG.randomSort);// tmgBackgrounds.sort(TMG.randomSort); tmgBackgrounds.sort(TMG.randomSort);
 
   $(".body-home, .body-work").each(function(){
 
