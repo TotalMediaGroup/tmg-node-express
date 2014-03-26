@@ -1175,9 +1175,9 @@ var data = [
     video: [ [360,720], ["",""] ],
     client: "salix pharmacuticals",
     one_liner: "theme logo / signage",
-    primary_text: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+    primary_text: ["For its 2012 National Sales Meeting, the rapidly growing pharmaceutical company wanted to communicate key values that have been instrumental in its rapid growth and future success. They discover and explore the chemical compound, perfect it, and then deliver it. Simple right?"],
     production_roles: [],
-    secondary_text: [],
+    secondary_text: ["We saw a geometric expression of these values - simple parametric forms evolving through the operations. The design was intended to extend to the live venue and appear as modular units in square signage and video displays."],
     secondary_content: [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1198,15 +1198,15 @@ var data = [
   { id: "lifelong-cancer-coach",
     title: "lifelong cancer coach",
     image_menu: "IC_cansur",
-    image_background: "",
+    image_background: "cansur",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "M VANDERPOOL",
     one_liner: "product id",
-    primary_text: [],
+    primary_text: ["An online community - life long cancer coaches connects survivor/mentors with patients battling cancer. The mentor relationship is designed to guide the patient through what is a complex and difficult time. A patient can connect with his mentor and gain insight into things like treatment options, legal-medical issues or just get emotional support.  The mentor is meant to be a sort of partner in the process."],
     production_roles: [],
-    secondary_text: [],
+    secondary_text: ["The organization gives out multicolored ribbons and wristband signifying membership and support. The mark loosely references the ribbons and the homage to the infinity symbol indicates the continuum of life."],
     secondary_content: [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1217,7 +1217,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 9, top_percent: 55, width_percent: 40, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1233,7 +1233,7 @@ var data = [
     video: [ [360,720], ["",""] ],
     client: "the fenenbock group",
     one_liner: "various design components",
-    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, "],
+    primary_text: ["Agency: The Fenenbock Group *SG for agency of record prior to TMG The campaign visual ID started with the logo design and extended out to include newspaper, magazine, billboards, web and TV. The campaign messaging was based on a photo of Jim marching with the farmers he has championed throughout his many terms. Congressional candidate from the 20th district, Jim Costa, comes from the farmland of California's Central Valley. His family has farmed the Fresno Valley for 3 generations and advocates for water use rights."],
     production_roles: ["Production Roles","Production Roles","Production Roles","Production Roles"],
     secondary_text: ["This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text, This is Secondary Text,"],
     secondary_content: [
@@ -1246,7 +1246,7 @@ var data = [
     secondary_layout: "design",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 55, top_percent: 25, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 0, top_percent: 60, width_percent: 33, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 0, width_percent: 100, show_black_border: false }
     }
   },
@@ -1256,13 +1256,13 @@ var data = [
   { id: "genentech-360",
     title: "genentech 360",
     image_menu: "IC_360",
-    image_background: "",
+    image_background: "360",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "station ID",
     one_liner: "design for in-house webcasts",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1275,7 +1275,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 6, top_percent: 78, width_percent: 70, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1285,13 +1285,13 @@ var data = [
   { id: "stryker-one-vision",
     title: "one vision",
     image_menu: "IC_onevision",
-    image_background: "",
+    image_background: "one-vision",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "stryker biotech",
     one_liner: "theme logo",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1304,7 +1304,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 10, top_percent: 65, width_percent: 75, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1314,13 +1314,13 @@ var data = [
   { id: "fenenbock-amichai",
     title: "amichai",
     image_menu: "IC_amichai",
-    image_background: "",
+    image_background: "amichai",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "the fenenbock group",
     one_liner: "logo design and print media",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1333,7 +1333,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 10, top_percent: 43, width_percent: 25, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1343,13 +1343,13 @@ var data = [
   { id: "greenwheel-bicycles",
     title: "greenwheel bicycles",
     image_menu: "IC_greenwheel",
-    image_background: "",
+    image_background: "greenwhell",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "greenwheel bicycles",
     one_liner: "company id",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1362,7 +1362,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 29, top_percent: 62, width_percent: 33, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1374,13 +1374,13 @@ var data = [
   { id: "i-am-america-books",
     title: "i am america",
     image_menu: "books",
-    image_background: "",
+    image_background: "iam",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "i am america books.com",
     one_liner: "series of children's books",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1393,7 +1393,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 5, top_percent: 75, width_percent: 42, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1403,13 +1403,13 @@ var data = [
   { id: "stryker-everywhere",
     title: "stryker everywhere",
     image_menu: "IC_strykereverywhere",
-    image_background: "",
+    image_background: "stryker-everywhere",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "stryker medical",
     one_liner: "brand campaign",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1422,7 +1422,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 5, top_percent: 72, width_percent: 55, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1432,13 +1432,13 @@ var data = [
   { id: "stryker-history",
     title: "stryker history",
     image_menu: "IC_strykerhistory",
-    image_background: "",
+    image_background: "stryker-history",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "stryker medical",
     one_liner: "brand concept",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1451,7 +1451,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 80, top_percent: 10, width_percent: 33, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1461,13 +1461,13 @@ var data = [
   { id: "salix-huge",
     title: "huge",
     image_menu: "IC_huge",
-    image_background: "",
+    image_background: "huge",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "salix pharmaceuticals",
     one_liner: "theme design",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1480,7 +1480,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 5, top_percent: 65, width_percent: 33, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1490,13 +1490,13 @@ var data = [
   { id: "stryker-brace-for-impact",
     title: "brace for impact",
     image_menu: "IC_impact",
-    image_background: "",
+    image_background: "impact",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "stryker joint preservation",
     one_liner: "series of email blasters",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1509,7 +1509,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 52, top_percent: 60, width_percent: 33, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1519,13 +1519,13 @@ var data = [
   { id: "stryker-iconix-world-tour",
     title: "iconix world tour",
     image_menu: "IC_worltour",
-    image_background: "",
+    image_background: "iconix",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "stryker medical",
     one_liner: "series of email blasters",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1538,7 +1538,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 15, top_percent: 80, width_percent: 55, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1549,13 +1549,13 @@ var data = [
   { id: "salix-nsm",
     title: "salix NSM",
     image_menu: "IC_SALIXPPT",
-    image_background: "",
+    image_background: "salix_ppt",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "salix pharmaceuticals",
     one_liner: "power point",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1568,7 +1568,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 10, top_percent: 72, width_percent: 55, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1578,13 +1578,13 @@ var data = [
   { id: "stryker-real-hand",
     title: "real hand",
     image_menu: "IC_realhand",
-    image_background: "",
+    image_background: "realhand",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "stryker medical",
     one_liner: "product logo",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1597,7 +1597,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 35, top_percent: 55, width_percent: 33, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1607,13 +1607,13 @@ var data = [
   { id: "stryker-get-ready",
     title: "get ready for the next wave",
     image_menu: "IC_next-wave",
-    image_background: "",
+    image_background: "microfx",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "stryker iconix",
     one_liner: "email blasters",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1626,7 +1626,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 75, top_percent: 15, width_percent: 40, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1636,13 +1636,13 @@ var data = [
   { id: "stryker-technique-guide",
     title: "technique guide",
     image_menu: "IC_JPPRINT",
-    image_background: "",
+    image_background: "jp_print",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "stryker joint preservation",
     one_liner: "printed brochures",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1655,7 +1655,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 12, top_percent: 75, width_percent: 73, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1665,13 +1665,13 @@ var data = [
   { id: "bandon-architects-tour",
     title: "an architects tour",
     image_menu: "IC_BANDONBOX",
-    image_background: "",
+    image_background: "bandon",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "bandon dunes",
     one_liner: "dvd series",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1684,7 +1684,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 5, top_percent: 72, width_percent: 31, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1695,13 +1695,13 @@ var data = [
   { id: "various-theme-logos",
     title: "various theme logos",
     image_menu: "IC_NOW",
-    image_background: "",
+    image_background: "variouys",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "various",
     one_liner: "theme logos",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1714,7 +1714,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 10, top_percent: 75, width_percent: 75, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1724,13 +1724,13 @@ var data = [
   { id: "wow-music-trivia",
     title: "wow hits music trivia game",
     image_menu: "IC_WOW",
-    image_background: "",
+    image_background: "wow",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "peter sauer",
     one_liner: "interactive dvd game theme",
-    primary_text: [],
+    primary_text: ["This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text, This is Primary Text,"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1743,7 +1743,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 5, top_percent: 75, width_percent: 65, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
