@@ -70,7 +70,7 @@ var data = [
     one_liner: "10-DISC BOX SET",
     primary_text: ["A MONUMENTAL PROJECT.","WE SET UP A SMALL PRODUCTION STUDIO WITHIN OUR FACILITY TO CREATE, MANAGE AND CURATE THE MASSIVE COLLECTION OF HISTORICAL ASSETS.","OUR ARTISTS TEAMED UP WITH SHAKEY PICTURES PRODUCERS TO CREATE THE 10 DISC SET.","THE PROJECT TOOK 2.5 YEARS TO COMPLETE."],
     production_roles: ["CREATIVE","ART DIRECTION","PRODUCTION"],
-    secondary_text: ["<span style=\"color:red;\">FILMORE EAST DVD MENU</span>","A DECEPTIVELY COMPLEX PROJECT, THIS DVD MENU WAS CREATED FROM A NOW FAMOUS PHOTO OF FILMORE EAST IN NYC.","WE USED THE MARQUEE TO CREATE THE NAVIGATION ITEMS.","THEN BROUGHT THE PHOTO TO LIFE BY ANIMATING PEOPLE IN LINE AND CREATING A CITY AT NIGHT LIGHTING SCENE (CAR LIGHTS. STEAM FROM STREET VENTS, ETC)","WE SHOT A BUNCH OF FRIENDS ON GREEN ACTING AS THOUGH THEY WERE STROLLING DOWN THE BUSY STREET.","EVEN GOT IN ONE OF NEILS' FAVORITE CLASSIC CARS.","THE MENU TEXT CHANGES AS PEOPLE WALK BY IN THE FOREGROUND.","THIS HAPPENED EACH TIME THE VIEWER CLICKED THE BUTTON.","","<span style=\"color:red;\">PRAIRIE WIND DVD MENU.</span>","WE WANTED TO CREATE THE SENSE OF LAUNDRY BLOWING IN THE WIND IN FRONT OF A HOMESTEAD ON THE PRAIRIE.","WE SHOT THE SHEET OUT IN FRONT OF THE FACILITY.","THE GRASS BLOWING IN THE WIND IS ACTUALLY SAN FRANCISCO BAY MARSH GRASS.","SG WAS HAVING LUNCH BY THE BAY ONE DAY AND NOTICED THAT IT LOOKED AND MOVED A LOT LIKE PRAIRIE GRASS.","SO WE SHOT IT FOR THE COMP."],
+    secondary_text: ["<span style=\"color:red;font-weight:bold;\">FILMORE EAST DVD MENU</span>","A DECEPTIVELY COMPLEX PROJECT, THIS DVD MENU WAS CREATED FROM A NOW FAMOUS PHOTO OF FILMORE EAST IN NYC.","WE USED THE MARQUEE TO CREATE THE NAVIGATION ITEMS.","THEN BROUGHT THE PHOTO TO LIFE BY ANIMATING PEOPLE IN LINE AND CREATING A CITY AT NIGHT LIGHTING SCENE (CAR LIGHTS. STEAM FROM STREET VENTS, ETC)","WE SHOT A BUNCH OF FRIENDS ON GREEN ACTING AS THOUGH THEY WERE STROLLING DOWN THE BUSY STREET.","EVEN GOT IN ONE OF NEILS' FAVORITE CLASSIC CARS.","THE MENU TEXT CHANGES AS PEOPLE WALK BY IN THE FOREGROUND.","THIS HAPPENED EACH TIME THE VIEWER CLICKED THE BUTTON.","","<span style=\"color:red;font-weight:bold;\">PRAIRIE WIND DVD MENU.</span>","WE WANTED TO CREATE THE SENSE OF LAUNDRY BLOWING IN THE WIND IN FRONT OF A HOMESTEAD ON THE PRAIRIE.","WE SHOT THE SHEET OUT IN FRONT OF THE FACILITY.","THE GRASS BLOWING IN THE WIND IS ACTUALLY SAN FRANCISCO BAY MARSH GRASS.","SG WAS HAVING LUNCH BY THE BAY ONE DAY AND NOTICED THAT IT LOOKED AND MOVED A LOT LIKE PRAIRIE GRASS.","SO WE SHOT IT FOR THE COMP."],
     secondary_content: [
       { title:"Fillmore East DVD Menu", image:"neil3", video:"Neil_Young_filmore menu_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Living With War Title", image:"neil12", video:"Neil_Young_bloody book seq_HD", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1333,7 +1333,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 10, top_percent: 43, width_percent: 25, show_black_border: false },
+      primary_text: { left_percent: 12, top_percent: 43, width_percent: 15, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
@@ -1451,7 +1451,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: -15, top_percent: 10, width_percent: 33, show_black_border: false },
+      primary_text: { left_percent: 5, top_percent: 15, width_percent: 20, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
