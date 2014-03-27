@@ -34,7 +34,15 @@ var data = [
   ["simplicity"],
   ["slide"],
   ["smarter"],
-  ["worldmap"],
+  ["agua-kid"],
+  ["agua-kids"],
+  ["agua-walker"],
+  ["boardroom"],
+  ["delivery"],
+  ["exterminator"],
+  ["lincvolt"],
+  ["medium"],
+  ["wall"],
 
 [""]];
 
