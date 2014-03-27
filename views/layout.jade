@@ -35,6 +35,7 @@ html(lang="en")
         | tmgRules.push({num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'});
       for item in data["background_images"]
         | tmgBackgrounds.push('#{item[0].replace(/'/g,"\\'")}');
+      | tmgRules.sort(randomSort); tmgBackgrounds.sort(randomSort);
   
   body(id="body-#{current_page[0]}",class="body-#{current_page[0]}")
     

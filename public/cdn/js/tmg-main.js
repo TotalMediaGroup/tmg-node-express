@@ -202,8 +202,8 @@ TMG.fn.insertCss = function(url) {
 
 TMG.fn.load.slideShowSetup = function(){
 
-  tmgRules.sort(TMG.randomSort);// tmgRules.sort(TMG.randomSort); tmgRules.sort(TMG.randomSort);
-  tmgBackgrounds.sort(TMG.randomSort);// tmgBackgrounds.sort(TMG.randomSort); tmgBackgrounds.sort(TMG.randomSort);
+//  tmgRules.sort(randomSort);
+//  tmgBackgrounds.sort(randomSort);
 
   $(".body-home, .body-work").each(function(){
 
@@ -326,12 +326,6 @@ TMG.incrementFooterRule = function() {
   });
 }
 
-TMG.randomSort = function(a,b) {
-    var temp = parseInt( Math.random()*10 );
-    var isOddOrEven = temp%2;
-    var isPosOrNeg = temp>5 ? 1 : -1;
-    return( isOddOrEven*isPosOrNeg );
-}
 
 // TMG.toggleAddThis = function(onOff) {
 //   var newDisplay = "none";
