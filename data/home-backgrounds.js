@@ -4,7 +4,6 @@ var data = [
   /* load images below */
 
   ["abbot1"],
-  ["bob-head"],
   ["bobo-looks-up"],
   ["boids"],
   ["butterflies"],
@@ -35,7 +34,15 @@ var data = [
   ["simplicity"],
   ["slide"],
   ["smarter"],
-  ["worldmap"],
+  ["agua-kid"],
+  ["agua-kids"],
+  ["agua-walker"],
+  ["boardroom"],
+  ["delivery"],
+  ["exterminator"],
+  ["lincvolt"],
+  ["medium"],
+  ["wall"],
 
 [""]];
 
