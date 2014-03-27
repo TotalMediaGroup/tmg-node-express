@@ -4,7 +4,6 @@ var data = [
   /* load images below */
 
   ["abbot1"],
-  ["bob-head"],
   ["bobo-looks-up"],
   ["boids"],
   ["butterflies"],
