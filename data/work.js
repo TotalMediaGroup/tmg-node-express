@@ -210,7 +210,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "PF_silverpeak5",
     video: [ [360,720], ["Silver_Peak_FINAL_021312_SG_TYPECHANGE_AN_SD","Silver_Peak_FINAL_021312_SG_TYPECHANGE_AN_HD"] ],
-    client: "Silver Peak",
+    client: "Silver Peak Systems",
     one_liner: "Brand video",
     primary_text: ["SilverPeak is in the business of making networks faster and more efficient.","They had been using the little star like forms in their print and multimedia.","They affectionately call them “crop circles”.","They were cute but had no real purpose.","We fell in love with the simple graphical forms and found we could create an image of the network in action and show concepts like growth - failure  - depth - using only the star forms.","We crafted the script to feel “non-corporate” - even a bit sardonic.","Then set the animation to a piece of music that was decidedly “non-corporate.”","To their credit, the suits at silver peak were not afraid.","We think the piece goes a long way to establish a brand that stands out."],
     production_roles: ["creative","animation","editorial"],
@@ -233,7 +233,7 @@ var data = [
 
 
   { id: "vmware-virtualization-launch",
-    title: "what is virtualization",
+    title: "what is virtualization?",
     image_menu: "IC_fusion2",
     image_background: "DBG_vmwarefusion3",
     image_background_xy_position: [0,0],
@@ -321,13 +321,13 @@ var data = [
 
 
   { id: "fenenbock-el-agua",
-    title: "PSA'S",
+    title: "Water is life",
     image_menu: "IC_elagua5",
     image_background: "BG_Agua2",
     image_background_xy_position: [0,0],
     image_poster: "PF_elagua2",
     video: [ [360,720], ["Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_SD","Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_HD"] ],
-    client: "el agua es asunto de todos",
+    client: "the fenenbock group",
     one_liner: "public service tv commercials",
     primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","THE FARMING COMMUNITIES IN THE CENTRAL VALLEY OF CALIFORNIA HAVE BEEN AT THE CENTER OF A LONG CULTURAL - POLITICAL BATTLE.","FOR DECADES WATER FROM THE SAN JUAQUIN RIVER DELTA IN NORTHERN CALIFORNIA HAS BEEN REDIRECTED TO THE CENTRAL VALLEY TO PROVIDE WATER FOR IRRIGATION.","POLITICAL GROUPS IN NORTHERN CA HAVE BEEN ACTIVELY INVOLVED IN EFFORTS TO SHUT OFF THE FLOW CITING NEGATIVE IMPACT ON THE LOCAL ENVIRONMENT.","THE PUBLIC INTEREST CAMPAIGN 'EL AGUA ES ASUNTO DE TODOS' WAS DESIGNED TO RAISE AWARENESS WITHIN THE CENTRAL VALLEY FARMING COMMUNITY AND GENERATE VOTER ACTION."],
     production_roles: ["ART DIRECTION","DESIGN","EDITORIAL","MUSIC DIRECTION"],
@@ -386,7 +386,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "PF_homertimeline2",
     video: [ [360,720], ["Stryker_JP_Homer_Timeline_MoComp_v01_halfres_SD","Stryker_JP_Homer_Timeline_MoComp_v01_halfres_HD"] ],
-    client: "stryker medical",
+    client: "stryker Sports Medicine",
     one_liner: "history of stryker medical",
     primary_text: ["stryker medical is an extraordinary example of the american dream.","one of the largest medical device manufactures in the world, the company was started in 1942 by a single man, homer stryker.","this timeline is an excerpt from a short doc detailing the succession or homer's innovative products."],
     production_roles: ["design","3d Animation"],
@@ -409,7 +409,7 @@ var data = [
 
 
   { id: "vmware-virtualization-info",
-    title: "what is virtualization",
+    title: "what is virtualization?",
     image_menu: "IC_vmglobe",
     image_background: "BG_Virtualization",
     image_background_xy_position: [10,5],
@@ -474,7 +474,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "PF_yesvideo7",
     video: [ [360,720], ["YSVD_RiteAid_v6_1920x1080_SD","YSVD_RiteAid_v6_1920x1080_HD"] ],
-    client: "yes video",
+    client: "yesvideo",
     one_liner: "in-store kiosk loop",
     primary_text: ["Yes Video wanted a series of in-store videos to show how easy and simple it is to use their transfer services. We used assets from the product, and designed the videos to carry a fun, saul bass look and feel."],
     production_roles: ["design","editorial","animation"],
@@ -1058,9 +1058,9 @@ var data = [
     video: [ [360,720], ["Opts_LPL_Day_2_16x9_Treated_1920x1080_Revised_Disclaimer_SD","Opts_LPL_Day_2_16x9_Treated_1920x1080_Revised_Disclaimer_HD"] ],
     client: "LPL Financial",
     one_liner: "show openers",
-    primary_text: ["AGENCY: Opts Ideas","","Opts Ideas came to us with a quick deadline, and a lot of work that needed to happen.&nbsp;&nbsp;They had a conference happening, with multiple deliverables in multiple formats and sizes.  Some were on iPads, some WERE on Apple Retina Displays, and some were to be displayed on a super wide 8500 pixel screen.  We had a team of 17 artists working around the clock from start to finish to create all of the deliverables in just short of 2 weeks, totaling around an hour of content."],
+    primary_text: ["AGENCY: Opts Ideas","","Opts Ideas came to us with a tall order and a short deadline.  They were producing a large conference, with multiple deliverables in multiple formats ranging from iPad to giant, super-wide screen live displays. We assembled a team of 17 artists working around the clock to create over an hour of finished content. We finished all of the deliverables in just short of 2 weeks."],
     production_roles: ["Creative","Production","editorial","Motion Graphics"],
-    secondary_text: ["TMG mobilized a team of freelance animators, motion graphics artists, and compositors to help us bang out 22 modules in 2 weeks.  Clients were in the office with us, some nights as late as 2am, partnering with us during the editorial and graphical process to make sure that the deadline was met.  We were right up to the end, but as we have always done in 35 years, we never missed the deadline and the end client LPL Financial was thrilled with the outcome."],
+    secondary_text: ["The show required an extensive collection of media modules. TMG mobilized a team of freelance animators, motion graphics artists, and compositors to help us produce 22 modules in 2 weeks. <span style=\"color:red;\">Producers for opts</span> partnered with us during the creative/editorial process to help make sure that all deadlines were met. We burned the midnight oil right up to delivery, but as always, we hit the deadline. Opts and LPL Financial were thrilled with the results."],
     secondary_content: [
       { title:"Anthem", image:"optsdots3", video:"Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"Account View Tech Demo", image:"OptsTechAccountView5", video:"Opts_tech_demos_2013_Account_View_Desktop_BC_v8_ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
@@ -1380,7 +1380,7 @@ var data = [
     video: [ [360,720], ["",""] ],
     client: "i am america books.com",
     one_liner: "series of children's books",
-    primary_text: ["This brand is wrapped around a project by our Creative Director, Steven Gregory - a series of children’s books teaching young children about the unique qualities of the United States. We created all aspects of the brand - primary mark, sub marks, pop, and website."],
+    primary_text: ["This brand is wrapped around a project by our Creative Director, Steven Gregory - a series of children’s books teaching young children about the unique qualities of the United States. In addition to illustrating and co-writing all of the books, We created all aspects of the brand - primary mark, sub marks, pop, and website.","<a href='http://iamamericabooks.com'>I am america books</a>"],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
