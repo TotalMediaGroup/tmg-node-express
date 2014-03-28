@@ -84,7 +84,7 @@ TMG.fn.initializeUi.onResize = function() {
       clearTimeout(TMG.timer.windowResize);
       TMG.timer.windowResize = setTimeout(function(){
         TMG.fn.reactiveUi.modifyOverWidthElements();
-      },15);
+      },30);
     });
   }
 }
@@ -144,6 +144,8 @@ TMG.fn.reactiveUi.scrollQueues = function() {
 
 var bgStaticDim = [0,0];
 
+var navHeight = $(".navbar-fixed-top").height();
+
 TMG.fn.reactiveUi.modifyOverWidthElements = function() {
   var newWidth = TMG.bodyWidth+TMG.overflowMarginWidth+Math.floor(($('body').innerWidth()-TMG.bodyWidth)/2);
   $(".dynamic-crop-right").css("width",newWidth);
@@ -170,7 +172,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
 
       $(".bg-static img").each(function(){
         var bgStatic = $(this).parent(".bg-static").offset();
-        bgStaticResize(this,bgStatic.left,bgStatic.top);
+        bgStaticResize(this,parseInt($(this).css("left")),parseInt($(this).css("top")));
       });
 
       if ($(".video-bttm-secondary-layout-corner").length > 0) {

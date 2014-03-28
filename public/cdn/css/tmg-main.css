@@ -300,3 +300,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .primary-body p { font-weight:600; /*font-size:9px;*/ }
+  .primary-title { font-weight:600; }
+}
+
