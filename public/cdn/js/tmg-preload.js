@@ -46,15 +46,16 @@ function bgStaticResize(inputObj,left,top){
   if ((typeof $ === "undefined") && (inputObj.complete)) {
     var wait = setTimeout(function(){bgStaticResize(inputObj,left,top)},333);
   } else if (allowTMGbgresize) {
-    // var obj = $(inputObj);
-    // var div = obj.parent(".bg-static");
-    // var objDim = {lf:0,tp:0,wd:parseInt(inputObj.width),ht:parseInt(inputObj.height),padLf:0,padTp:0};
-    // var divDim = {wd:$(window).width(),ht:$(window).height(),padLf:0,padTp:0};
-    // divDim.lf = parseInt((left/100)*divDim.wd);
-    // divDim.tp = parseInt((top/100)*divDim.ht);
-    // objDim.rat = objDim.wd/objDim.ht;
-
-    // var topPos = $(".page-video-bttm").offset().top;
+    var obj = $(inputObj);
+    var div = obj.parent(".bg-static");
+    var objDim = {lf:0,tp:0,wd:parseInt(inputObj.width),ht:parseInt(inputObj.height),padLf:0,padTp:0};
+    var divDim = {wd:$(window).width(),ht:$(window).height(),padLf:0,padTp:0};
+    divDim.lf = parseInt((left/100)*divDim.wd);
+    divDim.tp = parseInt((top/100)*divDim.ht);
+    objDim.rat = objDim.wd/objDim.ht;
+    console.log(objDim);
+    var topPos = $(".page-video-bttm").offset().top;
+    console.log(topPos-88);
     // if ((objDim.ht-divDim.tp) < topPos) {
     //   obj.css({width:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",minWidth:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",visibility:"visible"});
     // } else {
