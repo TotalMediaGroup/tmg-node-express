@@ -17,8 +17,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .tmg-popup p, .tmg-popup a, .tmg-popup span { font-family:"gothamrounded_book"; line-height:1.8; font-size:10px; margin-top:1px; margin-bottom:1px; text-transform: uppercase; color:#cccccc; }
 
 .tmg-popup .tmg-popup-img { float:left; clear:left;position:relative; left:-15px; width:90%; margin-bottom:4px; z-index:0; }
-.tmg-popup .tmg-popup-email-lf { float:left; clear:left; color:black; width:auto; text-align:left; font-size:12px; position:relative; margin-top:15px; }
-.tmg-popup .tmg-popup-email-lf .fa { margin-left:10px; font-size:14px; position:relative; top:0px; }
+.tmg-popup .tmg-popup-email-lf { float:left; clear:left; color:black; width:auto; text-align:left; font-size:12px; position:relative; margin-top:15px; margin-left:15px; }
+.tmg-popup .tmg-popup-email-lf .fa { margin-left:10px; font-size:14px; position:relative; top:0px; color:white; }
 .tmg-popup .tmg-popup-email-lf:hover { color:#aaaaaa; text-decoration:none; }
 .tmg-popup span.bracket-popup { display:none; font-family:"alternategot_no1_dot"; position:absolute; top:-10px; font-size:128px; z-index:1; color:red; }
 .tmg-popup .tmg-popup-name-lf { float:left; clear:left; font-size:12px; line-height:1em; padding-left:15px; margin-top:24px; }
