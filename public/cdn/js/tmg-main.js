@@ -157,9 +157,9 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
     $(".bg-static").css({height:($(".footer").offset().top+50)+"px"});
   }
 
-  if (TMG.currentPage === 'work-single') { 
-//    $(".header-corner").css({Math.floor($("#tmg-container").offset().left)+"px"});
-  }
+  // if (TMG.currentPage === 'work-single') { 
+  //   $(".header-corner").css({Math.floor($("#tmg-container").offset().left)+"px"});
+  // }
 
   $(".page-video-bttm").css({
       left:(0-TMG.containerInfo.left-TMG.containerInfo.padLeft)+"px",

@@ -87,7 +87,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .body-work-single .footer { margin-top:0px; }
 .body-about .footer { margin-top:330px; }
 
-.header-corner { display:none; position:fixed; top:0%; left:0%; height:88px; background-color:#4E4E4E; width:100px; z-index:20002; }
+.header-corner { display:none; position:fixed; top:0%; left:0%; height:88px; background-color:#4E4E4E; width:40px; z-index:20002; }
 .body-work-single .header-corner-lf { display:block; }
 .body-work-single .header-corner-rt { display:block; left:auto; right:0%; }
 
