@@ -134,9 +134,9 @@ TMG.fn.reactiveUi.scrollQueues = function() {
     //   $(this).css({marginTop:scrollTop+"px"}).animate({opacity:1},1000);
     // });
 
-    if ((parseInt($(".video-prev").css("margin-top")) > 0) || ((scrollTop-190) > 0)) {
+    if ((parseInt($(".video-prev").css("margin-top")) > 0) || ((scrollTop-120) > 0)) {
       $(".video-prev, .video-next").animate({opacity:0},100,function(){
-          $(this).css({marginTop:( (scrollTop > 190) ? (scrollTop-190) : 0 )+"px"}).animate({opacity:1},1000);
+          $(this).css({marginTop:( (scrollTop > 120) ? (scrollTop-120) : 0 )+"px"}).animate({opacity:1},1000);
       });
     }
   }
