@@ -7,8 +7,8 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 
 body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-left:auto; margin-right:auto; background-color:transparent; z-index:11000; }
 .tmg-popup { position:absolute; left:30%; top:0%; width:65%; margin-top:228px; height:auto; background-color:#a71f24; }
-.tmg-popup .tmg-popup-lf { position:relative; float:left; width:35%; left:15px; margin-top:0px; margin-bottom:0px; background-color:transparent; height:auto; border-right:dashed 1px rgba(255,255,255,0.4); }
-.tmg-popup .tmg-popup-rt { position:relative; float:left; width:55%; left:5%; margin-top:30px; margin-bottom:30px; background-color:transparent; height:auto; }
+.tmg-popup .tmg-popup-lf { position:relative; float:left; width:35%; left:15px; margin-top:0px; margin-bottom:30px; background-color:transparent; height:auto;  }
+.tmg-popup .tmg-popup-rt { position:relative; float:left; width:55%; left:0%; margin-top:30px; padding-bottom:30px; background-color:transparent; height:auto; border-left:dashed 1px rgba(255,255,255,0.4); }
 .tmg-popup-x { position:absolute; right:0%; top:0%; width:24px; height:24px; background-color:transparent; cursor:pointer; color:#cccccc; margin:10px; }
 .tmg-popup-x:hover { color:#eeeeee; filter:alpha(opacity=33); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=33)"; -moz-opacity:0.33; -khtml-opacity:0.33; opacity:0.33; }
 .tmg-popup-x img { position:absolute; left:0%; top:0%; width:100%; height:100%; }
@@ -26,7 +26,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .tmg-popup .tmg-popup-bracket-lf { float:left; clear:left; font-size:12px; line-height:1em; padding-left:15px; position:relative; }
 .tmg-popup .tmg-popup-bracket-lf span { font-family:"alternategot_no1_dot"; position:absolute; left:0px; overflow:visible; top:-1.30em; font-size:36px; }
 
-.tmg-popup .tmg-popup-name { color:black; font-size:12px; }
+.tmg-popup .tmg-popup-name { color:black; font-size:12px; position:relative; left:5%; }
+.tmg-popup .tmg-popup-body { position:relative; left:5%; }
 
 
 .tmg-trans-90 { filter:alpha(opacity=90); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; -moz-opacity:0.90; -khtml-opacity:0.90; opacity:0.90; }

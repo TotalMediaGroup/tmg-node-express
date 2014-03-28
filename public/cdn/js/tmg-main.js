@@ -73,7 +73,6 @@ $(function(){
   });
   $(".page-about").each(function(){  
     $(".footer").css({marginTop:footerBorderHeight+"px"/*,height:(footerBorderHeight+$(".footer").innerHeight())+"px"*/});
-    
   });
 
 
