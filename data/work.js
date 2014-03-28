@@ -20,7 +20,8 @@ var data = [
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       ],
-    secondary_box_color: "808080",
+    categories: ["",],
+	secondary_box_color: "808080",
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
@@ -31,6 +32,66 @@ var data = [
 
 */
 
+/*  
+
+
+
+{ id: "topcon-pascal",
+    title: "Pascal Loop",
+    image_menu: "",
+    image_background: "",
+    image_background_xy_position: [0,0],
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "TopCon Medical Laser Systems",
+    one_liner: "Trade show files",
+    primary_text: ["blahajsldj;bk;f"],
+    production_roles: ["blah","blah"],
+    secondary_text: ["afjkl;ejwf;"],
+    secondary_content: [
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      ],
+    categories: ["",],
+	secondary_box_color: "808080",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
+
+
+*/
+
+{ id: "yahoo-insights-app",
+    title: "Insights App",
+    image_menu: "IC_yahoo",
+    image_background: "yahoo_3",
+    image_background_xy_position: [10,20],
+    image_poster: "yahoo_5",
+    video: [ [360,720], ["Yahoo_InsightsApp_v3f_SD","Yahoo_InsightsApp_v3f_HD"] ],
+    client: "Yahoo!",
+    one_liner: "Product Launch",
+    primary_text: ["Yahoo offers a new app that allows small business owners to view critical statistics and operations happening on their e commerce sites from a smart phone.&nbsp;&nbsp;the idea of “any time anywhere” was central to the brand statement.&nbsp;&nbsp;"],
+    production_roles: ["Creative","Design","Motion Graphics"],
+    secondary_text: ["This simple piece was intended to display the basic functions of the app.&nbsp;&nbsp;the photos are from Yahoo’s stock collection.&nbsp;&nbsp;Yahoo likes to take a light-hearted approach to marketing their products.&nbsp;&nbsp;any brand with a yodel has to be fun, right?"],
+    secondary_content: [
+      { title:"", image:"yahoo_7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"yahoo_4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      ],
+    categories: ["media","featured"],
+	secondary_box_color: "FFFFFF",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
 
   { id: "opts-ideas-anthem",
     title: "ANTHEM",
@@ -761,8 +822,8 @@ var data = [
   { id: "boston-bruins-hockey",
     title: "boston bruins hockey",
     image_menu: "IC_bruins1",
-    image_background: "bruins3",
-    image_background_xy_position: [0,0],
+    image_background: "bruins_tribe_drumbeat_lg",
+    image_background_xy_position: [5,15],
     image_poster: "PF_bruins1",
     video: [ [360,720], ["Boston_Bruins_30_TV_landmarks_SD","Boston_Bruins_30_TV_landmarks_HD"] ],
     client: "boston bruins",
@@ -771,8 +832,8 @@ var data = [
     production_roles: ["design","editorial"],
     secondary_text: ["Boston's hockey fans hold true to the notion that Bruins do not leave anything on the ice. Orr, Esposito, Cheevers, Bourque and Neely. Names that are household words in and around Boston. The spots were intended as a sort of homage to Boston's great fans and rallying cry to go get the cup which, by the way, they did that year."],
     secondary_content: [
-      { title:"Viewmaster", image:"bruins2", video:"Boston_Bruins_Viewmaster_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"bruins1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Viewmaster", image:"bruins_about_cup_lg", video:"Boston_Bruins_Viewmaster_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"bruins4crop", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
@@ -948,7 +1009,7 @@ var data = [
     secondary_content: [
       { title:"Andes Expo", image:"PF_andes", video:"ANDES_EXPO_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Composite Breakdown", image:"PF_NIEMI", video:"NIEMI COMPOSITE BREAKDOWN_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"Bugs in the basement", image:"Butterflys1", video:"Butterflys_F_pr_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Bugs in the basement", image:"Butterflys1", video:"Butterflys_contrast_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
@@ -1754,7 +1815,7 @@ var data = [
     image_background: "skateboard",
     image_background_xy_position: [0,0],
     image_poster: "skateboard",
-    video: [ [360,720], ["TMG_Reel_021214_SD","TMG_Reel_021214_HD"] ],
+    video: [ [360,720], ["TMG_Reel_032814_TMGCREATIVE_SD","TMG_Reel_032814_TMGCREATIVE_HD"] ],
     client: "TMG",
     one_liner: "TMG Studio Reel 2014",
     primary_text: ["CREATIVITY","GOOD DESIGN USUALLY INVOLVES A GOOD DEAL OF PROBLEM SOLVING.","THE PRETTY PICTURES NEVER HAPPEN IF YOU ARE UNABLE TO SOLVE THE TECHNICAL AND LOGISTICAL PROBLEMS WHICH ALWAYS PROCEED THEM.","CREATING A PIECE OR CONFORMING AND FINISHING A SHOW MADE UP OF HUNDREDS OF FORMATS AND FILE TYPES CAN BE DAUNTING.","TO SAY NOTHING OF THE WIDE VARIETY OF DELIVERY FORMATS WHICH ARE COMMON NOW.","TO DO ALL THIS UNDER A DEADLINE REQUIRES A COMPLETE UNDERSTANDING OF ALL PHASES OF THE PROCESS.","WE ROUTINELY HANDLE LARGE, COMPLEX PROJECTS AND WE'RE PROUD TO SAY WE HAVE NOT MISSED A DEADLINE IN 18 YEARS."],
@@ -1781,7 +1842,7 @@ var data = [
     image_background: "ciscolive5cropcontrastcolorposscale",
     image_background_xy_position: [0,0],
     image_poster: "ciscolive8",
-    video: [ [360,720], ["TMG_Event_REEL_021214_SD","TMG_Event_REEL_021214_HD"] ],
+    video: [ [360,720], ["Event_v6_TMGCreative_SD","Event_v6_TMGCreative_HD"] ],
     client: "TMG",
     one_liner: "TMG Event Reel 2014",
     primary_text: ["Every client's brand is unique.&nbsp;&nbsp;Every purpose and every message can be communicated in a multitude of ways.&nbsp;&nbsp;Whether a 'literature in motion' piece, or a multi camera live action, each video we produce is customized to fit that project.&nbsp;&nbsp;You won't find a recycled gimmick or trend here."],
@@ -1808,7 +1869,7 @@ var data = [
     image_background: "polycom14",
     image_background_xy_position: [10,6],
     image_poster: "PFIT1",
-    video: [ [360,720], ["TMG_Tech_Reel_021014_SD","TMG_Tech_Reel_021014_HD"] ],
+    video: [ [360,720], ["Tech_Reel_v3_AltMusic_TMGCreative_SD","Tech_Reel_v3_AltMusic_TMGCreative_HD"] ],
     client: "TMG",
     one_liner: "TMG Tech Reel 2014",
     primary_text: ["How do you talk about a world that seems to exist in ether?&nbsp;&nbsp;Rapidly evolving technology is so complex it requires its own language.&nbsp;&nbsp;Translating a message from engineers and developers to marketers to businesses takes a crafty scriptwriter and a team of visual storytellers."],
@@ -1835,7 +1896,7 @@ var data = [
     image_background: "Versitomic_Flexible_instruments",
     image_background_xy_position: [0,30],
     image_poster: "versitonic1",
-    video: [ [360,720], ["TMG_Med_Reel_021214_SD","TMG_Med_Reel_021214_HD"] ],
+    video: [ [360,720], ["Med_Reel_v3_TMGCreative_SD","Med_Reel_v3_TMGCreative_HD"] ],
     client: "TMG",
     one_liner: "TMG Medical Reel 2014",
     primary_text: ["The use of 3D modeling and animation is a powerful tool for the bio-med and pharma industries.&nbsp;&nbsp;These videos helps medical professionals visualize, understand, explore, educate and inform patients and clients.&nbsp;&nbsp;We have the honor, privilege and pleasure of working with clients like Genentech, here in our very own South SF, the home of the bio-tech industry."],
