@@ -106,7 +106,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .body-work .bg-static { position:fixed; visibility:hidden; }
 .body-work-single .bg-static { margin-top:88px; }
 .body-work-single .bg-static.tmg-thmb img { visibility:visible; width:100%; }
-.body-about .bg-static { height:150%; }
+.body-about .bg-static { height:100%; }
 
 .vjs-default-skin .vjs-play-progress, .vjs-default-skin .vjs-volume-level { background-color:#444444 !important; }
 .vjs-default-skin .vjs-big-play-button { display:none !important; }
