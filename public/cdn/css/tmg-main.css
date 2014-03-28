@@ -242,7 +242,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-about p { margin-top:1px; margin-bottom:1px; }
 .page-about .col-lf, .page-about .col-rt { position:relative; overflow-x:visible; overflow-y:hidden; }
 .page-about .col-sm-4 { padding-right:5%; /*border-right:dashed 2px gray; */}
-.page-about .team-member { position:relative; float:left; height:auto; border:0; width:170px; font-size:10px; color:#ffffff; margin:0px 0px 20px 5px; overflow:hidden; cursor:pointer; }
+.page-about .team-member { position:relative; float:left; height:auto; border:0; width:133px; font-size:10px; color:#ffffff; margin:0px 0px 20px 5px; overflow:hidden; cursor:pointer; }
 .page-about .team-member:hover img { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.80; -khtml-opacity:0.80; opacity:0.80;  }
 .page-about .team-member:hover .about-popup { color:#cccccc; text-decoration:none; }
 .page-about .team-member img { margin:0px 0px 4px 0px; float:left; z-index:8; }
