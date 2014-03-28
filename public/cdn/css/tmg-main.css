@@ -221,7 +221,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-work .video-browser-box:hover p.one-liner, .touch .page-work .video-browser-box p.one-liner { difilter:alpha(opacity=100); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; -moz-opacity:1; -khtml-opacity:1; opacity:1; }
 .page-work .video-browser-box img.video-thmb { position:absolute; left:0px; top:0px; width:100%; z-index:2; }
 .page-work .video-browser-box .meta { position:absolute; left:0px; top:162px; padding-top:7px; width:300%; height:48px; background-color:transparent; }
-.page-work .video-browser-box .meta .value { position:absolute; left:48px; }
+.page-work .video-browser-box .meta .value { position:absolute; left:50px; }
 
 .bg-corner-darkener { position:fixed; margin-top:88px; left:-75%; top:-300px; width:150%; height:600px; }
 
