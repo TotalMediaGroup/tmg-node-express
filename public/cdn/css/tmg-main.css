@@ -76,6 +76,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .footer .footer-rules .rules-bg { display:none; }
 .footer .footer-rules .home-rules-body-squeeze {  }
 
+
+
 /*.row { overflow-x:hidden !important; }*/
 
 .navbar-inverse { background-image:none; }
@@ -83,6 +85,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .body-home #tmg-container { position:fixed; width:100% !important; height:100%; }
 .body-work .footer { margin-top:100px; }
 .body-work-single .footer { margin-top:0px; }
+.body-about .footer { margin-top:330px; }
+
 
 .container { position:relative; z-index:11; /*margin-right:auto; margin-left:44px;*/  }
 .wide-container { width:1280px !important; }
