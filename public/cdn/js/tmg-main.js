@@ -71,6 +71,10 @@ $(function(){
   $(".page-design").each(function(){  
     $(".footer").css({borderTop:"solid "+footerBorderHeight+"px #cccccc",height:(footerBorderHeight+$(".footer").innerHeight())+"px"});
   });
+  $(".page-about").each(function(){  
+    $(".footer").css({marginTop:footerBorderHeight+"px"/*,height:(footerBorderHeight+$(".footer").innerHeight())+"px"*/});
+    
+  });
 
 
 
