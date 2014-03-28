@@ -32,7 +32,7 @@ block content
             div.col-lg-12
               div.page-design-header-bg
               div.page-design-header-text
-                | <span style="color:#ff0000;">#{v["client"]}</span> — 
+                | <span style="color:#ff0000;">#{v["client_page"]}</span> — 
                 | #{v["title"]}
           div.row
             div.col-lg-12
@@ -60,7 +60,7 @@ block content
             div.col-lf.video-player-box.col-sm-6
 
               div.primary-title.mobile-only
-                | <span style="color:#ff0000;">#{v["client"]}</span> — 
+                | <span style="color:#ff0000;">#{v["client_page"]}</span> — 
                 | #{v["title"]}
 
               div.video-player(data-video-id="#{v['id']}",data-video-poster="#{v['image_poster']}",data-video-sd="#{v['video'][1][0]}",data-video-hd="#{v['video'][1][1]}")
@@ -79,7 +79,7 @@ block content
 
             div.col-lf.col-sm-6
               div.primary-title.non-mobile-only
-                | <span style="color:#ff0000;">#{v["client"]}</span> — 
+                | <span style="color:#ff0000;">#{v["client_page"]}</span> — 
                 | #{v["title"]}
               div.primary-body
                 for itm, ind in v["primary_text"]
