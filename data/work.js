@@ -36,10 +36,14 @@ var data = [
 
 
 
+
+
+
+*/
 { id: "topcon-pascal",
     title: "Pascal Loop",
-    image_menu: "",
-    image_background: "",
+    image_menu: "IC_topcon",
+    image_background: "topcon6",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
@@ -49,9 +53,9 @@ var data = [
     production_roles: ["blah","blah"],
     secondary_text: ["afjkl;ejwf;"],
     secondary_content: [
+      { title:"", image:"topcon5crop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"topcon5", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       ],
     categories: ["",],
 	secondary_box_color: "808080",
@@ -63,8 +67,6 @@ var data = [
     }
   },
 
-
-*/
 
 { id: "yahoo-insights-app",
     title: "Insights App",
