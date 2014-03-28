@@ -72,6 +72,7 @@ $(function(){
     $(".footer").css({borderTop:"solid "+footerBorderHeight+"px #cccccc",height:(footerBorderHeight+$(".footer").innerHeight())+"px"});
   });
 
+  
 
 });
 
@@ -151,6 +152,10 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
     TMG.containerInfo.padLeft = parseInt($(this).css("padding-left"));
     if (bodyWidth >= 1400) { $(this).addClass("wide-container"); } else { $(this).removeClass("wide-container"); }
    });
+
+  $(".page-about").each(function(){  
+    $(".bg-static").css({height:($(".footer").offset().top-40)+"px"});
+  });
 
 
   $(".page-video-bttm").css({
