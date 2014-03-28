@@ -153,12 +153,12 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
     if (bodyWidth >= 1400) { $(this).addClass("wide-container"); } else { $(this).removeClass("wide-container"); }
    });
 
-  if (TMG.currentPage === 'home') { 
+  if (TMG.currentPage !== 'home') { 
     $(".bg-static").css({height:($(".footer").offset().top+50)+"px"});
   }
 
   if (TMG.currentPage === 'work-single') { 
-    
+//    $(".header-corner").css({Math.floor($("#tmg-container").offset().left)+"px"});
   }
 
   $(".page-video-bttm").css({
