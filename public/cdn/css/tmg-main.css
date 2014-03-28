@@ -104,6 +104,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .bg-static img.curr { z-index:1; }
 .body-home .bg-static { position:fixed; visibility:hidden; }
 .body-work .bg-static { position:fixed; visibility:hidden; }
+.body-about .bg-static { position:fixed; visibility:hidden; }
 .body-work-single .bg-static { margin-top:88px; }
 .body-work-single .bg-static.tmg-thmb img { visibility:visible; width:100%; }
 
