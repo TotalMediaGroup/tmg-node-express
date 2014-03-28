@@ -22,7 +22,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .tmg-popup .tmg-popup-email-lf:hover { color:#aaaaaa; text-decoration:none; }
 .tmg-popup span.bracket-popup { display:none; font-family:"alternategot_no1_dot"; position:absolute; top:-0.33em; font-size:128px; z-index:1; color:red; }
 .tmg-popup .tmg-popup-name-lf { float:left; clear:left; font-size:12px; line-height:1em; padding-left:15px; margin-top:24px; }
-.tmg-popup .tmg-popup-title-lf { float:left; clear:left; font-size:12px; line-height:1em; padding-left:15px; }
+.tmg-popup .tmg-popup-title-lf { float:left; clear:left; font-size:11px; line-height:1em; padding-left:15px; }
 .tmg-popup .tmg-popup-bracket-lf { float:left; clear:left; font-size:12px; line-height:1em; padding-left:15px; position:relative; }
 .tmg-popup .tmg-popup-bracket-lf span { font-family:"alternategot_no1_dot"; position:absolute; left:0px; overflow:visible; top:-1.25em; font-size:36px; }
 
