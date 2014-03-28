@@ -1,7 +1,7 @@
 
 var data = [
 
-  [ ["Total Media Group, Is a creative agency and full-service production studio.","We create visual media for television, web and live events and place strong emphasis on design and crafted storytelling.&nbsp;&nbsp;Our team consists of producers, directors and artists who embrace both visual art and collaborative teamwork.&nbsp;&nbsp;Based in South San Francisco, we are close enough to have lunch on the Embarcadero, but far enough away to miss the end of day traffic.","","The creative energy driving San Francisco is Infections.&nbsp;&nbsp;Anyone who lives and works in the Bay Area is Affected by it.","","We live, work and raise our families here-living and breathing creative.","","It's what we do.&nbsp;&nbsp;It's who we are."],
+  [ ["Total Media Group, Is a creative agency and full-service production studio.","We create visual media for tv, web and live events and put a strong emphasis on great design and well crafted stories.&nbsp;&nbsp;We know all the latest tricks, but never rely on them.&nbsp;&nbsp;We are staffed by experienced directors, producers and artists who are passionate about the art of visual storytelling and thrive on collaborative relationships.&nbsp;&nbsp;We're based in South San Francisco, just over the hill from the city and right near the airport.&nbsp;&nbsp;Close enough to have lunch on the Embarcadero and far enough to miss the traffic going home.","The creative energy that drives San Francisco is infectious.&nbsp;&nbsp;Anyone who lives and works here is affected by it.","We grew up here.&nbsp;&nbsp;We work here, we raise our families here.&nbsp;&nbsp;We live and breathe creative.","It's what we do.&nbsp;&nbsp;It's who we are."],
   ],
 
 
