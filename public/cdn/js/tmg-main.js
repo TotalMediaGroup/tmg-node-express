@@ -84,7 +84,7 @@ TMG.fn.initializeUi.onResize = function() {
       clearTimeout(TMG.timer.windowResize);
       TMG.timer.windowResize = setTimeout(function(){
         TMG.fn.reactiveUi.modifyOverWidthElements();
-      },50);
+      },20);
     });
   }
 }
