@@ -41,7 +41,7 @@ var data = [
     video: [ [360,720], ["Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_SD","Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD"] ],
     client: "LPL Financial",
     one_liner: "A Magical story of animated dots",
-    primary_text: ["Agency: Opts Ideas","","THE PIECE WAS INTENDED TO INSPIRE THE AUDIENCE AND CREATE A SENSE OF ANTICIPATION AROUND NEW TECHNOLOGY SOON TO BE RELEASED.","WE HAD BEEN WARNED THAT THE AUDIENCE HAD BECOME SUSPICIOUS OF BROKEN PROMISES, SO WE WANTED TO STAY AWAY FROM ANYTHING THAT RESEMBLED THE TYPICAL CORPORATE MOTIVATIONAL PIECE.","WE THOUGHT SOMETHING UNUSUAL, AND AUTHENTIC WOULD BE A BETTER APPROACH. WE WANTED THE AUDIENCE TO THINK.","THE SCRIPT SPEAKS TO THE DREAMS OF THE INVESTOR / CLIENTS AND HOW STAFF COULD BETTER HELP THEM ACHIEVE THOSE DREAMS. IT WAS WRITTEN AS A SORT OF POEM.","THE GRAPHICS WERE DESIGNED TO PRESENT AND SUPPORT THE ON-SCREEN TEXT WITH SUBLIME - ABSTRACT FORMS."],
+    primary_text: ["Agency: Opts Ideas","","THis PIECE WAS INTENDED TO INSPIRE THE AUDIENCE AND CREATE A SENSE OF ANTICIPATION AROUND NEW TECHNOLOGY SOON TO BE RELEASED.","WE HAD BEEN WARNED THAT THE AUDIENCE HAD BECOME SUSPICIOUS OF BROKEN PROMISES, SO WE WANTED TO STAY AWAY FROM ANYTHING THAT RESEMBLED THE TYPICAL CORPORATE MOTIVATIONAL PIECE.","WE THOUGHT SOMETHING UNUSUAL, AND AUTHENTIC WOULD BE A BETTER APPROACH. WE WANTED THE AUDIENCE TO THINK.","THE SCRIPT SPEAKS TO THE DREAMS OF THE INVESTOR / CLIENTS AND HOW STAFF COULD BETTER HELP THEM ACHIEVE THOSE DREAMS. IT WAS WRITTEN AS A SORT OF POEM.","THE GRAPHICS WERE DESIGNED TO PRESENT AND SUPPORT THE ON-SCREEN TEXT WITH SUBLIME - ABSTRACT FORMS."],
     production_roles: ["CREATIVE","SCRIPT","animation","edit","composite"],
     secondary_text: ["THE VIDEO WAS DISPLAYED ON AN EXTREMELY WIDE SCREEN - 180’X18’ - BASICALLY SHAPED LIKE A CURVED MAIL SLOT. DESIGNING A GRAPHICAL PIECE FOR SUCH AN UNUSUAL FORMAT WAS A CHALLENGE.","THE OBVIOUS APPROACH WOULD BE TO SPLIT THE SCREEN INTO MULTIPLE 16X9 AREAS ACROSS THE HORIZONTAL WIDTH. BUT WE WANTED TO USE THE WIDE FORMAT AS A MASSIVE CANVAS INSTEAD","WE THOUGHT THE IMPACT OF THE HIGH CONTRAST GRAPHICS OPERATING ACROSS A 180 FOOT SPACE WOULD BE PRETTY PROFOUND. TEXT ON SCREEN PROVIDES THE COMMON THREAD.","CIRCLES WERE USED AS THE MAIN ELEMENT IN THE OVERALL SHOW DESIGN SO WE ADOPTED DOTS AS OUR PRIMARY CHARACTERS."],
     secondary_content: [
@@ -121,7 +121,7 @@ var data = [
     image_poster: "pf_abbott",
     video: [ [360,720], ["Abbott_ALWAYS WITH YOU_DIRCUT 1_SD","Abbott_ALWAYS WITH YOU_DIRCUT 1_HD"] ],
     client: "abbott diabetes",
-    one_liner: "in store brand video",
+    one_liner: "in-store brand video",
     primary_text: ["ABBOTT HAD BEEN EXPERIMENTING WITH THE USE OF A SAINT BERNARD IN ITS PRINT ADS.","THE DOG COMMUNICATES A SENSE OF RELIABILITY TO THE TARGET MARKET.","THE PHOTOGRAPHIC CHARACTER PROVED EFFECTIVE TO THE BRAND BUT FAILED TO FULLY LEVERAGE THE DOG’S CHARACTER.","WE THOUGHT BRINGING HIM TO LIFE IN CG WOULD BE A FUN WAY TO CREATE SORT OF “MASCOT” AND ON-SCREEN PERSONALITY.","WE CALL HIM HECTOR."],
     production_roles: ["CREATIVE","ART DIRECTION","3D ANIMATION"],
     secondary_text: ["HECTOR AND THE BUTTERFLY WERE ANIMATED TO INTERACT AND MOVE THROUGH SCENES CARRYING PRODUCT INFORMATION.&nbsp;&nbsp;THE BUDGET WAS MODEST SO WE COULD ONLY GIVE HECTOR SO MUCH HECTOR.&nbsp;&nbsp;WE'RE HOPING TO CREATE A STAR OUT OF HIM IN FUTURE PRODUCTIONS."],
@@ -142,7 +142,7 @@ var data = [
 
 
   { id: "san-jose-sharks",
-    title: "TV Commercials",
+    title: "Television Commercials",
     image_menu: "IC_sharks_sales",
     image_background: "sharks15BW",
     image_background_xy_position: [20,0],
@@ -186,13 +186,13 @@ var data = [
     production_roles: ["creative","script","editorial","animation","art direction"],
     secondary_text: ["let's face it. whiteboard animations are everywhere.","the relative ease of production has spawned some, well, less than professional work.","we wanted to maintain a commercial look and feel on these.","we lit and shot the illustration carefully, Then, keyed and re-composited the hand on the board allowing us to optimize art, live action and performance.","We tweaked the frame rate to disguise the massive time compression and create a cartoon feel."],
     secondary_content: [
-      { title:"Workstation 8 Overview", image:"vmwarews2bluecrop2", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD", button_white_or_black:"white	", title_white_or_black:"white" },
+      { title:"", image:"IMG_0783_Crop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Workstation 8 What's New", image:"vmwarews5crop2", video:"Vmware_Workstation_8_WhatsNew_MASTER v04 ProRes_HD", button_white_or_black:"black", title_white_or_black:"black" },
-      { title:"", image:"IMG_0783_Crop", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Workstation 8 Overview", image:"vmwarews2bluecrop2", video:"VMWARE_Workstation_8_OVERVIEW_FINAL_ProRes_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media", "featured"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
+    secondary_layout: "corner",
     hide_client_on_menu: false,
     design_page: {
       primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
@@ -294,7 +294,7 @@ var data = [
   { id: "polycom-vvx500",
     title: "vvx500",
     image_menu: "IC_bobcu",
-    image_background: "BG_VVX500",
+    image_background: "bobwalks-1750",
     image_background_xy_position: [0,0],
     image_poster: "PF_ploycom7",
     video: [ [360,720], ["Polycom_VVX500_SD","Polycom_VVX500_HD"] ],
@@ -305,8 +305,8 @@ var data = [
     secondary_text: ["We Shot at the client's office with a small crew.","We tracked and comped the animated clocks counting down floating over everyones head.","the building was empty but we created the impression of a whole floor of workers slaving away in cubicles by floating the countdown clocks over the cubicles."],
     secondary_content: [
       { title:"", image:"VVX5001", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"bob1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"bobbangshead", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -323,7 +323,7 @@ var data = [
   { id: "fenenbock-el-agua",
     title: "Water is life",
     image_menu: "IC_elagua5",
-    image_background: "BG_Agua2",
+    image_background: "elaguaWALL",
     image_background_xy_position: [0,0],
     image_poster: "PF_elagua2",
     video: [ [360,720], ["Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_SD","Maxx_Films_El_Agua_004_MONTAGE_60_GIRL_HD"] ],
@@ -334,12 +334,12 @@ var data = [
     secondary_text: ["All the pieces are driven by a popular piece of music by Latin music superstar Luis","Miguel. The fenenbock group was able to secure the rights to re-record his hit 'Sabor a Mi', a much beloved song in the Hispanic community. Music was done at G&E music - New"," York. Creative Director Steven Gregory used his background in music to help direct the re-recording.","We posted 9 Spots and several long-form Public Awareness pieces.","The videos feature portraits of people from the farming community.","We found it deceptively challenging to edit a piece with effectively no motion.","The spots have a feel of a continuous portrait."],
     secondary_content: [
       { title:"Real People", image:"elagua_momCropped", video:"Maxx_Films_El_Agua_022_REALPEOPLE_30-720p_24_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"Real People", image:"martha", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"bluekids", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Real People", image:"elagua_luz", video:"Maxx_Films_El_Agua_010_MARTHA_60-720p_24p_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
+    secondary_layout: "corner",
     hide_client_on_menu: false,
     design_page: {
       primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
@@ -365,7 +365,7 @@ var data = [
     secondary_content: [
       { title:"Full Client Version", image:"ruckus1", video:"Ruckus_Believe_092412_uncompressed_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"ruckus2", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"", image:"thats-my-wifi", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -382,8 +382,8 @@ var data = [
   { id: "stryker-timeline",
     title: "timeline",
     image_menu: "IC_homertimeline",
-    image_background: "homertimelinesecondary",
-    image_background_xy_position: [0,0],
+    image_background: "homertimeline1",
+    image_background_xy_position: [0,10],
     image_poster: "PF_homertimeline2",
     video: [ [360,720], ["Stryker_JP_Homer_Timeline_MoComp_v01_halfres_SD","Stryker_JP_Homer_Timeline_MoComp_v01_halfres_HD"] ],
     client: "stryker Sports Medicine",
@@ -585,7 +585,7 @@ var data = [
 
 
   { id: "kilburg-sap-open",
-    title: "TV Spots",
+    title: "Television Commercials",
     image_menu: "IC_sapopen",
     image_background: "DBG_sapopen1",
     image_background_xy_position: [0,0],
@@ -643,7 +643,7 @@ var data = [
 
 
   { id: "kilburg-stanford-football",
-    title: "TV Spots",
+    title: "Television Spots",
     image_menu: "IC_stanfordlogo",
     image_background: "BG_Stanford",
     image_background_xy_position: [0,0],
@@ -761,8 +761,8 @@ var data = [
   { id: "boston-bruins-hockey",
     title: "boston bruins hockey",
     image_menu: "IC_bruins1",
-    image_background: "bruins2",
-    image_background_xy_position: [0,25],
+    image_background: "bruins3",
+    image_background_xy_position: [0,0],
     image_poster: "PF_bruins1",
     video: [ [360,720], ["Boston_Bruins_30_TV_landmarks_SD","Boston_Bruins_30_TV_landmarks_HD"] ],
     client: "boston bruins",
@@ -771,9 +771,9 @@ var data = [
     production_roles: ["design","editorial"],
     secondary_text: ["Boston's hockey fans hold true to the notion that Bruins do not leave anything on the ice. Orr, Esposito, Cheevers, Bourque and Neely. Names that are household words in and around Boston. The spots were intended as a sort of homage to Boston's great fans and rallying cry to go get the cup which, by the way, they did that year."],
     secondary_content: [
-      { title:"Viewmaster", image:"bruins4crop", video:"Boston_Bruins_Viewmaster_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"bruins3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Viewmaster", image:"bruins2", video:"Boston_Bruins_Viewmaster_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"bruins1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"bruins4crop", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
     secondary_box_color: "FFFFFF",
@@ -1289,7 +1289,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
-    client: "stryker Medical",
+    client: "stryker Biotech",
     one_liner: "theme logo",
     primary_text: ["Various logo comps for Stryker national sales meeting."],
     production_roles: [],
@@ -1554,7 +1554,7 @@ var data = [
     image_poster: "",
     video: [ [360,720], ["",""] ],
     client: "salix pharmaceuticals",
-    one_liner: "power point",
+    one_liner: "powerpoint",
     primary_text: ["Various Powerpoint templates for national sales meeting."],
     production_roles: [],
     secondary_text: [],
@@ -1605,13 +1605,13 @@ var data = [
 
 
   { id: "stryker-get-ready",
-    title: "get ready for the next wave",
+    title: "The next wave",
     image_menu: "IC_next-wave",
     image_background: "microfx",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
-    client: "stryker iconix",
+    client: "stryker sports medicine",
     one_liner: "email blasters",
     primary_text: ["This was a series of email blasters highlighting notable speakers during a series of monthly seminars. The small boat racing away from the big boat was a metaphor for the business unit excelling and exceeding expectations."],
     production_roles: [],
@@ -1634,7 +1634,7 @@ var data = [
 
 
   { id: "stryker-technique-guide",
-    title: "technique guide",
+    title: "technique guides",
     image_menu: "IC_JPPRINT",
     image_background: "jp_print",
     image_background_xy_position: [0,0],
@@ -1663,7 +1663,7 @@ var data = [
 
 
   { id: "bandon-architects-tour",
-    title: "an architects tour",
+    title: "an architect's tour",
     image_menu: "IC_BANDONBOX",
     image_background: "bandon",
     image_background_xy_position: [0,0],
@@ -1728,7 +1728,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
-    client: "peter sauer",
+    client: "peter sauer's",
     one_liner: "interactive dvd game theme",
     primary_text: ["A music trivia game on DVD. We designed the overall look and animated all motion elements of the game."],
     production_roles: [],
