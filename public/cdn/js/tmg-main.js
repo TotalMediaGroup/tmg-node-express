@@ -154,7 +154,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
    });
 
   $(".page-about").each(function(){  
-    $(".bg-static").css({height:($(".footer").offset().top-40)+"px"});
+    $(".bg-static").css({height:($(".footer").offset().top)+"px"});
   });
 
 
