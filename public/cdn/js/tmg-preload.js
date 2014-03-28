@@ -53,14 +53,12 @@ function bgStaticResize(inputObj,left,top){
     divDim.lf = parseInt((left/100)*divDim.wd);
     divDim.tp = parseInt((top/100)*divDim.ht);
     objDim.rat = objDim.wd/objDim.ht;
-    console.log(objDim);
-    var topPos = $(".page-video-bttm").offset().top;
-    console.log(topPos-88);
-    // if ((objDim.ht-divDim.tp) < topPos) {
-    //   obj.css({width:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",minWidth:Math.round((topPos+divDim.tp)*objDim.rat+divDim.lf)+"px",visibility:"visible"});
-    // } else {
+    var minHt = ($(".page-video-bttm").offset().top-88);
+    if ((objDim.ht/*-divDim.tp*/) < minHt) {
+ //       obj.css({width:Math.ceil(minHt*objDim.rat)+"px",minWidth:Math.ceil(minHt*objDim.rat)+"px",visibility:"visible"});
+    } else {
 
-    // }
+    }
   }
 }
 

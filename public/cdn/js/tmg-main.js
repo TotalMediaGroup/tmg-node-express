@@ -169,9 +169,8 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
     }).each(function(){
 
       $(".bg-static img").each(function(){
-     //   var bgStatic = $(this).parent(".bg-static").offset();
-        
-     //   bgStaticResize(this,bgStatic.left,bgStatic.top);
+        var bgStatic = $(this).parent(".bg-static").offset();
+        bgStaticResize(this,bgStatic.left,bgStatic.top);
       });
 
       if ($(".video-bttm-secondary-layout-corner").length > 0) {
