@@ -1246,8 +1246,8 @@ var data = [
     secondary_layout: "design",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 0, top_percent: 55, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 0, width_percent: 100, show_black_border: false }
+      primary_text: { left_percent: 0, top_percent: 45, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 20, bottom_padding_pixels: 140, width_percent: 100, show_black_border: false }
     }
   },
 
