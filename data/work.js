@@ -31,6 +31,62 @@ var data = [
 
 */
 
+/*  
+
+{ id: "yahoo-insights-app",
+    title: "Insights App",
+    image_menu: "",
+    image_background: "",
+    image_background_xy_position: [0,0],
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "Yahoo!",
+    one_liner: "Product Launch",
+    primary_text: ["blahajsldj;bk;f"],
+    production_roles: ["blah","blah"],
+    secondary_text: ["afjkl;ejwf;"],
+    secondary_content: [
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      ],
+    secondary_box_color: "808080",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
+
+{ id: "topcon-pascal",
+    title: "Pascal Loop",
+    image_menu: "",
+    image_background: "",
+    image_background_xy_position: [0,0],
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client: "TopCon Medical Laser Systems",
+    one_liner: "Trade show files",
+    primary_text: ["blahajsldj;bk;f"],
+    production_roles: ["blah","blah"],
+    secondary_text: ["afjkl;ejwf;"],
+    secondary_content: [
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      ],
+    secondary_box_color: "808080",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
+
+
+*/
 
   { id: "opts-ideas-anthem",
     title: "ANTHEM",
@@ -761,8 +817,8 @@ var data = [
   { id: "boston-bruins-hockey",
     title: "boston bruins hockey",
     image_menu: "IC_bruins1",
-    image_background: "bruins3",
-    image_background_xy_position: [0,0],
+    image_background: "bruins_tribe_drumbeat_lg",
+    image_background_xy_position: [5,15],
     image_poster: "PF_bruins1",
     video: [ [360,720], ["Boston_Bruins_30_TV_landmarks_SD","Boston_Bruins_30_TV_landmarks_HD"] ],
     client: "boston bruins",
@@ -771,8 +827,8 @@ var data = [
     production_roles: ["design","editorial"],
     secondary_text: ["Boston's hockey fans hold true to the notion that Bruins do not leave anything on the ice. Orr, Esposito, Cheevers, Bourque and Neely. Names that are household words in and around Boston. The spots were intended as a sort of homage to Boston's great fans and rallying cry to go get the cup which, by the way, they did that year."],
     secondary_content: [
-      { title:"Viewmaster", image:"bruins2", video:"Boston_Bruins_Viewmaster_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"bruins1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Viewmaster", image:"bruins_about_cup_lg", video:"Boston_Bruins_Viewmaster_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"bruins4crop", video:"", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     categories: ["media"],
