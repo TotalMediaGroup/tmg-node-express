@@ -3,62 +3,9 @@ var data = [
 
 
 
-{ id: "topcon-pascal",
-    title: "Pascal Loop",
-    image_menu: "IC_topcon",
-    image_background: "topcon6",
-    image_background_xy_position: [0,0],
-    image_poster: "",
-    video: [ [360,720], ["",""] ],
-    client_menu: "TopCon Medical Laser Systems",
-    client_page: "TopCon Medical Laser Systems",
-    one_liner: "Trade show files",
-    primary_text: ["blahajsldj;bk;f"],
-    production_roles: ["blah","blah"],
-    secondary_text: ["afjkl;ejwf;"],
-    secondary_content: [
-      { title:"", image:"topcon5crop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"topcon5", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      ],
-    categories: ["",],
-	secondary_box_color: "808080",
-    secondary_layout: "standard",
-    hide_client_on_menu: false,
-    design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-    }
-  },
 
 
-{ id: "yahoo-insights-app",
-    title: "Insights App",
-    image_menu: "IC_yahoo",
-    image_background: "yahoo_3",
-    image_background_xy_position: [10,20],
-    image_poster: "yahoo_5",
-    video: [ [360,720], ["Yahoo_InsightsApp_v3f_SD","Yahoo_InsightsApp_v3f_HD"] ],
-    client_menu: "Yahoo!",
-    client_page: "Yahoo!",
-    one_liner: "Product Launch",
-    primary_text: ["Yahoo offers a new app that allows small business owners to view critical statistics and operations happening on their e commerce sites from a smart phone.&nbsp;&nbsp;the idea of “any time anywhere” was central to the brand statement.&nbsp;&nbsp;"],
-    production_roles: ["Creative","Design","Motion Graphics"],
-    secondary_text: ["This simple piece was intended to display the basic functions of the app.&nbsp;&nbsp;the photos are from Yahoo’s stock collection.&nbsp;&nbsp;Yahoo likes to take a light-hearted approach to marketing their products.&nbsp;&nbsp;any brand with a yodel has to be fun, right?"],
-    secondary_content: [
-      { title:"", image:"yahoo_7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"yahoo_4", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      ],
-    categories: ["media","featured"],
-	secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
-    hide_client_on_menu: false,
-    design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-    }
-  },
+
 
   { id: "opts-ideas-anthem",
     title: "ANTHEM",
@@ -265,7 +212,33 @@ var data = [
     }
   },
 
-
+{ id: "yahoo-insights-app",
+    title: "Insights App",
+    image_menu: "IC_Yahoo2",
+    image_background: "yahoo_3",
+    image_background_xy_position: [10,20],
+    image_poster: "yahoo_5",
+    video: [ [360,720], ["Yahoo_InsightsApp_v3f_SD","Yahoo_InsightsApp_v3f_HD"] ],
+    client_menu: "Yahoo!",
+    client_page: "Yahoo!",
+    one_liner: "Product Launch",
+    primary_text: ["Yahoo offers a new app that allows small business owners to view critical statistics and operations happening on their e commerce sites from a smart phone.&nbsp;&nbsp;the idea of “any time anywhere” was central to the brand statement.&nbsp;&nbsp;"],
+    production_roles: ["Creative","Design","Motion Graphics"],
+    secondary_text: ["This simple piece was intended to display the basic functions of the app.&nbsp;&nbsp;the photos are from Yahoo’s stock collection.&nbsp;&nbsp;Yahoo likes to take a light-hearted approach to marketing their products.&nbsp;&nbsp;any brand with a yodel has to be fun, right?"],
+    secondary_content: [
+      { title:"", image:"yahoo_7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"yahoodots", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      ],
+    categories: ["media","featured"],
+	secondary_box_color: "FFFFFF",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
 
   { id: "vmware-virtualization-launch",
     title: "what is virtualization?",
@@ -296,6 +269,33 @@ var data = [
   },
 
 
+{ id: "topcon-pascal",
+    title: "Pascal Loop",
+    image_menu: "IC_topcon",
+    image_background: "topcon6",
+    image_background_xy_position: [0,0],
+    image_poster: "topcon1",
+    video: [ [360,720], ["TopCon_PASCAL_BoothLoop_v3f_Eng_wEndLogo_SD","TopCon_PASCAL_BoothLoop_v3f_Eng_wEndLogo_HD"] ],
+    client_menu: "TopCon",
+    client_page: "TopCon Medical Laser Systems",
+    one_liner: "Trade show loop",
+    primary_text: ["blahajsldj;bk;f"],
+    production_roles: ["Motion Graphics","Script"],
+    secondary_text: ["afjkl;ejwf;"],
+    secondary_content: [
+      { title:"Japanese Sizzle", image:"topcon5crop", video:"TopCon_PASCAL_Sizzle_Jpn_v3_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"topcon7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      ],
+    categories: ["Events","featured"],
+	secondary_box_color: "FFFFFF",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
 
   { id: "cisco-it-consumption",
     title: "it consumption",
