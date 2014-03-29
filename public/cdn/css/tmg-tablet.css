@@ -3,3 +3,5 @@
 .navbar-nav li { font-size:13px; }
 
 .body-about .bg-static { height:150%; }
+
+.body-work-single .header-corner-lf, .body-work-single .header-corner-rt { display:none; }

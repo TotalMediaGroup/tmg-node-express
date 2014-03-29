@@ -14,6 +14,8 @@ body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 
 
 #tmg-container { /*margin-left:25px;*/ }
 
+.body-work-single .header-corner-lf, .body-work-single .header-corner-rt { display:none; }
+
 .body-home #tmg-container { padding-top:22px; overflow-y:hidden; }
 
 .container, #tmg-container, .row, .col-lf { width:100% !important; padding-left:0px !important; padding-right:0px !important; margin-left:0px !important; margin-right:0px !important; overflow-x:hidden; }
