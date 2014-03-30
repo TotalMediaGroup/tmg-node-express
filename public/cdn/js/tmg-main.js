@@ -266,9 +266,9 @@ TMG.fn.load.browserDetect = function() {
   if (!TMG.renderForMobile) {
     $.getScript(TMG.cdn.tmgVendor+"/browser-detect/browser-detect.min.js",function(){
       if (BrowserDetect.browser==="Explorer") {
-        if (BrowserDetect.version <= 8) {
-          TMG.video.forceYouTube = true;
-        }
+        // if (BrowserDetect.version <= 8) {
+        //   TMG.video.forceYouTube = true;
+        // }
         if (BrowserDetect.version <= 7) {
           TMG.regressFontAwesome();
         }
@@ -376,7 +376,7 @@ TMG.getBandwidthKb = function() {
     console.log("Bandwidth measured to be "+((kb==0) ? "very high" : (kb+"Kb/s")));
     analytics.track("bandwidth_test", { label: TMG.speedTest.kB+"KB_download", value: kb });
   } else {
-    TMG.video.forceYouTube;
+//    TMG.video.forceYouTube;
     console.log("Bandwidth measurements not yet available. Defaulting to higher bandwidth (for now).");
   }
   return kb;
@@ -503,6 +503,12 @@ TMG.fn.video.place = function(containerObj) {
         TMG.video.obj.play();
      });
 
+    $(document).bind('keyup',function(pressed){
+      if (pressed.which == 27) {
+        pressed.preventDefault();
+        TMG.fn.video.ended();
+      }
+    });
 
 }
 
@@ -511,6 +517,7 @@ TMG.fn.video.controls = function() {
 }
 
 TMG.fn.video.ended = function() {
+    $(document).unbind('keyup');
     $(".video-js-"+TMG.video.id).parents(".video-player").each(function(){
       $(this).find(".video-player-inner").remove();
       $(this).find("img, span, .video-bttn").css({display:"block"}).animate({opacity:1},500);
