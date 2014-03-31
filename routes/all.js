@@ -5,6 +5,7 @@ var navItems = [
     [ "work", "Work", "/work", "Videos", true, false ],
     [ "about", "About", "/about", "About", true, false ],
     [ "work-single", "Video", "/work/:video_id", "Video", false, false ],
+    [ "client", "Client Workspace", "/client/:client_id", "Client Workspace", false, false ],
     [ "client-login", "Client Access", "http://ftp2.totalmediagroup.com/", "Client Access", true, false ]
   ];
 
@@ -50,8 +51,8 @@ exports.returnHealthCheck = function(req,res) {
 exports.checkLogin = function(req,data) {
   var rtrn = false;
   if ((req.body.login.toLowerCase() != null) && (req.body.password != null)) {
-    for (c in data.clients.clients) {
-      if ((req.body.login.toLowerCase() === data.clients.clients[c].login) && (req.body.password === data.clients.clients[c].password)) {
+    for (c in data.client.client) {
+      if ((req.body.login.toLowerCase() === data.client.client[c].login) && (req.body.password === data.client.client[c].password)) {
         rtrn = true;
         break;
       }
@@ -77,7 +78,7 @@ exports.generateInsecureToken = function(productionVersionId,login,password) {
 
 exports.verifyToken = function(process,req,data,login) {
   var token = req.cookies.token, password = null;
-  for (c in data.clients.clients) { if (data.clients.clients[c].login===login) { password = data.clients.clients[c].password; break; } }
+  for (c in data.client.client) { if (data.client.client[c].login===login) { password = data.client.client[c].password; break; } }
   return token === generateInsecureToken(process.env.productionVersionId,login,password);
 }
 

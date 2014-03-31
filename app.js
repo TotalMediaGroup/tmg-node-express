@@ -75,8 +75,10 @@ var dataIndex = {
     work: "work",
     tmg_rules: "home-rules"
   },
-  "clients": {
-    clients: "clients",
+  "client": {
+    client: "client",
+    background_images: "home-backgrounds",
+    tmg_rules: "home-rules"
   }
 };
 
@@ -100,9 +102,13 @@ app.get('/work/:video_id', function(req,res){
   if (!inProd) { reCache('work-single'); }
   res.render('work-single', routes.setJadeVars(process, req, data));
 });
+app.get('/client/:client_id', function(req,res){
+  if (!inProd) { reCache('client'); }
+  res.render('client', routes.setJadeVars(process, req, data));
+});
 
 app.post('/login', function(req,res){
-  if (!inProd) { reCache('clients'); }
+  if (!inProd) { reCache('client'); }
   var d = { success: routes.checkLogin(req,data), login: req.body.login.toLowerCase(), token: null };
   if (d.success) {
     d.token = routes.generateLoginToken(process,req);

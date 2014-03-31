@@ -246,6 +246,14 @@ TMG.fn.load.jqueryAnimateScroll = function(){
   $.getScript(TMG.cdn.tmgVendor+"/jquery-animate-scroll/1.0.5/animatescroll.js");
 }
 
+TMG.fn.load.tmgClient = function(){
+  if (TMG.currentPage === "client") {
+    $.getScript(TMG.cdn.tmg+"/js/tmg-client.js",function(){
+      TMG.fn.insertCss(TMG.cdn.tmg+"/css/tmg-client.css");
+    });
+  }
+}
+
 TMG.fn.load.jScrollPane = function(){
   if (TMG.currentPage === "about") {
     // TMG.fn.insertCss(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.css");
