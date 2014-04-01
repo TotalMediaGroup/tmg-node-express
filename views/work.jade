@@ -9,22 +9,22 @@ block content
       div.col-lg-12
 
         ul.nav.navbar-nav.pull-left
-          a(href="#*")
+          a(href="#*",onClick="TMG.incrementFooterRule()")
             img.navbar-category-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png",onMouseOver="this.src='#{tmg_cdn}/img/misc/category-grid-red.png?v=#{app_version}'",onMouseOut="this.src='#{tmg_cdn}/img/misc/category-grid-white.png?v=#{app_version}'")
           li.pull-left
-            a(class="filter-featured",href="#featured")
+            a(class="filter-featured",href="#featured",onClick="TMG.incrementFooterRule()")
               | FEATURED
           li.pull-left
-            a(class="filter-reels",href="#reels")
+            a(class="filter-reels",href="#reels",onClick="TMG.incrementFooterRule()")
               | TMG REELS
           li.pull-left
-            a(class="filter-media",href="#media")
+            a(class="filter-media",href="#media",onClick="TMG.incrementFooterRule()")
               | MEDIA
           li.pull-left
-            a(class="filter-events",href="#events")
+            a(class="filter-events",href="#events",onClick="TMG.incrementFooterRule()")
               | EVENTS
           li.pull-left(style="border-right:none")
-            a(class="filter-design",href="#design")
+            a(class="filter-design",href="#design",onClick="TMG.incrementFooterRule()")
               | DESIGN
 
     div.row.page-work
