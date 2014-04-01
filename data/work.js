@@ -1925,7 +1925,7 @@ var data = [
     image_background: "Versitomic_Flexible_instruments",
     image_background_xy_position: [0,30],
     image_poster: "versitonic1",
-    video: [ [360,720], ["Med_Reel_v3_TMGCreative_SD","Med_Reel_v3_TMGCreative_HD"] ],
+    video: [ [360,720], ["Med_Reel_v4_SD","Med_Reel_v4_HD"] ],
     client_menu: "",
     client_page: "TMG",
     one_liner: "TMG Medical Reel 2014",
