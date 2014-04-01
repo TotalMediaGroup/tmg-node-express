@@ -12,7 +12,7 @@ var data = [
   ["Butterflys3"],
   ["cells"],
   ["city"],
-  ["connections"],
+  ["connections_blurred"],
   ["employee-award"],
   ["employee-proud"],
   ["it-diagram"],  
