@@ -76,12 +76,12 @@ html(lang="en")
               img.logo(src="#{tmg_cdn}/img/logo/masthead-creative.large.png?v=#{app_version}")
           ul.nav.navbar-nav.pull-left.tmg-unselectable
             for item in nav_items
-              if ((item[0] == current_page[0]) && item[4])
-                li.pull-left.active(id="navbar-#{item[0]}")
-                  a= item[1]
-              else if (item[4])
+              if (item[4])
                 li.pull-left(id="navbar-#{item[0]}")
-                  a.hover-trans-67(href="#{item[2]}")= item[1]
+                  if ((current_page[0] === "work") && (item[0] === "work"))
+                    a.hover-trans-67(href="#*")= item[1]
+                  else
+                    a.hover-trans-67(href="#{item[2]}")= item[1]
 
           div.social-buttons
             a(href="https://www.facebook.com/pages/Total-Media-Group-Inc/388304704588058",target="_blank")
