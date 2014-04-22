@@ -38,7 +38,7 @@ body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 
 .bg-corner-darkener { margin-top:44px; left:-75%; top:-150px; width:150%; height:300px; }
 
 .page-work, .page-work-nav { padding-left:0px; position:relative; left:11%; width:78%; }
-.page-work-nav { left:9%; width:82%; }
+.page-work-nav { left:4%; width:85%; }
 .page-work-nav .navbar-nav { margin-left:0px; left:0px; }
 
 .page-video .primary-title { position:relative; left:10%; width:80%; }
