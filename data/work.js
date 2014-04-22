@@ -224,7 +224,7 @@ var data = [
     one_liner: "Product Launch",
     primary_text: ["Yahoo! offers a new app that allows small business owners to view critical statistics and operations happening on their e-commerce sites from a smart phone.  The idea of “anytime anywhere” was central to the brand statement. This simple piece was intended to demonstrate the basic functions of the app.  ","The photos were drawn from Yahoo!’s stock collection."],
     production_roles: ["Creative","Design","Motion Graphics"],
-    secondary_text: ["TWe extracted screen images from the app creation software then animated to emulate the app in operation. ","Add a yodel and...BOOM! A nice little product video."],
+    secondary_text: ["The extracted screen images from the app creation software then animated to emulate the app in operation. ","Add a yodel and...BOOM! A nice little product video."],
     secondary_content: [
       { title:"", image:"yahoo_7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -611,7 +611,7 @@ var data = [
     client_menu: "Fenenbock Group",
     client_page: "Fenenbock Group",
     one_liner: "political tv spots",
-    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","Michael Fenenbock (the Fenenbock Group) is considered one of the nations leading campaign strategists.","A gifted filmmaker, he has a unique gift for crafting compelling stories.","Creative Director Steven Gregory has worked with Michael for many years and created many spots for candidates on both sides of the aisle.","Here are a few."],
+    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","Michael Fenenbock (the Fenenbock Group) is considered one of the nations leading campaign strategists.","A gifted filmmaker, he has a unique talent for crafting compelling stories.","Creative Director Steven Gregory has worked with Michael for many years and created many spots for candidates on both sides of the aisle.","Here are a few."],
     production_roles: ["creative","editorial","animation","art direction"],
     secondary_text: ["<span style=\"color:white;\">Concepts evolve pretty much in real-time in politics.  This opens the door to some pretty odd concepts.  Chameleons???</span>","","<span style=\"color:white;\">The spots range from cinematic to comical to downright weird.  All of these candidates were elected.</span>"],
     secondary_content: [
@@ -1032,9 +1032,9 @@ var data = [
     client_menu: "cisco systems",
     client_page: "cisco systems",
     one_liner: "live event production",
-    primary_text: ["Agency: Spot on Productions","Creative Director: Patrick Roche","","Cisco Live! is a nationwide gathering of systems engineers and IT professionals. TMG has produced content for the Cisco Live! Event for a long time. Fifeteen years!  Our production team has been onsite every year working in a very fast paced environment . Video production, editorial and graphic design…"],
+    primary_text: ["Agency: Spot on Productions","Creative Director: Patrick Roche","","Cisco Live! is a nationwide gathering of systems engineers and IT professionals. TMG has produced content for the Cisco Live! Event for a long time, Fifeteen years!  Our production team has been onsite every year working under Spot On Productions, in a very fast paced environment. Video production, editorial and graphic design…"],
     production_roles: ["On-site Production", "Shoot", "Editorial"],
-    secondary_text: ["Check out this min-doc on DJ Robbie from 2013. He was the entertainment for one of the nights. Shot and edited on-site."],
+    secondary_text: ["Check out this mini-doc on DJ Robbie from 2013. He was the entertainment for one of the nights. Shot and edited on-site under Spot On Productions."],
     secondary_content: [
       { title:"DJ Robbie", image:"ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
