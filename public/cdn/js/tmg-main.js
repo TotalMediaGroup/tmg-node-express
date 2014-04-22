@@ -588,6 +588,8 @@ TMG.fn.ui.work.setupVideoMenu = function() {
     $(".page-work-nav a").removeClass("active");
     if (TMG.isotopeOptions.filter !== "*") {
       $(".page-work-nav .filter-"+TMG.isotopeOptions.filter.substr(1)).addClass("active");
+    } else {
+      $(".page-work-nav .filter-all").addClass("active");
     }
     $('.page-work').isotope(TMG.isotopeOptions);
     TMG.fn.reactiveUi.modifyOverWidthElements();
