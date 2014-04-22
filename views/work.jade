@@ -12,23 +12,31 @@ block content
 
           img.navbar-category-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png")
           li.pull-left
-            a(class="filter-all",href="#*",onClick="TMG.incrementFooterRule()")
-              | ALL
-          li.pull-left
             a(class="filter-featured",href="#featured",onClick="TMG.incrementFooterRule()")
               | FEATURED
           li.pull-left
             a(class="filter-reels",href="#reels",onClick="TMG.incrementFooterRule()")
               | TMG REELS
-          li.pull-left
-            a(class="filter-media",href="#media",onClick="TMG.incrementFooterRule()")
-              | MEDIA
+          //-li.pull-left
+            //-a(class="filter-media",href="#media",onClick="TMG.incrementFooterRule()")
+              //-| MEDIA
           li.pull-left
             a(class="filter-events",href="#events",onClick="TMG.incrementFooterRule()")
               | EVENTS
-          li.pull-left(style="border-right:none")
+          li.pull-left
             a(class="filter-design",href="#design",onClick="TMG.incrementFooterRule()")
               | DESIGN
+          li.pull-left
+            a(class="filter-all",href="#*",onClick="TMG.incrementFooterRule()")
+              | ALL WORK
+
+          li.pull-left(style="border-right:none")
+            a(onClick="TMG.fn.workSearch(true)")
+              label.work-search-label(for="work-search")
+                | SEARCH
+                i.fa.fa-search(style="padding-left:8px;")
+          li.pull-left(style="border-right:none")
+            input.tmg-trans-0.work-search(type="text",name="work-search",id="work-search")
 
     div.row.page-work
       div.col-lg-12

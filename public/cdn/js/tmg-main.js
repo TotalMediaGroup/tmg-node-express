@@ -134,10 +134,19 @@ TMG.fn.reactiveUi.scrollQueues = function() {
     //   $(this).css({marginTop:scrollTop+"px"}).animate({opacity:1},1000);
     // });
 
-    if ((parseInt($(".video-prev").css("margin-top")) > 0) || ((scrollTop-120) > 0)) {
-      $(".video-prev, .video-next").animate({opacity:0},100,function(){
-          $(this).css({marginTop:( (scrollTop > 120) ? (scrollTop-120) : 0 )+"px"}).animate({opacity:1},1000);
-      });
+    if (/*(parseInt($(".video-prev").css("margin-top")) > 0) || */((scrollTop) > 20)) {
+      // $(".video-next").animate({opacity:0,right:"-70px"},250,function(){
+      //     $(this).css({marginTop:( (scrollTop > 120) ? (scrollTop-120) : 0 )+"px"}).animate({opacity:1,right:"-20px"},250);
+      // });
+      // $(".video-prev").animate({opacity:0,left:"-70px"},250,function(){
+      //     $(this).css({marginTop:( (scrollTop > 120) ? (scrollTop-120) : 0 )+"px"}).animate({opacity:1,left:"-20px"},250);
+      // });
+      // $(".video-prev, .video-next").animate({opacity:0},100,function(){
+      //     $(this).css({marginTop:/*( (scrollTop > 88) ? (scrollTop-88) : 0 )*/scrollTop+"px"}).animate({opacity:1},1000);
+      // });
+      $(".video-prev img, .video-next img").animate({opacity:0.30},100);
+    } else {
+      $(".video-prev img, .video-next img").animate({opacity:1},100);
     }
   }
 }
@@ -596,6 +605,7 @@ TMG.fn.ui.work.setupVideoMenu = function() {
   }).trigger('hashchange');
 
   $('.page-work').isotope(TMG.isotopeOptions);
+  $(".page-work-nav a").removeClass("active");
   TMG.fn.reactiveUi.modifyOverWidthElements();
 }
 
@@ -628,6 +638,21 @@ TMG.fn.aboutTeamExpand = function(obj) {
     target.css({height:'auto'});
     $(obj).css('top','-36px').find("span").html("LESS");
     $(obj).find(".fa").replaceWith("<i class=\"fa fa-caret-up\"></i>");
+  }
+}
+
+TMG.fn.workSearch = function(onOff) {
+  if (onOff) {
+    $(".work-search-label .fa-search").animate({right:"-16px"},"fast",function(){
+      $(".work-search-label").addClass("work-search-label-active");
+    });
+
+    $(".work-search").animate({opacity:0.5});
+  } else {
+    $(".work-search-label .fa-search").animate({right:"-8px"},"fast",function(){
+      $(".work-search-label").removeClass("work-search-label-active");
+    });
+    $(".work-search").animate({opacity:0});
   }
 }
 
