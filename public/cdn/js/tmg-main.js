@@ -596,8 +596,11 @@ TMG.fn.ui.work.setupVideoMenu = function() {
 
     $(".page-work-nav a").removeClass("active");
 
-    if ((TMG.isotopeOptions.filter == ".search") && ($("#work-search").val().length >= 3)) {
+    if (TMG.isotopeOptions.filter == ".search") {
       $(".page-work-nav .filter-search").addClass("active");
+      if ($("#work-search").val().length < 3) {
+        TMG.isotopeOptions.filter = "*";
+      }
     } else if (TMG.isotopeOptions.filter !== "*") {
       $(".page-work-nav .filter-"+TMG.isotopeOptions.filter.substr(1)).addClass("active");
       TMG.fn.workSearch(false);
@@ -659,11 +662,9 @@ TMG.fn.aboutTeamExpand = function(obj) {
 }
 
 var workSearchSet = false;
-var workSearchResult = [];
 
 TMG.fn.workSearch = function(onOff) {
   if (onOff) {
-
     if (!workSearchSet) {
       $("#work-search").keyup(function(pressed){
         if (pressed.which == 13) {
@@ -676,7 +677,6 @@ TMG.fn.workSearch = function(onOff) {
         } else {
           var val = $(this).val().toLowerCase();
           if (val.length >= 3) {
-            var idArr =  [];
             $(".video-browser-box").each(function(){
               var domObj = $(this);
               domObj.removeClass("search");
@@ -690,18 +690,13 @@ TMG.fn.workSearch = function(onOff) {
                 );
               
               if (cnt > 0) {
-                idArr.push(padNum(cnt,4)+"-"+id)
                 domObj.addClass("search");
               }
               domObj.attr("data-sort",""+(9999-cnt));
             });
-            if (idArr.join(' ') != workSearchResult.join(' ')) {
-              workSearchResult = idArr;
-             window.location.hash = "#search";
-              $(window).trigger('hashchange');
-     //         console.log(workSearchResult);
-            }
           }
+          window.location.hash = "#search";
+          $(window).trigger('hashchange');
 
         }
       });
@@ -760,14 +755,4 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
 }
 
 
-function padNum(number, length) {
-   
-    var str = '' + number;
-    while (str.length < length) {
-        str = '0' + str;
-    }
-   
-    return str;
-
-}
 
