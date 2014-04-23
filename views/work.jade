@@ -36,14 +36,14 @@ block content
                 | SEARCH
                 i.fa.fa-search(style="padding-left:8px;")
           li.pull-left(style="border-right:none")
-            input.tmg-trans-0.work-search(type="text",name="work-search",id="work-search")
+            input.tmg-trans-0.work-search(type="text",name="work-search",id="work-search",onBlur="TMG.fn.workSearchFocus(false)",onFocus="TMG.fn.workSearchFocus(true)")
 
     div.row.page-work
       div.col-lg-12
       
         for v,i in data["work"]
           a(href="work/#{v['id']}")
-            div(class="video-browser-box #{v['categories'].join(' ')}")
+            div(class="video-browser-box #{v['categories'].join(' ').toLowerCase()}", id="video-browser-box-#{v['id'].toLowerCase()}", data-title="#{v['title'].toLowerCase()}", data-one-liner="#{v['one_liner'].toLowerCase()}", data-primary-text="#{v['primary_text'].join(' ').toLowerCase()}", data-secondary-text="#{v['secondary_text'].join(' ').toLowerCase()}", data-misc="#{v['client_menu'].toLowerCase()} #{v['client_page'].toLowerCase()} #{v['production_roles'].join(' ').toLowerCase()} #{v['categories'].join(' ').toLowerCase()}")
               div.browser-box-bg
               if (v['image_menu'].length > 0)
                 img.video-thmb(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_menu']}.jpg?v=#{app_version}")

@@ -601,6 +601,7 @@ TMG.fn.ui.work.setupVideoMenu = function() {
       $(".page-work-nav .filter-all").addClass("active");
     }
     $('.page-work').isotope(TMG.isotopeOptions);
+    TMG.fn.workSearch(false);
     TMG.fn.reactiveUi.modifyOverWidthElements();
   }).trigger('hashchange');
 
@@ -608,6 +609,17 @@ TMG.fn.ui.work.setupVideoMenu = function() {
   $(".page-work-nav a").removeClass("active");
   TMG.fn.reactiveUi.modifyOverWidthElements();
 }
+
+TMG.fn.workSearchFocus = function(onOff) {
+  
+  if (onOff) {
+
+  } else if ($("#work-search").val().length < 3) {
+    TMG.fn.workSearch(false);
+  }
+
+}
+
 
 // TMG.fn.work.filterVideos = function(filter) {
 
@@ -641,8 +653,42 @@ TMG.fn.aboutTeamExpand = function(obj) {
   }
 }
 
+var workSearchSet = false;
+
 TMG.fn.workSearch = function(onOff) {
   if (onOff) {
+
+    if (!workSearchSet) {
+      $("#work-search").keyup(function(pressed){
+        if (pressed.which == 13) {
+          pressed.preventDefault();
+        } else if (pressed.which == 27) {
+          pressed.preventDefault();
+          TMG.fn.workSearch(false);
+          window.location.hash = "#*";
+          $(window).trigger('hashchange');
+        } else {
+          var val = $(this).val().toLowerCase();
+          if (val.length >= 3) {
+            var idArr =  [];
+            $(".video-browser-box").each(function(){
+              var domObj = $(this);
+              var id = domObj.attr("id");
+              var cnt = 0;
+              cnt = cnt + S(domObj.attr("data-title")).count(val);
+              
+              if (cnt > 0) {
+                idArr.push(padNum(cnt,4)+"-"+id)
+              }
+//              if (domObj.attr("data-title"))
+            });
+            console.log(idArr);
+          }
+
+        }
+      });
+    }
+
     $(".work-search-label .fa-search").animate({right:"-16px"},"fast",function(){
       $(".work-search-label").addClass("work-search-label-active");
     });
@@ -653,6 +699,7 @@ TMG.fn.workSearch = function(onOff) {
       $(".work-search-label").removeClass("work-search-label-active");
     });
     $(".work-search").animate({opacity:0});
+    $("#work-search").val("");
   }
 }
 
@@ -689,5 +736,17 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
       $(document).unbind('keyup');
     });
   }
+}
+
+
+function padNum(number, length) {
+   
+    var str = '' + number;
+    while (str.length < length) {
+        str = '0' + str;
+    }
+   
+    return str;
+
 }
 
