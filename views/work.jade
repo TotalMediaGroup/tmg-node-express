@@ -31,7 +31,7 @@ block content
               | ALL WORK
 
           li.pull-left(style="border-right:none")
-            a(onClick="TMG.fn.workSearch(true)")
+            a(class="filter-search",onClick="TMG.fn.workSearch(true)")
               label.work-search-label(for="work-search")
                 | SEARCH
                 i.fa.fa-search(style="padding-left:8px;")
@@ -43,7 +43,7 @@ block content
       
         for v,i in data["work"]
           a(href="work/#{v['id']}")
-            div(class="video-browser-box #{v['categories'].join(' ').toLowerCase()}", id="video-browser-box-#{v['id'].toLowerCase()}", data-title="#{v['title'].toLowerCase()}", data-one-liner="#{v['one_liner'].toLowerCase()}", data-primary-text="#{v['primary_text'].join(' ').toLowerCase()}", data-secondary-text="#{v['secondary_text'].join(' ').toLowerCase()}", data-misc="#{v['client_menu'].toLowerCase()} #{v['client_page'].toLowerCase()} #{v['production_roles'].join(' ').toLowerCase()} #{v['categories'].join(' ').toLowerCase()}")
+            div(class="video-browser-box #{v['categories'].join(' ').toLowerCase()}", id="video-browser-box-#{v['id'].toLowerCase()}", data-title="#{v['title'].toLowerCase()}", data-one-liner="#{v['one_liner'].toLowerCase()}", data-primary-text="#{v['primary_text'].join(' ').toLowerCase()}", data-secondary-text="#{v['secondary_text'].join(' ').toLowerCase()}", data-misc="#{v['client_menu'].toLowerCase()} #{v['client_page'].toLowerCase()} #{v['production_roles'].join(' ').toLowerCase()} #{v['categories'].join(' ').toLowerCase()}", data-sort="0")
               div.browser-box-bg
               if (v['image_menu'].length > 0)
                 img.video-thmb(src="#{tmg_static_cdn}/video/#{v['id']}/#{v['image_menu']}.jpg?v=#{app_version}")
