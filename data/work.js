@@ -94,8 +94,8 @@ var data = [
   { id: "abbott-always-with-you",
     title: "always with you",
     image_menu: "IC_hectorlogo",
-    image_background: "abbot1crop",
-    image_background_xy_position: [9,10],
+    image_background: "hector_corner_1820",
+    image_background_xy_position: [23,25],
     image_poster: "pf_abbott",
     video: [ [360,720], ["Abbott_ALWAYS WITH YOU_DIRCUT 1_SD","Abbott_ALWAYS WITH YOU_DIRCUT 1_HD"] ],
     client_menu: "abbott diabetes",
@@ -115,7 +115,7 @@ var data = [
     hide_client_on_menu: false,
     design_page: {
       primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 0, width_percent: 0, show_black_border: false }
     }
   },
 
