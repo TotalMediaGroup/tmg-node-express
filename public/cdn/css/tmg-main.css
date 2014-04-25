@@ -217,7 +217,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 
 .work-search { position:relative; float:left; border:solid 1px white; z-index:10; padding:3px 8px 2px 20px; background-color:white; color:black; font-family:"gothamrounded_book"; text-transform: uppercase; }
 .work-search-clear { position:relative; float:left; width:0px; height:0px; overflow:visible; z-index:11; background-color:transparent; }
-.work-search-clear .fa-times { position:absolute; left:-20px; top:2px; font-size:18px; color:gray; cursor:pointer; }
+.work-search-clear .fa-times { position:absolute; left:-20px; top:2px; font-size:18px; color:#666666; cursor:pointer; }
 .work-search-clear .fa-times:hover { color:black; }
 
 .page-work-nav { margin-top:75px; }
