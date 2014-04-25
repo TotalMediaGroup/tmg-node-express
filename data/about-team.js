@@ -22,11 +22,18 @@ var data = [
     "sg"
   ],
   
-    [ "Carol Keys",
+  [ "Carol Keys",
     "Creative Director, Print and Events",
     ["Carol Keys comes from a San Francisco ad agency background as an art director. This is where she honed both her design and print production skills. Her individual talents extend to writer/producer, graphic artist, talent negotiator, musician, photographer and brand evangelist.  ","For more than 25 years, Carol has designed and produced numerous award-winning programs and attendant collateral design for clients such as Basic American Foods, Bytemobile, Easter Seals, McKesson Corporation, Plantronics and Stryker Sports Medicine. ","Carol is a hands-on leader with a sense of humor and a propensity for calm and clarity under pressure. In addition to her abilities as a creative director, she is skilled in managing all aspects of print production, budget development and maintenance, and contract negotiation with outside suppliers on her clients' behalf. She is a highly skilled, sensitive interviewer, who can make interviewees feel confident and comfortable, and will always get the story.","With Carol you have the classic Renaissance Production Pro who can wear nearly ANY hat – or make the hat if necessary."],
     "carol.keys@tmgcreative.tv",
     "carol"
+  ],
+  
+  [ "Ryan Scott",
+    "Motion Graphics Artist",
+    ["From a professional perspective I am most interested in three disciplines. Design, animation and logistics. For me the discipline of design is obviously a visual one and I find that it always comes first. It is the process of defining a visual intention and then stripping away the unnecessary to discover the core of an idea. It is the process of creating balance and provocation. Break down. Build up. Repeat until calm & salivating... For me animation is a spatial discipline - not a visual one. How does this move and why? How does that move in relation to this and when? It is the process of being something else. Observe and take delight from nature. Remember and emulate. And finally there is logistics. How long is this going to take? Can we make this even better? Can you do this? The answers are: forever, yes and yes. For me logistics is the process of taking art and breaking it down into quantifiable and ordered actions to execute a desired vision as rapidly as possible. It is the process of balancing two often maniacal and always opposing forces. Define constraints. Set expectations. Allow and embrace failure. Take a deep breath and jump in. When I'm at work this is me. ","When I'm not at work, I'm currently delighting in the wonder of my son and sharing this with wifey. I cycle, commensurate over past dojo days and clean up after glorious homemade meals. I take photos and nerd out over devices. I take it easy. I am grateful."],
+    "ryan.scott@tmgcreative.tv",
+    "ryan"
   ],
 
   [ "JEFF CASAGRANDE",
@@ -56,20 +63,6 @@ var data = [
     ["Bryant Coffey is a video editor and a motion graphics designer.  Growing up in Lincoln, NE, he moved to Denver, Colorado where he gained his Bachelor's Degree in Visual Effects and Motion Graphics from the Art Institute of Colorado.  Upon completion of his degree, he hightailed it to San Francisco and got picked up by TMG Creative, where he's been loving it ever since.  ","At TMG he is the jack of all trades.  He is consistently switching between 3D Animation, Video Editing, Website Creation, motion graphics, creating final deliverables per project specifications, helping with technical operations and providing solutions to problems that arise in production, and keeping an eye out for any need arising on the job, and tackling those needs accordingly.  ","In his down time when he's not at work, he enjoys photography, traveling, snowboarding, and a variety of other things that gets him out of the house and into the variety of great nature scenes that Northern California has to offer.  An avid foodie, he also enjoys seeing what the local eateries in the bay area has to offer.  You can generally find him roaming the area, looking for new exciting possibilities and fun things to do.  "],
     "patrick.roche@tmgcreative.tv",
     "patrick"
-  ],
-  
-    [ "Jay Koller",
-    "Producer",
-    ["Bryant Coffey is a video editor and a motion graphics designer.  Growing up in Lincoln, NE, he moved to Denver, Colorado where he gained his Bachelor's Degree in Visual Effects and Motion Graphics from the Art Institute of Colorado.  Upon completion of his degree, he hightailed it to San Francisco and got picked up by TMG Creative, where he's been loving it ever since.  ","At TMG he is the jack of all trades.  He is consistently switching between 3D Animation, Video Editing, Website Creation, motion graphics, creating final deliverables per project specifications, helping with technical operations and providing solutions to problems that arise in production, and keeping an eye out for any need arising on the job, and tackling those needs accordingly.  ","In his down time when he's not at work, he enjoys photography, traveling, snowboarding, and a variety of other things that gets him out of the house and into the variety of great nature scenes that Northern California has to offer.  An avid foodie, he also enjoys seeing what the local eateries in the bay area has to offer.  You can generally find him roaming the area, looking for new exciting possibilities and fun things to do.  "],
-    "jay.koller@tmgcreative.tv",
-    "jay"
-  ],
-  
-    [ "Ryan Scott",
-    "Motion Graphics Artist",
-    ["From a professional perspective I am most interested in three disciplines. Design, animation and logistics. For me the discipline of design is obviously a visual one and I find that it always comes first. It is the process of defining a visual intention and then stripping away the unnecessary to discover the core of an idea. It is the process of creating balance and provocation. Break down. Build up. Repeat until calm & salivating... For me animation is a spatial discipline - not a visual one. How does this move and why? How does that move in relation to this and when? It is the process of being something else. Observe and take delight from nature. Remember and emulate. And finally there is logistics. How long is this going to take? Can we make this even better? Can you do this? The answers are: forever, yes and yes. For me logistics is the process of taking art and breaking it down into quantifiable and ordered actions to execute a desired vision as rapidly as possible. It is the process of balancing two often maniacal and always opposing forces. Define constraints. Set expectations. Allow and embrace failure. Take a deep breath and jump in. When I'm at work this is me. ","When I'm not at work, I'm currently delighting in the wonder of my son and sharing this with wifey. I cycle, commensurate over past dojo days and clean up after glorious homemade meals. I take photos and nerd out over devices. I take it easy. I am grateful."],
-    "ryan.scott@tmgcreative.tv",
-    "ryan"
   ],
   
     [ "Adam Sturgeon",
