@@ -676,6 +676,7 @@ TMG.fn.workSearch = function(onOff) {
           $(window).trigger('hashchange');
         } else {
           var val = $(this).val().toLowerCase();
+          if (val.length >= 1) { $(".work-search-clear").css({opacity:0.8}); }
           if (val.length >= 3) {
             $(".video-browser-box").each(function(){
               var domObj = $(this);
@@ -714,7 +715,7 @@ TMG.fn.workSearch = function(onOff) {
     $(".work-search-label .fa-search").animate({right:"-8px"},"fast",function(){
       $(".work-search-label").removeClass("work-search-label-active");
     });
-    $(".work-search").animate({opacity:0});
+    $(".work-search, .work-search-clear").animate({opacity:0});
     $("#work-search").val("");
   }
 }

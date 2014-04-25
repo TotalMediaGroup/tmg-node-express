@@ -215,7 +215,11 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .work-search-label .fa-search { position:absolute; top:6px; right:-8px; cursor:pointer; z-index:11; }
 .work-search-label-active .fa-search { color:black; }
 
-.work-search { border:solid 1px white; z-index:10; padding:4px 8px 2px 20px; background-color:white; color:black; font-family:"gothamrounded_book"; text-transform: uppercase; }
+.work-search { position:relative; float:left; border:solid 1px white; z-index:10; padding:3px 8px 2px 20px; background-color:white; color:black; font-family:"gothamrounded_book"; text-transform: uppercase; }
+.work-search-clear { position:relative; float:left; width:0px; height:0px; overflow:visible; z-index:11; background-color:transparent; }
+.work-search-clear .fa-times { position:absolute; left:-20px; top:2px; font-size:18px; color:gray; cursor:pointer; }
+.work-search-clear .fa-times:hover { color:black; }
+
 .page-work-nav { margin-top:75px; }
 .page-work-nav ul { position:relative; left:-35px; margin-bottom:20px; z-index:1; width:90%; }
 .page-work-nav img { cursor:pointer; }

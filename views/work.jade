@@ -37,6 +37,11 @@ block content
                 i.fa.fa-search(style="padding-left:8px;")
           li.pull-left(style="border-right:none")
             input.tmg-trans-0.work-search(type="text",name="work-search",id="work-search",onBlur="TMG.fn.workSearchFocus(false)",onFocus="TMG.fn.workSearchFocus(true)")
+            div.tmg-trans-0.work-search-clear
+              i.fa.fa-times(onClick="TMG.fn.workSearch(false);window.location.hash='#*';$(window).trigger('hashchange');")
+              
+          
+          
 
     div.row.page-work
       div.col-lg-12
