@@ -502,7 +502,9 @@ TMG.fn.video.place = function(containerObj) {
            +" id=\"video-player-"+vidId+"-"+hash+"-obj\""
            +" poster=\""+vidImg+"\""
            +" width=\""+absDim[0]+"\" height=\""+absDim[1]+"\""
-           +" data-setup=\"{'autoplay':true,'techOrder':['html5','flash']}\""
+           +" data-setup=\"{'autoplay':true,'techOrder':["
+            + ((BrowserDetect.OS==="Windows") ? "" : "'html5',")
+            +"'flash']}\""
            +">"
       +"<source src=\""
         +"https:"+TMG.cdn.tmgStatic+"/video/"+vidId+"/"+jqCont.attr("data-video-hd")+".mp4"
