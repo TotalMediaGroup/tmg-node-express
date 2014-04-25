@@ -1,16 +1,16 @@
 
 @font-face {
   font-family: 'acaslonpro_regular';
-  src: url('acaslonpro_regular/acaslonpro_regular.eot?') format('eot'), url('acaslonpro_regular/acaslonpro_regular.otf')  format('opentype'), url('acaslonpro_regular/acaslonpro_regular.woff') format('woff'), url('acaslonpro_regular/acaslonpro_regular.ttf')  format('truetype'), url('acaslonpro_regular/acaslonpro_regular.svg#acaslonpro_regular') format('svg');
+  src: url('acaslonpro_regular/acaslonpro_regular.svg#acaslonpro_regular') format('svg'), url('acaslonpro_regular/acaslonpro_regular.eot?') format('eot'), url('acaslonpro_regular/acaslonpro_regular.otf')  format('opentype'), url('acaslonpro_regular/acaslonpro_regular.woff') format('woff'), url('acaslonpro_regular/acaslonpro_regular.ttf')  format('truetype');
 }
 
 
 @font-face {
   font-family: 'gothamrounded_book';
-  src: url('gothamrounded_book/gothamrounded_book.eot?') format('eot'), url('gothamrounded_book/gothamrounded_book.woff') format('woff'), url('gothamrounded_book/gothamrounded_book.ttf')  format('truetype'), url('gothamrounded_book/gothamrounded_book.svg#gothamrounded_book') format('svg');
+  src: url('gothamrounded_book/gothamrounded_book.svg#gothamrounded_book') format('svg'), url('gothamrounded_book/gothamrounded_book.eot?') format('eot'), url('gothamrounded_book/gothamrounded_book.woff') format('woff'), url('gothamrounded_book/gothamrounded_book.ttf')  format('truetype');
 }
 
 @font-face {
   font-family: 'alternategot_no1_dot';
-  src: url('alternategot_no1_dot/alternategot_no1_dot.eot?') format('eot'), url('alternategot_no1_dot/alternategot_no1_dot.otf')  format('opentype'), url('alternategot_no1_dot/alternategot_no1_dot.woff') format('woff'), url('alternategot_no1_dot/alternategot_no1_dot.ttf')  format('truetype'), url('alternategot_no1_dot/alternategot_no1_dot.svg#alternategot_no1_dot') format('svg');
+  src: url('alternategot_no1_dot/alternategot_no1_dot.svg#alternategot_no1_dot') format('svg'), url('alternategot_no1_dot/alternategot_no1_dot.eot?') format('eot'), url('alternategot_no1_dot/alternategot_no1_dot.otf')  format('opentype'), url('alternategot_no1_dot/alternategot_no1_dot.woff') format('woff'), url('alternategot_no1_dot/alternategot_no1_dot.ttf')  format('truetype');
 }

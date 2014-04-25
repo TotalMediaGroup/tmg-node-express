@@ -28,7 +28,7 @@ block content
               | DESIGN
           li.pull-left
             a(class="filter-all",href="#*",onClick="TMG.incrementFooterRule()")
-              | ALL WORK
+              | <span class="mobile-only">ALL</span><span class="non-mobile-only">ALL WORK</span>
 
           li.pull-left(style="border-right:none")
             a(class="filter-search",onClick="TMG.fn.workSearch(true)")
@@ -61,5 +61,6 @@ block content
                   p
                     | <span class="red">CLIENT:</span> <span class="value">#{v["client_menu"]}</span>
               p.one-liner
-                | #{v["one_liner"]}
+                span
+                  | #{v["one_liner"]}
               

@@ -16,7 +16,7 @@ block content
         span.title-bracket(style="position:relative;left:0px;")= "["
         span.title-body= "THE COMPANY"
         span.title-bracket= "]"
-      div.col-rt.col-sm-7.col-sm-offset-1(style="padding-bottom:40px;")
+      div.col-rt.col-sm-8(style="padding-bottom:40px;")
         span.title-bracket(style="margin-left:0%;position:relative;left:0px;")= "["
         span.title-body= "THE PEOPLE"
         span.title-bracket= "]"
@@ -34,13 +34,13 @@ block content
               != itm
 
 
-      div.col-rt.col-sm-7.col-sm-offset-1.team-members
+      div.col-rt.col-sm-8.team-members
 
         div.vertical-rule.tmg-trans-80
 
         for item, ind in data["team"]
           a.about-popup(href="javascript:TMG.fn.aboutPopup(true,'#{item[4]}')")
-            div.team-member(style="clear:"+(((ind % 4) == 0) ? "left" : "none")+";",id="team-member-#{item[4]}")
+            div.team-member(id="team-member-#{item[4]}")
               img(src="#{tmg_static_cdn}/web/portraits/#{item[4]}-portrait.jpg?v=#{app_version}")
               span.team-name
                 | #{item[0]}
