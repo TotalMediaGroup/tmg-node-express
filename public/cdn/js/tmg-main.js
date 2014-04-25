@@ -167,7 +167,7 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
    });
 
   if (TMG.currentPage === 'about') { 
-    $(".bg-static").css({height:($(".footer").offset().top+50)+"px"});
+    $(".bg-static").css({height:($(".footer").offset().top+300)+"px"});
   }
 
   // if (TMG.currentPage === 'work-single') { 
@@ -676,7 +676,7 @@ TMG.fn.workSearch = function(onOff) {
           $(window).trigger('hashchange');
         } else {
           var val = $(this).val().toLowerCase();
-          if (val.length >= 1) { $(".work-search-clear").css({opacity:0.8}); }
+          if (val.length >= 1) { $(".work-search-clear").css({opacity:1}); }
           if (val.length >= 3) {
             $(".video-browser-box").each(function(){
               var domObj = $(this);

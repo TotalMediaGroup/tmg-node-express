@@ -40,7 +40,7 @@ block content
 
         for item, ind in data["team"]
           a.about-popup(href="javascript:TMG.fn.aboutPopup(true,'#{item[4]}')")
-            div.team-member(style="clear:"+((ind === 3) ? "left" : "none")+";",id="team-member-#{item[4]}")
+            div.team-member(style="clear:"+(((ind % 4) == 0) ? "left" : "none")+";",id="team-member-#{item[4]}")
               img(src="#{tmg_static_cdn}/web/portraits/#{item[4]}-portrait.jpg?v=#{app_version}")
               span.team-name
                 | #{item[0]}
