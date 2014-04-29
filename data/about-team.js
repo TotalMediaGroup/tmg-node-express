@@ -66,7 +66,7 @@ var data = [
   ],
   
     [ "Adam Sturgeon",
-    "Video Editor",
+    "Editor",
     ["Adam came to TMG Creative in 2006 after graduating from San Francisco State University with a degree in Radio & Television. After graduation he started out working for the San Francisco Giants video department and then transitioned to freelancing in the live sports broadcasting industry gaining valuable experience and soon after found his opportunity here with TMG.","Starting as a Post-Production Technician, Adam worked his way up the ranks gaining valuable experience and becoming fluent in many of the design, media and editing programs that exist today. Currently Adam is a valuable asset to TMG as he can handle multiple responsibilities ranging from editing to motion graphics to DVD authoring to junior producing.  Adam thoroughly excels working directly with the clients and really enjoys creating something that generates a smile on everyone’s face.  ","When Adam is not working, he enjoys spending time with his wife Cindy and their two sons, Blake and Alex, whether it be at the local park tossing a baseball around or at their annual trips to Disneyland.  Adam is also an avid Bay Area sports fanatic and a proud 49er season ticket holder.   Along with his family they watch or attend as many Giants, 49ers, Warriors and Sharks games as possible.  Adam also tries to squeeze in time polishing his skills out on the golf links or going to concerts to see his favorite bands."],
     "adam.sturgeon@tmgcreative.tv",
     "adam"
