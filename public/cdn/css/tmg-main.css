@@ -104,8 +104,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .non-mobile-only { display:block; }
 
 .bg-static { position:absolute; margin-top:88px; left:0%; top:0%; width:100%; height:100%; z-index:0; overflow:hidden;}
-.bg-static img { position:absolute; width:100%; top:0%; left:0%; z-index:0; visibility:hidden; }
-.bg-static img.curr { z-index:1; }
+.bg-static img { position:absolute; width:100%; top:0%; left:0%; z-index:1; visibility:hidden; }
+.bg-static img.curr { z-index:2; }
 .body-home .bg-static { position:fixed; visibility:hidden; }
 .body-work .bg-static { position:fixed; visibility:hidden; }
 .body-work-single .bg-static { margin-top:88px; }
