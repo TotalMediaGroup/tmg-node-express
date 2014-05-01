@@ -37,7 +37,7 @@ var data = [
   },
 
   { id: "shakey-neil-young-archives",
-    title: "neil young archives",
+    title: "Neil Young Archives",
     image_menu: "IC_neil",
     image_background: "DBG_neil4",
     image_background_xy_position: [0,0],
@@ -46,13 +46,13 @@ var data = [
     client_menu: "shakey pictures",
     client_page: "shakey pictures",
     one_liner: "10-DISC BOX SET",
-    primary_text: ["A MONUMENTAL PROJECT.","WE SET UP A SMALL PRODUCTION STUDIO WITHIN OUR FACILITY TO CREATE, MANAGE AND CURATE THE MASSIVE COLLECTION OF HISTORICAL ASSETS.","OUR ARTISTS TEAMED UP WITH SHAKEY PICTURES PRODUCERS TO CREATE THE 10 DISC Blu-Ray SET.","THE PROJECT TOOK 2.5 YEARS TO COMPLETE."],
+    primary_text: ["A MONUMENTAL PROJECT.","WE SET UP A SMALL PRODUCTION STUDIO WITHIN OUR FACILITY TO CREATE, MANAGE AND CURATE THE MASSIVE COLLECTION OF HISTORICAL ASSETS.","OUR ARTISTS TEAMED UP WITH SHAKEY PICTURES PRODUCERS TO create volume 1 of the blu-ray set.","THE PROJECT TOOK 2.5 YEARS TO COMPLETE."],
     production_roles: ["CREATIVE","ART DIRECTION","PRODUCTION"],
-    secondary_text: ["<span style=\"color:red;font-weight:bold;\">FILMORE EAST DVD MENU</span>","A DECEPTIVELY COMPLEX PROJECT, THIS DVD MENU WAS CREATED FROM A NOW FAMOUS PHOTO OF THE FILMORE EAST IN NYC.","WE USED THE MARQUEE TO CREATE THE NAVIGATION ITEMS, THEN BROUGHT THE PHOTO TO LIFE BY ANIMATING PEOPLE IN LINE AND CREATING A CITY AT NIGHT SCENE (CAR LIGHTS. STEAM FROM STREET VENTS, ETC)","WE SHOT A BUNCH OF FRIENDS ON GREEN ACTING AS THOUGH THEY WERE STROLLING DOWN THE BUSY STREET.","EVEN GOT IN ONE OF NEILS' FAVORITE CLASSIC CARS.","THE MENU TEXT CHANGES AS PEOPLE WALK BY IN THE FOREGROUND.","","<span style=\"color:red;font-weight:bold;\">PRAIRIE WIND DVD MENU.</span>","WE WANTED TO CREATE THE SENSE OF LAUNDRY BLOWING IN THE WIND IN FRONT OF A HOMESTEAD ON THE PRAIRIE.","WE SHOT THE SHEET IN FRONT OF THE STUDIO.","THE GRASS BLOWING IN THE WIND IS ACTUALLY SAN FRANCISCO BAY MARSH GRASS.","SG WAS HAVING LUNCH BY THE BAY ONE DAY AND NOTICED THAT IT LOOKED AND MOVED A LOT LIKE PRAIRIE GRASS.","SO WE SHOT IT FOR THE COMP."],
+    secondary_text: ["<span style=\"color:red;font-weight:bold;\">FILLMORE EAST Blu-Ray MENU</span>","A DECEPTIVELY COMPLEX PROJECT, THIS Blu-Ray MENU WAS CREATED FROM A NOW FAMOUS PHOTO OF THE FILMORE EAST IN NYC.","WE USED THE MARQUEE TO CREATE THE NAVIGATION ITEMS, THEN BROUGHT THE PHOTO TO LIFE BY ANIMATING PEOPLE IN LINE AND CREATING A CITY AT NIGHT SCENE (CAR LIGHTS. STEAM FROM STREET VENTS, ETC)","WE SHOT A BUNCH OF FRIENDS ON GREEN ACTING AS THOUGH THEY WERE STROLLING DOWN THE BUSY STREET.","EVEN GOT IN ONE OF NEILS' FAVORITE CLASSIC CARS.","THE MENU TEXT CHANGES AS PEOPLE WALK BY IN THE FOREGROUND.","","<span style=\"color:red;font-weight:bold;\">PRAIRIE WIND DVD MENU.</span>","WE WANTED TO CREATE THE SENSE OF LAUNDRY BLOWING IN THE WIND IN FRONT OF A HOMESTEAD ON THE PRAIRIE.","WE SHOT THE SHEET IN FRONT OF THE STUDIO.","THE GRASS BLOWING IN THE WIND IS ACTUALLY SAN FRANCISCO BAY MARSH GRASS.","SG WAS HAVING LUNCH BY THE BAY ONE DAY AND NOTICED THAT IT LOOKED AND MOVED A LOT LIKE PRAIRIE GRASS.","SO WE SHOT IT FOR THE COMP."],
     secondary_content: [
-      { title:"Fillmore East DVD Menu", image:"neil3", video:"Neil_Young_filmore menu_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Fillmore East Blu-Ray Menu", image:"neil3", video:"Neil_Young_filmore menu_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Living With War Title", image:"neil12", video:"Neil_Young_bloody book seq_HD", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"Prairie Wind DVD Menu", image:"neil1", video:"Neil_Young_filmore menu_HD", button_white_or_black:"white", title_white_or_black:"white" }
+      { title:"Prairie Wind Blu-Ray Menu", image:"neil1", video:"Neil_Young_filmore menu_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
     keywords: ["",""],
     categories: ["media", "featured"],
@@ -77,7 +77,7 @@ var data = [
     one_liner: "INFORMATIONAL VIDEO",
     primary_text: ["Agency: Opts Ideas","","The goal was to reassure the staff and audience that the work they do is important and appreciated.","The client wanted the piece to be a bit fun and playful.","The video is driven by a playful narrative voice coming from behind the 4th wall speaking directly to the on-screen character.","We developed the art to illustrate the main parts of the story and then shot talent interacting with the childlike art."],
     production_roles: ["CREATIVE","SCRIPT","Shoot","Design / Animation"],
-    secondary_text: ["We shot the live action in one day under budget constraints.&nbsp;&nbsp;We constructed a live keying rig using one of our AJA cards to create a monitoring environment that allowed us to register the actress gestures with the art.&nbsp;&nbsp;Effectively adjusting art and performance in real-time as the shoot progressed."],
+    secondary_text: ["We shot the live action in one day under budget constraints.&nbsp;&nbsp;We constructed a live keying rig using one of our AJA cards to create a monitoring environment that allowed us to register the actresses' gestures with the art.&nbsp;&nbsp;Effectively adjusting art and performance in real-time as the shoot progressed."],
     secondary_content: [
       { title:"", image:"employee3reframe", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -380,7 +380,7 @@ var data = [
     client_menu: "fenenbock group",
     client_page: "fenenbock group",
     one_liner: "public service tv commercials",
-    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","THE FARMING COMMUNITIES IN THE CENTRAL VALLEY OF CALIFORNIA HAVE BEEN AT THE CENTER OF A LONG CULTURAL AND POLITICAL BATTLE.","FOR DECADES WATER FROM THE SAN JUAQUIN RIVER DELTA IN NORTHERN CALIFORNIA HAS BEEN REDIRECTED TO THE CENTRAL VALLEY TO PROVIDE WATER FOR IRRIGATION.","POLITICAL GROUPS IN NORTHERN CALIFORNIA HAVE BEEN ACTIVELY INVOLVED IN EFFORTS TO SHUT OFF THE FLOW CITING NEGATIVE IMPACT ON THE LOCAL ENVIRONMENT.","THE PUBLIC INTEREST CAMPAIGN 'EL AGUA ES ASUNTO DE TODOS' WAS DESIGNED TO RAISE AWARENESS WITHIN THE CENTRAL VALLEY FARMING COMMUNITY AND GENERATE VOTER ACTION."],
+    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","THE FARMING COMMUNITIES IN THE CENTRAL VALLEY OF CALIFORNIA HAVE BEEN AT THE CENTER OF A LONG CULTURAL AND POLITICAL BATTLE.","FOR DECADES WATER FROM THE SAN Joaquin RIVER DELTA IN NORTHERN CALIFORNIA HAS BEEN REDIRECTED TO THE CENTRAL VALLEY TO PROVIDE WATER FOR IRRIGATION.","POLITICAL GROUPS IN NORTHERN CALIFORNIA HAVE BEEN ACTIVELY INVOLVED IN EFFORTS TO SHUT OFF THE FLOW CITING NEGATIVE IMPACT ON THE LOCAL ENVIRONMENT.","THE PUBLIC INTEREST CAMPAIGN 'EL AGUA ES ASUNTO DE TODOS' WAS DESIGNED TO RAISE AWARENESS WITHIN THE CENTRAL VALLEY FARMING COMMUNITY AND GENERATE VOTER ACTION."],
     production_roles: ["ART DIRECTION","DESIGN","EDITORIAL","MUSIC DIRECTION"],
     secondary_text: ["All the pieces are driven by a popular piece of music by Latin music superstar Luis Miguel.","The Fenenbock Group was able to secure the rights to re-record his hit 'Sabor a Mi', a much beloved song in the Hispanic community. ","Music was done at G&E music – New York. Creative Director Steven Gregory used his background in music to help direct the re-recording.","We posted nine spots and several ","long-form public awareness pieces.","The videos feature portraits of people from the local farming community.","Editing a piece with very little motion was a challege to say the least.","The spots have a feel of a continuous portrait."],
     secondary_content: [
@@ -443,7 +443,7 @@ var data = [
     client_menu: "stryker Sports Medicine",
     client_page: "stryker Sports Medicine",
     one_liner: "history of stryker medical",
-    primary_text: ["Stryker Corporation is an extraordinary example of the American dream.","One of the largest medical device manufactures in the world, the company was started in 1942 by a single man, Homer Stryker.","This timeline is an excerpt from a short doc detailing the succession of Homer's innovative products."],
+    primary_text: ["Stryker Corporation is an extraordinary example of the American dream.","One of the largest medical device manufacturers in the world, the company was started in 1942 by a single man, Homer Stryker.","This timeline is an excerpt from a short doc detailing the succession of Homer's innovative products."],
     production_roles: ["design","3d Animation"],
     secondary_text: ["The sequence is excerpted from a longer show.&nbsp;&nbsp;","it was used to create chapter markers periodically directing us to the main show."],
     secondary_content: [
@@ -465,7 +465,7 @@ var data = [
 
 
   { id: "vmware-virtualization-info",
-    title: "what is virtualization",
+    title: "what is virtualization?",
     image_menu: "IC_vmglobe",
     image_background: "BG_Virtualization",
     image_background_xy_position: [10,5],
@@ -601,7 +601,7 @@ var data = [
     one_liner: "internal team information video",
     primary_text: ["libo is a department inside genentech.","they hold regular meetings to keep in the team informed and updated.","these videos were created to review the information discussed.","the animation style is intentionally quirky and fun.","Strange Piece? - Yes. &nbsp;Creative solution? - We think so."],
     production_roles: ["design","script","shoot","animation"],
-    secondary_text: ["the budget did not allow for talent - stock - or any visual assets.so we thought...","hey, let's create a sort of hand puppet spokesman.","we won't have to pay him. - these are SG's hands.","this clip is an excerpt from ","the longer (much longer) video.","there's only so much hand puppet one can take."],
+    secondary_text: ["the budget did not allow for talent - stock - or any visual assets, so we thought...","hey, let's create a sort of hand puppet spokesman.","we won't have to pay him. - these are SG's hands.","this clip is an excerpt from ","the longer (much longer) video.","there's only so much hand puppet one can take."],
     secondary_content: [
       { title:"", image:"Libo2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -631,7 +631,7 @@ var data = [
     client_menu: "Fenenbock Group",
     client_page: "Fenenbock Group",
     one_liner: "political tv spots",
-    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","Michael Fenenbock (the Fenenbock Group) is considered one of the nations leading campaign strategists.","A gifted filmmaker, he has a unique talent for crafting compelling stories.","Creative Director Steven Gregory has worked with Michael for many years and created many spots for candidates on both sides of the aisle.","Here are a few."],
+    primary_text: ["AGENCY: The Fenenbock Group","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","Michael Fenenbock (the Fenenbock Group) is considered one of the nation's leading campaign strategists.","A gifted filmmaker, he has a unique talent for crafting compelling stories.","Creative Director Steven Gregory has worked with Michael for many years and created many spots for candidates on both sides of the aisle.","Here are a few."],
     production_roles: ["creative","editorial","animation","art direction"],
     secondary_text: ["<span style=\"color:white;\">Concepts evolve pretty much in real-time in politics.  This opens the door to some pretty odd concepts.  Chameleons?</span>","","<span style=\"color:white;\">The spots range from cinematic to comical to downright weird.  ","<span style=\"color:white;\">All of these candidates were elected.</span>"],
     secondary_content: [
@@ -659,7 +659,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "PF_sapopen3",
     video: [ [360,720], ["SAPOpen_1202_SAP_OPEN_GEN_USE_30_SD","SAPOpen_1202_SAP_OPEN_GEN_USE_30_HD"] ],
-    client_menu: "Kilburg & Associates",
+    client_menu: "Kilburg and Associates",
     client_page: "sap open tennis",
     one_liner: "television commercials",
     primary_text: ["AGENCY: Kilburg and Associates","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","Tech giant SAP sponsors this annual tennis tournament where marquee players from all over the world compete. ","Silicon Valley Sports and Entertainment (SVSE) run the show.","Director Bob Kilburg and SG have been cutting these spots together ","for many years."],
@@ -690,7 +690,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "iconix2",
     video: [ [360,720], ["Stryker_JP_ICONIX_LIM_REVISED_5_21_13_ProRes_SD","Stryker_JP_ICONIX_LIM_REVISED_5_21_13_ProRes_HD"] ],
-    client_menu: "Stryker Sports Medicin",
+    client_menu: "Stryker Sports Medicine",
     client_page: "Stryker Sports Medicine",
     one_liner: "detailed product information",
     primary_text: ["Stryker Sports Medicine wanted to create a series of informational videos following a cohesive brand showcasing the features and benefits of their products.  We had previously designed logos for a number of the products, so it was easy to design videos honoring the product brand, a stand-alone series and the overall Stryker brand."],
@@ -721,7 +721,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "PF_stanford4",
     video: [ [360,720], ["Stanford_STA_1010_4_TV_USC_30H _SD","Stanford_STA_1010_4_TV_USC_30H _HD"] ],
-    client_menu: "Kilburg & Associates",
+    client_menu: "Kilburg and Associates",
     client_page: "Stanford Football",
     one_liner: "television commercials",
     primary_text: ["AGENCY: Kilburg and Associates","<span style=\"color:red;\">*SG for agency of record prior to TMG</span>","","THESE FOOTBALL SPOTS WERE CREATED TO ADVERTISE DATES AND TIMES FOR ","STANFORD HOME GAMES.","COLLEGE FOOTBALL GAME DATES CAN CHANGE RIGHT UP TILL GAME DAY, AND GAME TIMES ARE SOMETIMES ANNOUNCED JUST HOURS PRIOR TO KICK OFF.","IN MORE THAN ONE INSTANCE WE WERE FINISHING AND DISTRIBUTING SPOTS ON GAME DAY.","NO PRESSURE.","DIRECTOR BOB KILBURG WROTE THE SCRIPTS AROUND ","THE STANFORD BRAND “The Cardinal”."],
@@ -786,7 +786,7 @@ var data = [
     client_menu: "Opts Ideas",
     client_page: "LPL Financial",
     one_liner: "Show Open",
-    primary_text: ["AGENCY: Opts Ideas","","An opening video for a gathering of nation-wide financial advisors held in miami.","The agency wanted to create a sense of enthusiasm in the audience by displaying interesting facts about florida, the company and clients they serve."],
+    primary_text: ["AGENCY: Opts Ideas","","An opening video for a gathering of nationwide financial advisors held in miami.","The agency wanted to create a sense of enthusiasm in the audience by displaying interesting facts about florida, the company and clients they serve."],
     production_roles: ["design","editorial","motion graphics"],
     secondary_text: ["The piece was designed using dynamic ","animated typography. and set in a stylistic world that suggests the event location, Miami, Florida."],
     secondary_content: [
@@ -912,7 +912,7 @@ var data = [
     one_liner: "attract loop for trade show",
     primary_text: ["HIGHTAIL ASKED FOR A PIECE THAT WOULD QUICKLY DEMONSTRATE THE CENTRAL BENEFITS OF THE NEW BRAND. ","THE LIVE VENUE WOULD NOT ALLOW AUDIO SO WE NEEDED TO TELL THE STORY USING TEXT AND GRAPHICS. TMG WORKED FROM A CLIENT SCRIPT AND CRAFTED THE 60 SECOND PIECE."],
     production_roles: ["design","motion graphics"],
-    secondary_text: ["WE CREATED THIS ENTIRELY IN ADOBE AFTER EFFECTS, UTILIZING VECTOR IMAGES AND FAST-PACED MOTION GRAPHICS TO KEEP THE USERS ATTENTION WITH NO AUDIO. WE USED THE MUSIC TRACK TO KEEP A VISUAL RHYTHM."],
+    secondary_text: ["WE CREATED THIS ENTIRELY IN ADOBE AFTER EFFECTS, UTILIZING VECTOR IMAGES AND FAST-PACED MOTION GRAPHICS TO KEEP THE USER'S ATTENTION WITH NO AUDIO. WE USED THE MUSIC TRACK TO KEEP A VISUAL RHYTHM."],
     secondary_content: [
       { title:"", image:"hightail1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -975,7 +975,7 @@ var data = [
     one_liner: "lobby loop",
     primary_text: ["Stryker Sports Medicine acquired a new company and needed a complete rebrand for the product.  Including video, print collateral, and marketing material. ","They needed all materials delivered in-hand in less than two months.","","TMG Creative designed the mark for their new division Biologics, and created the painterly background look. The style template was used across all branding. The vials, blood components etc...were created from scratch. Photos were provided by Stryker."],
     production_roles: ["writing","design","motion graphics"],
-    secondary_text: ["This video is shown in doctors lobbys and aimed at the customer. We also created a custom die-cut box to hold a copy of this video and all promotional print materials (delivered on a syringe thumb drive – you can get anything these days.) We also re-wrote all the copy."],
+    secondary_text: ["This video is shown in doctor's lobbies and aimed at the customer. We also created a custom die-cut box to hold a copy of this video and all promotional print materials (delivered on a syringe thumb drive – you can get anything these days.) We also re-wrote all the copy."],
     secondary_content: [
       { title:"", image:"RegenKit1", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1066,7 +1066,7 @@ var data = [
     client_menu: "cisco systems",
     client_page: "cisco systems",
     one_liner: "live event production",
-    primary_text: ["Agency: Spot on Productions","Creative Director: Patrick Roche","","Cisco Live! is a nationwide gathering of systems engineers and IT professionals. TMG has produced content for the Cisco Live! Event for a long time, Fifeteen years!  Our production team has been onsite every year working under Spot On Productions, in a very fast paced environment. Video production, editorial and graphic design…"],
+    primary_text: ["Agency: Spot on Productions","Creative Director: Patrick Roche","","Cisco Live! is a nationwide gathering of systems engineers and IT professionals. TMG has produced content for the Cisco Live! Event for a long time, Fifteen years!  Our production team has been on-site every year working under Spot On Productions, in a very fast paced environment. Video production, editorial and graphic design…"],
     production_roles: ["On-site Production", "Shoot", "Editorial"],
     secondary_text: ["Check out this mini-doc on DJ Robbie from 2013. He was the entertainment for one of the nights. Shot and edited on-site under Spot On Productions."],
     secondary_content: [
@@ -1097,7 +1097,7 @@ var data = [
     client_menu: "salix Pharmaceuticals",
     client_page: "salix Pharmaceuticals",
     one_liner: "various event videos",
-    primary_text: ["Salix saw the launch of their newest drug as nothing short of ‘revolutionary’.  The title ‘revolution’ suggested a 1960’s psychedelic theme to us — sort of Peter Max meets Ed Hardy. Particle animations bring in the different product logos. Original Music by Chris Hedge, The Magic Shop, Half Moon Bay."],
+    primary_text: ["Salix saw the launch of their newest drug as nothing short of ‘revolutionary’.  The title ‘revolution’ suggested a 1960s psychedelic theme to us — sort of Peter Max meets Ed Hardy. Particle animations bring in the different product logos. Original Music by Chris Hedge, The Magic Shop, Half Moon Bay."],
     production_roles: ["creative","design","particle animation","shoot","director","editorial"],
     secondary_text: ["Interviews and open videos were also produced. The super wide-screen format created a nice big canvas to paint on.","We’re still cleaning up."],
     secondary_content: [
@@ -1192,7 +1192,7 @@ var data = [
     one_liner: "informational show open",
     primary_text: ["COVIDIEN ASKED US TO PRODUCE A HIGH ENERGY PIECE to highlight their goals and achievements for 2014. THEY HAD A GREAT YEAR AND WANTED TO CELEBRATE.","The show was staged in  MIAMI and was CENTERED AROUND THE PHRASE “ride the wave.”"],
     production_roles: ["creative","editorial","Motion Graphics"],
-    secondary_text: ["Timed to surf music, THIS TYPOGRAPHIC PIECE USES STOCK AND CREATIVE COMMONS FOOTAGE.  Calabunga!"],
+    secondary_text: ["Timed to surf music, THIS TYPOGRAPHIC PIECE USES STOCK AND CREATIVE COMMONS FOOTAGE.  Kowabunga!"],
     secondary_content: [
       { title:"", image:"wave7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1252,7 +1252,7 @@ var data = [
     client_menu: "equinix",
     client_page: "equinix",
     one_liner: "event opener",
-    primary_text: ["Equinix is in the data business.  Big Data. They build and maintain massive data centers all over the world.  This trade show opener was intended to present a sort of world tour. And give a glimpse of the company from the inside."],
+    primary_text: ["Equinix is in the data business.  Big Data. They build and maintain massive data centers all over the world.  This trade show opener was intended to present a sort of world tour, and give a glimpse of the company from the inside."],
     production_roles: ["creative","script","design","3D Animation","motion graphics"],
     secondary_text: ["The viewer is brought on a tour starting in the east and traveling west From Sydney to San Francisco.  ","The sun never sets on planet Equinix."],
     secondary_content: [
@@ -1439,7 +1439,7 @@ var data = [
     client_menu: "fenenbock group",
     client_page: "fenenbock group",
     one_liner: "logo design and print media",
-    primary_text: ["A selection of logos and print media produced for a popular Israeli youth group.."],
+    primary_text: ["A selection of logos and print media produced for a popular Israeli youth group."],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1710,17 +1710,17 @@ var data = [
 
 
 
-  { id: "stryker-real-hand",
+  { id: "novare-real-hand",
     title: "real hand",
     image_menu: "IC_realhand",
     image_background: "realhand",
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
-    client_menu: "stryker medical",
-    client_page: "stryker medical",
+    client_menu: "Novare Surgical",
+    client_page: "Novare Surgical",
     one_liner: "product logo",
-    primary_text: ["A product logo for surgical device, mocked-up on similar product"],
+    primary_text: ["A product logo for surgical device, mocked-up on similar product."],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1811,7 +1811,7 @@ var data = [
     client_menu: "stryker sports medicine",
     client_page: "stryker sports medicine",
     one_liner: "product logo",
-    primary_text: [""],
+    primary_text: ["The Iconix logo was designed to visually represent the inteliBraid technology of the sutures. This logo is used on all collateral including product packaging. This is one of many product logos we have designed for Stryker SportsMed."],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
@@ -1825,7 +1825,7 @@ var data = [
     secondary_layout: "standard",
     hide_client_on_menu: false,
     design_page: {
-      primary_text: { left_percent: 0, top_percent: 0, width_percent: 0, show_black_border: false },
+      primary_text: { left_percent: 13, top_percent: 65, width_percent: 45, show_black_border: false },
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 0, width_percent: 70, show_black_border: false }
     }
   },
@@ -1900,8 +1900,8 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "",
     video: [ [360,720], ["",""] ],
-    client_menu: "peter sauer's",
-    client_page: "peter sauer's",
+    client_menu: "peter sauers",
+    client_page: "peter sauers",
     one_liner: "interactive dvd game theme",
     primary_text: ["A music trivia game on DVD. We designed the overall look and animated all motion elements of the game."],
     production_roles: [],
@@ -1990,7 +1990,7 @@ var data = [
     client_menu: "",
     client_page: "TMG",
     one_liner: "TMG Tech Reel 2014",
-    primary_text: ["Technology evolves so rapidly and can be so complex, it requires a language all of it's own.  Translating a message from engineers and developers to marketers and business professionals can take some crafty scriptwriting and creative visual storytelling. In other words, TMG  creative."],
+    primary_text: ["Technology evolves so rapidly and can be so complex, it requires a language all of its own.  Translating a message from engineers and developers to marketers and business professionals can take some crafty scriptwriting and creative visual storytelling. In other words, TMG  creative."],
     production_roles: ["creative","editorial","3D Animation","Event Production"],
     secondary_text: ["<span style=\"color:red;\">Tech clients:</span>","VMWare","Equinix","Cisco Systems","Hightail","Silver Peak Systems","Yahoo!"],
     secondary_content: [
