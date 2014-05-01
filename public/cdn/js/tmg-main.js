@@ -280,7 +280,7 @@ TMG.fn.load.jScrollPane = function(){
 }
 
 TMG.fn.load.browserDetect = function() {
-  if (!TMG.renderForMobile) {
+//  if (!TMG.renderForMobile) {
     $.getScript(TMG.cdn.tmgVendor+"/browser-detect/browser-detect.min.js",function(){
       if (BrowserDetect.browser==="Explorer") {
         // if (BrowserDetect.version <= 8) {
@@ -290,7 +290,8 @@ TMG.fn.load.browserDetect = function() {
           TMG.regressFontAwesome();
         }
       }
-  });}
+    });
+//  }
 }
 
 TMG.setCurrentBackground = function() {
