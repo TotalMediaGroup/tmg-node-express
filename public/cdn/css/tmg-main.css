@@ -3,7 +3,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .tmg-unselectable { user-select:none; -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; -o-user-select:none; }
 .tmg-selectable { user-select:text; -webkit-touch-callout:text; -webkit-user-select:text; -khtml-user-select:text; -moz-user-select:text; -ms-user-select:text; -o-user-select:text; }
 
-#tmg-disclaimer-mobile { display:none; }
+#tmg-disclaimer-mobile, #tmg-disclaimer-mobile img { display:none; }
 
 body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-left:auto; margin-right:auto; background-color:transparent; z-index:11000; }
 .tmg-popup { position:fixed; left:36%; top:0%; width:740px; margin-top:228px; height:auto; background-color:#a71f24; }
@@ -258,7 +258,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .home-rules-number-stretch { -webkit-transform: scale(0.95,1.05); -moz-transform: scale(0.95,1.05); -ms-transform: scale(0.95,1.05); -o-transform: scale(0.95,1.05); transform: scale(0.95,1.05); }
 
 
-.about-popup { color:#cccccc; text-decoration:none; }
+.about-popup { color:#cccccc; text-decoration:none; float:left; }
 .page-about { -webkit-text-shadow: rgba(255,255,255,0.01) 0 0 1px; -webkit-text-stroke: rgba(255,255,255,0.01) 0.1px; -webkit-text-stroke-width: 0.1px; margin-top:128px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book";  /*font-family:helvetica;*/ text-transform: uppercase; z-index:10; }
 .page-about p { margin-top:1px; margin-bottom:1px; }
 .page-about .col-lf, .page-about .col-rt { position:relative; overflow-x:visible; overflow-y:hidden; }
@@ -287,6 +287,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-about .title-body { font-size:13px; position:relative; top:-16px; color:white; }
 .page-about .vertical-rule { position:absolute; left:-10%; top:-90px; height:300%; border:0; border-left:dashed 2px #cccccc; width:0px; }
 .team-members { max-height:720px; overflow-y:scroll; overflow-x:hidden; margin-bottom:30px; }
+.team-member-10, .team-member-11, .team-member-12, .team-member-13 { left:-274px; }
 
 
 .jspDrag { background-color:red !important; }
