@@ -85,7 +85,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .body-home #tmg-container { position:fixed; width:100% !important; height:100%; }
 .body-work .footer { margin-top:100px; }
 .body-work-single .footer { margin-top:0px; }
-.body-about .footer { margin-top:330px; }
+/*.body-about .footer { margin-top:330px; }*/
 
 .header-corner { display:none; position:fixed; top:0%; left:0%; height:88px; background-color:#4E4E4E; width:40px; z-index:20002; }
 .body-work-single .header-corner-lf { display:block; }
@@ -286,7 +286,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-about .title-bracket { color:red; font-size:75px; font-family:"alternategot_no1_dot"; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
 .page-about .title-body { font-size:13px; position:relative; top:-16px; color:white; }
 .page-about .vertical-rule { position:absolute; left:-10%; top:-90px; height:300%; border:0; border-left:dashed 2px #cccccc; width:0px; }
-.team-members { max-height:720px; overflow-y:scroll; overflow-x:hidden; margin-bottom:30px; }
+.team-members {/* max-height:720px;*/ overflow-y:scroll; overflow-x:hidden; margin-bottom:30px; }
 .team-member-10, .team-member-11, .team-member-12, .team-member-13 { left:-274px; }
 
 
