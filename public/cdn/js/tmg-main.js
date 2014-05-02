@@ -1,5 +1,8 @@
 var doc = document.documentElement.setAttribute('data-useragent', navigator.userAgent);
 
+if (!$.support.transition)
+  $.fn.transition = $.fn.animate;
+
 var TMG = {
   currentPage: null,
   pageLoaded:new Date(),
