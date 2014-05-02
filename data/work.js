@@ -1811,7 +1811,7 @@ var data = [
     client_menu: "stryker sports medicine",
     client_page: "stryker sports medicine",
     one_liner: "product logo",
-    primary_text: ["The Iconix logo was designed to visually represent the inteliBraid technology of the sutures. This logo is used on all collateral including product packaging. This is one of many product logos we have designed for Stryker SportsMed."],
+    primary_text: ["The Iconix logo was designed to visually represent the intelliBraid technology of the sutures. This logo is used on all collateral including product packaging. This is one of many product logos we have designed for Stryker Sports Medicine."],
     production_roles: [],
     secondary_text: [],
     secondary_content: [
