@@ -227,7 +227,7 @@ TMG.fn.load.slideShowSetup = function(){
 
   $(".body-home, .body-work").each(function(){
 
-    if (TMG.currentPage === 'home') { 
+    if ((TMG.currentPage === 'home') && (BrowserDetect.OS === "Windows")) { 
       $('.rule-body').flowtype({ maxFont: 112, fontRatio: 10 });
     }
 
@@ -279,20 +279,7 @@ TMG.fn.load.jScrollPane = function(){
   }
 }
 
-TMG.fn.load.browserDetect = function() {
-//  if (!TMG.renderForMobile) {
-    $.getScript(TMG.cdn.tmgVendor+"/browser-detect/browser-detect.min.js",function(){
-      if (BrowserDetect.browser==="Explorer") {
-        // if (BrowserDetect.version <= 8) {
-        //   TMG.video.forceYouTube = true;
-        // }
-        if (BrowserDetect.version <= 7) {
-          TMG.regressFontAwesome();
-        }
-      }
-    });
-//  }
-}
+
 
 TMG.setCurrentBackground = function() {
 
@@ -314,21 +301,30 @@ TMG.setCurrentBackground = function() {
 
 TMG.setCurrentRule = function() {
   if (TMG.renderForMobile && (tmgRules[tmgCurrentRule].rule.length > 30)) { tmgCurrentRule++; }
-  $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
-  $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
-  $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
+  if (BrowserDetect.OS === "Windows") {
+    $(".rule-image").html("<img src=\""+TMG.cdn.tmgStatic+'/web/rules/'+tmgRules[tmgCurrentRule].img+'.png?v='+TMG.appVersion+"\" />");
+    $(".rule-body, .rule-hr, .rule-number, .rule-footer").css({display:'none'});
+  } else {
+    $(".rule-image").css({display:'none'});
+    $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
+    $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
+    $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
+  }
   $(".home-rules").animate({opacity:0.95},Math.round(TMG.slideShowTransitionSpeed/2));
 }
+
+var tmgHomeRulesFirstRun = true;
 
 TMG.cycleBgImage = function() {
 
   TMG.setCurrentBackground();
 
   if (TMG.currentPage === 'home') {
-    
+
     TMG.bgFadeIn = setTimeout(function(){
       TMG.setCurrentRule();
-    }, Math.round(TMG.slideShowTransitionSpeed/2) );
+    }, ( (tmgHomeRulesFirstRun) ? 20 : Math.round(TMG.slideShowTransitionSpeed/2) ) );
+    tmgHomeRulesFirstRun = false;
 
     TMG.bgFadeOut = setTimeout(function(){
       $(".home-rules").animate({opacity:0},Math.round(TMG.slideShowTransitionSpeed/2),function(){

@@ -253,6 +253,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .home-rules .rule-body .brackets { color:#ff0000; font-size:120%; text-shadow: 0px 0px 0px;  }
 .home-rules .rule-footer {  top:-220px; font-size:16px; font-family:"gothamrounded_book"; position:relative; }
 .home-rules .rule-hr { position:relative; width:25%; border:dashed 1px #aaa; border-bottom:none; border-left:none; border-right:none; }
+.home-rules .rule-image { position:relative; margin-left:auto; margin-right:auto; top:-100px; }
 .home-rules-body-squeeze { -webkit-transform: scaleX(0.83); -moz-transform: scaleX(0.83); -ms-transform: scaleX(0.83); -o-transform: scaleX(0.83); transform: scaleX(0.83); }
 .home-rules-number-stretch { -webkit-transform: scale(0.95,1.05); -moz-transform: scale(0.95,1.05); -ms-transform: scale(0.95,1.05); -o-transform: scale(0.95,1.05); transform: scale(0.95,1.05); }
 

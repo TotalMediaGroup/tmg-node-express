@@ -32,7 +32,7 @@ html(lang="en")
     script(type="text/javascript")
       | var tmgRules=[], tmgCurrentRule=0, tmgBackgrounds=[], tmgCurrentBg=0;
       for item in data["tmg_rules"]
-        | tmgRules.push({num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'});
+        | tmgRules.push({num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}',img:'#{item[2]}'});
       for item in data["background_images"]
         | tmgBackgrounds.push('#{item[0].replace(/'/g,"\\'")}');
       | tmgRules.sort(randomSort); tmgBackgrounds.sort(randomSort); arrayShuffle(tmgRules); arrayShuffle(tmgBackgrounds); 
@@ -120,6 +120,7 @@ html(lang="en")
           span.rule-footer= "HOW TO DO REALLY GREAT WORK"
     
     script(type='text/javascript', src='#{googlelibs_cdn}/jquery/1.11.0/jquery.min.js')
+    script(type='text/javascript', src='#{tmg_vendor_cdn}/browser-detect/browser-detect.min.js')
     script(type='text/javascript', src='#{tmg_vendor_cdn}/velocity.js/jquery.velocity.min.js')
     //- script(type='text/javascript', src='#{tmg_vendor_cdn}/jquery-migrate/1.1.1/jquery-migrate.js')
     script(type='text/javascript', src='#{tmg_vendor_cdn}/flowtype.js/1.1/flowtype.js')
