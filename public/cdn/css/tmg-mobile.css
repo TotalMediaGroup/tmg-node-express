@@ -5,7 +5,7 @@ body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 
 .non-mobile-only { display:none; visibility:hidden; }
 
 .bg-static { position:absolute; margin-top:0px; top:22px; }
-.body-work-single .bg-static { margin-top:0px; top:22px; }
+.body-work-single .bg-static { display:none; margin-top:0px; top:22px; }
 
 .navbar { height:44px; min-height:44px; }
 .navbar .navbar-header img { height:32px; position:relative; top:-8px;  margin-left:10px; }

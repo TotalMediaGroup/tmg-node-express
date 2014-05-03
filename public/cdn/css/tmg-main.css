@@ -3,7 +3,11 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .tmg-unselectable { user-select:none; -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; -o-user-select:none; }
 .tmg-selectable { user-select:text; -webkit-touch-callout:text; -webkit-user-select:text; -khtml-user-select:text; -moz-user-select:text; -ms-user-select:text; -o-user-select:text; }
 
-#tmg-disclaimer-mobile, #tmg-disclaimer-mobile img { display:none; }
+#tmg-disclaimer-mobile { display:none; z-index:10001; position:fixed; width:100%; height:100%; padding:5%; font-family:"gothamrounded_book"; text-transform: uppercase; text-align:center; background-color:rgba(78,78,78,1); color:#cccccc; font-size:20px;}
+#tmg-disclaimer-mobile img { display:none; position:relative; width:120px; margin: 10px auto 32px auto; }
+#tmg-disclaimer-mobile span.num1:before { content:'Please rotate your device to view the page.'; }
+#tmg-disclaimer-mobile span.num2:before { content:'Currently, this site can only be viewed on mobile devices that are horizontally-oriented (landscape mode).'; }
+#tmg-disclaimer-mobile span.num3:before { content:'Thank you!'; }
 
 body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-left:auto; margin-right:auto; background-color:transparent; z-index:11000; }
 .tmg-popup { position:fixed; left:36%; top:0%; width:740px; margin-top:228px; height:auto; background-color:#a71f24; }

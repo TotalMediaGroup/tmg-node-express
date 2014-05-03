@@ -3,9 +3,6 @@ body { min-width:320px; max-width:320px; overflow-x:hidden; padding:0px 0px 0px 
 
 #tmg-container, #tmg-menu-mobile, .tmg-body-cover, #bg-static, .back-to-menu, .page-video-scroll, .footer { display:none; }
 
-#tmg-disclaimer-mobile img { display:block; position:relative; width:70%; margin: 10px auto 20px auto; }
-
-#tmg-disclaimer-mobile { z-index:10001; display:block; position:fixed; width:100%; height:100%; padding:5%; font-family:"gothamrounded_book"; text-transform: uppercase; text-align:center; background-color:gray; color:black; font-size:20px;  }
-#tmg-disclaimer-mobile span:before { content:'Please rotate your device to view the page. Currently, this site can only be viewed on mobile devices that are horizontally-oriented (landscape mode). Thank you!'; }
+#tmg-disclaimer-mobile, #tmg-disclaimer-mobile img { display:block; }
 
 .galleria-container { display:none; }
