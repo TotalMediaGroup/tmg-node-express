@@ -10,4 +10,9 @@
 .page-work, .page-work-nav { font-family:"univers_light"; }
 .work-search { font-family:"univers_light"; }
 .home-rules .rule-footer { font-family:"univers_light"; }
-.page-about {font-family:"univers_light";  }
+.page-about {font-family:"univers_light"; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .primary-body p { font-weight:300; }
+  .primary-title { font-weight:300; }
+}
