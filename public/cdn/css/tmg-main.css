@@ -136,7 +136,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-design .page-design-image { position:relative; overflow:visible; width:100%; height:auto; left:0%; top:0%; margin:0px 0px 0px 0px; border:0; }
 .page-design .page-design-image img { position:relative; width:100%; height:auto; left:0%; top:0%; }
 
-.page-video { letter-spacing:.03em; text-transform:uppercase; margin-top:176px; font-size:10px; font-weight:bold; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
+.page-video { letter-spacing:.03em; text-transform:uppercase; margin-top:176px; font-size:10px;/* font-weight:bold;*/ line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
 .page-video .video-player { background-color:transparent; overflow:visible; position:relative; }
 .page-video .video-player-box .video-player { width:96%; float:right; margin-bottom:40px; }
 .page-video .video-player-box .video-player img { width:96%; float:right; margin-bottom:40px; width:100%; }
@@ -217,7 +217,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-work { margin-top:20px; min-height:800px; }
 .page-work .col-lg-12 {  }
 
-.work-search-label { text-decoration:none; font-weight:300; font-family:"gothamrounded_book"; text-transform:uppercase; cursor:pointer; }
+.page-work, .page-work-nav { text-decoration:none; font-weight:300; font-family:"gothamrounded_book"; text-transform:uppercase; cursor:pointer; }
 .work-search-label .fa-search { position:absolute; top:6px; right:-8px; cursor:pointer; z-index:11; }
 .work-search-label-active .fa-search { color:black; }
 

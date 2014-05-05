@@ -15,6 +15,6 @@ exports.middlewares = {
     } else {
       next();
     }
-  },
+  }
 
 }

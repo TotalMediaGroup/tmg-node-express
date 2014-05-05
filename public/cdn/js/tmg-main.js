@@ -295,23 +295,23 @@ TMG.fn.load.internetExplorerStylesheets = function(){
     } else if (BrowserDetect.version === 9) {
       TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-ie9.css");
     }
+  } else if (BrowserDetect.OS === "Windows") {
+    TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-windows-non-ie.css");
   }
 }
 
 TMG.fn.load.jScrollPane = function(){
-  if (TMG.currentPage === "about") {
-    // TMG.fn.insertCss(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.css");
-    // $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/mwheelIntent.js",function(){
-    //   $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.mousewheel.js",function(){
-    //     $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.min.js",function(){
-    //       $('.jscroll-pane').jScrollPane({
-    //         showArrows: false
-    //       });
-    //       console.log("loaded jScrollPane");
-    //     });
-    //   });
-    // });
-  }
+  // TMG.fn.insertCss(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.css");
+  // $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/mwheelIntent.js",function(){
+  //   $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.mousewheel.js",function(){
+  //     $.getScript(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.min.js",function(){
+  //       $('.jscroll-pane').jScrollPane({
+  //         showArrows: false
+  //       });
+  //       console.log("loaded jScrollPane");
+  //     });
+  //   });
+  // });
 }
 
 
