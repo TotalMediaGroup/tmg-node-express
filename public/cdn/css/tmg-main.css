@@ -267,10 +267,10 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-about p { margin-top:1px; margin-bottom:1px; }
 .page-about .col-lf, .page-about .col-rt { position:relative; overflow-x:visible; overflow-y:hidden; }
 .page-about .col-sm-4 { padding-right:5%; /*border-right:dashed 2px gray; */}
-.page-about .team-member { position:relative; float:left; height:auto; border:0; width:133px; font-size:10px; color:#ffffff; margin:0px 0px 20px 5px; overflow:hidden; cursor:pointer; }
+.page-about .team-member { position:relative; float:left; height:160px; border:0; width:133px; font-size:10px; color:#ffffff; margin:0px 0px 20px 5px; overflow:hidden; cursor:pointer; }
 .page-about .team-member:hover img { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.80; -khtml-opacity:0.80; opacity:0.80;  }
 .page-about .team-member:hover .about-popup { color:#cccccc; text-decoration:none; }
-.page-about .team-member img { margin:0px 0px 4px 0px; float:left; z-index:8; }
+.page-about .team-member img { margin:0px 0px 4px 0px; float:left; z-index:8; min-height:117px; }
 .page-about .team-member span { line-height:1.25em; }
 .page-about .team-member .team-name { color:#ff0000; font-size:110%; clear:left; float:left; }
 .page-about .team-member .team-div { padding:0px 8px; display:none; }
@@ -291,7 +291,6 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-about .title-body { font-size:13px; position:relative; top:-16px; color:white; }
 .page-about .vertical-rule { position:absolute; left:-10%; top:-90px; height:300%; border:0; border-left:dashed 2px #cccccc; width:0px; }
 .team-members {/* max-height:720px;*/ overflow-y:scroll; overflow-x:hidden; margin-bottom:30px; }
-.team-member-10, .team-member-11, .team-member-12, .team-member-13 { left:-274px; }
 
 
 .jspDrag { background-color:red !important; }

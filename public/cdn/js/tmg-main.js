@@ -187,16 +187,18 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
         bgStaticResize(this,parseInt($(this).css("left")),parseInt($(this).css("top")));
       });
 
-      if ($(".video-bttm-secondary-layout-corner").length > 0) {
-        var textHeight = $(this).find(".clmn-lf-tp").innerHeight();
-        if (textHeight > 0) { $(this).find(".clmn-lf").css({height:textHeight+"px"}); }
-      } else {
-        var textHeight = $(this).find(".clmn-lf-tp").innerHeight();
-        if (textHeight > 235) {
-          $(this).find(".clmn-lf, .clmn-md, .clmn-rt").css({height:(420+textHeight-235)+"px"});
-          $(this).find(".clmn-lf-bt>img, .clmn-md>img, .clmn-rt>img").each(function(){ setSquImg(this); });
+      // if (!TMG.renderForMobile) {
+        if ($(".video-bttm-secondary-layout-corner").length > 0) {
+          var textHeight = $(this).find(".clmn-lf-tp").innerHeight();
+          if (textHeight > 0) { $(this).find(".clmn-lf").css({height:textHeight+"px"}); }
+        } else {
+          var textHeight = $(this).find(".clmn-lf-tp").innerHeight();
+          if (textHeight > 235) {
+            $(this).find(".clmn-lf, .clmn-md, .clmn-rt").css({height:(420+textHeight-235)+"px"});
+            $(this).find(".clmn-lf-bt>img, .clmn-md>img, .clmn-rt>img").each(function(){ setSquImg(this); });
+          }
         }
-      }
+//      }
 
     });
 
@@ -250,6 +252,8 @@ TMG.fn.load.slideShowSetup = function(){
 
 
   $(".touch .body-work-single").each(function(){
+
+    $('.primary-body, .clmn-lf-tp').flowtype(/*{ maxFont: 112, fontRatio: 10 }*/);
     $.getScript(TMG.cdn.bootstrap+"/hammer.js/1.1.2/hammer.min.js",function(){
      
       var hammerLeft = Hammer(document.getElementById('body-work-single')).on("swipeleft", function(event) {
@@ -736,6 +740,9 @@ TMG.fn.workSearch = function(onOff) {
     $(".work-search").animate({opacity:0.5});
     $(".page-work-nav a").removeClass("active");
     $(".page-work-nav a.filter-search").addClass("active");
+    var inputText = document.getElementById("work-search");
+    inputText.focus();
+    if (TMG.renderForMobile) { $(".work-search-label").animatescroll({padding:46}); inputText.setSelectionRange(0,9999); }
 
   } else {
     $(".work-search-label .fa-search").animate({right:"-8px"},"fast",function(){
