@@ -138,7 +138,7 @@ var data = [
     production_roles: ["CREATIVE","ART DIRECTION","ANIMATION","COMPOSITE"],
     secondary_text: ["The 2012 season was all about great hockey players that just suck at everything else. Dentist, Gardener, Massage Therapist, Physicist, Babysitter… ","","The 2013 season was about some very serious “room” situations (delivery room, board room…) adding the comedic twist to drop everything and go to the Sharks game.  ‘Yes, It’s That Exciting!”","","The one day shoots move along quickly, but can lead to some, well, “challenges”.  In addition to finding and editing the best performances, we often clean or extend the environments in CG post—add some tarot cards, candles or flying papers.  In some cases, we create the entire background environment—all on a modest budget."],
     secondary_content: [
-      { title:"Lousy Exterminator", image:"sharks28", video:"SJ_Sharks_FESTIVE_POLKA_HD", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"Lousy Exterminator", image:"sharks28", video:"SJ_Sharks_Lousy_Exterminator_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Board Room", image:"sharks31", video:"SJ_Sharks_SHAR_1303_BOARDROOM_CLOWE_EXCITING_NOW _HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Delivery Room", image:"sharks32", video:"SJ_Sharks_SHAR_1306_DELIVERY_ROOM_MEATLOAF_CAMERA_HD", button_white_or_black:"white", title_white_or_black:"white" }
       ],
