@@ -620,7 +620,7 @@ TMG.fn.video.isFullScreen = function() {
 
 TMG.fn.video.goFullScreen = function() {
 
-  if ((S($("html").attr("data-useragent")).count(".NET") > 0) || ((BrowserDetect.browser === "Safari") && (BrowserDetect.version === 5)) {
+  if ((S($("html").attr("data-useragent")).count(".NET") > 0) || ((BrowserDetect.browser === "Safari") && (BrowserDetect.version === 5))) {
     $(".navbar, .page-video-scroll, .back-to-menu").css({display:'none'});
     $(".video-player-inner").css({position:"fixed",width:"100%",height:"100%",backgroundColor:"black",zIndex:30000});
     var bodyWidth = parseInt($('body').width());
