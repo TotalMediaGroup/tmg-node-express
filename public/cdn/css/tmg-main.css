@@ -5,12 +5,9 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 
 #tmg-disclaimer-mobile { display:none; z-index:10001; position:fixed; width:100%; height:100%; padding:5%; font-family:"gothamrounded_book"; text-transform: uppercase; text-align:center; background-color:rgb(78,78,78); color:#cccccc; font-size:20px;}
 #tmg-disclaimer-mobile img { display:none; position:relative; width:120px; margin: 10px auto 32px auto; }
-/*#tmg-disclaimer-mobile span.num1:before { content:''; }
-#tmg-disclaimer-mobile span.num2:before { content:''; }
-#tmg-disclaimer-mobile span.num3:before { content:''; }*/
 
 body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-left:auto; margin-right:auto; background-color:transparent; z-index:11000; }
-.tmg-popup { position:fixed; left:36%; top:0%; width:60%; margin-top:228px; height:auto; background-color:#a71f24; }
+.tmg-popup { position:fixed; left:36%; top:0%; width:60%; margin-top:128px; height:auto; background-color:#a71f24; }
 .tmg-popup .tmg-popup-lf { position:relative; float:left; width:35%; left:15px; margin-top:0px; margin-bottom:50px; background-color:transparent; height:auto;  }
 .tmg-popup .tmg-popup-rt { position:relative; float:left; width:55%; left:0%; margin-top:30px; padding-bottom:30px; background-color:transparent; height:auto; border-left:dashed 1px rgba(255,255,255,0.4); }
 .tmg-popup-x { position:absolute; right:0%; top:0%; width:24px; height:24px; background-color:transparent; cursor:pointer; color:#cccccc; margin:10px; }

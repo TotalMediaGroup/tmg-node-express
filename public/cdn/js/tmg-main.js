@@ -169,9 +169,9 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
     if (bodyWidth >= 1400) { $(this).addClass("wide-container"); } else { $(this).removeClass("wide-container"); }
    });
 
-  // if (TMG.currentPage === 'about') { 
-  //   $(".bg-static").css({height:($(".footer").offset().top+300)+"px"});
-  // }
+  if (TMG.currentPage === 'about') { 
+    $(".bg-static").css({height:($(".footer").offset().top)+"px"});
+  }
 
   // if (TMG.currentPage === 'work-single') { 
   //   $(".header-corner").css({Math.floor($("#tmg-container").offset().left)+"px"});
@@ -295,8 +295,10 @@ TMG.fn.load.internetExplorerStylesheets = function(){
     } else if (BrowserDetect.version === 9) {
       TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-ie9.css");
     }
-  } else if (BrowserDetect.OS === "Windows") {
-    TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-windows-non-ie.css");
+    $(".navbar-brand img, .footer-logo img").attr("src",TMG.cdn.tmg+"/img/logo/masthead-creative.png?v="+TMG.appVersion);
+  }
+  if (BrowserDetect.OS === "Windows") {
+    TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-windows.css");
   }
 }
 
@@ -681,38 +683,6 @@ TMG.fn.workSearchFocus = function(onOff) {
 
 }
 
-
-// TMG.fn.work.filterVideos = function(filter) {
-
-//   $(".page-work-nav a").removeClass("active");
-
-//   if ((filter== null) || (filter == 'reset')) {
-//     $('.page-work').isotope(TMG.isotopeOptions); 
-//   } else {
-//     $(".page-work-nav .filter-"+filter).addClass("active");
-//     $('.page-work').isotope(TMG.isotopeOptions);
-//   }
-
-//   TMG.fn.reactiveUi.modifyOverWidthElements();
-
-// }
-
-// TMG.aboutTeamSmallHeight = 0;
-
-// TMG.fn.aboutTeamExpand = function(obj) {
-//   var target = $(obj).parent(".team-member").find(".team-body");
-
-//   if (parseInt(target.css('height')) > 64) {
-//     target.css({height:TMG.aboutTeamSmallHeight+'px'});
-//     $(obj).css('top','0px').find("span").html("MORE");
-//     $(obj).find(".fa").replaceWith("<i class=\"fa fa-caret-down\"></i>");
-//   } else {
-//     TMG.aboutTeamSmallHeight = parseInt(target.css('height'));
-//     target.css({height:'auto'});
-//     $(obj).css('top','-36px').find("span").html("LESS");
-//     $(obj).find(".fa").replaceWith("<i class=\"fa fa-caret-up\"></i>");
-//   }
-// }
 
 var workSearchSet = false;
 
