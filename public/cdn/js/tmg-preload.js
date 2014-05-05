@@ -56,7 +56,7 @@ function bgStaticResize(inputObj,left,top){
     divDim.tp = /*Math.round((*/Math.abs(top)/*/100)*divDim.ht)*/;
     objDim.rat = objDim.wd/objDim.ht;
     var minHt = Math.ceil($(".page-video-bttm").offset().top-83);
-    console.log(objDim.ht +" - "+ (minHt+divDim.tp) +" - "+ (divDim.tp));
+ //   console.log(objDim.ht +" - "+ (minHt+divDim.tp) +" - "+ (divDim.tp));
     if (objDim.ht <= (minHt+divDim.tp)) {
   //    if (allowTMGbgresize) {
         obj.css({width:Math.round((minHt+divDim.tp)*objDim.rat)+"px",minWidth:Math.round((minHt+divDim.tp)*objDim.rat)+"px",visibility:"visible"});

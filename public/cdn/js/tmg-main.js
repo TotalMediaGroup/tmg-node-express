@@ -288,6 +288,16 @@ TMG.fn.load.tmgClient = function(){
   }
 }
 
+TMG.fn.load.internetExplorerStylesheets = function(){
+  if (S($("html").attr("data-useragent")).count(".NET") > 0) {
+    if (BrowserDetect.version === 8) {
+      TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-ie8.css");
+    } else if (BrowserDetect.version === 9) {
+      TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-ie9.css");
+    }
+  }
+}
+
 TMG.fn.load.jScrollPane = function(){
   if (TMG.currentPage === "about") {
     // TMG.fn.insertCss(TMG.cdn.tmgVendor+"/jscrollpane/2.0.19/jquery.jscrollpane.css");
@@ -313,7 +323,7 @@ TMG.setCurrentBackground = function() {
   TMG.bgImages.curr.onload = function(){ setSquImg(this); };
   TMG.bgImages.curr.src = TMG.cdn.tmgStatic+'/web/slideshowpredarkened/'+tmgBackgrounds[tmgCurrentBg]+'.jpg?v='+TMG.appVersion;
   $("#bg-static img").addClass("curr").transition({opacity:0},TMG.slideShowTransitionSpeed,function(){ $(this).css({display:'none',width:'0px',height:'0px',zIndex:0}).each(function(){
-     console.log("slideshow transitioned: "+$(this).css("z-index")); $(this).remove();
+     /*console.log("slideshow transitioned: "+$(this).css("z-index"));*/ $(this).remove();
   }); });
   if (TMG.bgImages.curr.complete) { setSquImg(TMG.bgImages.curr); }
   document.getElementById('bg-static').appendChild(TMG.bgImages.curr);
@@ -511,7 +521,7 @@ TMG.fn.video.place = function(containerObj) {
   jqCont.append("<div class=\"video-player-inner\" id=\"video-player-"+vidId+"-"+hash+"\""
            +" style=\"width:"+vidDim[0]+"%;height:"+vidDim[1]+"%;top:"+vidPos[1]+"%;left:"+vidPos[0]+"%;\""
         +"></div>"
-        +"<div class=\"video-player-button video-player-button-fullscreen non-mobile-only\" onClick=\"TMG.video.obj.requestFullScreen()\"><i class=\"fa fa-arrows-alt\"></i>"/*+"FULL SCREEN"*/+"</div>"
+        +"<div class=\"video-player-button video-player-button-fullscreen non-mobile-only\" onClick=\"TMG.fn.video.goFullScreen()\"><i class=\"fa fa-arrows-alt\"></i>"/*+"FULL SCREEN"*/+"</div>"
 //        +"<div class=\"video-player-button video-player-button-playback\" onClick=\"TMG.fn.video.ended()\">STOP<i class=\"fa fa-pause\"></i></div>"
         );
 
@@ -572,6 +582,7 @@ TMG.fn.video.ended = function() {
         .animate({opacity:0},500,function(){ $(this).css({display:'none'}); });
       $(this).find(".video-player-button").animate({opacity:0},500,function(){$(this).remove();});
     });
+    $(".navbar, .page-video-scroll, .back-to-menu").css({display:'block'});
     TMG.fn.video.reset();
 }
 
@@ -601,6 +612,18 @@ TMG.fn.video.isFullScreen = function() {
     });
   }
   return rtrn;
+}
+
+TMG.fn.video.goFullScreen = function() {
+
+  if (S($("html").attr("data-useragent")).count(".NET") > 0) {
+    $(".navbar, .page-video-scroll, .back-to-menu").css({display:'none'});
+    $(".video-player-inner").css({position:"fixed",width:"100%",height:"100%",backgroundColor:"black",zIndex:30000});
+    var bodyWidth = parseInt($('body').width());
+    $(".video-player-inner .video-js").css({width:bodyWidth+"px",height:Math.round(9*bodyWidth/16)+"px"});
+  } else {
+    TMG.video.obj.requestFullScreen();
+  }
 }
 
 TMG.fn.video.percentComplete = function() {

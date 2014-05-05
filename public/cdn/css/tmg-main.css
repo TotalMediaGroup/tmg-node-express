@@ -3,7 +3,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .tmg-unselectable { user-select:none; -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; -o-user-select:none; }
 .tmg-selectable { user-select:text; -webkit-touch-callout:text; -webkit-user-select:text; -khtml-user-select:text; -moz-user-select:text; -ms-user-select:text; -o-user-select:text; }
 
-#tmg-disclaimer-mobile { display:none; z-index:10001; position:fixed; width:100%; height:100%; padding:5%; font-family:"gothamrounded_book"; text-transform: uppercase; text-align:center; background-color:rgba(78,78,78,1); color:#cccccc; font-size:20px;}
+#tmg-disclaimer-mobile { display:none; z-index:10001; position:fixed; width:100%; height:100%; padding:5%; font-family:"gothamrounded_book"; text-transform: uppercase; text-align:center; background-color:rgb(78,78,78); color:#cccccc; font-size:20px;}
 #tmg-disclaimer-mobile img { display:none; position:relative; width:120px; margin: 10px auto 32px auto; }
 /*#tmg-disclaimer-mobile span.num1:before { content:''; }
 #tmg-disclaimer-mobile span.num2:before { content:''; }
@@ -48,7 +48,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 
 .red { color:#ff0000; }
 
-.navbar { font-family:"gothamrounded_book"; text-transform: uppercase; height:88px; background-color:rgba(78,78,78,1); border-color:rgba(78,78,78,1); z-index:100; }
+.navbar { font-family:"gothamrounded_book"; text-transform: uppercase; height:88px; background-color:rgb(78,78,78); border-color:rgb(78,78,78); z-index:100; }
 .navbar .navbar-header img { margin-top:0px; height:60px; }
 .navbar img:hover { filter:alpha(opacity=67); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=67)"; -moz-opacity:0.67; -khtml-opacity:0.67; opacity:0.67; }
 .navbar-nav { height:20px; margin-top:68px; margin-left:50px; }
@@ -59,7 +59,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .navbar-inverse .navbar-nav>.active>a { box-shadow:none; background-image:none; }
 #navbar-client-login { border-right:solid 0px #777; }
 
-.footer { position:relative; top:0px; height:150px; z-index:20; width:100%; background-color:rgba(78,78,78,1); border:0; margin-top:0px; overflow-x:hidden; overflow-y:hidden; }
+.footer { position:relative; top:0px; height:150px; z-index:20; width:100%; background-color:rgb(78,78,78); border:0; margin-top:0px; overflow-x:hidden; overflow-y:hidden; }
 .footer .container { overflow-x:hidden; overflow-y:hidden; height:100%; }
 .footer .footer-logo { position:relative; float:left; padding:45px; padding-top:25px; }
 .footer .footer-logo img { height:60px; }
@@ -116,6 +116,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .body-work-single .bg-static.tmg-thmb img { visibility:visible; width:100%; }
 .body-about .bg-static { height:100%; }
 
+.vid-static { position:fixed; margin:0px 0px 0px 0px; left:0%; top:0%; width:100%; height:100%; z-index:12; overflow:hidden; background-color:black; display:none; }
+
 .vjs-default-skin .vjs-play-progress, .vjs-default-skin .vjs-volume-level { background-color:#444444 !important; }
 .vjs-default-skin .vjs-big-play-button { display:none !important; }
 .vjs-default-skin .vjs-control-bar { top:auto !important; bottom:-28px !important; }
@@ -127,7 +129,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 
 .page-design { margin-top:88px; background-color:transparent; height:auto; z-index:10; }
 .page-design .col-lg-12 { position:relative; }
-.page-design-header-bg { position:absolute; left:-800%; height:100%; width:1700%; background-color:rgba(64,64,64,1); z-index:10; top:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
+.page-design-header-bg { position:absolute; left:-800%; height:100%; width:1700%; background-color:rgb(64,64,64); z-index:10; top:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
 .page-design-header-text { position:relative; width:100%; padding:32px 0px 8px 0px; color:white; z-index:11; text-align:left; left:0%; height:100%; font-size:14px; font-family:"gothamrounded_book"; text-transform:uppercase; }
 .page-design .primary-body { position:absolute; left:5%; top:5%; width:33%; height:auto; color:#444444; background-color:transparent; font-size:10px; font-family:"gothamrounded_book"; text-transform:uppercase; letter-spacing:.03em; line-height:1.7;  }
 .page-design .primary-body p { margin-top:1px; margin-bottom:1px; }
