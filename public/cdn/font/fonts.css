@@ -14,3 +14,8 @@
   font-family: 'alternategot_no1_dot';
   src: url('alternategot_no1_dot/alternategot_no1_dot.svg#alternategot_no1_dot') format('svg'), url('alternategot_no1_dot/alternategot_no1_dot.eot?') format('eot'), url('alternategot_no1_dot/alternategot_no1_dot.otf')  format('opentype'), url('alternategot_no1_dot/alternategot_no1_dot.woff') format('woff'), url('alternategot_no1_dot/alternategot_no1_dot.ttf')  format('truetype');
 }
+
+@font-face {
+  font-family: 'univers_light';
+  src: url('univers_light/univers_light.eot'); src: url('univers_light/univers_light.eot?iefix') format('eot'), url('univers_light/univers_light.woff') format('woff'), url('univers_light/univers_light.ttf') format('truetype'), url('univers_light/univers_light.svg#webfontV8YvywXh') format('svg');
+}

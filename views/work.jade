@@ -10,7 +10,7 @@ block content
 
         ul.nav.navbar-nav.pull-left
 
-          img.navbar-category-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png")
+          img.non-mobile-only.navbar-category-icon(src="#{tmg_cdn}/img/misc/category-grid-white.png")
           li.pull-left
             a(class="filter-featured",href="#featured",onClick="TMG.incrementFooterRule()")
               | FEATURED
@@ -31,7 +31,7 @@ block content
               | <span class="mobile-only">ALL</span><span class="non-mobile-only">ALL WORK</span>
 
           li.pull-left(style="border-right:none")
-            a(class="filter-search",onClick="TMG.fn.workSearch(true)")
+            a(class="filter-search",href="javascript:TMG.fn.workSearch(true)")
               label.work-search-label(for="work-search")
                 | SEARCH
                 i.fa.fa-search(style="padding-left:8px;")

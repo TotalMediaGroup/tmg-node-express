@@ -19,7 +19,6 @@ html(lang="en")
     script(type='text/javascript', src='#{tmg_vendor_cdn}/css3-mediaqueries/0.1/css3-mediaqueries.js')
     | <!--[if lt IE 9]> <script type="text/javascript" src="#{tmg_vendor_cdn}/html5shiv/3.7.0/html5shiv.js"></script> <![endif]-->
     | <!--[if lt IE 9]> <script type="text/javascript" src="#{tmg_vendor_cdn}/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
-    | <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="#{tmg_direct}/css/gradient-ie9.css" /> <![endif]-->
     link(rel='stylesheet', type='text/css', href='#{tmg_direct}/font/fonts.css?v=#{app_version}')
     link(rel='stylesheet', type='text/css', href='#{tmg_vendor_cdn}/jquery-isotope/1.5.26/jquery.isotope.css')
     link(rel='stylesheet', type='text/css', href='#{tmg_direct}/css/tmg-main.css?v=#{app_version}')
@@ -32,7 +31,7 @@ html(lang="en")
     script(type="text/javascript")
       | var tmgRules=[], tmgCurrentRule=0, tmgBackgrounds=[], tmgCurrentBg=0;
       for item in data["tmg_rules"]
-        | tmgRules.push({num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}'});
+        | tmgRules.push({num:#{data["tmg_rules"].indexOf(item)+1},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}',img:'#{item[2]}'});
       for item in data["background_images"]
         | tmgBackgrounds.push('#{item[0].replace(/'/g,"\\'")}');
       | tmgRules.sort(randomSort); tmgBackgrounds.sort(randomSort); arrayShuffle(tmgRules); arrayShuffle(tmgBackgrounds); 
@@ -40,6 +39,8 @@ html(lang="en")
   body(id="body-#{current_page[0]}",class="body-#{current_page[0]}")
     
     div.tmg-thmb.bg-static#bg-static
+
+    //-div.vid-static#vid-static
 
     //-div.header-corner.header-corner-lf
     //-div.header-corner.header-corner-rt
@@ -88,7 +89,7 @@ html(lang="en")
               i.fa.fa-facebook-square
             a(href="https://www.linkedin.com/company/total-media-group",target="_blank")
               i.fa.fa-linkedin-square
-            a(href="mailto:info@totalmediagroup.com",target="_blank")
+            a(href="mailto:info@tmgcreative.tv",target="_blank")
               i.fa.fa-envelope
 
       block content
@@ -107,7 +108,7 @@ html(lang="en")
               i.fa.fa-facebook-square
             a(href="https://www.linkedin.com/company/total-media-group",target="_blank")
               i.fa.fa-linkedin-square
-            a(href="mailto:info@totalmediagroup.com",target="_blank")
+            a(href="mailto:info@tmgcreative.tv",target="_blank")
               i.fa.fa-envelope
         div.home-rules.footer-rules(onClick="TMG.incrementFooterRule()")
           div.home-rules-number-stretch.rule-number= "Rule #00"
@@ -120,13 +121,16 @@ html(lang="en")
           span.rule-footer= "HOW TO DO REALLY GREAT WORK"
     
     script(type='text/javascript', src='#{googlelibs_cdn}/jquery/1.11.0/jquery.min.js')
-    script(type='text/javascript', src='#{tmg_vendor_cdn}/velocity.js/jquery.velocity.min.js')
-    //- script(type='text/javascript', src='#{tmg_vendor_cdn}/jquery-migrate/1.1.1/jquery-migrate.js')
+    script(type='text/javascript', src='#{tmg_vendor_cdn}/transit.js/0.9.9/jquery.transit.min.js')
+    script(type='text/javascript', src='#{tmg_vendor_cdn}/browser-detect/browser-detect.min.js')
+    //-script(type='text/javascript', src='#{tmg_vendor_cdn}/velocity.js/jquery.velocity.min.js')
+    //-script(type='text/javascript', src='#{tmg_vendor_cdn}/jquery-migrate/1.1.1/jquery-migrate.js')
     script(type='text/javascript', src='#{tmg_vendor_cdn}/flowtype.js/1.1/flowtype.js')
     script(type='text/javascript', src='#{tmg_vendor_cdn}/jquery-animate-scroll/1.0.5/animatescroll.js')
     script(type='text/javascript', src='#{tmg_vendor_cdn}/jquery-isotope/1.5.26/jquery.isotope.min.js')
     script(type='text/javascript', src='#{tmg_vendor_cdn}/jquery-bbq/1.2.1/jquery.ba-bbq.min.js')
     script(type='text/javascript', src='#{tmg_vendor_cdn}/string.js/string.min.js')
+    script(type='text/javascript', src='#{tmg_vendor_cdn}/transit.js/0.9.9/jquery.transit.min.js')
     script(type='text/javascript', src='#{tmg_cdn}/js/tmg-main.js?v=#{app_version}')
 
     script(type='text/javascript').
@@ -137,4 +141,10 @@ html(lang="en")
         window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",window.analytics.load("#{segment_io_client_id}");window.analytics.page();
 
     div#tmg-disclaimer-mobile
-      span
+      img.tmg-unselectable.logo(src="#{tmg_cdn}/img/logo/masthead-creative.large.png?v=#{app_version}")
+      p
+        span.num1="Please rotate your device to view the page."
+      p
+        span.num2="Currently, this site can only be viewed on mobile devices that are horizontally-oriented (landscape mode)."
+      p
+        span.num3="Thank you!"

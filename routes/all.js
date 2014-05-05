@@ -6,7 +6,7 @@ var navItems = [
     [ "about", "About", "/about", "About", true, false ],
     [ "work-single", "Video", "/work/:video_id", "Video", false, false ],
     [ "client", "Client Workspace", "/client/:client_id", "Client Workspace", false, false ],
-    [ "client-login", "Client Access", "http://ftp2.totalmediagroup.com/", "Client Access", true, false ]
+    [ "client-login", "Client Access", "http://ftp2.tmgcreative.tv/", "Client Access", true, false ]
   ];
 
 for (var i = 0; i < navItems.length; i++) { navItems[i][3] = "Total Media Group | "+navItems[i][3]; }

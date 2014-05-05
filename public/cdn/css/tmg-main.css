@@ -3,10 +3,11 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 .tmg-unselectable { user-select:none; -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; -o-user-select:none; }
 .tmg-selectable { user-select:text; -webkit-touch-callout:text; -webkit-user-select:text; -khtml-user-select:text; -moz-user-select:text; -ms-user-select:text; -o-user-select:text; }
 
-#tmg-disclaimer-mobile { display:none; }
+#tmg-disclaimer-mobile { display:none; z-index:10001; position:fixed; width:100%; height:100%; padding:5%; font-family:"gothamrounded_book"; text-transform: uppercase; text-align:center; background-color:rgb(78,78,78); color:#cccccc; font-size:20px;}
+#tmg-disclaimer-mobile img { display:none; position:relative; width:120px; margin: 10px auto 32px auto; }
 
 body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-left:auto; margin-right:auto; background-color:transparent; z-index:11000; }
-.tmg-popup { position:fixed; left:36%; top:0%; width:740px; margin-top:228px; height:auto; background-color:#a71f24; }
+.tmg-popup { position:fixed; left:36%; top:0%; width:60%; margin-top:128px; height:auto; background-color:#a71f24; }
 .tmg-popup .tmg-popup-lf { position:relative; float:left; width:35%; left:15px; margin-top:0px; margin-bottom:50px; background-color:transparent; height:auto;  }
 .tmg-popup .tmg-popup-rt { position:relative; float:left; width:55%; left:0%; margin-top:30px; padding-bottom:30px; background-color:transparent; height:auto; border-left:dashed 1px rgba(255,255,255,0.4); }
 .tmg-popup-x { position:absolute; right:0%; top:0%; width:24px; height:24px; background-color:transparent; cursor:pointer; color:#cccccc; margin:10px; }
@@ -44,7 +45,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 
 .red { color:#ff0000; }
 
-.navbar { font-family:"gothamrounded_book"; text-transform: uppercase; height:88px; background-color:rgba(78,78,78,1); border-color:rgba(78,78,78,1); z-index:100; }
+.navbar { font-family:"gothamrounded_book"; text-transform: uppercase; height:88px; background-color:rgb(78,78,78); border-color:rgb(78,78,78); z-index:100; }
 .navbar .navbar-header img { margin-top:0px; height:60px; }
 .navbar img:hover { filter:alpha(opacity=67); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=67)"; -moz-opacity:0.67; -khtml-opacity:0.67; opacity:0.67; }
 .navbar-nav { height:20px; margin-top:68px; margin-left:50px; }
@@ -55,7 +56,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .navbar-inverse .navbar-nav>.active>a { box-shadow:none; background-image:none; }
 #navbar-client-login { border-right:solid 0px #777; }
 
-.footer { position:relative; top:0px; height:150px; z-index:20; width:100%; background-color:rgba(78,78,78,1); border:0; margin-top:0px; overflow-x:hidden; overflow-y:hidden; }
+.footer { position:relative; top:0px; height:150px; z-index:20; width:100%; background-color:rgb(78,78,78); border:0; margin-top:0px; overflow-x:hidden; overflow-y:hidden; }
 .footer .container { overflow-x:hidden; overflow-y:hidden; height:100%; }
 .footer .footer-logo { position:relative; float:left; padding:45px; padding-top:25px; }
 .footer .footer-logo img { height:60px; }
@@ -85,7 +86,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .body-home #tmg-container { position:fixed; width:100% !important; height:100%; }
 .body-work .footer { margin-top:100px; }
 .body-work-single .footer { margin-top:0px; }
-.body-about .footer { margin-top:330px; }
+/*.body-about .footer { margin-top:330px; }*/
 
 .header-corner { display:none; position:fixed; top:0%; left:0%; height:88px; background-color:#4E4E4E; width:40px; z-index:20002; }
 .body-work-single .header-corner-lf { display:block; }
@@ -112,6 +113,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .body-work-single .bg-static.tmg-thmb img { visibility:visible; width:100%; }
 .body-about .bg-static { height:100%; }
 
+.vid-static { position:fixed; margin:0px 0px 0px 0px; left:0%; top:0%; width:100%; height:100%; z-index:12; overflow:hidden; background-color:black; display:none; }
+
 .vjs-default-skin .vjs-play-progress, .vjs-default-skin .vjs-volume-level { background-color:#444444 !important; }
 .vjs-default-skin .vjs-big-play-button { display:none !important; }
 .vjs-default-skin .vjs-control-bar { top:auto !important; bottom:-28px !important; }
@@ -123,14 +126,14 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 
 .page-design { margin-top:88px; background-color:transparent; height:auto; z-index:10; }
 .page-design .col-lg-12 { position:relative; }
-.page-design-header-bg { position:absolute; left:-800%; height:100%; width:1700%; background-color:rgba(64,64,64,1); z-index:10; top:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
+.page-design-header-bg { position:absolute; left:-800%; height:100%; width:1700%; background-color:rgb(64,64,64); z-index:10; top:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
 .page-design-header-text { position:relative; width:100%; padding:32px 0px 8px 0px; color:white; z-index:11; text-align:left; left:0%; height:100%; font-size:14px; font-family:"gothamrounded_book"; text-transform:uppercase; }
 .page-design .primary-body { position:absolute; left:5%; top:5%; width:33%; height:auto; color:#444444; background-color:transparent; font-size:10px; font-family:"gothamrounded_book"; text-transform:uppercase; letter-spacing:.03em; line-height:1.7;  }
 .page-design .primary-body p { margin-top:1px; margin-bottom:1px; }
 .page-design .page-design-image { position:relative; overflow:visible; width:100%; height:auto; left:0%; top:0%; margin:0px 0px 0px 0px; border:0; }
 .page-design .page-design-image img { position:relative; width:100%; height:auto; left:0%; top:0%; }
 
-.page-video { letter-spacing:.03em; text-transform:uppercase; margin-top:176px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
+.page-video { letter-spacing:.03em; text-transform:uppercase; margin-top:176px; font-size:10px;/* font-weight:bold;*/ line-height:1.7; color:#cccccc; font-family:"gothamrounded_book"; z-index:10; text-transform:uppercase; }
 .page-video .video-player { background-color:transparent; overflow:visible; position:relative; }
 .page-video .video-player-box .video-player { width:96%; float:right; margin-bottom:40px; }
 .page-video .video-player-box .video-player img { width:96%; float:right; margin-bottom:40px; width:100%; }
@@ -211,7 +214,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-work { margin-top:20px; min-height:800px; }
 .page-work .col-lg-12 {  }
 
-.work-search-label { text-decoration:none; font-weight:300; font-family:"gothamrounded_book"; text-transform:uppercase; cursor:pointer; }
+.page-work, .page-work-nav { text-decoration:none; font-weight:300; font-family:"gothamrounded_book"; text-transform:uppercase; cursor:pointer; }
 .work-search-label .fa-search { position:absolute; top:6px; right:-8px; cursor:pointer; z-index:11; }
 .work-search-label-active .fa-search { color:black; }
 
@@ -253,19 +256,20 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .home-rules .rule-body .brackets { color:#ff0000; font-size:120%; text-shadow: 0px 0px 0px;  }
 .home-rules .rule-footer {  top:-220px; font-size:16px; font-family:"gothamrounded_book"; position:relative; }
 .home-rules .rule-hr { position:relative; width:25%; border:dashed 1px #aaa; border-bottom:none; border-left:none; border-right:none; }
+.home-rules .rule-image { position:relative; margin-left:auto; margin-right:auto; top:-100px; }
 .home-rules-body-squeeze { -webkit-transform: scaleX(0.83); -moz-transform: scaleX(0.83); -ms-transform: scaleX(0.83); -o-transform: scaleX(0.83); transform: scaleX(0.83); }
 .home-rules-number-stretch { -webkit-transform: scale(0.95,1.05); -moz-transform: scale(0.95,1.05); -ms-transform: scale(0.95,1.05); -o-transform: scale(0.95,1.05); transform: scale(0.95,1.05); }
 
 
-.about-popup { color:#cccccc; text-decoration:none; }
+.about-popup { color:#cccccc; text-decoration:none; float:left; }
 .page-about { -webkit-text-shadow: rgba(255,255,255,0.01) 0 0 1px; -webkit-text-stroke: rgba(255,255,255,0.01) 0.1px; -webkit-text-stroke-width: 0.1px; margin-top:128px; font-size:10px; line-height:1.7; color:#cccccc; font-family:"gothamrounded_book";  /*font-family:helvetica;*/ text-transform: uppercase; z-index:10; }
 .page-about p { margin-top:1px; margin-bottom:1px; }
 .page-about .col-lf, .page-about .col-rt { position:relative; overflow-x:visible; overflow-y:hidden; }
 .page-about .col-sm-4 { padding-right:5%; /*border-right:dashed 2px gray; */}
-.page-about .team-member { position:relative; float:left; height:auto; border:0; width:133px; font-size:10px; color:#ffffff; margin:0px 0px 20px 5px; overflow:hidden; cursor:pointer; }
+.page-about .team-member { position:relative; float:left; height:160px; border:0; width:133px; font-size:10px; color:#ffffff; margin:0px 0px 20px 5px; overflow:hidden; cursor:pointer; }
 .page-about .team-member:hover img { filter:alpha(opacity=80); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; -moz-opacity:0.80; -khtml-opacity:0.80; opacity:0.80;  }
 .page-about .team-member:hover .about-popup { color:#cccccc; text-decoration:none; }
-.page-about .team-member img { margin:0px 0px 4px 0px; float:left; z-index:8; }
+.page-about .team-member img { margin:0px 0px 4px 0px; float:left; z-index:8; min-height:117px; }
 .page-about .team-member span { line-height:1.25em; }
 .page-about .team-member .team-name { color:#ff0000; font-size:110%; clear:left; float:left; }
 .page-about .team-member .team-div { padding:0px 8px; display:none; }
@@ -285,7 +289,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .page-about .title-bracket { color:red; font-size:75px; font-family:"alternategot_no1_dot"; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
 .page-about .title-body { font-size:13px; position:relative; top:-16px; color:white; }
 .page-about .vertical-rule { position:absolute; left:-10%; top:-90px; height:300%; border:0; border-left:dashed 2px #cccccc; width:0px; }
-.team-members { max-height:720px; overflow-y:scroll; overflow-x:hidden; margin-bottom:30px; }
+.team-members {/* max-height:720px;*/ overflow-y:scroll; overflow-x:hidden; margin-bottom:30px; }
 
 
 .jspDrag { background-color:red !important; }

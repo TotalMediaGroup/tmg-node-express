@@ -11,7 +11,7 @@ block content
     document.getElementById('bg-static').appendChild(imgBG);
 
   div.container
-    div.row.page-about
+    div.row.page-about.non-mobile-only
       div.col-lf.col-sm-4(style="padding-bottom:40px;")
         span.title-bracket(style="position:relative;left:0px;")= "["
         span.title-body= "THE COMPANY"
@@ -39,26 +39,24 @@ block content
         div.vertical-rule.tmg-trans-80
 
         for item, ind in data["team"]
-          a.about-popup(href="javascript:TMG.fn.aboutPopup(true,'#{item[4]}')")
-            div.team-member(id="team-member-#{item[4]}")
-              img(src="#{tmg_static_cdn}/web/portraits/#{item[4]}-portrait.jpg?v=#{app_version}")
-              span.team-name
-                | #{item[0]}
-              span.team-div= "|"
-              span.team-title
-                | #{item[1]}
-              span.team-div= "|"
-              div.team-email-bg
-              a.team-email(target="_blank",href="mailto:#{item[3]}")
-                i.fa.fa-envelope
-              br
-              div.team-body
-                for itm in item[2]
-                  p.tmg-popup-body
-                    | #{itm}
-              div.team-more(onClick="TMG.fn.aboutTeamExpand(this)")
-                span= "MORE"
-                i.fa.fa-caret-down
+          div(class="team-member team-member-#{ind} pull-left",id="team-member-#{item[4]}",onClick="TMG.fn.aboutPopup(true,'#{item[4]}')")
+            img(src="#{tmg_static_cdn}/web/portraits/#{item[4]}-portrait.jpg?v=#{app_version}")
+            span.team-name
+              | #{item[0]}
+            span.team-div= "|"
+            span.team-title
+              | #{item[1]}
+            span.team-div= "|"
+            div.team-email-bg
+            a.team-email(target="_blank",href="mailto:#{item[3]}")
+              i.fa.fa-envelope
+            br
+            div.team-body
+              for itm in item[2]
+                p.tmg-popup-body
+                  | #{itm}
+
+
 
 
           

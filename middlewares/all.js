@@ -9,12 +9,12 @@ exports.middlewares = {
   tmgDemos: function(req, res, next) {
     
     if (req.path.substr(0,7) === "/demos/") {
-      console.log("redirecting to demos.totalmediagroup.com");
-      res.writeHead(302, { "Location": "http://demos.totalmediagroup.com"+req.path } );
+      console.log("redirecting to demos.tmgcreative.tv");
+      res.writeHead(302, { "Location": "http://demos.tmgcreative.tv"+req.path } );
       res.end();
     } else {
       next();
     }
-  },
+  }
 
 }
