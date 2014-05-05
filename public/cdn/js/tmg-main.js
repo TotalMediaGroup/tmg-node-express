@@ -251,25 +251,10 @@ TMG.fn.load.slideShowSetup = function(){
   }
 
 
-  $(".touch .body-work-single").each(function(){
-
+  $(".touch .body-work-single, .touch .page-about .col-lf").each(function(){
     if ($(".page-design").length == 0) {
       $('.primary-body, .clmn-lf-tp').flowtype(/*{ maxFont: 112, fontRatio: 10 }*/);
     }
-    // $.getScript(TMG.cdn.bootstrap+"/hammer.js/1.1.2/hammer.min.js",function(){
-     
-    //   var hammerLeft = Hammer(document.getElementById('body-work-single')).on("swipeleft", function(event) {
-    //     $("#video-next-link").each(function(){
-    //       window.location = $(this).attr("href");
-    //     });
-    //   });
-    //   var hammerRight = Hammer(document.getElementById('body-work-single')).on("swiperight", function(event) {
-    //     $("#video-prev-link").each(function(){
-    //       window.location = $(this).attr("href");
-    //     });
-    //   });
-
-    // });
   });
 
 }
