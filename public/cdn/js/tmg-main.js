@@ -253,7 +253,9 @@ TMG.fn.load.slideShowSetup = function(){
 
   $(".touch .body-work-single").each(function(){
 
-    $('.primary-body, .clmn-lf-tp').flowtype(/*{ maxFont: 112, fontRatio: 10 }*/);
+    if ($(".page-design").length == 0) {
+      $('.primary-body, .clmn-lf-tp').flowtype(/*{ maxFont: 112, fontRatio: 10 }*/);
+    }
     // $.getScript(TMG.cdn.bootstrap+"/hammer.js/1.1.2/hammer.min.js",function(){
      
     //   var hammerLeft = Hammer(document.getElementById('body-work-single')).on("swipeleft", function(event) {
@@ -618,7 +620,7 @@ TMG.fn.video.isFullScreen = function() {
 
 TMG.fn.video.goFullScreen = function() {
 
-  if (S($("html").attr("data-useragent")).count(".NET") > 0) {
+  if ((S($("html").attr("data-useragent")).count(".NET") > 0) || ((BrowserDetect.browser === "Safari") && (BrowserDetect.version === 5)) {
     $(".navbar, .page-video-scroll, .back-to-menu").css({display:'none'});
     $(".video-player-inner").css({position:"fixed",width:"100%",height:"100%",backgroundColor:"black",zIndex:30000});
     var bodyWidth = parseInt($('body').width());
