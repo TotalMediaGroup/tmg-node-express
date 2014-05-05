@@ -254,20 +254,20 @@ TMG.fn.load.slideShowSetup = function(){
   $(".touch .body-work-single").each(function(){
 
     $('.primary-body, .clmn-lf-tp').flowtype(/*{ maxFont: 112, fontRatio: 10 }*/);
-    $.getScript(TMG.cdn.bootstrap+"/hammer.js/1.1.2/hammer.min.js",function(){
+    // $.getScript(TMG.cdn.bootstrap+"/hammer.js/1.1.2/hammer.min.js",function(){
      
-      var hammerLeft = Hammer(document.getElementById('body-work-single')).on("swipeleft", function(event) {
-        $("#video-next-link").each(function(){
-          window.location = $(this).attr("href");
-        });
-      });
-      var hammerRight = Hammer(document.getElementById('body-work-single')).on("swiperight", function(event) {
-        $("#video-prev-link").each(function(){
-          window.location = $(this).attr("href");
-        });
-      });
+    //   var hammerLeft = Hammer(document.getElementById('body-work-single')).on("swipeleft", function(event) {
+    //     $("#video-next-link").each(function(){
+    //       window.location = $(this).attr("href");
+    //     });
+    //   });
+    //   var hammerRight = Hammer(document.getElementById('body-work-single')).on("swiperight", function(event) {
+    //     $("#video-prev-link").each(function(){
+    //       window.location = $(this).attr("href");
+    //     });
+    //   });
 
-    });
+    // });
   });
 
 }
@@ -350,7 +350,7 @@ TMG.setCurrentRule = function() {
     $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
     $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
   }
-  $(".home-rules").animate({opacity:0.95},Math.round(TMG.slideShowTransitionSpeed/2));
+  $(".home-rules").animate({opacity:0.90},Math.round(TMG.slideShowTransitionSpeed/2));
 }
 
 var tmgHomeRulesFirstRun = true;
@@ -763,8 +763,8 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
       );
 
     $(".tmg-popup-container, .tmg-popup-bg").css({display:"block",opacity:0});
-    $(".tmg-popup-container").animate({opacity:1},250);
-    $(".tmg-popup-bg").animate({opacity:0.5},250);
+    $(".tmg-popup-container").css({marginTop:$(window).scrollTop()+'px'}).animate({opacity:1},250);
+    $(".tmg-popup-bg").css({marginTop:$(".navbar").height()+'px'}).animate({opacity:0.5},250);
     
     $(document).bind('keyup',function(pressed){
       if (pressed.which == 27) {
