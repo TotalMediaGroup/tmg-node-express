@@ -284,6 +284,8 @@ TMG.fn.load.internetExplorerStylesheets = function(){
       TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-ie9.css");
     }
     $(".navbar-brand img, .footer-logo img").attr("src",TMG.cdn.tmg+"/img/logo/masthead-creative.png?v="+TMG.appVersion);
+  } else if ((BrowserDetect.browser === "Safari") && (BrowserDetect.version < 6)) {
+      TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-safari5.css");
   }
   if (BrowserDetect.OS === "Windows") {
     TMG.fn.insertCss(TMG.cdn.tmg+"/css/special-windows.css");
@@ -578,7 +580,7 @@ TMG.fn.video.ended = function() {
         .animate({opacity:0},500,function(){ $(this).css({display:'none'}); });
       $(this).find(".video-player-button").animate({opacity:0},500,function(){$(this).remove();});
     });
-    $(".navbar, .page-video-scroll, .back-to-menu").css({display:'block'});
+    $(".navbar, .page-video-scroll, .back-to-menu, .footer").css({display:'block'});
     TMG.fn.video.reset();
 }
 
@@ -613,8 +615,8 @@ TMG.fn.video.isFullScreen = function() {
 TMG.fn.video.goFullScreen = function() {
 
   if ((S($("html").attr("data-useragent")).count(".NET") > 0) || ((BrowserDetect.browser === "Safari") && (BrowserDetect.version === 5))) {
-    $(".navbar, .page-video-scroll, .back-to-menu").css({display:'none'});
-    $(".video-player-inner").css({position:"fixed",width:"100%",height:"100%",backgroundColor:"black",zIndex:30000});
+    $(".navbar, .page-video-scroll, .back-to-menu, .footer").css({display:'none'});
+    $(".video-player-inner").css({position:"fixed",width:"100%",height:"100%",left:"0%",top:"0%",backgroundColor:"black",zIndex:30000});
     var bodyWidth = parseInt($('body').width());
     $(".video-player-inner .video-js").css({width:bodyWidth+"px",height:Math.round(9*bodyWidth/16)+"px"});
   } else {
