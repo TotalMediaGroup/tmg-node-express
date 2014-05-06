@@ -177,6 +177,8 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
   //   $(".header-corner").css({Math.floor($("#tmg-container").offset().left)+"px"});
   // }
 
+  $(".page-design .page-design-header-bg").css({width:((4*$(".page-design").innerWidth())-30+parseInt($(".page-design").offset().left))+"px"});
+
   $(".page-video-bttm").css({
       left:(0-TMG.containerInfo.left-TMG.containerInfo.padLeft)+"px",
       width: (bodyWidth)+"px"
