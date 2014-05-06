@@ -6,7 +6,7 @@ body { padding-top: 0px; padding-bottom: 0px; min-width:900px; font-weight:300; 
 #tmg-disclaimer-mobile { display:none; z-index:10001; position:fixed; width:100%; height:100%; padding:5%; font-family:"gothamrounded_book"; text-transform: uppercase; text-align:center; background-color:rgb(78,78,78); color:#cccccc; font-size:20px;}
 #tmg-disclaimer-mobile img { display:none; position:relative; width:120px; margin: 10px auto 32px auto; }
 
-body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-left:auto; margin-right:auto; background-color:transparent; z-index:10; }
+body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-left:auto; margin-right:auto; background-color:transparent; z-index:11000; }
 .tmg-popup { position:absolute; left:36%; top:0%; width:60%; margin-top:160px; height:auto; background-color:#a71f24; }
 .tmg-popup .tmg-popup-lf { position:relative; float:left; width:35%; left:15px; margin-top:0px; margin-bottom:50px; background-color:transparent; height:auto;  }
 .tmg-popup .tmg-popup-rt { position:relative; float:left; width:55%; left:0%; margin-top:30px; padding-bottom:30px; background-color:transparent; height:auto; border-left:dashed 1px rgba(255,255,255,0.4); }
@@ -14,7 +14,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 .tmg-popup-x:hover { color:#eeeeee; filter:alpha(opacity=33); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=33)"; -moz-opacity:0.33; -khtml-opacity:0.33; opacity:0.33; }
 .tmg-popup-x img { position:absolute; left:0%; top:0%; width:100%; height:100%; }
 /*.tmg-popup-x .fa-times { float:right; font-size:24px; margin:8px 11px; }*/
-.tmg-popup-bg { display:none; position:fixed; height:100%; width:100%; left:0%; top:0%; background-color:black; z-index:10999; overflow:;}
+.tmg-popup-bg { display:none; position:fixed; height:100%; width:100%; left:0%; top:0%; background-color:black; z-index:10999; }
 .tmg-popup p, .tmg-popup a, .tmg-popup span { font-family:"gothamrounded_book"; line-height:1.8; font-size:10px; margin-top:1px; margin-bottom:1px; text-transform: uppercase; color:#cccccc; }
 .tmg-popup-container {  }
 
@@ -30,6 +30,7 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 
 .tmg-popup .tmg-popup-name { color:black; font-size:12px; position:relative; left:5%; }
 .tmg-popup .tmg-popup-body { position:relative; left:5%; }
+.tmg-popup-navbar-blocker { position:fixed; top:0%; right:0%; width:63%; background-color:rgb(78,78,78); display:none; border:0; height:88px; z-index:11001; }
 
 .tmg-trans-95 { filter:alpha(opacity=95); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)"; -moz-opacity:0.95; -khtml-opacity:0.95; opacity:0.95; }
 .tmg-trans-90 { filter:alpha(opacity=90); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; -moz-opacity:0.90; -khtml-opacity:0.90; opacity:0.90; }

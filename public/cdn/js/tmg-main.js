@@ -760,9 +760,10 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
       +"<p class=\"tmg-popup-body\">"+$("#team-member-"+profileId+" .team-body").html()+"</p>"
       );
 
-    $(".tmg-popup-container, .tmg-popup-bg").css({display:"block",opacity:0});
+    $(".tmg-popup-container, .tmg-popup-bg, .tmg-popup-navbar-blocker").css({display:"block",opacity:0});
     $(".tmg-popup-container").css({marginTop:$(window).scrollTop()+'px'}).animate({opacity:1},250);
-    $(".tmg-popup-bg").css({marginTop:$(".navbar").height()+'px'}).animate({opacity:0.5},250);
+    $(".tmg-popup-bg").css({marginTop:(1+$(".navbar").height())+'px'}).animate({opacity:0.5},250);
+    $(".tmg-popup-navbar-blocker").css({height:(1+$(".navbar").height())+'px'}).animate({opacity:1},250);
     
     $(document).bind('keyup',function(pressed){
       if (pressed.which == 27) {
@@ -772,7 +773,7 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
     });
 
   } else {
-    $(".tmg-popup-container, .tmg-popup-bg").animate({opacity:0},250,function(){
+    $(".tmg-popup-container, .tmg-popup-bg, .tmg-popup-navbar-blocker").animate({opacity:0},250,function(){
       $(this).css({display:"none",opacity:0});
       $(document).unbind('keyup');
     });
