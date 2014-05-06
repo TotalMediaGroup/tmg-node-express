@@ -336,6 +336,9 @@ TMG.setCurrentRule = function() {
     $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
     $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
     $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
+    var textWidth = ($(".rule-body-inner").width()-$(".brackets").width());
+    $(".rule-hr").css({width:((textWidth > 400) ? 400 : textWidth )+"px"});
+    console.log(textWidth+" - "+$(".rule-hr").width());
   }
   $(".home-rules").animate({opacity:0.90},Math.round(TMG.slideShowTransitionSpeed/2));
 }
