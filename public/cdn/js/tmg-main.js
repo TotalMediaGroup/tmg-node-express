@@ -345,7 +345,6 @@ TMG.setCurrentRule = function() {
 TMG.setCurrentRuleLineWidth = function() {
   var textWidth = Math.round($(".rule-body-inner").innerWidth()*0.83)-4;
   $(".rule-hr").css({width:((textWidth > 400) ? 400 : textWidth )+"px"});
-  console.log(textWidth+" - "+$(".rule-hr").width());
 }
 
 var tmgHomeRulesFirstRun = true;
