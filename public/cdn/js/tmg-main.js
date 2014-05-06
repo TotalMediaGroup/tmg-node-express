@@ -234,6 +234,7 @@ TMG.fn.load.slideShowSetup = function(){
 
     if ((TMG.currentPage === 'home') && (BrowserDetect.OS !== "Windows")) { 
       $('.rule-body').flowtype({ maxFont: 112, fontRatio: 10 });
+      TMG.setCurrentRuleLineWidth();
     }
 
     TMG.cycleBgImage();
@@ -336,11 +337,15 @@ TMG.setCurrentRule = function() {
     $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
     $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
     $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
-    var textWidth = ($(".rule-body-inner").width()-$(".brackets").width());
-    $(".rule-hr").css({width:((textWidth > 400) ? 400 : textWidth )+"px"});
-    console.log(textWidth+" - "+$(".rule-hr").width());
+    TMG.setCurrentRuleLineWidth();
   }
   $(".home-rules").animate({opacity:0.90},Math.round(TMG.slideShowTransitionSpeed/2));
+}
+
+TMG.setCurrentRuleLineWidth = function() {
+  var textWidth = Math.round($(".rule-body-inner").innerWidth()*0.83)-4;
+  $(".rule-hr").css({width:((textWidth > 400) ? 400 : textWidth )+"px"});
+  console.log(textWidth+" - "+$(".rule-hr").width());
 }
 
 var tmgHomeRulesFirstRun = true;
