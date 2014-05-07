@@ -31,7 +31,7 @@ html(lang="en")
     script(type="text/javascript")
       | var tmgRules=[], tmgCurrentRule=0, tmgBackgrounds=[], tmgCurrentBg=0;
       for item in data["tmg_rules"]
-        | tmgRules.push({num:#{item[3]},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}',img:'#{item[2]}'});
+        | tmgRules.push({num:#{item[3]},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}',img:'#{item[2]}',shortLine:#{item[4]}});
       for item in data["background_images"]
         | tmgBackgrounds.push('#{item[0].replace(/'/g,"\\'")}');
       | tmgRules.sort(randomSort); tmgBackgrounds.sort(randomSort); arrayShuffle(tmgRules); arrayShuffle(tmgBackgrounds); 

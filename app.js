@@ -37,6 +37,7 @@ app.use(express.cookieParser());
 app.use(express.methodOverride());
 app.use(middlewares.allowCrossDomain);
 app.use(middlewares.tmgDemos);
+if (inProd) { app.use(middlewares.mainDomain); }
 app.use(app.router);
 app.use(express.compress());
 app.use(express.static(path.join(__dirname, 'public')));

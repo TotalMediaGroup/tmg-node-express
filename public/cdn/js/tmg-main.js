@@ -349,8 +349,10 @@ TMG.setCurrentRule = function() {
 }
 
 TMG.setCurrentRuleLineWidth = function() {
-  var textWidth = Math.round($(".rule-body-inner").innerWidth()*0.83)-4;
-  $(".rule-hr").css({width:((textWidth > 400) ? 400 : textWidth )+"px"});
+//  var textWidth = Math.round($(".rule-body-inner").innerWidth()*0.83)-4;
+//  $(".rule-hr").css({width:((textWidth > 400) ? 400 : textWidth )+"px"});
+
+  $(".rule-hr").css({width:((tmgRules[tmgCurrentRule].shortLine) ? 250 : 400 )+"px"});
 }
 
 var tmgHomeRulesFirstRun = true;

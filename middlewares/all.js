@@ -15,6 +15,16 @@ exports.middlewares = {
     } else {
       next();
     }
+  },
+
+  mainDomain: function(req, res, next) {
+    
+    if (req.host!=="rfcx.org") {
+      res.writeHead(302, { "Location": "http://tmgcreative.tv"+req.path } );
+      res.end();
+    } else {
+      next();
+    }
   }
 
 }
