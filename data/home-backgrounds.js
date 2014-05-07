@@ -30,7 +30,7 @@ var data = [
   ["polyphone"],
   ["psych-guy"],
   ["ring"],
-   ["ruckus-phones"],
+  ["ruckus-phones"],
   ["simplicity"],
   ["slide"],
   ["smarter"],
