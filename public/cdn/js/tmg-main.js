@@ -258,8 +258,11 @@ TMG.fn.load.slideShowSetup = function(){
 
   $(".touch .body-work-single, .touch .page-about .col-lf").each(function(){
     if ($(".page-design").length == 0) {
-      $('.primary-body, .clmn-lf-tp').flowtype(/*{ maxFont: 112, fontRatio: 10 }*/);
+      $('.primary-body').flowtype(/*{ maxFont: 112, fontRatio: 10 }*/);
+      $(".clmn-lf-tp").css({fontSize:parseFloat($(".primary-body").css("font-size"))+"px"});
+      TMG.fn.reactiveUi.modifyOverWidthElements();
     }
+
   });
 
 }
@@ -351,8 +354,11 @@ TMG.setCurrentRule = function() {
 TMG.setCurrentRuleLineWidth = function() {
 //  var textWidth = Math.round($(".rule-body-inner").innerWidth()*0.83)-4;
 //  $(".rule-hr").css({width:((textWidth > 400) ? 400 : textWidth )+"px"});
-
-  $(".rule-hr").css({width:((tmgRules[tmgCurrentRule].shortLine) ? 250 : 400 )+"px"});
+  var ruleHrWidth = 400;
+  if (tmgRules[tmgCurrentRule].shortLine) { ruleHrWidth = 250; }
+  if (TMG.currentPage !== 'home') { ruleHrWidth = Math.floor(ruleHrWidth*0.41); }
+//  console.log(tmgRules[tmgCurrentRule].rule + ": "+ tmgRules[tmgCurrentRule].shortLine + " - "+ ruleHrWidth);
+  $(".rule-hr").css({width:ruleHrWidth+"px"});
 }
 
 var tmgHomeRulesFirstRun = true;
@@ -388,6 +394,7 @@ TMG.incrementFooterRule = function() {
     tmgCurrentRule++;
     if (tmgCurrentRule==tmgRules.length) { tmgCurrentRule=0; }
     if (TMG.renderForMobile && (tmgRules[tmgCurrentRule].rule.length > 30)) { tmgCurrentRule++; }
+    TMG.setCurrentRuleLineWidth();
     $(".rule-number").html("Rule #"+tmgRules[tmgCurrentRule].num);
     $(".rule-body-inner").html(tmgRules[tmgCurrentRule].rule);
     $(".rule-footer").html(tmgRules[tmgCurrentRule].motto);
@@ -769,7 +776,7 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
     $(".tmg-popup-container, .tmg-popup-bg, .tmg-popup-navbar-blocker").css({display:"block",opacity:0});
     $(".tmg-popup-container").css({marginTop:$(window).scrollTop()+'px'}).animate({opacity:1},250);
     $(".tmg-popup-bg").css({marginTop:(1+$(".navbar").height())+'px'}).animate({opacity:0.5},250);
-    $(".tmg-popup-navbar-blocker").css({height:(1+$(".navbar").height())+'px'}).animate({opacity:1},250);
+    $(".tmg-popup-navbar-blocker").css({width:Math.floor(100*($("body").width()-$(".navbar-brand img").offset().left-$(".navbar-brand img").width())/$("body").width())+"%",height:(1+$(".navbar").height())+'px'}).animate({opacity:1},250);
     
     $(document).bind('keyup',function(pressed){
       if (pressed.which == 27) {
