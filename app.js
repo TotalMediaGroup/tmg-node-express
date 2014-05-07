@@ -152,6 +152,11 @@ app.get('/ajax/list/:client_id', function(req,res){
 
 app.get("/health_check", routes.returnHealthCheck );
 
+app.get('/web/', function(req,res){
+  res.writeHead(302, { "Location": "/" } );
+  res.end();
+});
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
