@@ -19,7 +19,6 @@ var data = [
   ["it-globe"],
   ["levator"],
   ["line"],
-  ["meeting-2"],
   ["meeting"],
   ["network"],
   ["old-tech"],
