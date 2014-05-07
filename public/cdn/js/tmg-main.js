@@ -177,7 +177,9 @@ TMG.fn.reactiveUi.modifyOverWidthElements = function() {
   //   $(".header-corner").css({Math.floor($("#tmg-container").offset().left)+"px"});
   // }
 
-  $(".page-design .page-design-header-bg").css({width:((4*$(".page-design").innerWidth())-30+parseInt($(".page-design").offset().left))+"px"});
+  $(".page-design .page-design-header-bg").each(function(){
+    $(this).css({width:((4*$(".page-design").innerWidth())-30+parseInt($(".page-design").offset().left))+"px"});
+  });
 
   $(".page-video-bttm").css({
       left:(0-TMG.containerInfo.left-TMG.containerInfo.padLeft)+"px",
@@ -657,6 +659,7 @@ TMG.fn.ui.work.setupVideoMenu = function() {
     } else if (TMG.isotopeOptions.filter !== "*") {
       $(".page-work-nav .filter-"+TMG.isotopeOptions.filter.substr(1)).addClass("active");
       TMG.fn.workSearch(false);
+      analytics.track("work_filter", { label: TMG.isotopeOptions.filter.substr(1) });
     } else {
       $(".page-work-nav .filter-all").addClass("active");
       TMG.fn.workSearch(false);
@@ -716,6 +719,7 @@ TMG.fn.workSearch = function(onOff) {
               }
               domObj.attr("data-sort",""+(9999-cnt));
             });
+            analytics.track("work_search", { label: val });
           }
           window.location.hash = "#search";
           $(window).trigger('hashchange');
