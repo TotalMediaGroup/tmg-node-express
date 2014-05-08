@@ -75,3 +75,7 @@ body { min-width:480px; /*max-width:800px;*/ overflow-x:hidden; padding:0px 0px 
 
 .tmg-popup .tmg-popup-title-lf { font-size:8px; }
 
+.tmg-popup-x-bttm { display:block; top:auto; bottom:0%; }
+
+.page-about .team-members { left:8%; }
+
