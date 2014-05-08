@@ -31,7 +31,7 @@ html(lang="en")
     script(type="text/javascript")
       | var tmgRules=[], tmgCurrentRule=0, tmgBackgrounds=[], tmgCurrentBg=0;
       for item in data["tmg_rules"]
-        | tmgRules.push({num:#{item[3]},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}',img:'#{item[2]}',shortLine:#{item[4]}});
+        | tmgRules.push({num:#{item[3]},rule:'#{item[0].replace(/'/g,"\\'")}',motto:'#{item[1]}',img:'#{item[2]}',lineLength:'#{item[4]}'});
       for item in data["background_images"]
         | tmgBackgrounds.push('#{item[0].replace(/'/g,"\\'")}');
       | tmgRules.sort(randomSort); tmgBackgrounds.sort(randomSort); arrayShuffle(tmgRules); arrayShuffle(tmgBackgrounds); 
@@ -114,12 +114,12 @@ html(lang="en")
         div.home-rules.footer-rules(onClick="TMG.incrementFooterRule()")
           div.rule-image
           div.home-rules-number-stretch.rule-number= "Rule #00"
-          hr.rule-hr(style="top:-142px;")
+          hr.rule-hr.tmg-trans-80(style="top:-142px;")
           div.home-rules-body-squeeze.rule-body
             span.brackets= "[ "
             span.rule-body-inner= "RULE"
             span.brackets= " ]"
-          hr.rule-hr(style="top:-201px;")
+          hr.rule-hr.tmg-trans-80(style="top:-201px;")
           span.rule-footer= "HOW TO DO REALLY GREAT WORK"
     
     script(type='text/javascript', src='#{googlelibs_cdn}/jquery/1.11.0/jquery.min.js')

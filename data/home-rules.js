@@ -5,147 +5,147 @@ var data = [
     "HOW TO DO REALLY GREAT WORK",
     "RULE_01",
     "1",
-    false
+    "long"
   ],
 
   [ "TRY NEW THINGS",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_02",
     "2",
-    true
+    "medium"
   ],
 
   [ "TEACH OTHERS WHAT YOU KNOW",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_03",
     "3",
-    false
+    "long"
   ],
 
   [ "MAKE WORK FUN",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_04",
     "4",
-    true
+    "medium"
   ],
 
   [ "ALWAYS BE CREATING",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_05",
     "5",
-    false
+    "medium"
   ],
 
   [ "MAKE YOUR OWN INSPIRATION",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_06",
     "6",
-    false
+    "long"
   ],
 
   [ "AVOID THE OBVIOUS",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_07",
     "7",
-    false
+    "medium"
   ],
 
   [ "THE CLIENT IS PART OF THE TEAM",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_08",
     "8",
-    false
+    "long"
   ],
 
   [ "ACCEPT CREATIVE CRITICISM",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_09",
     "9",
-    false
+    "long"
   ],
 
   [ "TRUST YOUR TEAMMATES",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_10",
     "10",
-    false
+    "long"
   ],
 
   [ "WE'RE ALL ROOKIES",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_11",
     "11",
-    false
+    "medium"
   ],
 
   [ "COLLABORATE",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_12",
     "12",
-    true
+    "short"
   ],
 
   [ "ORGANIZE THE PROJECT",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_13",
     "13",
-    false
+    "medium"
   ],
 
   [ "UNDERSTAND THE SCRIPT",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_14",
     "14",
-    false
+    "medium"
   ],
 
   [ "DON'T CONFUSE WEIRD WITH CREATIVE",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_15",
     "15",
-    false
+    "long"
   ],
 
   [ "TRASH BAD CONCEPTS",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_16",
     "16",
-    false
+    "medium"
   ],
 
   [ "DON'T WASTE CHI",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_17",
     "17",
-    false
+    "medium"
   ],
 
   [ "TAKE CHANCES",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_18",
     "18",
-    false
+    "medium"
   ],
 
   [ "EMBRACE FOREIGN IDEAS",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_19",
     "19",
-    false
+    "long"
   ],
 
   [ "PRACTICE",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_21",
     "21",
-    true
+    "short"
   ],
 
   [ "DON'T FEAR FAILURE",
     "HOW TO DO REALLY GREAT WORK",
     "RULE_22",
     "22",
-    false
+    "medium"
   ],
 
 ["",""]];

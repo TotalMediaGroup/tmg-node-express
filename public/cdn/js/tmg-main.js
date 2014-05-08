@@ -351,12 +351,11 @@ TMG.setCurrentRule = function() {
 }
 
 TMG.setCurrentRuleLineWidth = function() {
-//  var textWidth = Math.round($(".rule-body-inner").innerWidth()*0.83)-4;
-//  $(".rule-hr").css({width:((textWidth > 400) ? 400 : textWidth )+"px"});
   var ruleHrWidth = 400;
-  if (tmgRules[tmgCurrentRule].shortLine) { ruleHrWidth = 250; }
+  if (tmgRules[tmgCurrentRule].lineLength==="medium") { ruleHrWidth = 250; }
+  if (tmgRules[tmgCurrentRule].lineLength==="short") { ruleHrWidth = 195; }
   if (TMG.currentPage !== 'home') { ruleHrWidth = Math.floor(ruleHrWidth*0.41); }
-//  console.log(tmgRules[tmgCurrentRule].rule + ": "+ tmgRules[tmgCurrentRule].shortLine + " - "+ ruleHrWidth);
+//  console.log(tmgRules[tmgCurrentRule].rule + ": "+ tmgRules[tmgCurrentRule].lineLength + " - "+ ruleHrWidth);
   $(".rule-hr").css({width:ruleHrWidth+"px"});
 }
 
