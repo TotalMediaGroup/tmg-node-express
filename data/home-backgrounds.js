@@ -42,6 +42,7 @@ var data = [
   ["lincvolt"],
   ["medium"],
   ["wall"],
+  ["dolby1"],
 
 [""]];
 
