@@ -1951,34 +1951,34 @@ var data = [
     }
   },
 
-  { id: "tmg-event-reel",
-    title: "Event Reel",
-    image_menu: "IC_ciscolive",
-    image_background: "ciscolive5cropcontrastcolorposscale",
-    image_background_xy_position: [0,0],
-    image_poster: "ciscolive8",
-    video: [ [360,720], ["Event_v6_TMGCreative_SD","Event_v6_TMGCreative_HD"] ],
-    client_menu: "",
-    client_page: "TMG",
-    one_liner: "TMG Event Reel 2014",
-    primary_text: ["Every brand is unique.","Every message can be communicated in MANY ways.","THE TRICK IS TO do right by the brand. ","Staffing for each element of the events we produce is customized to fit. ","concept, theme design, multi-camera shoots, set and environment design are always crafted from the ground up with brand in mind.","You will not find a recycled gimmick or trend here."],
-    production_roles: ["creative","editorial","3D Animation","Event Production"],
-    secondary_text: ["<span style=\"color:red;\">Event Clients:</span>","Stryker Corporation","Cisco Systems","Salix Pharmaceuticals","Equinix","Silver Peak Systems","VMWare","Solta Medical","Opts Ideas"],
-    secondary_content: [
-      { title:"", image:"ciscolive2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"lituprobotcrophead", video:"", button_white_or_black:"white", title_white_or_black:"white" }
-      ],
-    keywords: ["Steven","Megan","Adam","Ryan","Ariella","Jeff","Jack","Bryant","Phil","Patrick"],
-    categories: ["reels"],
-    secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
-    hide_client_on_menu: true,
-    design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-    }
-  },
+  // { id: "tmg-event-reel",
+  //   title: "Event Reel",
+  //   image_menu: "IC_ciscolive",
+  //   image_background: "ciscolive5cropcontrastcolorposscale",
+  //   image_background_xy_position: [0,0],
+  //   image_poster: "ciscolive8",
+  //   video: [ [360,720], ["Event_v6_TMGCreative_SD","Event_v6_TMGCreative_HD"] ],
+  //   client_menu: "",
+  //   client_page: "TMG",
+  //   one_liner: "TMG Event Reel 2014",
+  //   primary_text: ["Every brand is unique.","Every message can be communicated in MANY ways.","THE TRICK IS TO do right by the brand. ","Staffing for each element of the events we produce is customized to fit. ","concept, theme design, multi-camera shoots, set and environment design are always crafted from the ground up with brand in mind.","You will not find a recycled gimmick or trend here."],
+  //   production_roles: ["creative","editorial","3D Animation","Event Production"],
+  //   secondary_text: ["<span style=\"color:red;\">Event Clients:</span>","Stryker Corporation","Cisco Systems","Salix Pharmaceuticals","Equinix","Silver Peak Systems","VMWare","Solta Medical","Opts Ideas"],
+  //   secondary_content: [
+  //     { title:"", image:"ciscolive2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+  //     { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+  //     { title:"", image:"lituprobotcrophead", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+  //     ],
+  //   keywords: ["Steven","Megan","Adam","Ryan","Ariella","Jeff","Jack","Bryant","Phil","Patrick"],
+  //   categories: ["reels"],
+  //   secondary_box_color: "FFFFFF",
+  //   secondary_layout: "standard",
+  //   hide_client_on_menu: true,
+  //   design_page: {
+  //     primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+  //     image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+  //   }
+  // },
 
   { id: "tmg-tech-reel",
     title: "Tech Reel",
@@ -2019,7 +2019,7 @@ var data = [
     client_menu: "",
     client_page: "TMG",
     one_liner: "TMG Medical Reel 2014",
-    primary_text: ["The use of 3D modeling and animation is a powerful tool for the bio-med and pharmaceutical industries.  ","These videos helps medical professionals visualize, understand, explore, educate and inform.  We have the honor, privilege and pleasure of working with a wide range of clients in Biotech, Medical Device, and Veterinary sectors."],
+    primary_text: ["The use of 3D modeling and animation is a powerful tool for the bio-med and pharmaceutical industries.  ","These videos helped medical professionals visualize, understand, explore, educate and inform. We have the honor, privilege and pleasure of working with a wide range of clients in Biotech, Medical Device, and Veterinary sectors."],
     production_roles: ["creative","editorial","3D Animation","Event Production"],
     secondary_text: ["<span style=\"color:red;\">Medical clients:</span>","Genentech, Inc.","Stryker Corporation","Roche Molecular Diagnostics","Covidien","Solta Medical","Abaxis","Salix Pharmaceuticals","Cadence Pharmaceuticals","Lifescan","Veracyte","johnson & Johnson"],
     secondary_content: [
