@@ -5,7 +5,7 @@ var navItems = [
     [ "work", "WORK", "/work", "WORK", true, false ],
     [ "about", "ABOUT", "/about", "ABOUT", true, false ],
     [ "work-single", "VIDEO", "/work/:video_id", "WORK", false, false ],
-    // [ "video-test", "Video test", "/video-test/:video_id", "Video test", false, false ],
+    [ "video-test", "Video test", "/video-test/:video_id", "Video test", false, false ],
     [ "client", "CLIENT WORKSPACE", "/client/:client_id", "CLIENT WORKSPACE", false, false ],
     [ "client-login", "CLIENT ACCESS", "http://ftp2.tmgcreative.tv/", "CLIENT ACCESS", true, false ]
   ];
