@@ -10,7 +10,7 @@ var navItems = [
     [ "client-login", "Client Access", "http://ftp2.tmgcreative.tv/", "Client Access", true, false ]
   ];
 
-for (var i = 0; i < navItems.length; i++) { navItems[i][3] = "Total Media Group | "+navItems[i][3]; }
+for (var i = 0; i < navItems.length; i++) { navItems[i][3] = "TMG Creative | "+navItems[i][3]; }
 
 exports.setJadeVars = function(process, req, data) {
   var jV = {};
