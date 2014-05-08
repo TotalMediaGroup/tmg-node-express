@@ -1,16 +1,16 @@
 
 var navItems = [
 //  [ page-id, nav-title, uri-path, page-title, show-in-nav, is-isolated ]
-    [ "home", "Home", "/", "Home", false, false ],
-    [ "work", "Work", "/work", "Videos", true, false ],
-    [ "about", "About", "/about", "About", true, false ],
-    [ "work-single", "Video", "/work/:video_id", "Video", false, false ],
+    [ "home", "HOME", "/", "HOME", false, false ],
+    [ "work", "WORK", "/work", "WORK", true, false ],
+    [ "about", "ABOUT", "/about", "ABOUT", true, false ],
+    [ "work-single", "VIDEO", "/work/:video_id", "WORK", false, false ],
     // [ "video-test", "Video test", "/video-test/:video_id", "Video test", false, false ],
-    [ "client", "Client Workspace", "/client/:client_id", "Client Workspace", false, false ],
-    [ "client-login", "Client Access", "http://ftp2.tmgcreative.tv/", "Client Access", true, false ]
+    [ "client", "CLIENT WORKSPACE", "/client/:client_id", "CLIENT WORKSPACE", false, false ],
+    [ "client-login", "CLIENT ACCESS", "http://ftp2.tmgcreative.tv/", "CLIENT ACCESS", true, false ]
   ];
 
-for (var i = 0; i < navItems.length; i++) { navItems[i][3] = "TMG Creative | "+navItems[i][3]; }
+for (var i = 0; i < navItems.length; i++) { navItems[i][3] = "TMG CREATIVE | "+navItems[i][3]; }
 
 exports.setJadeVars = function(process, req, data) {
   var jV = {};
@@ -21,7 +21,6 @@ exports.setJadeVars = function(process, req, data) {
   var inProd = (process.env.NODE_ENV === "production");
   jV.app_version = process.env.productionVersionId;
   jV.node_env = process.env.NODE_ENV;
-  jV.title += (inProd ? "" : (" ("+process.env.NODE_ENV+")"));
   jV.segment_io_client_id =  process.env.SEGMENT_IO_CLIENT_ID;
   jV.addthis_pubid = process.env.ADDTHIS_PUBID;
   jV.bootstrap_cdn = /*inProd ? "//netdna.bootstrapcdn.com" :*/ "/vendor";
@@ -35,6 +34,18 @@ exports.setJadeVars = function(process, req, data) {
   jV.nav_items = navItems;
   jV.data = data[jV.current_page[0]];
   jV.url_params = req.url_params;
+
+  jV.title = jV.current_page[3];
+  if (jV.current_page[0] === "work-single") {
+    for (i in data['work-single'].work) {
+      if (data['work-single'].work[i].id == jV.url_params.video_id) {
+        jV.title += " | "+data['work-single'].work[i].client_page.toUpperCase() +" | "+data['work-single'].work[i].title.toUpperCase();
+      }
+    }
+  }
+
+  jV.title += (inProd ? "" : (" ("+process.env.NODE_ENV+")"));
+
   return jV;
 }
 
