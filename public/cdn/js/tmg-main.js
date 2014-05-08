@@ -763,7 +763,7 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
       +"<p class=\"tmg-popup-name-lf\">"+$("#team-member-"+profileId+" .team-name").html()+"</p>"
       +"<p class=\"tmg-popup-title-lf\">"+$("#team-member-"+profileId+" .team-title").html()+"</p>"
       +"<p class=\"tmg-popup-bracket-lf\"><span>[</span></p>"
-      +"<a class=\"tmg-popup-email-lf\" target=\"_blank\" href=\""+$("#team-member-"+profileId+" .team-email").attr("href")+"\">"+$("#team-member-"+profileId+" .team-email").attr("href").substr(7)+" <i class=\"fa fa-envelope\"></i></a>"
+      +"<a class=\"tmg-popup-email-lf\" target=\"_blank\" href=\""+$("#team-member-"+profileId+" .team-email").attr("href")+"\">"+$("#team-member-"+profileId+" .team-email").attr("href").substr(7).replace(/@/g,' @')+" <i class=\"fa fa-envelope\"></i></a>"
       +""
       );
     $(".tmg-popup-rt").html(""
