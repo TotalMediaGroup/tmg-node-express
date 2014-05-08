@@ -260,7 +260,6 @@ TMG.fn.load.slideShowSetup = function(){
     if ($(".page-design").length == 0) {
       $('.primary-body').flowtype(/*{ maxFont: 112, fontRatio: 10 }*/);
       $(".clmn-lf-tp").css({fontSize:parseFloat($(".primary-body").css("font-size"))+"px"});
-      TMG.fn.reactiveUi.modifyOverWidthElements();
     }
 
   });
