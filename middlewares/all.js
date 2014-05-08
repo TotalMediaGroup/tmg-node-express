@@ -19,10 +19,9 @@ exports.middlewares = {
 
   mainDomain: function(req, res, next) {
     
-    if (  (  (req.host!=="tmgcreative.tv")
-          && (req.path !== "/health_check")
-          )
-          ||  (req.host.indexOf("cloudfront.net") >= 0)
+    if (  (req.host!=="tmgcreative.tv")
+        && (req.path !== "/health_check")
+        &&  (req.host.indexOf("cloudfront.net") >= 0)
       ) {
       res.writeHead(302, { "Location": "http://tmgcreative.tv"+req.path } );
       res.end();
