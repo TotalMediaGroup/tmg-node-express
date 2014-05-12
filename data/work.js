@@ -1066,7 +1066,7 @@ var data = [
     client_menu: "cisco systems",
     client_page: "cisco systems",
     one_liner: "live event production",
-    primary_text: ["Agency: Spot on Production Group","Creative Director: Patrick Donahew","","Cisco Live! is a nationwide gathering of systems engineers and IT professionals. TMG has produced content for the Cisco Live! Event for a long time, Fifteen years!  Our production team has been on-site every year working under Spot On Production Group in a very fast paced environment. Video production, editorial and graphic design…"],
+    primary_text: ["Agency: Spot on Production Group","Creative Director: Patrick Donohew","","Cisco Live! is a nationwide gathering of systems engineers and IT professionals. TMG has produced content for the Cisco Live! Event for a long time, Fifteen years!  Our production team has been on-site every year working under Spot On Production Group in a very fast paced environment. Video production, editorial and graphic design…"],
     production_roles: ["On-site Video Production", "Shoot", "Editorial"],
     secondary_text: ["Check out this mini-doc on DJ Robbie from 2013. He was the entertainment for one of the nights. Shot and edited on-site under Spot On Production Group."],
     secondary_content: [
