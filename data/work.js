@@ -1057,11 +1057,11 @@ var data = [
 
 
   { id: "cisco-live",
-    title: "cisco live! candids module",
+    title: "cisco live! candids",
     image_menu: "IC_ciscolive6",
     image_background: "DBG_ciscolive4",
     image_background_xy_position: [0,0],
-    image_poster: "ciscolive5poster",
+    image_poster: "pf_cisco_live_bw",
     video: [ [360,720], ["CiscoLive2013_Candids_FINAL_ALT_ProRes_SD","CiscoLive2013_Candids_FINAL_ALT_ProRes_HD"] ],
     client_menu: "Spot on PG",
     client_page: "Cisco systems",
