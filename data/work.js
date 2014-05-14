@@ -1063,7 +1063,7 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "pf_cisco_live_bw",
     video: [ [360,720], ["CiscoLive2013_Candids_FINAL_ALT_ProRes_SD","CiscoLive2013_Candids_FINAL_ALT_ProRes_HD"] ],
-    client_menu: "Spot on PG",
+    client_menu: "Spot on Prod. Group",
     client_page: "Cisco systems",
     one_liner: "Candids Module",
     primary_text: ["Agency: Spot on Production Group","Creative Director: Patrick Donohew","","Cisco Live! is a nationwide gathering of systems engineers and IT professionals. TMG has produced content for the Cisco Live! Event for a long time, Fifteen years!  Our production team has been on-site every year working under Spot On Production Group in a very fast paced environment. Video production, editorial and graphic design…"],
