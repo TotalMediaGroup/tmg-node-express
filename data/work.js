@@ -1063,12 +1063,27 @@ var data = [
     image_background_xy_position: [0,0],
     image_poster: "ciscolive5poster",
     video: [ [360,720], ["CiscoLive2013_Candids_FINAL_ALT_ProRes_SD","CiscoLive2013_Candids_FINAL_ALT_ProRes_HD"] ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+    client_menu: "Cisco Systems",
+    client_page: "Spot On Production Group",
+    one_liner: "Candids Module",
+    primary_text: ["Agency: Spot on Productions","Creative Director: Patrick Donahew","","Cisco Live! is a nationwide gathering of systems engineers and IT professionals. TMG has produced content for the Cisco Live! Event for a long time, Fifteen years!  Our production team has been on-site every year working under Spot On Productions, in a very fast paced environment. Video production, editorial and graphic design…"],
+    production_roles: ["On-site Production", "Shoot", "Editorial"],
+    secondary_text: ["Check out this mini-doc on DJ Robbie from 2013. He was the entertainment for one of the nights. Shot and edited on-site under Spot On Productions."],
+=======
+=======
+>>>>>>> FETCH_HEAD
     client_menu: "cisco systems",
     client_page: "cisco systems",
     one_liner: "live event production",
     primary_text: ["Agency: Spot on Production Group","Creative Director: Patrick Donohew","","Cisco Live! is a nationwide gathering of systems engineers and IT professionals. TMG has produced content for the Cisco Live! Event for a long time, Fifteen years!  Our production team has been on-site every year working under Spot On Production Group in a very fast paced environment. Video production, editorial and graphic design…"],
     production_roles: ["On-site Video Production", "Shoot", "Editorial"],
     secondary_text: ["Check out this mini-doc on DJ Robbie from 2013. He was the entertainment for one of the nights. Shot and edited on-site under Spot On Production Group."],
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
+>>>>>>> FETCH_HEAD
     secondary_content: [
       { title:"DJ Robbie", image:"ciscolive2", video:"Cisco_DJ_Robbie_062613b_ProRes_StereoMix_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -1647,7 +1662,36 @@ var data = [
   },
 
 
-  { id: "stryker-iconix-world-tour",
+  { id: "stryker-regenkit-print-design",
+    title: "RegenKit",
+    image_menu: "IC_regen",
+    image_background: "dsn_stryker_regenkit",
+    image_background_xy_position: [0,0],
+    image_poster: "",
+    video: [ [360,720], ["",""] ],
+    client_menu: "stryker sports medicine",
+    client_page: "stryker sports medicine",
+    one_liner: "print design",
+    primary_text: ["These print designs accompanied the motion graphics video pieces that we created for Stryker Sports Medicine, and rolled out together."],
+    production_roles: [],
+    secondary_text: [],
+    secondary_content: [
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    keywords: ["",],
+    categories: ["design"],
+    secondary_box_color: "808080",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 20, top_percent: 80, width_percent: 50, show_black_border: false },
+      image_background: { top_padding_pixels: 50, bottom_padding_pixels: 100, width_percent: 65, show_black_border: false }
+    }
+  },
+  
+   { id: "stryker-iconix-world-tour",
     title: "iconix world tour",
     image_menu: "IC_worltour",
     image_background: "iconix",
