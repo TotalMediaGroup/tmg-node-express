@@ -8,8 +8,10 @@ then
   echo -e "\nPushing to prod.\n"
   git aws.push;
   git checkout master;
+  git push;
   eb status;
 else
   echo -e "\nNOT pushed to prod.\n";
   git checkout master;
+  git push;
 fi
