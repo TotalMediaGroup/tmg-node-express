@@ -15,7 +15,7 @@ var data = [
     image_poster: "PF_optsanthem10",
     video: [ [360,720], ["Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_SD","Opts_ANTHEM_16x9_DCUT_FINALCOLOR a_HD"] ],
     client_menu: "Opts Ideas",
-    client_page: "LPL",
+    client_page: "LPL Financial",
     one_liner: "A Magical story of animated dots",
     primary_text: ["Agency: Opts Ideas","","This piece was intended to inspire the audience and create a sense of anticipation around new technology soon to be released.","We had been warned the audience had become suspicious of broken promises, ","so we wanted to stay away from anything resembling the typical corporate motivational piece.","We thought something unusual and authentic would be a better approach, ","so we wrote the script as a sort of poem. It speaks to the dreams of the investor/client and how staff can help turn those dreams into reality.","We wanted the audience to think.","The graphics were designed to present and support the on-screen text with sublime,  abstract forms. ","Original Music by Chris Hedge, The Magic Shop, Half Moon Bay."],
     production_roles: ["CREATIVE","SCRIPT","animation","edit","composite"],
