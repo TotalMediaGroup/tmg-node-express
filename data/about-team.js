@@ -81,7 +81,7 @@ var data = [
   
   [ "Kathy Luo",
     "Bookkeeper",
-    ["Kathy has always had a knack for numbers. Her straight “A”s in elementary math class led her to triple major degree at SFSU - International Business, Corporate Finance and Financial Service. She had already taken on her first job as an accounting assistant in her last semester. There she remained for 8 years before joining TMG. Here, she enjoys working with the friendly team and warm environment and is excited to be involved in the entertainment and media industry.","Outside of work, Kathy spends time on the local playgrounds and parks with her daughter and husband. She is a star badminton player.  Someday, she and her husband hope to finally catch a movie they bought tickets to a year ago!"],
+    ["KATHY HAS ALWAYS HAD A KNACK FOR NUMBERS. HER STRAIGHT “A”S IN ELEMENTARY MATH CLASS LED HER TO A TRIPLE MAJOR DEGREE IN INTERNATIONAL BUSINESS, CORPORATE FINANCE AND FINANCIAL SERVICE FROM SFSU. SHE HAD ALREADY TAKEN ON HER FIRST JOB AS AN ACCOUNTING ASSISTANT IN HER LAST SEMESTER where SHE REMAINED FOR 8 YEARS BEFORE JOINING TMG Creative.","HERE, SHE ENJOYS WORKING WITH THE FRIENDLY TEAM AND FUN ENVIRONMENT, AND IS EXCITED TO BE INVOLVED IN THE ENTERTAINMENT AND MEDIA INDUSTRY.","OUTSIDE OF WORK, KATHY SPENDS TIME IN THE LOCAL PLAYGROUNDS AND PARKS WITH HER DAUGHTER AND HUSBAND. SHE’S A SUPERSTAR FINANCIAL EXPERT, AND A STAR BADMINTON PLAYER AS WELL!"],
     "accounting@tmgcreative.tv",
     "kathy"
   ],
