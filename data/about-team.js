@@ -38,7 +38,7 @@ var data = [
 
   [ "JEFF CASAGRANDE",
     "MEDIA PRODUCTION MANAGER",
-    ["JEFF BRINGS CLOSE TO 20 YEARS OF MEDIA PRODUCTION EXPERIENCE TO TMG CREATIVE, HANDLING MUCH OF THE COMPANY’S PROJECT MANAGEMENT NEEDS.","HE WORKS CLOSELY WITH ALL FACILITY AND REMOTE STAFF ON ALL PHASES OF PRODUCTION AND MANAGES A VARIETY OF PROJECTS AND CLIENTS AS WELL.","OFF THE JOB, JEFF LIKES TO SPEND TIME WITH HIS DAUGHTER, TRY NEW RESTAURANTS WITH HIS WIFE, PLAY BLUES HARMONICA, READING, JOGGING AND WATCHING OLD MOVIES."],
+    ["JEFF is the guy behind the curtain pulling levers and juggling myriad production details. He knows what’s required to seamlessly manage TMG CREATIVE projects, and he makes it look easy. Jeff is the crux of collaboration, working closely with all facility and remote staff on all phases of production. He takes exquisite care of everybody – clients included.","Jeff is a devoted dad and husband, and an awesome blues harmonica player. We think of him as the Wizard of Awes."],
     "jeff.casagrande@tmgcreative.tv",
     "jeff"
   ], 
