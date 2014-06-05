@@ -4,7 +4,34 @@ var data = [
 
 
 
-
+  { id: "rfcx-crowdfunding",
+    title: "halting deforestation",
+    image_menu: "IC_rfcx",
+    image_background: "DBG_rfcx",
+    image_background_xy_position: [10,15],
+    image_poster: "PF_rfcx_primary",
+    video: [ [360,720], ["rfcx_primary_SD","rfcx_primary_HD"] ],
+    client_menu: "Rainforest Connection",
+    client_page: "Rainforest Connection",
+    one_liner: "A solution to illegal logging",
+    primary_text: ["This piece had to address the triple challenge of communicating an abstract problem, illustrating the client's solution, and enlisting the viewers to donate ","As the inaugural release of our agency's rebranding to TMG Creative, we knew this piece had to exhibit high-level technical quality, while conforming to the limited context of ","This piece was intended to inspire the audience and create a sense of anticipation around new technology soon to be released.","We had been warned the audience had become suspicious of broken promises, ","so we wanted to stay away from anything resembling the typical corporate motivational piece.","We thought something unusual and authentic would be a better approach, ","so we wrote the script as a sort of poem. It speaks to the dreams of the investor/client and how staff can help turn those dreams into reality.","We wanted the audience to think.","The graphics were designed to present and support the on-screen text with sublime,  abstract forms. ","Original Music by Chris Hedge, The Magic Shop, Half Moon Bay."],
+    production_roles: ["CREATIVE","SCRIPT","production","animation","edit","composite"],
+    secondary_text: ["Secondary text here.","","RFCx to provide if TMG would like."],
+    secondary_content: [
+      { title:"", image:"PF_rfcx_interview", video:"rfcx_interview", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"PF_rfcx", video:"rfcx_climate", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    keywords: ["Ryan","Steven","Patrick"],
+    categories: ["media", "featured"],
+    secondary_box_color: "FFFFFF",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
 
 
   { id: "opts-ideas-anthem",

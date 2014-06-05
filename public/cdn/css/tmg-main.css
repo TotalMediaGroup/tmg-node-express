@@ -31,6 +31,8 @@ body .tmg-popup-container { display:none; margin-top:0px; height:0px; margin-lef
 
 .tmg-popup .tmg-popup-name { color:black; font-size:12px; position:relative; left:5%; }
 .tmg-popup .tmg-popup-body { position:relative; left:5%; }
+.tmg-popup .tmg-popup-body a { text-decoration:underline; }
+.tmg-popup .tmg-popup-body a:hover { color:black; }
 .tmg-popup-navbar-blocker { position:fixed; top:0%; right:0%; width:65%; background-color:rgb(78,78,78); display:none; border:0; height:88px; z-index:11001; }
 
 .tmg-trans-95 { filter:alpha(opacity=95); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)"; -moz-opacity:0.95; -khtml-opacity:0.95; opacity:0.95; }

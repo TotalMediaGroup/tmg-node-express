@@ -775,7 +775,7 @@ TMG.fn.aboutPopup = function(onOff, profileId) {
     $(".tmg-popup-container").css({marginTop:$(window).scrollTop()+'px'}).animate({opacity:1},250);
     $(".tmg-popup-bg").css({marginTop:(1+$(".navbar").height())+'px'}).animate({opacity:0.5},250);
     $(".tmg-popup-navbar-blocker").css({width:Math.floor(100*($("body").width()-$(".navbar-brand img").offset().left-$(".navbar-brand img").width())/$("body").width())+"%",height:(1+$(".navbar").height())+'px'}).animate({opacity:1},250);
-    
+    $(".tmg-popup-body a").attr("target","_blank");
     $(document).bind('keyup',function(pressed){
       if (pressed.which == 27) {
         pressed.preventDefault();
