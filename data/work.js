@@ -924,40 +924,6 @@ var data = [
     }
   },
 
-
-
-
-  { id: "polycom-sound-station-duo",
-    title: "sound station duo",
-    image_menu: "IC_polycity",
-    image_background: "DBG_polycity",
-    image_background_xy_position: [10,5],
-    image_poster: "PF_polycom-13",
-    video: [ [360,720], ["Polycom_STD_Final_v2_SD","Polycom_STD_Final_v2_HD"] ],
-    client_menu: "polycom",
-    client_page: "polycom",
-    one_liner: "product launch video",
-    primary_text: ["SOUND STATION DUO IS POLYCOM'S ENTRY LEVEL CONFERENCE PHONE SYSTEM.","POLYCOM WANTED TO HIGHLIGHT THE BENEFITS OF THE SYSTEM FOR THE MODEST BUDGET."],
-    production_roles: ["creative","script","design","3d animation"],
-    secondary_text: ["WE CREATED A 3D MODEL OF ","A FICTITIOUS CITY, (ANY CITY USA) ","THE STORY INVOLVED FLYING through the city FROM WINDOW TO WINDOW, OFFICE TO OFFICE, TO SEE THE UNIT IN USE EVERYWHERE THROUGHOUT THE CITY."],
-    secondary_content: [
-      { title:"", image:"Polycom_Soundstation2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"Polycom_Soundstation3", video:"", button_white_or_black:"white", title_white_or_black:"white" }
-      ],
-    keywords: ["Ryan",""],
-    categories: ["media"],
-    secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
-    hide_client_on_menu: false,
-    design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-    }
-  },
-
-
-
   { id: "stryker-the-power-in-you",
     title: "the power in you",
     image_menu: "IC_regen",
