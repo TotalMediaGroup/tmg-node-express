@@ -5,7 +5,7 @@ var data = [
 
   ["abbot1"],
   ["bobo-looks-up"],
-  ["salix_butterflies"],
+  ["salix_butterflies_darkened"],
   ["Butterflys2"],
   ["Butterflys3"],
   ["cells"],
@@ -25,7 +25,7 @@ var data = [
   ["pc-power"],
   ["pig-on-board"],
   ["polyphone"],
-  ["salix_john_t"],
+  ["salix_john_t_darkened"],
   ["ring"],
   ["ruckus-phones"],
   ["simplicity"],
