@@ -2011,7 +2011,7 @@ var data = [
     one_liner: "TMG Medical Reel 2014",
     primary_text: ["The use of 3D modeling and animation is a powerful tool for the biomedical and pharmaceutical industries.  ","These videos helped medical professionals visualize, understand, explore, educate and inform. We have the honor, privilege and pleasure of working with a wide range of clients in Biotech, Medical Device, and Veterinary sectors."],
     production_roles: ["creative","editorial","3D Animation","Event Production"],
-    secondary_text: ["<span style=\"color:red;\">Partial Client List:</span>","Genentech, Inc.","Stryker Corporation","Roche Molecular Diagnostics","Covidien","Solta Medical","Abaxis","Salix Pharmaceuticals","Cadence Pharmaceuticals","Lifescan","Veracyte","johnson & Johnson","Topcon Medical Laser Systems","MyoScience","Maquet","Abbott Diabetes Care","Cepheid","Apnicure"],
+    secondary_text: ["<span style=\"color:red;\">Partial Client List:</span>","Genentech, Inc.","Stryker Corporation","Roche Molecular Systems","Covidien","Solta Medical","Abaxis","Salix Pharmaceuticals","Cadence Pharmaceuticals","Lifescan","Veracyte","johnson & Johnson","Topcon Medical Laser Systems","MyoScience","Maquet","Abbott Diabetes Care","Cepheid","Apnicure"],
     secondary_content: [
       { title:"", image:"cobas7crop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
