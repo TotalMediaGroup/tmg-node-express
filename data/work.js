@@ -1982,7 +1982,7 @@ var data = [
     one_liner: "TMG Tech Reel 2014",
     primary_text: ["Technology evolves so rapidly and can be so complex, it requires a language all its own.  Translating a message from engineers and developers to marketers and business professionals can take some crafty scriptwriting and creative visual storytelling. In other words, TMG  creative."],
     production_roles: ["creative","editorial","3D Animation","Event Production"],
-    secondary_text: ["<span style=\"color:red;\">Tech clients:</span>","VMWare","Equinix","Cisco Systems","Hightail","Silver Peak Systems","Yahoo!"],
+    secondary_text: ["<span style=\"color:red;\">Partial Client List:</span>","VMWare","Equinix","Cisco Systems","Hightail","Silver Peak Systems","Yahoo!","Dolby Laboratories","PernixData","Ruckus Wireless","Polycom"],
     secondary_content: [
       { title:"", image:"polycom13", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
@@ -2011,7 +2011,7 @@ var data = [
     one_liner: "TMG Medical Reel 2014",
     primary_text: ["The use of 3D modeling and animation is a powerful tool for the biomedical and pharmaceutical industries.  ","These videos helped medical professionals visualize, understand, explore, educate and inform. We have the honor, privilege and pleasure of working with a wide range of clients in Biotech, Medical Device, and Veterinary sectors."],
     production_roles: ["creative","editorial","3D Animation","Event Production"],
-    secondary_text: ["<span style=\"color:red;\">Medical clients:</span>","Genentech, Inc.","Stryker Corporation","Roche Molecular Diagnostics","Covidien","Solta Medical","Abaxis","Salix Pharmaceuticals","Cadence Pharmaceuticals","Lifescan","Veracyte","johnson & Johnson"],
+    secondary_text: ["<span style=\"color:red;\">Partial Client List:</span>","Genentech, Inc.","Stryker Corporation","Roche Molecular Diagnostics","Covidien","Solta Medical","Abaxis","Salix Pharmaceuticals","Cadence Pharmaceuticals","Lifescan","Veracyte","johnson & Johnson","Topcon Medical Laser Systems","MyoScience","Maquet","Abbott Diabetes Care","Cepheid","Apnicure"],
     secondary_content: [
       { title:"", image:"cobas7crop", video:"", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
