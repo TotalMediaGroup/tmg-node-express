@@ -8,6 +8,13 @@ var data = [
     "megan"
   ],
 
+  [ "JACK HSU",
+    "CHIEF OPERATING OFFICER",
+    ["Jack keeps everything working. Literally.","Back in the ‘90s, Jack began freelancing for TMG as Chief Engineer, where he repaired and maintained every piece of equipment – computers to broadcast VTRS to editing and graphics systems. He designed and engineered complete systems at a time when technology was rapidly changing, and staying ahead of that curve determined market success or failure more than ever. Among his many brilliant innovations was a patent for a new system to create video dubs on location, awarded to both Jack and TMG Founder, Aldo Panattoni.","Jack left TMG in 1999 to design and build a brand new facility in Texas. Though the project was a great success, Jack was homesick for the Bay Area and for TMG. Lucky us! ","We welcomed him back with open arms in 2004.","Today, in an ever more rapidly changing technological landscape, Jack keeps everything current, best-in-class, and always geared toward the primary goal: great creative.","In his spare time, Jack studies scripture, works around the house, and travels to Mexico to lend his talents to orphanages, designing water projects and infrastructure."],
+    "jack.hsu@tmgcreative.tv",
+    "jack"
+  ],
+
   [ "STEVEN GREGORY",
     "CREATIVE DIRECTOR",
     ["STEVEN GREGORY (SG) BRINGS AN UNUSUALLY BROAD SET OF CREATIVE SKILLS TO TMG. THROUGHOUT HIS CAREER HE HAS SERVED AS DIRECTOR, PRODUCER, SHOOTER, EDITOR/ANIMATOR, DESIGNED AND BUILT SETS AND WORKED IN MUSIC AND AUDIO POST. HE HAS BEEN AN AWARD-WINNING EDITOR CUTTING BOTH LONG FORM DOCUMENTARIES AND TELEVISION SPOTS FOR A WIDE RANGE OF COMMERCIAL AND CORPORATE CLIENTS INCLUDING;","MACYS - JC PENNY - APPLEBEE’S - NESTLE - OAKLAND A’S - SAN JOSE SHARKS - BOSTON BRUINS - MIAMI DOLPHINS – SHAKEY PICTURES – MAX FILMS – GENENTECH – STRYKER –VMWARE – POLYCOM – YAHOO! -  SALIX PHARMACEUTICALS","STEVEN IS AT HOME IN A RECORDING STUDIO, AN EDIT BAY OR A ROOM FULL OF ANIMATORS.","AN ACCOMPLISHED MUSICIAN AND COMPOSER, HE HAS WORKED ON BOTH SIDES OF THE GLASS WITH A NUMBER OF NOTABLE NATIONAL RECORDING ARTISTS.","WHETHER IT'S A SIMPLE TECHNICAL EXPLAINER VIDEO OR A HIGH-CONCEPT WORK OF ART, HIS YEARS OF HANDS-ON EXPERIENCE IN SO MANY AREAS OF PRODUCTION GIVE HIM AN INNATE SENSE OF HOW BEST TO CRAFT THE STORY WITH THE HIGHEST DEGREE OF QUALITY WITHIN THE SCOPE OF THE PROJECT. HE IS KNOWN IN THE BAY AREA FOR HIS CLASSIC AND TIMELESS STYLE.","AN AVID AMATEUR HOCKEY PLAYER, STEVEN CAN BE FOUND (WHEN HE'S NOT AT TMG OR SLEEPING), PLAYING AT MANY OF THE BAY AREA HOCKEY RINKS.","HE SHOOTS...HE SCORES!"],
