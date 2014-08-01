@@ -8,12 +8,12 @@ var data = [
     "megan"
   ],
 
-  // [ "JACK HSU",
-  //   "CHIEF OPERATING OFFICER",
-  //   ["Jack keeps everything working. Literally.","Back in the ‘90s, Jack began freelancing for TMG as Chief Engineer, where he repaired and maintained every piece of equipment – computers to broadcast VTRS to editing and graphics systems. He designed and engineered complete systems at a time when technology was rapidly changing, and staying ahead of that curve determined market success or failure more than ever. Among his many brilliant innovations was a patent for a new system to create video dubs on location, awarded to both Jack and TMG Founder, Aldo Panattoni.","Jack left TMG in 1999 to design and build a brand new facility in Texas. Though the project was a great success, Jack was homesick for the Bay Area and for TMG. Lucky us! ","We welcomed him back with open arms in 2004.","Today, in an ever more rapidly changing technological landscape, Jack keeps everything current, best-in-class, and always geared toward the primary goal: great creative.","In his spare time, Jack studies scripture, works around the house, and travels to Mexico to lend his talents to orphanages, designing water projects and infrastructure."],
-  //   "jack.hsu@tmgcreative.tv",
-  //   "jack"
-  // ],
+  [ "JACK HSU",
+    "CHIEF OPERATING OFFICER",
+    ["Jack keeps everything working. Literally.","Back in the ‘90s, Jack began freelancing for TMG as Chief Engineer, where he repaired and maintained every piece of equipment – computers to broadcast VTRS to editing and graphics systems. He designed and engineered complete systems at a time when technology was rapidly changing, and staying ahead of that curve determined market success or failure more than ever. Among his many brilliant innovations was a patent for a new system to create video dubs on location, awarded to both Jack and TMG Founder, Aldo Panattoni.","Jack left TMG in 1999 to design and build a brand new facility in Texas. Though the project was a great success, Jack was homesick for the Bay Area and for TMG. Lucky us! ","We welcomed him back with open arms in 2004.","Today, in an ever more rapidly changing technological landscape, Jack keeps everything current, best-in-class, and always geared toward the primary goal: great creative.","In his spare time, Jack studies scripture, works around the house, and travels to Mexico to lend his talents to orphanages, designing water projects and infrastructure."],
+    "jack.hsu@tmgcreative.tv",
+    "jack"
+  ],
 
   [ "STEVEN GREGORY",
     "CREATIVE DIRECTOR",
