@@ -24,8 +24,6 @@ function setSquImg(inputObj){
       baseline = (objDim.rat >= divDim.rat) ? 'ht' : 'wd';
     }
 
-//    console.log(inputObj.src+" - "+inputObj.complete+" - "+obj.css("visibility")+" - "+baseline);
-
     if (obj.css("visibility")=="hidden") { obj.css({opacity:0}); }
     if (baseline == "ht") {
         var newWidth = divDim.ht*objDim.wd/objDim.ht;
