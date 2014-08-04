@@ -1,6 +1,35 @@
 
 var data = [
 
+{ id: "lou-wirth-seechange",
+    title: "See Change",
+    image_menu: "IC_seechange1",
+    image_background: "seechange03",
+    image_background_xy_position: [0,0],
+    image_poster: "seechange08",
+    video: [ [360,720], ["lou_wirth_seechange_sd","lou_wirth_seechange_hd"] ],
+    client_menu: "Lou Wirth Productions",
+    client_page: "Lou Wirth Productions",
+    one_liner: "Medical Animation",
+    primary_text: ["Agency: Lou Wirth Productions","","Text to go here."],
+    production_roles: ["CREATIVE","SCRIPT","animation","edit"],
+    secondary_text: ["Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go "],
+    secondary_content: [
+      { title:"", image:"seechange04", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"seechange06", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    keywords: ["Steven"],
+    categories: ["media","featured"],
+    secondary_box_color: "FFFFFF",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
+
 
 { id: "opts-ideas-anthem",
     title: "ANTHEM",
