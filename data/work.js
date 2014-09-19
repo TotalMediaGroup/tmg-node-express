@@ -1,8 +1,6 @@
 
 var data = [
 
-
-
 { id: "opts-ideas-anthem",
     title: "ANTHEM",
     image_menu: "IC_dandys2",
@@ -153,9 +151,9 @@ var data = [
   { id: "lou-wirth-seechange",
     title: "See Change",
     image_menu: "ic_seechange_box",
-    image_background: "seechange01",
+    image_background: "seechange_bg_2",
     image_background_xy_position: [0,20],
-    image_poster: "seechange08",
+    image_poster: "pf_seechange_1",
     video: [ [360,720], ["lou_wirth_seechange_sd","lou_wirth_seechange_hd"] ],
     client_menu: "Lou Wirth Productions",
     client_page: "Lou Wirth Productions",
