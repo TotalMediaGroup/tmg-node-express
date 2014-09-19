@@ -1,34 +1,6 @@
 
 var data = [
 
-{ id: "lou-wirth-seechange",
-    title: "See Change",
-    image_menu: "IC_seechange1",
-    image_background: "seechange03",
-    image_background_xy_position: [0,0],
-    image_poster: "seechange08",
-    video: [ [360,720], ["lou_wirth_seechange_sd","lou_wirth_seechange_hd"] ],
-    client_menu: "Lou Wirth Productions",
-    client_page: "Lou Wirth Productions",
-    one_liner: "Medical Animation",
-    primary_text: ["Agency: Lou Wirth Productions","","Text to go here."],
-    production_roles: ["CREATIVE","SCRIPT","animation","edit"],
-    secondary_text: ["Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go here.Secondary Text to go "],
-    secondary_content: [
-      { title:"", image:"seechange04", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"seechange06", video:"", button_white_or_black:"white", title_white_or_black:"white" }
-      ],
-    keywords: ["Steven"],
-    categories: ["media","featured"],
-    secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
-    hide_client_on_menu: false,
-    design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-    }
-  },
 
 
 { id: "opts-ideas-anthem",
@@ -178,7 +150,34 @@ var data = [
   },
 
 
-
+  { id: "lou-wirth-seechange",
+    title: "See Change",
+    image_menu: "ic_seechange_box",
+    image_background: "seechange01",
+    image_background_xy_position: [0,20],
+    image_poster: "seechange08",
+    video: [ [360,720], ["lou_wirth_seechange_sd","lou_wirth_seechange_hd"] ],
+    client_menu: "Lou Wirth Productions",
+    client_page: "Lou Wirth Productions",
+    one_liner: "Medical Animation",
+    primary_text: ["Agency: Lou Wirth Productions","","Producer/director Lou Wirth came to us for a set of animated sequences for his client SeeChange healthcare.","SeeChange offers statistical models and analytical processes which help health management organizations predict, manage and optimize patient services.","Lou had a script and a basic idea set down in a set of informal storyboards.","Our creative contribution came in the form of character development and crafting the visual storyline."],
+    production_roles: ["CREATIVE","animation","edit"],
+    secondary_text: ["As for the character…","The client knew they wanted the piece to feature"," an animated character as a sort of “spokesman”. ","The form and personality of the character had not ","yet been developed. The budget did not allow for a full ","3D CG character development so we went 2.5D. and, behold.  ","“SeeChange Man” (and his friends).","","As for the story…","As we began to build the animated sequences we ","discovered the need to refine and clarify ","the visual story. What does the would his look like?"," What’s in the background, foreground? ","how does he move in his 2.5D world? ","what props are needed?, etc.","we suggested the iconography to clarify the script and developed simple, understandable visual sequences to explain some pretty complex proprietary processes."],
+    secondary_content: [
+      { title:"", image:"seechange04", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"seechange03_edited", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    keywords: ["Steven"],
+    categories: ["media","featured"],
+    secondary_box_color: "FFFFFF",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
 
 
 
@@ -330,7 +329,7 @@ var data = [
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
-
+  
   { id: "cisco-it-consumption",
     title: "it consumption",
     image_menu: "demoImages_8",
