@@ -29,6 +29,35 @@ var data = [
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
+  
+  { id: "vmware-vsphere",
+    title: "vSphere 6",
+    image_menu: "ic_vsphere03",
+    image_background: "mbg_vsphere03",
+    image_background_xy_position: [10,0],
+    image_poster: "pf_vsphere08",
+    video: [ [360,720], ["vsphere_sd","vsphere_hd"] ],
+    client_menu: "VMWare",
+    client_page: "VMWare",
+    one_liner: "Product Benefits",
+    primary_text: ["VMware creates a lot of videos explaining and promoting their products.","Being in essence, “virtual”,  the technology can be challenging to illustrate.","We worked with the VMware team to craft the script and create the story-boards the to clearly communicate the ","key benefits of the product."],
+    production_roles: ["concept","creative","script advise","animation"],
+    secondary_text: ["The degree of technical detail used in each video is determined by the target audience.","In this case the audience was mid-level IT and tech savvy managers and buyers.","so the offering is explained in relatively broad terms.","We built the 2.5D piece entirely in an isometric view.","using iconography which is familiar to the audience."],
+    secondary_content: [
+      { title:"", image:"vsphere07", video:"", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"vsphere01", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    keywords: ["Ryan", "Bryant", "Steven"],
+    categories: ["media", "featured"],
+    secondary_box_color: "FFFFFF",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
 
 { id: "opts-ideas-anthem",
     title: "ANTHEM",
