@@ -42,7 +42,7 @@ var data = [
     one_liner: "Product Benefits",
     primary_text: ["VMware creates a lot of videos explaining and promoting their products.","Being in essence, “virtual”,  the technology can be challenging to illustrate.","We worked with the VMware team to craft the script and create the story-boards the to clearly communicate the ","key benefits of the product."],
     production_roles: ["concept","creative","script advise","animation"],
-    secondary_text: ["The degree of technical detail used in each video is determined by the target audience.","In this case the audience was mid-level IT and tech savvy managers and buyers.","so the offering is explained in relatively broad terms.","We built the 2.5D piece entirely in an isometric view.","using iconography which is familiar to the audience."],
+    secondary_text: ["The degree of technical detail used in each video is determined by the target audience.","In this case the audience was mid-level IT and tech savvy managers and buyers,","so the offering is explained in relatively broad terms.","We built the 2.5D piece entirely in an isometric view,","using iconography which is familiar to the audience."],
     secondary_content: [
       { title:"", image:"vsphere07", video:"", button_white_or_black:"black", title_white_or_black:"black" },
       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
