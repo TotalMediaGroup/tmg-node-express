@@ -1,63 +1,63 @@
 
 var data = [
 
-{ id: "dolby-atmos",
-    title: "atmos",
-    image_menu: "ic_dolby07",
-    image_background: "mbg_dolby07",
-    image_background_xy_position: [0,0],
-    image_poster: "pf_dolby05",
-    video: [ [360,720], ["mod_1_sd","mod_1_hd"] ],
-    client_menu: "Dolby Laboratories",
-    client_page: "Dolby Laboratories",
-    one_liner: "Installation Training",
-    primary_text: ["Dolby Laboratories hosts a training portal where theater owners, technicians and architects can find training materials regarding design, installation and setup on a Dolby equipped theater.","Their latest system is called “Dolby Atmos”","The Atmos system takes the science of surround theater audio to the next level by incorporating  overhead speakers to the surround matrix.","With that many speakers operating as a coherent system, design, setup and calibration become even more important, intricate and detailed.","Dolby came to us to create a series of training modules which would clearly illustrate the technology and best practices regarding the new system.","We approached creative on the project by first thinking of delivering the information within an overall “system” of multiple video modules operating as an integrated set.","Historically this information has been delivered in pages and pages of technical drawings. Our creative involvement extended into developing a better system of delivering the complex information.","Since the Atmos system physically operates in 3D space. We thought we could best explain the system by creating a 3D theater environment in which we could view points of interest from optimum angles."],
-    production_roles: ["concept","creative","visual system design","3d animation"],
-    secondary_text: ["We developed a 3D theater which best represents a cross section of designs found around the world. then we used Dolby technical information to model the Atmos system as it would be installed. the model was rigged to allow accurate positioning and aiming of the speaker array.","The video information system uses a layer of graphical metrics and text callouts to explain the theory and deliver specific parameters.","We had to pay special attention to dimensions and angles so they accurately represented the metrics and processes required in the system specs.","The series consists of 5 modules each dealing with a specific part of the system operation.","We further broke each module down into chapters to deliver the information in a clear order.","The result is nearly 30 minutes of highly detailed design and 3d animation which condenses hundreds of pages of technical drawings and complex jargon into an extraordinarily simple, understandable form."],
-    secondary_content: [
-      { title:"additional modules", image:"mbg_dolby04", video:"mod_2_hd", button_white_or_black:"black", title_white_or_black:"black" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"mbg_dolby06", video:"", button_white_or_black:"white", title_white_or_black:"white" }
-      ],
-    keywords: ["Ryan","Steven"],
-    categories: ["media", "featured"],
-    secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
-    hide_client_on_menu: false,
-    design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-    }
-  },
+//{ id: "dolby-atmos",
+    //title: "atmos",
+    //image_menu: "ic_dolby07",
+    //image_background: "mbg_dolby07",
+    //image_background_xy_position: [0,0],
+    //image_poster: "pf_dolby05",
+    //video: [ [360,720], ["mod_1_sd","mod_1_hd"] ],
+    //client_menu: "Dolby Laboratories",
+    //client_page: "Dolby Laboratories",
+    //one_liner: "Installation Training",
+    //primary_text: ["Dolby Laboratories hosts a training portal where theater owners, technicians and architects can find training materials regarding design, installation and setup on a Dolby equipped theater.","Their latest system is called “Dolby Atmos”","The Atmos system takes the science of surround theater audio to the next level by incorporating  overhead speakers to the surround matrix.","With that many speakers operating as a coherent system, design, setup and calibration become even more important, intricate and detailed.","Dolby came to us to create a series of training modules which would clearly illustrate the technology and best practices regarding the new system.","We approached creative on the project by first thinking of delivering the information within an overall “system” of multiple video modules operating as an integrated set.","Historically this information has been delivered in pages and pages of technical drawings. Our creative involvement extended into developing a better system of delivering the complex information.","Since the Atmos system physically operates in 3D space. We thought we could best explain the system by creating a 3D theater environment in which we could view points of interest from optimum angles."],
+    //production_roles: ["concept","creative","visual system design","3d animation"],
+    //secondary_text: ["We developed a 3D theater which best represents a cross section of designs found around the world. then we used Dolby technical information to model the Atmos system as it would be installed. the model was rigged to allow accurate positioning and aiming of the speaker array.","The video information system uses a layer of graphical metrics and text callouts to explain the theory and deliver specific parameters.","We had to pay special attention to dimensions and angles so they accurately represented the metrics and processes required in the system specs.","The series consists of 5 modules each dealing with a specific part of the system operation.","We further broke each module down into chapters to deliver the information in a clear order.","The result is nearly 30 minutes of highly detailed design and 3d animation which condenses hundreds of pages of technical drawings and complex jargon into an extraordinarily simple, understandable form."],
+    //secondary_content: [
+      //{ title:"additional modules", image:"mbg_dolby04", video:"mod_2_hd", button_white_or_black:"black", title_white_or_black:"black" },
+      //{ title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      //{ title:"", image:"mbg_dolby06", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      //],
+    //keywords: ["Ryan","Steven"],
+    //categories: ["media", "featured"],
+    //secondary_box_color: "FFFFFF",
+    //secondary_layout: "standard",
+    //hide_client_on_menu: false,
+    //design_page: {
+      //primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      //image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    //}
+  //},
   
-  { id: "vmware-vsphere",
-    title: "vSphere 6",
-    image_menu: "ic_vsphere03",
-    image_background: "mbg_vsphere03",
-    image_background_xy_position: [10,0],
-    image_poster: "pf_vsphere08",
-    video: [ [360,720], ["vsphere_sd","vsphere_hd"] ],
-    client_menu: "VMWare",
-    client_page: "VMWare",
-    one_liner: "Product Benefits",
-    primary_text: ["VMware creates a lot of videos explaining and promoting their products.","Being in essence, “virtual”,  the technology can be challenging to illustrate.","We worked with the VMware team to craft the script and create the story-boards the to clearly communicate the ","key benefits of the product."],
-    production_roles: ["concept","creative","script advise","animation"],
-    secondary_text: ["The degree of technical detail used in each video is determined by the target audience.","In this case the audience was mid-level IT and tech savvy managers and buyers,","so the offering is explained in relatively broad terms.","We built the 2.5D piece entirely in an isometric view,","using iconography which is familiar to the audience."],
-    secondary_content: [
-      { title:"", image:"vsphere07", video:"", button_white_or_black:"black", title_white_or_black:"black" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"vsphere01", video:"", button_white_or_black:"white", title_white_or_black:"white" }
-      ],
-    keywords: ["Ryan", "Bryant", "Steven"],
-    categories: ["media", "featured"],
-    secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
-    hide_client_on_menu: false,
-    design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-    }
-  },
+  //{ id: "vmware-vsphere",
+    //title: "vSphere 6",
+    //image_menu: "ic_vsphere03",
+    //image_background: "mbg_vsphere03",
+    //image_background_xy_position: [10,0],
+    //image_poster: "pf_vsphere08",
+    //video: [ [360,720], ["vsphere_sd","vsphere_hd"] ],
+    //client_menu: "VMWare",
+    //client_page: "VMWare",
+    //one_liner: "Product Benefits",
+    //primary_text: ["VMware creates a lot of videos explaining and promoting their products.","Being in essence, “virtual”,  the technology can be challenging to illustrate.","We worked with the VMware team to craft the script and create the story-boards the to clearly communicate the ","key benefits of the product."],
+    //production_roles: ["concept","creative","script advise","animation"],
+    //secondary_text: ["The degree of technical detail used in each video is determined by the target audience.","In this case the audience was mid-level IT and tech savvy managers and buyers,","so the offering is explained in relatively broad terms.","We built the 2.5D piece entirely in an isometric view,","using iconography which is familiar to the audience."],
+    //secondary_content: [
+      //{ title:"", image:"vsphere07", video:"", button_white_or_black:"black", title_white_or_black:"black" },
+      //{ title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      //{ title:"", image:"vsphere01", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      //],
+    //keywords: ["Ryan", "Bryant", "Steven"],
+    //categories: ["media", "featured"],
+    //secondary_box_color: "FFFFFF",
+    //secondary_layout: "standard",
+    //hide_client_on_menu: false,
+    //design_page: {
+      //primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      //image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    //}
+  //},
 
 { id: "opts-ideas-anthem",
     title: "ANTHEM",
