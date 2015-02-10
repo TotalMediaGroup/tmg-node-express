@@ -454,7 +454,7 @@ TMG.fn.ui['work-single'].initVideo = function(){
 
 
 TMG.fn.video.init = function(){
-   var videoJsVersion = "4.4.3";
+   var videoJsVersion = "4.11.4";
    TMG.fn.insertCss(TMG.cdn.videoJs+"/"+videoJsVersion+"/video-js.css");
    $.getScript(TMG.cdn.videoJs+"/"+videoJsVersion+"/video.js",function(){
      if (TMG.cdn.videoJs.indexOf("//") == -1) { videojs.options.flash.swf = TMG.cdn.videoJs+"/"+videoJsVersion+"/video-js.swf"; } 
