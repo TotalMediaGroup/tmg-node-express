@@ -34,15 +34,7 @@ var data = [
     ["JEFF is the guy behind the curtain pulling levers and juggling myriad production details. He knows what’s required to seamlessly manage TMG CREATIVE projects, and he makes it look easy. Jeff is the crux of collaboration, working closely with all facility and remote staff on all phases of production. He takes exquisite care of everybody – clients included.","Jeff is a devoted dad and husband, and an awesome blues harmonica player. We think of him as the Wizard of Awes."],
     "jeff.casagrande@tmgcreative.tv",
     "jeff"
-  ], 
-
-  [ "PHIL SCHULZ",
-    "DIR. New Business Development",
-    ["Diploma from UW-Madison in hand, Phil made a beeline to NYC to begin a career in TV and film.  First stop, Woody Allen’s Production Company to work on 'Bullets Over Broadway'.  Next came a live TV stint during the launch of the FX Network.  Phil spent several years as a location scout/manager on numerous indie films, majors and TV, including 3 seasons of 'Law & Order - Criminal Intent'.  He finished his time in entertainment producing “Room Raiders” for MTV.","Phil relocated to San Francisco in '05 with a mission: to combine video and digital technology to help corporate clients tell their stories.  He's worked with notable Fortune 500 companies such as Chrysler, Colgate-Palmolive, Cisco, Genentech, and Yahoo!.  Phil and TMG Creative couldn’t be better aligned!","When not working, he's coaching his kids' soccer teams and enjoying all that Northern California has to offer with family and friends."],
-    "phil.schulz@tmgcreative.tv",
-    "phil"
-  ],
-  
+  ],  
     
   [ "Ariella Quatra",
     "Senior Producer",
