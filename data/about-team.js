@@ -36,6 +36,14 @@ var data = [
     "jeff"
   ],  
     
+	[ "PHIL SCHULZ",
+    "DIR. New Business Development",
+    ["Diploma from UW-Madison in hand, Phil made a beeline to NYC to begin a career in TV and film.  First stop, Woody Allen’s Production Company to work on 'Bullets Over Broadway'.  Next came a live TV stint during the launch of the FX Network.  Phil spent several years as a location scout/manager on numerous indie films, majors and TV, including 3 seasons of 'Law & Order - Criminal Intent'.  He finished his time in entertainment producing “Room Raiders” for MTV.","Phil relocated to San Francisco in '05 with a mission: to combine video and digital technology to help corporate clients tell their stories.  He's worked with notable Fortune 500 companies such as Chrysler, Colgate-Palmolive, Cisco, Genentech, and Yahoo!.  Phil and TMG Creative couldn’t be better aligned!","When not working, he's coaching his kids' soccer teams and enjoying all that Northern California has to offer with family and friends."],
+    "phil.schulz@tmgcreative.tv",
+    "phil"
+  ],
+
+	
   [ "Ariella Quatra",
     "Senior Producer",
     ["If you’ve ever seen Ariella in action, you know right away why she’s an award-winning Creative Producer. At 5’2”, she’s the biggest person in room, even when the room is filled with super-sized professional athletes whom she is directing.","From San Francisco to New York and back again, she brings a wide range of experience including reality TV, high-profile commercial shoots, and various projects for the NY Yankees.","Passionate about collaborating with a creative team, Ariella enjoys translating and communicating clients’ needs and goals to tell just the right story. She is adept at writing scripts and copy for broadcast and Fortune 500 corporate clients, and has cast, directed, and interviewed a long list of celebrity talent (the most exciting of which included a warm hug from Yogi Berra!).","Outside work, Ariella likes to spend time at the parks and beaches near her home playing “Superheroes” with her son, and squeezing in a run or a yoga class when she can.","Producers are people who multitask. Award-winning producers, like Ariella, do it with passion and purpose, and make it look easy."],
