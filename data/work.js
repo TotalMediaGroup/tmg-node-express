@@ -1,6 +1,35 @@
 
 var data = [
 
+{ id: "cisco-mtd-vs-rms",
+    title: "Cisco RTD vs RMS",
+    image_menu: "ic_cisco4",
+    image_background: "mbg_cisco4",
+    image_background_xy_position: [1,20],
+    image_poster: "pf_cisco6",
+    video: [ [360,720], ["MTD_vs_RMS_v06_FINAL_SD","MTD_vs_RMS_v06_FINAL_HD"] ],
+    client_menu: "Cisco Systems",
+    client_page: "Cisco Systems",
+    one_liner: "System Highlights",
+    primary_text: ["BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH "],
+    production_roles: ["concept","creative","visual system design","3d animation"],
+    secondary_text: ["BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH "],
+    secondary_content: [
+      { title:"", image:"mbg_cisco8_crop1", video:"", button_white_or_black:"black", title_white_or_black:"black" },
+      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      { title:"", image:"mbg_cisco3_crop1", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      ],
+    keywords: ["Ryan","Steven"],
+    categories: ["media", "featured"],
+    secondary_box_color: "FFFFFF",
+    secondary_layout: "standard",
+    hide_client_on_menu: false,
+    design_page: {
+      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    }
+  },
+
 { id: "dolby-atmos",
     title: "atmos",
     image_menu: "ic_dolby07",
@@ -266,9 +295,6 @@ var data = [
     }
   },
 
-
-
-
   { id: "silver-peak-brand-video",
     title: "Brand Video",
     image_menu: "demoImages_13",
@@ -298,34 +324,6 @@ var data = [
     }
   },
 
-{ id: "yahoo-insights-app",
-    title: "Insights App",
-    image_menu: "IC_Yahoo2",
-    image_background: "yahoo_3",
-    image_background_xy_position: [10,20],
-    image_poster: "yahoo_5",
-    video: [ [360,720], ["Yahoo_InsightsApp_v3f_SD","Yahoo_InsightsApp_v3f_HD"] ],
-    client_menu: "Yahoo!",
-    client_page: "Yahoo!",
-    one_liner: "Product Launch",
-    primary_text: ["Yahoo! offers a new app that allows small business owners to view critical statistics and operations happening on their e-commerce sites from a smart phone.  The idea of “anytime anywhere” was central to the brand statement. This simple piece was intended to demonstrate the basic functions of the app.  ","The photos were drawn from Yahoo!’s stock collection."],
-    production_roles: ["Creative","Design","Motion Graphics"],
-    secondary_text: ["We extracted screen images from the app creation software then animated to ","emulate the app in operation. ","Add a yodel and...BOOM! ","A nice little product video."],
-    secondary_content: [
-      { title:"", image:"yahoo_7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"yahoodots", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      ],
-    keywords: ["Steven","Ryan","Ariella"],
-    categories: ["media","featured"],
-	secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
-    hide_client_on_menu: false,
-    design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-    }
-  },
 
   { id: "vmware-fusion5-launch",
     title: "Fusion 5 Launch",
@@ -2025,35 +2023,6 @@ var data = [
     }
   },
 
-  // { id: "tmg-event-reel",
-  //   title: "Event Reel",
-  //   image_menu: "IC_ciscolive",
-  //   image_background: "ciscolive5cropcontrastcolorposscale",
-  //   image_background_xy_position: [0,0],
-  //   image_poster: "ciscolive8",
-  //   video: [ [360,720], ["Event_v6_TMGCreative_SD","Event_v6_TMGCreative_HD"] ],
-  //   client_menu: "",
-  //   client_page: "TMG",
-  //   one_liner: "TMG Event Reel 2014",
-  //   primary_text: ["Every brand is unique.","Every message can be communicated in MANY ways.","THE TRICK IS TO do right by the brand. ","Staffing for each element of the events we produce is customized to fit. ","concept, theme design, multi-camera shoots, set and environment design are always crafted from the ground up with brand in mind.","You will not find a recycled gimmick or trend here."],
-  //   production_roles: ["creative","editorial","3D Animation","Event Production"],
-  //   secondary_text: ["<span style=\"color:red;\">Event Clients:</span>","Stryker Corporation","Cisco Systems","Salix Pharmaceuticals","Equinix","Silver Peak Systems","VMWare","Solta Medical","Opts Ideas"],
-  //   secondary_content: [
-  //     { title:"", image:"ciscolive2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-  //     { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-  //     { title:"", image:"lituprobotcrophead", video:"", button_white_or_black:"white", title_white_or_black:"white" }
-  //     ],
-  //   keywords: ["Steven","Megan","Adam","Ryan","Ariella","Jeff","Jack","Bryant","Phil","Patrick"],
-  //   categories: ["reels"],
-  //   secondary_box_color: "FFFFFF",
-  //   secondary_layout: "standard",
-  //   hide_client_on_menu: true,
-  //   design_page: {
-  //     primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-  //     image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-  //   }
-  // },
-
   { id: "tmg-tech-reel",
     title: "Tech Reel",
     image_menu: "IC_polyphone",
@@ -2112,21 +2081,100 @@ var data = [
     }
   },
 
+// In progress designs
+
+//  { id: "yahoo-small-business-stores",
+//    title: "Small Business Stores",
+//    image_menu: "ic_seechange_box",
+//    image_background: "seechange_bg_2",
+//    image_background_xy_position: [0,20],
+//    image_poster: "pf_seechange_1",
+//    video: [ [360,720], ["lou_wirth_seechange_sd","lou_wirth_seechange_hd"] ],
+//    client_menu: "Yahoo!",
+//    client_page: "Yahoo!",
+//    one_liner: "Product Launch",
+//    primary_text: ["Agency: Lou Wirth Productions","","Producer/director Lou Wirth came to us for a set of animated sequences for his client SeeChange healthcare.","SeeChange offers statistical models and analytical processes which help health management organizations predict, manage and optimize patient services.","Lou had a script and a basic idea set down in a set of informal storyboards.","Our creative contribution came in the form of character development and crafting the visual storyline."],
+//    production_roles: ["CREATIVE","animation","edit"],
+//    secondary_text: ["As for the character…","The client knew they wanted the piece to feature"," an animated character as a sort of “spokesman”. ","The form and personality of the character had not ","yet been developed. The budget did not allow for a full ","3D CG character development so we went 2.5D. and, behold.  ","“SeeChange Man” (and his friends).","","As for the story…","As we began to build the animated sequences we ","discovered the need to refine and clarify ","the visual story. What does the would his look like?"," What’s in the background, foreground? ","how does he move in his 2.5D world? ","what props are needed?, etc.","we suggested the iconography to clarify the script and developed simple, understandable visual sequences to explain some pretty complex proprietary processes."],
+//    secondary_content: [
+//      { title:"", image:"seechange04", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+//      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+//      { title:"", image:"seechange03_edited", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+//      ],
+//    keywords: ["Steven"],
+//    categories: ["media","featured"],
+//    secondary_box_color: "FFFFFF",
+//    secondary_layout: "standard",
+//    hide_client_on_menu: false,
+//    design_page: {
+//      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+//      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+//    }
+//  },
 
 
 
 
+// Designed pages that have been removed - To re-add them,  just remove all of the // and place in the order you would like.  
+
+  // { id: "tmg-event-reel",
+  //   title: "Event Reel",
+  //   image_menu: "IC_ciscolive",
+  //   image_background: "ciscolive5cropcontrastcolorposscale",
+  //   image_background_xy_position: [0,0],
+  //   image_poster: "ciscolive8",
+  //   video: [ [360,720], ["Event_v6_TMGCreative_SD","Event_v6_TMGCreative_HD"] ],
+  //   client_menu: "",
+  //   client_page: "TMG",
+  //   one_liner: "TMG Event Reel 2014",
+  //   primary_text: ["Every brand is unique.","Every message can be communicated in MANY ways.","THE TRICK IS TO do right by the brand. ","Staffing for each element of the events we produce is customized to fit. ","concept, theme design, multi-camera shoots, set and environment design are always crafted from the ground up with brand in mind.","You will not find a recycled gimmick or trend here."],
+  //   production_roles: ["creative","editorial","3D Animation","Event Production"],
+  //   secondary_text: ["<span style=\"color:red;\">Event Clients:</span>","Stryker Corporation","Cisco Systems","Salix Pharmaceuticals","Equinix","Silver Peak Systems","VMWare","Solta Medical","Opts Ideas"],
+  //   secondary_content: [
+  //     { title:"", image:"ciscolive2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+  //     { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+  //     { title:"", image:"lituprobotcrophead", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+  //     ],
+  //   keywords: ["Steven","Megan","Adam","Ryan","Ariella","Jeff","Jack","Bryant","Phil","Patrick"],
+  //   categories: ["reels"],
+  //   secondary_box_color: "FFFFFF",
+  //   secondary_layout: "standard",
+  //   hide_client_on_menu: true,
+  //   design_page: {
+  //     primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+  //     image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+  //   }
+  // },
 
 
-
-
-
-
-
-
-
-
-
+//{ id: "yahoo-insights-app",
+//    title: "Insights App",
+//    image_menu: "IC_Yahoo2",
+//    image_background: "yahoo_3",
+//    image_background_xy_position: [10,20],
+//    image_poster: "yahoo_5",
+//    video: [ [360,720], ["Yahoo_InsightsApp_v3f_SD","Yahoo_InsightsApp_v3f_HD"] ],
+//    client_menu: "Yahoo!",
+//    client_page: "Yahoo!",
+//    one_liner: "Product Launch",
+//    primary_text: ["Yahoo! offers a new app that allows small business owners to view critical statistics and operations happening on their e-commerce sites from a smart phone.  The idea of “anytime anywhere” was central to the brand statement. This simple piece was intended to demonstrate the basic functions of the app.  ","The photos were drawn from Yahoo!’s stock collection."],
+//    production_roles: ["Creative","Design","Motion Graphics"],
+//    secondary_text: ["We extracted screen images from the app creation software then animated to ","emulate the app in operation. ","Add a yodel and...BOOM! ","A nice little product video."],
+//    secondary_content: [
+//      { title:"", image:"yahoo_7", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+//      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+//      { title:"", image:"yahoodots", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+//      ],
+//    keywords: ["Steven","Ryan","Ariella"],
+//    categories: ["media","featured"],
+//	secondary_box_color: "FFFFFF",
+//    secondary_layout: "standard",
+//    hide_client_on_menu: false,
+//    design_page: {
+//      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+//      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+//    }
+//  },
 
 
 ["",""]];
