@@ -1,34 +1,34 @@
 
 var data = [
 
-{ id: "cisco-mtd-vs-rms",
-    title: "Cisco RTD vs RMS",
-    image_menu: "ic_cisco4",
-    image_background: "mbg_cisco4",
-    image_background_xy_position: [1,20],
-    image_poster: "pf_cisco6",
-    video: [ [360,720], ["MTD_vs_RMS_v06_FINAL_SD","MTD_vs_RMS_v06_FINAL_HD"] ],
-    client_menu: "Cisco Systems",
-    client_page: "Cisco Systems",
-    one_liner: "System Highlights",
-    primary_text: ["BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH "],
-    production_roles: ["concept","creative","visual system design","3d animation"],
-    secondary_text: ["BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH "],
-    secondary_content: [
-      { title:"", image:"mbg_cisco8_crop1", video:"", button_white_or_black:"black", title_white_or_black:"black" },
-      { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-      { title:"", image:"mbg_cisco3_crop1", video:"", button_white_or_black:"white", title_white_or_black:"white" }
-      ],
-    keywords: ["Ryan","Steven"],
-    categories: ["media", "featured"],
-    secondary_box_color: "FFFFFF",
-    secondary_layout: "standard",
-    hide_client_on_menu: false,
-    design_page: {
-      primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-      image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-    }
-  },
+//{ id: "cisco-mtd-vs-rms",
+    //title: "Cisco RTD vs RMS",
+    //image_menu: "ic_cisco4",
+    //image_background: "mbg_cisco4",
+    //image_background_xy_position: [1,20],
+    //image_poster: "pf_cisco6",
+    //video: [ [360,720], ["MTD_vs_RMS_v06_FINAL_SD","MTD_vs_RMS_v06_FINAL_HD"] ],
+    //client_menu: "Cisco Systems",
+    //client_page: "Cisco Systems",
+    //one_liner: "System Highlights",
+    //primary_text: ["BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH "],
+    //production_roles: ["concept","creative","visual system design","3d animation"],
+    //secondary_text: ["BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH "],
+    //secondary_content: [
+      //{ title:"", image:"mbg_cisco8_crop1", video:"", button_white_or_black:"black", title_white_or_black:"black" },
+      //{ title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+      //{ title:"", image:"mbg_cisco3_crop1", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+      //],
+    //keywords: ["Ryan","Steven"],
+    //categories: ["media", "featured"],
+    //secondary_box_color: "FFFFFF",
+    //secondary_layout: "standard",
+    //hide_client_on_menu: false,
+    //design_page: {
+      //primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+      //image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+    //}
+  //},
 
 { id: "dolby-atmos",
     title: "atmos",
@@ -271,7 +271,7 @@ var data = [
     image_menu: "IC_vmwarewsrobot",
     image_background: "vmwarews6",
     image_background_xy_position: [10,10],
-    image_poster: "PF_vmwarews1",
+    image_poster: "vmwarews3",
     video: [ [360,720], ["Vmware_Workstation_9_MASTER v08 ProRes_SD","Vmware_Workstation_9_MASTER v08 ProRes_HD"] ],
     client_menu: "vmware",
     client_page: "vmware",
@@ -1266,7 +1266,7 @@ var data = [
     one_liner: "Show Openers",
     primary_text: ["TMG Creative PRODUCES ALL ASPECTS OF THE STRYKER NATIONAL SALES MEETINGS—Event Production, PowerPoint, Logo Design, Video, print collateral and more. STRYKER CAME UPON THIS GEM OF AN AUDIO CLIP FROM THE GUY WHO STARTED IT ALL, HOMER STRYKER. They wanted to tie it into a legacy theme. We pulled out the archival images we had in our vault, treated it in post, and created this compelling opening to set the mood. ","Our favorite quote “IT’S A POOR WORKMAN THAT BLAMES HIS TOOLS”. "],
     production_roles: ["Creative","Event Production","shoot","direct","editorial","3D Animation"],
-    secondary_text: ["TMG has partnered with Stryker for over 18 years.","Here are some other interesting pieces of work we have done over the years."],
+    secondary_text: ["TMG has partnered with Stryker for over 23 years.","Here are some other interesting pieces of work we have done over the years."],
     secondary_content: [
       { title:"Stryker Chicklets", image:"stryker_medical_chicklets", video:"stryker_medical_generic_loop_HD", button_white_or_black:"white", title_white_or_black:"white" },
       { title:"Stryker Walk-in Loop ", image:"strykerpurple", video:"NSM2013_InstWalkInLoop_Main_HD", button_white_or_black:"black", title_white_or_black:"black" },
