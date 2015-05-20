@@ -2080,6 +2080,35 @@ var data = [
       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
     }
   },
+  
+   { id: "tmg-event-reel",
+     title: "Event Reel",
+     image_menu: "IC_ciscolive",
+     image_background: "ciscolive5cropcontrastcolorposscale",
+     image_background_xy_position: [0,0],
+     image_poster: "ciscolive8",
+     video: [ [360,720], ["TMG_Event_Reel_2015_SD","TMG_Event_Reel_2015_HD"] ],
+     client_menu: "",
+     client_page: "TMG",
+     one_liner: "TMG Event Reel 2014",
+     primary_text: ["Every brand is unique.","Every message can be communicated in MANY ways.","THE TRICK IS TO do right by the brand. ","Staffing for each element of the events we produce is customized to fit. ","concept, theme design, multi-camera shoots, set and environment design are always crafted from the ground up with brand in mind.","You will not find a recycled gimmick or trend here."],
+     production_roles: ["creative","editorial","3D Animation","Event Production"],
+     secondary_text: ["<span style=\"color:red;\">Event Clients:</span>","Stryker Corporation","Cisco Systems","Salix Pharmaceuticals","Equinix","Silver Peak Systems","VMWare","Solta Medical","Opts Ideas"],
+     secondary_content: [
+       { title:"", image:"ciscolive2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+       { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
+       { title:"", image:"lituprobotcrophead", video:"", button_white_or_black:"white", title_white_or_black:"white" }
+       ],
+     keywords: ["Steven","Megan","Adam","Ryan","Ariella","Jeff","Jack","Bryant","Phil","Patrick"],
+     categories: ["reels"],
+     secondary_box_color: "FFFFFF",
+     secondary_layout: "standard",
+     hide_client_on_menu: true,
+     design_page: {
+       primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
+       image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
+     }
+   },
 
 // In progress designs
 
@@ -2117,34 +2146,7 @@ var data = [
 
 // Designed pages that have been removed - To re-add them,  just remove all of the // and place in the order you would like.  
 
-  // { id: "tmg-event-reel",
-  //   title: "Event Reel",
-  //   image_menu: "IC_ciscolive",
-  //   image_background: "ciscolive5cropcontrastcolorposscale",
-  //   image_background_xy_position: [0,0],
-  //   image_poster: "ciscolive8",
-  //   video: [ [360,720], ["Event_v6_TMGCreative_SD","Event_v6_TMGCreative_HD"] ],
-  //   client_menu: "",
-  //   client_page: "TMG",
-  //   one_liner: "TMG Event Reel 2014",
-  //   primary_text: ["Every brand is unique.","Every message can be communicated in MANY ways.","THE TRICK IS TO do right by the brand. ","Staffing for each element of the events we produce is customized to fit. ","concept, theme design, multi-camera shoots, set and environment design are always crafted from the ground up with brand in mind.","You will not find a recycled gimmick or trend here."],
-  //   production_roles: ["creative","editorial","3D Animation","Event Production"],
-  //   secondary_text: ["<span style=\"color:red;\">Event Clients:</span>","Stryker Corporation","Cisco Systems","Salix Pharmaceuticals","Equinix","Silver Peak Systems","VMWare","Solta Medical","Opts Ideas"],
-  //   secondary_content: [
-  //     { title:"", image:"ciscolive2", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-  //     { title:"", image:"", video:"", button_white_or_black:"white", title_white_or_black:"white" },
-  //     { title:"", image:"lituprobotcrophead", video:"", button_white_or_black:"white", title_white_or_black:"white" }
-  //     ],
-  //   keywords: ["Steven","Megan","Adam","Ryan","Ariella","Jeff","Jack","Bryant","Phil","Patrick"],
-  //   categories: ["reels"],
-  //   secondary_box_color: "FFFFFF",
-  //   secondary_layout: "standard",
-  //   hide_client_on_menu: true,
-  //   design_page: {
-  //     primary_text: { left_percent: 5, top_percent: 5, width_percent: 33, show_black_border: false },
-  //     image_background: { top_padding_pixels: 0, bottom_padding_pixels: 50, width_percent: 100, show_black_border: false }
-  //   }
-  // },
+  
 
 
 //{ id: "yahoo-insights-app",
